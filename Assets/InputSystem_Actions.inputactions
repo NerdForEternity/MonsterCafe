@@ -495,7 +495,7 @@
                 {
                     "name": "",
                     "id": "791c0a1d-18d1-49df-a166-2a8b5949638c",
-                    "path": "<Touchscreen>/position",
+                    "path": "<Touchscreen>/delta",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Touch",
@@ -566,7 +566,7 @@
                     "name": "Submit",
                     "type": "Button",
                     "id": "7607c7b6-cd76-4816-beef-bd0341cfe950",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
