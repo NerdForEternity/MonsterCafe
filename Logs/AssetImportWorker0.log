@@ -1,9 +1,9 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.2/respin/6000.2.0f1-517f89d850d1' branch; Version is '6000.2.0f1 (eed1c594c913) revision 15651269'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Matthew" at "2025-09-16T22:04:23.5513884Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Matthew" at "2025-09-20T20:46:39.469921Z"
 OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 16108 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-09-16T22:04:23Z
+Date: 2025-09-20T20:46:39Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.2.0f1\Editor\Unity.exe
@@ -17,7 +17,7 @@ C:/Users/Matthew/Monster Cafe/MonsterCafe
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65451
+61047
 -licensingIpc
 LicenseClient-Matthew
 -job-worker-count
@@ -65,27 +65,27 @@ C:/Users/Matthew/Monster Cafe/MonsterCafe
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [28948]  Target information:
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 19372, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.1+ae67fbc
+  Session Id:              cf8832ab9ff4459091094f89ec6d789e
+  Correlation Id:          879294c9c0b8015d5f1375145d564d15
+  External correlation Id: 5857995909094199672
+  Machine Id:              +ps/5HJuWXWEbh/RYtwQ+ERmF4w=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Matthew" (connect: 0.00s, validation: 0.00s, handshake: 0.11s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Matthew-notifications" at "2025-09-20T20:46:39.5839225Z"
+[Licensing::Module] Licensing Background thread has ended after 0.11s
+Player connection [25160]  Target information:
 
-Player connection [28948]  * "[IP] 10.123.108.176 [Port] 0 [Flags] 2 [Guid] 3275351545 [EditorId] 3275351545 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1JIT5FP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [25160]  * "[IP] 10.32.24.118 [Port] 0 [Flags] 2 [Guid] 3630672344 [EditorId] 3630672344 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1JIT5FP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [28948] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [28948] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [25160] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [25160] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 29468, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
-[Licensing::Module] LicensingClient has failed validation; ignoring
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.17.1+ae67fbc
-  Session Id:              79623b09adde45328592b5165641d62a
-  Correlation Id:          f6a6e27f7de190241fd213d8210fe3bc
-  External correlation Id: 5035461385061120832
-  Machine Id:              +ps/5HJuWXWEbh/RYtwQ+ERmF4w=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Matthew" (connect: 0.00s, validation: 0.00s, handshake: 0.09s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Matthew-notifications" at "2025-09-16T22:04:23.6474113Z"
-[Licensing::Module] Licensing Background thread has ended after 0.10s
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
@@ -93,7 +93,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.89 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 5.55 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.2.0f1 (eed1c594c913)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.0f1/Editor/Data/Resources/UnitySubsystems
@@ -112,50 +112,53 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001857 seconds.
-- Loaded All Assemblies, in  0.666 seconds
+Registered in 0.002106 seconds.
+- Loaded All Assemblies, in  0.881 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.756 seconds
-Domain Reload Profiling: 1419ms
-	BeginReloadAssembly (198ms)
+- Finished resetting the current domain, in  0.571 seconds
+Domain Reload Profiling: 1449ms
+	BeginReloadAssembly (173ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (67ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (50ms)
 	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (94ms)
-	LoadAllAssembliesAndSetupDomain (288ms)
-		LoadAssemblies (190ms)
+	initialDomainReloadingComplete (336ms)
+	LoadAllAssembliesAndSetupDomain (303ms)
+		LoadAssemblies (170ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (282ms)
-			TypeCache.Refresh (279ms)
-				TypeCache.ScanAssembly (262ms)
+		AnalyzeDomain (298ms)
+			TypeCache.Refresh (295ms)
+				TypeCache.ScanAssembly (275ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (756ms)
+	FinalizeReload (571ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (660ms)
+		SetupLoadedEditorAssemblies (482ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (105ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (145ms)
-			ProcessInitializeOnLoadAttributes (286ms)
-			ProcessInitializeOnLoadMethodAttributes (116ms)
+			InitializePlatformSupportModulesInManaged (84ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (205ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
@@ -163,92 +166,93 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  1.546 seconds
-Refreshing native plugins compatible for Editor in 1.32 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.479 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.42 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.227 seconds
-Domain Reload Profiling: 2760ms
-	BeginReloadAssembly (363ms)
+- Finished resetting the current domain, in  1.729 seconds
+Domain Reload Profiling: 3196ms
+	BeginReloadAssembly (321ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (52ms)
-	RebuildCommonClasses (97ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (83ms)
-	LoadAllAssembliesAndSetupDomain (965ms)
-		LoadAssemblies (741ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (78ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (961ms)
+		LoadAssemblies (614ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (443ms)
-			TypeCache.Refresh (332ms)
-				TypeCache.ScanAssembly (306ms)
-			BuildScriptInfoCaches (86ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (1228ms)
+		AnalyzeDomain (530ms)
+			TypeCache.Refresh (372ms)
+				TypeCache.ScanAssembly (347ms)
+			BuildScriptInfoCaches (126ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (1730ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1027ms)
+		SetupLoadedEditorAssemblies (1471ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (240ms)
-			ProcessInitializeOnLoadAttributes (600ms)
-			ProcessInitializeOnLoadMethodAttributes (173ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (1ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (202ms)
+			ProcessInitializeOnLoadAttributes (952ms)
+			ProcessInitializeOnLoadMethodAttributes (299ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 2.40 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (24ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.13 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6634 unused Assets / (3.3 MB). Loaded Objects now: 7344.
-Memory consumption went from 140.8 MB to 137.5 MB.
-Total: 9.014000 ms (FindLiveObjects: 0.704100 ms CreateObjectMapping: 0.381100 ms MarkObjects: 5.891300 ms  DeleteObjects: 2.036000 ms)
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7028 unused Assets / (4.4 MB). Loaded Objects now: 7754.
+Memory consumption went from 142.7 MB to 138.2 MB.
+Total: 11.219200 ms (FindLiveObjects: 0.757500 ms CreateObjectMapping: 0.551800 ms MarkObjects: 7.043100 ms  DeleteObjects: 2.864900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 198914.151698 seconds.
-  path: Assets/Sprites
-  artifactKey: Guid(47c253e6ce76ca644b960442ca8cf043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites using Guid(47c253e6ce76ca644b960442ca8cf043) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0860fe1952d1accae89544efbbb3760') in 0.0051537 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.898392 seconds.
-  path: Assets/Sprites/MC_BaseChair.png
-  artifactKey: Guid(d078a98ac6fac5844b48e283f728cc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC_BaseChair.png using Guid(d078a98ac6fac5844b48e283f728cc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2f3a8332a7f59bcfa8cd0639e386bf2') in 0.2653093 seconds
+  Time since last request: 54277.983925 seconds.
+  path: Assets/Sprites/UI/Active_Play.png
+  artifactKey: Guid(52ce416fc53b2304ab2f7cf39606f3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Active_Play.png using Guid(52ce416fc53b2304ab2f7cf39606f3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f70552d1cb8c96004a4380db639c2af') in 0.6750206 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Sprites/MC_BaseTable.png
-  artifactKey: Guid(5c3d2665f755c884dbae1cc2cf035251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC_BaseTable.png using Guid(5c3d2665f755c884dbae1cc2cf035251) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02fc69b037a073a1e735baf82deb79e6') in 0.1557024 seconds
+  Time since last request: 0.000046 seconds.
+  path: Assets/Sprites/UI/Grimm_Campaign.png
+  artifactKey: Guid(5058bd855a42e0d47aaabfa8e2108041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Grimm_Campaign.png using Guid(5058bd855a42e0d47aaabfa8e2108041) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02d8038b29a65a2f0f31d83ef4d74bb3') in 0.0477798 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Sprites/MC_CoffeeCup.png
-  artifactKey: Guid(01453d96b0c9c094284e67c7cb354e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC_CoffeeCup.png using Guid(01453d96b0c9c094284e67c7cb354e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce1bb74d0fe7b3fa500c53554dcc9a2f') in 0.0360038 seconds
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/UI/Grimm_Button.png
+  artifactKey: Guid(f264cbff69ab2df48acb891265f538ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Grimm_Button.png using Guid(f264cbff69ab2df48acb891265f538ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4bdf56449e5773562250809c242be36f') in 0.0401539 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Sprites/MC_CounterCorner.png
-  artifactKey: Guid(9b6baea7cf8bbc744b3dd4ed1c439c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC_CounterCorner.png using Guid(9b6baea7cf8bbc744b3dd4ed1c439c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97a6420fc5727ad743312b04a94d86be') in 0.056202 seconds
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sprites/UI/Grimm_Upgrade.png
+  artifactKey: Guid(0dc6317adf7ed6f4b8ff757c9d63f40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Grimm_Upgrade.png using Guid(0dc6317adf7ed6f4b8ff757c9d63f40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b2fc8bd11e27a592cbeab560ed36ecf') in 0.0238983 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0

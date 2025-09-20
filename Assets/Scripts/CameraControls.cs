@@ -1,17 +1,20 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-using System.Collections;
 
 public class CameraControls : MonoBehaviour
 {
-    public Camera cam;
     public InputActionAsset InputActions;
+    private Camera cam;
     public float sensitivity;
     private InputAction m_zoom;
     private InputAction m_move;
     private Vector2 m_moveAmt;
     private Vector2 m_zoomAmt;
 
+    void Start()
+    {
+        cam = GetComponent<Camera>();
+    }
     private void OnEnable()
     {
         InputActions.FindActionMap("Player").Enable();
@@ -30,15 +33,17 @@ public class CameraControls : MonoBehaviour
 
     private void Update()
     {
-        m_moveAmt = m_move.ReadValue<Vector2>();
+        //read inputs
+        m_moveAmt = m_move.ReadValue<Vector2>() / sensitivity;
         m_zoomAmt = m_zoom.ReadValue<Vector2>();
 
-        cam.transform.Translate(m_moveAmt / sensitivity);
+        //move camera
+        cam.transform.Translate(m_moveAmt);
 
-        //zoom in
+        //zoom in (mouse)
         if (m_zoomAmt.y > 0f && cam.orthographicSize >= 6)
             cam.orthographicSize--;
-        //zoom out
+        //zoom out (mouse)
         if (m_zoomAmt.y < 0f && cam.orthographicSize <= 20)
             cam.orthographicSize++;
     }

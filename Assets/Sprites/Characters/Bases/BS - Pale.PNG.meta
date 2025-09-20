@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: fb4cf881872ac2d4a9010757afd3ae9a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4061704231871642899
+    second: BS - Pale_0
+  - first:
+      213: 6951013288235401467
+    second: BS - Pale_1
+  - first:
+      213: -6373566815402819172
+    second: BS - Pale_2
+  - first:
+      213: -2512813742109202735
+    second: BS - Pale_3
+  - first:
+      213: -8726309628562438157
+    second: BS - Pale_4
+  - first:
+      213: 612881489671552416
+    second: BS - Pale_5
+  - first:
+      213: -3578600008298584183
+    second: BS - Pale_6
+  - first:
+      213: 6984131134167808260
+    second: BS - Pale_7
+  - first:
+      213: -8243523588733262242
+    second: BS - Pale_8
+  - first:
+      213: 714549591891914444
+    second: BS - Pale_9
+  - first:
+      213: 3189391855177656220
+    second: BS - Pale_10
+  - first:
+      213: -5564827118794715729
+    second: BS - Pale_11
+  - first:
+      213: 2422587072405584846
+    second: BS - Pale_12
+  - first:
+      213: 716771126296810721
+    second: BS - Pale_13
+  - first:
+      213: 3047343778508163650
+    second: BS - Pale_14
+  - first:
+      213: 8072897513679308789
+    second: BS - Pale_15
+  - first:
+      213: -463743691945682697
+    second: BS - Pale_16
+  - first:
+      213: 5043835195518780551
+    second: BS - Pale_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BS - Pale_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1058
+        width: 85
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de2079c558de1a7c0800000000000000
+      internalID: -4061704231871642899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Pale_1
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1206
+        width: 276
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf08a42f1c5f67060800000000000000
+      internalID: 6951013288235401467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Pale_2
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1200
+        width: 258
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9182bfffba8c87a0800000000000000
+      internalID: -6373566815402819172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Pale_3
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1185
+        width: 235
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d66cda0731b02dd0800000000000000
+      internalID: -2512813742109202735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Pale_4
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 900
+        width: 79
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7077570abe5e680800000000000000
+      internalID: -8726309628562438157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Pale_5
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 982
+        width: 84
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0adf849b774618800800000000000000
+      internalID: 612881489671552416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Pale_6
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 975
+        width: 93
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9872720b042465ec0800000000000000
+      internalID: -3578600008298584183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Pale_7
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 1013
+        width: 75
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40971d4534e9ce060800000000000000
+      internalID: 6984131134167808260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Pale_8
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 674
+        width: 124
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e56200cd8fe199d80800000000000000
+      internalID: -8243523588733262242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Pale_9
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 712
+        width: 114
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce2e1761179ae900800000000000000
+      internalID: 714549591891914444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Pale_10
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 734
+        width: 119
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9763618efef24c20800000000000000
+      internalID: 3189391855177656220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Pale_11
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 863
+        width: 72
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fadc7cb1833c5c2b0800000000000000
+      internalID: -5564827118794715729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Pale_12
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 451
+        width: 101
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb30306b12ce9120800000000000000
+      internalID: 2422587072405584846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Pale_13
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 520
+        width: 114
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e49d20ba8b72f900800000000000000
+      internalID: 716771126296810721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Pale_14
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 528
+        width: 108
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ac97265075a4a20800000000000000
+      internalID: 3047343778508163650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Pale_15
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 63
+        width: 196
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f74df24481b80070800000000000000
+      internalID: 8072897513679308789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Pale_16
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 62
+        width: 172
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8dfb6b1937099f0800000000000000
+      internalID: -463743691945682697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Pale_17
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 60
+        width: 167
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 784828e036d4ff540800000000000000
+      internalID: 5043835195518780551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BS - Pale_0: -4061704231871642899
+      BS - Pale_1: 6951013288235401467
+      BS - Pale_10: 3189391855177656220
+      BS - Pale_11: -5564827118794715729
+      BS - Pale_12: 2422587072405584846
+      BS - Pale_13: 716771126296810721
+      BS - Pale_14: 3047343778508163650
+      BS - Pale_15: 8072897513679308789
+      BS - Pale_16: -463743691945682697
+      BS - Pale_17: 5043835195518780551
+      BS - Pale_2: -6373566815402819172
+      BS - Pale_3: -2512813742109202735
+      BS - Pale_4: -8726309628562438157
+      BS - Pale_5: 612881489671552416
+      BS - Pale_6: -3578600008298584183
+      BS - Pale_7: 6984131134167808260
+      BS - Pale_8: -8243523588733262242
+      BS - Pale_9: 714549591891914444
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
