@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: d30471ba246b02041b304f83daa815fc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 204861784544303332
+    second: browneyes_0
+  - first:
+      213: -4183619845578591970
+    second: browneyes_1
+  - first:
+      213: 1451495325630532469
+    second: browneyes_2
+  - first:
+      213: -5158778996695802704
+    second: browneyes_3
+  - first:
+      213: -4117997345784559245
+    second: browneyes_4
+  - first:
+      213: -555447452475579211
+    second: browneyes_5
+  - first:
+      213: 5532435612882825129
+    second: browneyes_6
+  - first:
+      213: -7240489021561296477
+    second: browneyes_7
+  - first:
+      213: 2043546322212468929
+    second: browneyes_8
+  - first:
+      213: -4128118105921555069
+    second: browneyes_9
+  - first:
+      213: -1777290472573916439
+    second: browneyes_10
+  - first:
+      213: -8496506211100064445
+    second: browneyes_11
+  - first:
+      213: -5260207676151575989
+    second: browneyes_12
+  - first:
+      213: -2787091547290083466
+    second: browneyes_13
+  - first:
+      213: 4609703175830753801
+    second: browneyes_14
+  - first:
+      213: 303262520568496932
+    second: browneyes_15
+  - first:
+      213: -4772439197189694421
+    second: browneyes_16
+  - first:
+      213: -7949758941494981483
+    second: browneyes_17
+  - first:
+      213: 3846008283500972214
+    second: browneyes_18
+  - first:
+      213: 333147013270327322
+    second: browneyes_19
+  - first:
+      213: 3645311185763777946
+    second: browneyes_20
+  - first:
+      213: -8208807819215140107
+    second: browneyes_21
+  - first:
+      213: -1920969904794752993
+    second: browneyes_22
+  - first:
+      213: -654735269507499374
+    second: browneyes_23
+  - first:
+      213: -8814370984016845634
+    second: browneyes_24
+  - first:
+      213: 5018514767129157624
+    second: browneyes_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: browneyes_0
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1241
+        width: 59
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8d0d725b0d7d200800000000000000
+      internalID: 204861784544303332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: browneyes_1
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1216
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e11730d8aebc0f5c0800000000000000
+      internalID: -4183619845578591970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: browneyes_2
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1242
+        width: 63
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b095dee4fb42410800000000000000
+      internalID: 1451495325630532469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: browneyes_3
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1231
+        width: 34
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc533bb5d55868b0800000000000000
+      internalID: -5158778996695802704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: browneyes_4
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1178
+        width: 51
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 379828a6b3fe9d6c0800000000000000
+      internalID: -4117997345784559245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: browneyes_5
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 1169
+        width: 45
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b42ccf1c77aa48f0800000000000000
+      internalID: -555447452475579211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: browneyes_6
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 861
+        width: 69
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9afe998b0e827cc40800000000000000
+      internalID: 5532435612882825129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: browneyes_7
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 862
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a929bdb89d948b90800000000000000
+      internalID: -7240489021561296477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: browneyes_8
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 892
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c8b7898d822c5c10800000000000000
+      internalID: 2043546322212468929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: browneyes_9
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 851
+        width: 45
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385ffa1547af5b6c0800000000000000
+      internalID: -4128118105921555069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: browneyes_10
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 860
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eaab8f4bbbc557e0800000000000000
+      internalID: -1777290472573916439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: browneyes_11
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 836
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3450b7f0e98561a80800000000000000
+      internalID: -8496506211100064445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: browneyes_12
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 803
+        width: 52
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ac3320dfcfff6b0800000000000000
+      internalID: -5260207676151575989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: browneyes_13
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 790
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67fd74f11034259d0800000000000000
+      internalID: -2787091547290083466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: browneyes_14
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 472
+        width: 56
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 902d16b7d94f8ff30800000000000000
+      internalID: 4609703175830753801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: browneyes_15
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 444
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 423cc2cd7a7653400800000000000000
+      internalID: 303262520568496932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: browneyes_16
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 474
+        width: 63
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c9b5be5d3e4cdb0800000000000000
+      internalID: -4772439197189694421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: browneyes_17
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 473
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59cc432cc58cca190800000000000000
+      internalID: -7949758941494981483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: browneyes_18
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 409
+        width: 66
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b809452824cf5530800000000000000
+      internalID: 3846008283500972214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: browneyes_19
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 420
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a10d5f781739f9400800000000000000
+      internalID: 333147013270327322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: browneyes_20
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 101
+        width: 66
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9d3533b53fb69230800000000000000
+      internalID: 3645311185763777946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: browneyes_21
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 77
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fa8b32d7c4741e80800000000000000
+      internalID: -8208807819215140107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: browneyes_22
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 105
+        width: 74
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f182e70ac085755e0800000000000000
+      internalID: -1920969904794752993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: browneyes_23
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 100
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29af517cdb9e9e6f0800000000000000
+      internalID: -654735269507499374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: browneyes_24
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 39
+        width: 66
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb46a236a401da580800000000000000
+      internalID: -8814370984016845634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: browneyes_25
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 42
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff19ca679855a540800000000000000
+      internalID: 5018514767129157624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      browneyes_0: 204861784544303332
+      browneyes_1: -4183619845578591970
+      browneyes_10: -1777290472573916439
+      browneyes_11: -8496506211100064445
+      browneyes_12: -5260207676151575989
+      browneyes_13: -2787091547290083466
+      browneyes_14: 4609703175830753801
+      browneyes_15: 303262520568496932
+      browneyes_16: -4772439197189694421
+      browneyes_17: -7949758941494981483
+      browneyes_18: 3846008283500972214
+      browneyes_19: 333147013270327322
+      browneyes_2: 1451495325630532469
+      browneyes_20: 3645311185763777946
+      browneyes_21: -8208807819215140107
+      browneyes_22: -1920969904794752993
+      browneyes_23: -654735269507499374
+      browneyes_24: -8814370984016845634
+      browneyes_25: 5018514767129157624
+      browneyes_3: -5158778996695802704
+      browneyes_4: -4117997345784559245
+      browneyes_5: -555447452475579211
+      browneyes_6: 5532435612882825129
+      browneyes_7: -7240489021561296477
+      browneyes_8: 2043546322212468929
+      browneyes_9: -4128118105921555069
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
