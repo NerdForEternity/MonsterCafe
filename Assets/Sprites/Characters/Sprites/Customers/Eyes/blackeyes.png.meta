@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: a02fc498a8f15f3418af73758fa167e1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4973862589283282487
+    second: blackeyes_0
+  - first:
+      213: 5000914108338475848
+    second: blackeyes_1
+  - first:
+      213: 8757985308431313471
+    second: blackeyes_2
+  - first:
+      213: -38288235395694785
+    second: blackeyes_3
+  - first:
+      213: 6322982015062171035
+    second: blackeyes_4
+  - first:
+      213: 3500343688539001746
+    second: blackeyes_5
+  - first:
+      213: -724652396025083642
+    second: blackeyes_6
+  - first:
+      213: 9198206134150759738
+    second: blackeyes_7
+  - first:
+      213: 3266549266917585481
+    second: blackeyes_8
+  - first:
+      213: 6025042585295226673
+    second: blackeyes_9
+  - first:
+      213: -4348037921468286054
+    second: blackeyes_10
+  - first:
+      213: 5537147892279666198
+    second: blackeyes_11
+  - first:
+      213: -4489826274715635213
+    second: blackeyes_12
+  - first:
+      213: 3981653442728753847
+    second: blackeyes_13
+  - first:
+      213: 1478909282357090411
+    second: blackeyes_14
+  - first:
+      213: -799743581366443944
+    second: blackeyes_15
+  - first:
+      213: -6049118000828606304
+    second: blackeyes_16
+  - first:
+      213: -5917686815321725867
+    second: blackeyes_17
+  - first:
+      213: 4907516162911518465
+    second: blackeyes_18
+  - first:
+      213: 3017134935690259778
+    second: blackeyes_19
+  - first:
+      213: -6423652546060183540
+    second: blackeyes_20
+  - first:
+      213: 727521432903615976
+    second: blackeyes_21
+  - first:
+      213: -6718851027657465844
+    second: blackeyes_22
+  - first:
+      213: 2877238195557431411
+    second: blackeyes_23
+  - first:
+      213: -3851703448792566258
+    second: blackeyes_24
+  - first:
+      213: 4427779240034155322
+    second: blackeyes_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blackeyes_0
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1241
+        width: 59
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ea5db1ca5b60540800000000000000
+      internalID: 4973862589283282487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackeyes_1
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1216
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84311c3b2e0d66540800000000000000
+      internalID: 5000914108338475848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackeyes_2
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1242
+        width: 63
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a63297c3d9a8970800000000000000
+      internalID: 8757985308431313471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackeyes_3
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1231
+        width: 34
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3fb9228d09f77ff0800000000000000
+      internalID: -38288235395694785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackeyes_4
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1178
+        width: 51
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9dd6f064aebfb750800000000000000
+      internalID: 6322982015062171035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackeyes_5
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 1169
+        width: 45
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293d5230a08b39030800000000000000
+      internalID: 3500343688539001746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackeyes_6
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 861
+        width: 69
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6090a453c7481f5f0800000000000000
+      internalID: -724652396025083642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackeyes_7
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 862
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3500ecaeb796af70800000000000000
+      internalID: 9198206134150759738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackeyes_8
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 892
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9427fe7504d155d20800000000000000
+      internalID: 3266549266917585481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackeyes_9
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 851
+        width: 45
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1378f1d2f404d9350800000000000000
+      internalID: 6025042585295226673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackeyes_10
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 860
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b74fc1c8aa8a3c0800000000000000
+      internalID: -4348037921468286054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackeyes_11
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 836
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 616e124cba6e7dc40800000000000000
+      internalID: 5537147892279666198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackeyes_12
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 803
+        width: 52
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f1fb509acee0b1c0800000000000000
+      internalID: -4489826274715635213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackeyes_13
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 790
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bafe80e5bca14730800000000000000
+      internalID: 3981653442728753847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackeyes_14
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 472
+        width: 56
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b681ced1824268410800000000000000
+      internalID: 1478909282357090411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackeyes_15
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 444
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8502141337db6e4f0800000000000000
+      internalID: -799743581366443944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackeyes_16
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 474
+        width: 63
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a890345a373d0ca0800000000000000
+      internalID: -6049118000828606304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackeyes_17
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 473
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5546cb8d13720eda0800000000000000
+      internalID: -5917686815321725867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackeyes_18
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 409
+        width: 66
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10f34d3f2fffa1440800000000000000
+      internalID: 4907516162911518465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackeyes_19
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 420
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d2d311d340fd920800000000000000
+      internalID: 3017134935690259778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackeyes_20
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 101
+        width: 66
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c089c871b0a9ad6a0800000000000000
+      internalID: -6423652546060183540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackeyes_21
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 77
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e504be73eca81a00800000000000000
+      internalID: 727521432903615976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackeyes_22
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 105
+        width: 74
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0065bd9698d1c2a0800000000000000
+      internalID: -6718851027657465844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackeyes_23
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 100
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 378f26405e00ee720800000000000000
+      internalID: 2877238195557431411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackeyes_24
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 39
+        width: 66
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e06729ade100c8ac0800000000000000
+      internalID: -3851703448792566258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackeyes_25
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 42
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3bb51a62c1a27d30800000000000000
+      internalID: 4427779240034155322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      blackeyes_0: 4973862589283282487
+      blackeyes_1: 5000914108338475848
+      blackeyes_10: -4348037921468286054
+      blackeyes_11: 5537147892279666198
+      blackeyes_12: -4489826274715635213
+      blackeyes_13: 3981653442728753847
+      blackeyes_14: 1478909282357090411
+      blackeyes_15: -799743581366443944
+      blackeyes_16: -6049118000828606304
+      blackeyes_17: -5917686815321725867
+      blackeyes_18: 4907516162911518465
+      blackeyes_19: 3017134935690259778
+      blackeyes_2: 8757985308431313471
+      blackeyes_20: -6423652546060183540
+      blackeyes_21: 727521432903615976
+      blackeyes_22: -6718851027657465844
+      blackeyes_23: 2877238195557431411
+      blackeyes_24: -3851703448792566258
+      blackeyes_25: 4427779240034155322
+      blackeyes_3: -38288235395694785
+      blackeyes_4: 6322982015062171035
+      blackeyes_5: 3500343688539001746
+      blackeyes_6: -724652396025083642
+      blackeyes_7: 9198206134150759738
+      blackeyes_8: 3266549266917585481
+      blackeyes_9: 6025042585295226673
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

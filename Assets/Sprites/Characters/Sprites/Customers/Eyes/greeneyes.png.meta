@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 4e4b32e588671c3409dd593c1e610d00
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2115548970336960320
+    second: greeneyes_0
+  - first:
+      213: -8692630465451203030
+    second: greeneyes_1
+  - first:
+      213: -4554968588973268906
+    second: greeneyes_2
+  - first:
+      213: 5449240178507712944
+    second: greeneyes_3
+  - first:
+      213: 7421917414940348632
+    second: greeneyes_4
+  - first:
+      213: -1937640278509816625
+    second: greeneyes_5
+  - first:
+      213: -43585735190203170
+    second: greeneyes_6
+  - first:
+      213: 6077557091497363223
+    second: greeneyes_7
+  - first:
+      213: -2131754129105268614
+    second: greeneyes_8
+  - first:
+      213: 1184317933371785604
+    second: greeneyes_9
+  - first:
+      213: -6883990381484523935
+    second: greeneyes_10
+  - first:
+      213: -4945768824157498654
+    second: greeneyes_11
+  - first:
+      213: -875279946638440905
+    second: greeneyes_12
+  - first:
+      213: -985170280622911792
+    second: greeneyes_13
+  - first:
+      213: -1211715860895806989
+    second: greeneyes_14
+  - first:
+      213: -6742446233837198956
+    second: greeneyes_15
+  - first:
+      213: -827758780380385449
+    second: greeneyes_16
+  - first:
+      213: -670835357223311215
+    second: greeneyes_17
+  - first:
+      213: -4481836074168152401
+    second: greeneyes_18
+  - first:
+      213: 4908116268223164296
+    second: greeneyes_19
+  - first:
+      213: -6600182160471202109
+    second: greeneyes_20
+  - first:
+      213: -1733606986130419233
+    second: greeneyes_21
+  - first:
+      213: 7329370750248269454
+    second: greeneyes_22
+  - first:
+      213: 2355057815007877166
+    second: greeneyes_23
+  - first:
+      213: 2294128176575342761
+    second: greeneyes_24
+  - first:
+      213: 7258704512074593829
+    second: greeneyes_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: greeneyes_0
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1241
+        width: 59
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04fb0e17490fb5d10800000000000000
+      internalID: 2115548970336960320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greeneyes_1
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1216
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a26ea0fa5a29d5780800000000000000
+      internalID: -8692630465451203030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greeneyes_2
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1242
+        width: 63
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 650af2b933089c0c0800000000000000
+      internalID: -4554968588973268906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greeneyes_3
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1231
+        width: 34
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b90dbf22179f9b40800000000000000
+      internalID: 5449240178507712944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greeneyes_4
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1178
+        width: 51
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d01ecdd092fff660800000000000000
+      internalID: 7421917414940348632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greeneyes_5
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 1169
+        width: 45
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc4fee8ce6e1c15e0800000000000000
+      internalID: -1937640278509816625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greeneyes_6
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 861
+        width: 69
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed4b6b83107256ff0800000000000000
+      internalID: -43585735190203170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greeneyes_7
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 862
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7174bd479f1d75450800000000000000
+      internalID: 6077557091497363223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greeneyes_8
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 892
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7055320aec7a62e0800000000000000
+      internalID: -2131754129105268614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greeneyes_9
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 851
+        width: 45
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48100c7b2ea8f6010800000000000000
+      internalID: 1184317933371785604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greeneyes_10
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 860
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16eb86298372770a0800000000000000
+      internalID: -6883990381484523935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greeneyes_11
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 836
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e214ee45791d5bb0800000000000000
+      internalID: -4945768824157498654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greeneyes_12
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 803
+        width: 52
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 736c795a6816ad3f0800000000000000
+      internalID: -875279946638440905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greeneyes_13
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 790
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de033479d8f352f0800000000000000
+      internalID: -985170280622911792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greeneyes_14
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 472
+        width: 56
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f9499e28de1f2fe0800000000000000
+      internalID: -1211715860895806989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greeneyes_15
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 444
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491a6f29fd40e62a0800000000000000
+      internalID: -6742446233837198956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greeneyes_16
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 474
+        width: 63
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75f67bf56c53384f0800000000000000
+      internalID: -827758780380385449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greeneyes_17
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 473
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 198aeedfbc6b0b6f0800000000000000
+      internalID: -670835357223311215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greeneyes_18
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 409
+        width: 66
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae0da916d15dc1c0800000000000000
+      internalID: -4481836074168152401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greeneyes_19
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 420
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88fe1cbddb12d1440800000000000000
+      internalID: 4908116268223164296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greeneyes_20
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 101
+        width: 66
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c66e385b417764a0800000000000000
+      internalID: -6600182160471202109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greeneyes_21
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 77
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd19f8391adf0f7e0800000000000000
+      internalID: -1733606986130419233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greeneyes_22
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 105
+        width: 74
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e86bfab5dd727b560800000000000000
+      internalID: 7329370750248269454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greeneyes_23
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 100
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e285d09ea98dea020800000000000000
+      internalID: 2355057815007877166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greeneyes_24
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 39
+        width: 66
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8ecf9fb6166df10800000000000000
+      internalID: 2294128176575342761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greeneyes_25
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 42
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5263bb3ab491cb460800000000000000
+      internalID: 7258704512074593829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      greeneyes_0: 2115548970336960320
+      greeneyes_1: -8692630465451203030
+      greeneyes_10: -6883990381484523935
+      greeneyes_11: -4945768824157498654
+      greeneyes_12: -875279946638440905
+      greeneyes_13: -985170280622911792
+      greeneyes_14: -1211715860895806989
+      greeneyes_15: -6742446233837198956
+      greeneyes_16: -827758780380385449
+      greeneyes_17: -670835357223311215
+      greeneyes_18: -4481836074168152401
+      greeneyes_19: 4908116268223164296
+      greeneyes_2: -4554968588973268906
+      greeneyes_20: -6600182160471202109
+      greeneyes_21: -1733606986130419233
+      greeneyes_22: 7329370750248269454
+      greeneyes_23: 2355057815007877166
+      greeneyes_24: 2294128176575342761
+      greeneyes_25: 7258704512074593829
+      greeneyes_3: 5449240178507712944
+      greeneyes_4: 7421917414940348632
+      greeneyes_5: -1937640278509816625
+      greeneyes_6: -43585735190203170
+      greeneyes_7: 6077557091497363223
+      greeneyes_8: -2131754129105268614
+      greeneyes_9: 1184317933371785604
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 424bce394c004b546b9060a2794e5e4a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4412911354921045706
+    second: Hand - Pale_0
+  - first:
+      213: -6014379214264315756
+    second: Hand - Pale_1
+  - first:
+      213: 6105674336618182800
+    second: Hand - Pale_2
+  - first:
+      213: 2849703106765913213
+    second: Hand - Pale_3
+  - first:
+      213: -739985661830737644
+    second: Hand - Pale_4
+  - first:
+      213: -8936876895891259521
+    second: Hand - Pale_5
+  - first:
+      213: -855689024389886211
+    second: Hand - Pale_6
+  - first:
+      213: -1996814888069822191
+    second: Hand - Pale_7
+  - first:
+      213: -4463294981217727279
+    second: Hand - Pale_8
+  - first:
+      213: 5691860336702671115
+    second: Hand - Pale_9
+  - first:
+      213: 2461305620369337746
+    second: Hand - Pale_10
+  - first:
+      213: 2760879908019776024
+    second: Hand - Pale_11
+  - first:
+      213: 3935598554843189589
+    second: Hand - Pale_12
+  - first:
+      213: -2972026118148763128
+    second: Hand - Pale_13
+  - first:
+      213: 8133855259961839879
+    second: Hand - Pale_14
+  - first:
+      213: 5474037430084418764
+    second: Hand - Pale_15
+  - first:
+      213: 4199279990040795984
+    second: Hand - Pale_16
+  - first:
+      213: 59819611628670890
+    second: Hand - Pale_17
+  - first:
+      213: 7273532612038604636
+    second: Hand - Pale_18
+  - first:
+      213: -7820131880748063804
+    second: Hand - Pale_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hand - Pale_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2096
+        width: 285
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 631b4a8d08032c2c0800000000000000
+      internalID: -4412911354921045706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand - Pale_1
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 2061
+        width: 290
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 490584d58f1a88ca0800000000000000
+      internalID: -6014379214264315756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand - Pale_2
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 2073
+        width: 326
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098785cb576bbb450800000000000000
+      internalID: 6105674336618182800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand - Pale_3
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 2078
+        width: 328
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7cfb1290ed2c8720800000000000000
+      internalID: 2849703106765913213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand - Pale_4
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 2042
+        width: 268
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41152bf06fa0bb5f0800000000000000
+      internalID: -739985661830737644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand - Pale_5
+      rect:
+        serializedVersion: 2
+        x: 2146
+        y: 2080
+        width: 291
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f710310d5d9f380800000000000000
+      internalID: -8936876895891259521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand - Pale_6
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 1600
+        width: 301
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfe4a0fad5bff14f0800000000000000
+      internalID: -855689024389886211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand - Pale_7
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 1558
+        width: 209
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 119036a5073e944e0800000000000000
+      internalID: -1996814888069822191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand - Pale_8
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 1571
+        width: 241
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dccbb4bcd03f02c0800000000000000
+      internalID: -4463294981217727279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand - Pale_9
+      rect:
+        serializedVersion: 2
+        x: 2148
+        y: 1570
+        width: 283
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b094c48c1dc8dfe40800000000000000
+      internalID: 5691860336702671115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand - Pale_10
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 900
+        width: 285
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d69c1db60582220800000000000000
+      internalID: 2461305620369337746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand - Pale_11
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 865
+        width: 290
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a280906ad905620800000000000000
+      internalID: 2760879908019776024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand - Pale_12
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 877
+        width: 326
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55118ffa80e0e9630800000000000000
+      internalID: 3935598554843189589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand - Pale_13
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 882
+        width: 328
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8025f84fdfd31c6d0800000000000000
+      internalID: -2972026118148763128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand - Pale_14
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 846
+        width: 268
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 701d770934241e070800000000000000
+      internalID: 8133855259961839879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand - Pale_15
+      rect:
+        serializedVersion: 2
+        x: 2163
+        y: 884
+        width: 291
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cccbf5b3a00b7fb40800000000000000
+      internalID: 5474037430084418764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand - Pale_16
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 404
+        width: 301
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b99c6f6e6d64a30800000000000000
+      internalID: 4199279990040795984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand - Pale_17
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 362
+        width: 209
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf8abdae9584d000800000000000000
+      internalID: 59819611628670890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand - Pale_18
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 375
+        width: 241
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c57b7c2bf57c0f460800000000000000
+      internalID: 7273532612038604636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand - Pale_19
+      rect:
+        serializedVersion: 2
+        x: 2165
+        y: 374
+        width: 283
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3ed4fbc7f497390800000000000000
+      internalID: -7820131880748063804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Hand - Pale_0: -4412911354921045706
+      Hand - Pale_1: -6014379214264315756
+      Hand - Pale_10: 2461305620369337746
+      Hand - Pale_11: 2760879908019776024
+      Hand - Pale_12: 3935598554843189589
+      Hand - Pale_13: -2972026118148763128
+      Hand - Pale_14: 8133855259961839879
+      Hand - Pale_15: 5474037430084418764
+      Hand - Pale_16: 4199279990040795984
+      Hand - Pale_17: 59819611628670890
+      Hand - Pale_18: 7273532612038604636
+      Hand - Pale_19: -7820131880748063804
+      Hand - Pale_2: 6105674336618182800
+      Hand - Pale_3: 2849703106765913213
+      Hand - Pale_4: -739985661830737644
+      Hand - Pale_5: -8936876895891259521
+      Hand - Pale_6: -855689024389886211
+      Hand - Pale_7: -1996814888069822191
+      Hand - Pale_8: -4463294981217727279
+      Hand - Pale_9: 5691860336702671115
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

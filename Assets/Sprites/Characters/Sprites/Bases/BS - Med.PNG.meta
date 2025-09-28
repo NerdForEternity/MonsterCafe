@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: b36482873c4946647beeed4195f03782
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4064103097013926994
+    second: BS - Med_0
+  - first:
+      213: -398077740061055675
+    second: BS - Med_1
+  - first:
+      213: 1022935004545067512
+    second: BS - Med_2
+  - first:
+      213: 4509328220099288514
+    second: BS - Med_3
+  - first:
+      213: 3379214703785085442
+    second: BS - Med_4
+  - first:
+      213: 5559263299926972729
+    second: BS - Med_5
+  - first:
+      213: -1593113705870698134
+    second: BS - Med_6
+  - first:
+      213: 3670517964194809400
+    second: BS - Med_7
+  - first:
+      213: -3408935221022169342
+    second: BS - Med_8
+  - first:
+      213: 2644640296054842141
+    second: BS - Med_9
+  - first:
+      213: -4417405298462352014
+    second: BS - Med_10
+  - first:
+      213: 4017380217089783501
+    second: BS - Med_11
+  - first:
+      213: -8725097084925166271
+    second: BS - Med_12
+  - first:
+      213: 7596755820535683081
+    second: BS - Med_13
+  - first:
+      213: 1857566011681824392
+    second: BS - Med_14
+  - first:
+      213: 1344609117789729081
+    second: BS - Med_15
+  - first:
+      213: -4932291955826536414
+    second: BS - Med_16
+  - first:
+      213: -3216744127119679029
+    second: BS - Med_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BS - Med_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1058
+        width: 85
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25c7414fb38966830800000000000000
+      internalID: 4064103097013926994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Med_1
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1206
+        width: 276
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 545abae876eb97af0800000000000000
+      internalID: -398077740061055675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Med_2
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1200
+        width: 258
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f9a83687f1323e00800000000000000
+      internalID: 1022935004545067512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Med_3
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1185
+        width: 235
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd99aeef1a549e30800000000000000
+      internalID: 4509328220099288514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Med_4
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 900
+        width: 79
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a03e68ed165ee20800000000000000
+      internalID: 3379214703785085442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Med_5
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 982
+        width: 84
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 939530d5488762d40800000000000000
+      internalID: 5559263299926972729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Med_6
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 975
+        width: 93
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6955c2768f14e9e0800000000000000
+      internalID: -1593113705870698134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Med_7
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 1013
+        width: 75
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 836858524ac40f230800000000000000
+      internalID: 3670517964194809400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Med_8
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 674
+        width: 124
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 207e7a05a7701b0d0800000000000000
+      internalID: -3408935221022169342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Med_9
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 712
+        width: 114
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d13680d5656a3b420800000000000000
+      internalID: 2644640296054842141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Med_10
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 734
+        width: 119
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d1934194932b2c0800000000000000
+      internalID: -4417405298462352014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Med_11
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 863
+        width: 72
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6715fb50a90c730800000000000000
+      internalID: 4017380217089783501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Med_12
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 451
+        width: 101
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d3d36cd6a3ae680800000000000000
+      internalID: -8725097084925166271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Med_13
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 520
+        width: 114
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90819606b291d6960800000000000000
+      internalID: 7596755820535683081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Med_14
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 528
+        width: 108
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88e5221227667c910800000000000000
+      internalID: 1857566011681824392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Med_15
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 63
+        width: 196
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 931bb9b5ed209a210800000000000000
+      internalID: 1344609117789729081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Med_16
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 62
+        width: 172
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 220517c399afc8bb0800000000000000
+      internalID: -4932291955826536414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Med_17
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 60
+        width: 167
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc125b96244db53d0800000000000000
+      internalID: -3216744127119679029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BS - Med_0: 4064103097013926994
+      BS - Med_1: -398077740061055675
+      BS - Med_10: -4417405298462352014
+      BS - Med_11: 4017380217089783501
+      BS - Med_12: -8725097084925166271
+      BS - Med_13: 7596755820535683081
+      BS - Med_14: 1857566011681824392
+      BS - Med_15: 1344609117789729081
+      BS - Med_16: -4932291955826536414
+      BS - Med_17: -3216744127119679029
+      BS - Med_2: 1022935004545067512
+      BS - Med_3: 4509328220099288514
+      BS - Med_4: 3379214703785085442
+      BS - Med_5: 5559263299926972729
+      BS - Med_6: -1593113705870698134
+      BS - Med_7: 3670517964194809400
+      BS - Med_8: -3408935221022169342
+      BS - Med_9: 2644640296054842141
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

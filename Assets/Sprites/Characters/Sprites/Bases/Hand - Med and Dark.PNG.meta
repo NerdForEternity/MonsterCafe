@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 94c5c9c4830cf9f4e92296cc6388b52c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2511004923721914717
+    second: Hand - Med and Dark_0
+  - first:
+      213: -5794024305635984978
+    second: Hand - Med and Dark_1
+  - first:
+      213: 9133929004856863336
+    second: Hand - Med and Dark_2
+  - first:
+      213: 5660584764648525569
+    second: Hand - Med and Dark_3
+  - first:
+      213: 171220663345494759
+    second: Hand - Med and Dark_4
+  - first:
+      213: 8878886387803247471
+    second: Hand - Med and Dark_5
+  - first:
+      213: -727372054739838332
+    second: Hand - Med and Dark_6
+  - first:
+      213: 9198404372935078356
+    second: Hand - Med and Dark_7
+  - first:
+      213: -711572956274758230
+    second: Hand - Med and Dark_8
+  - first:
+      213: -1597317794451506783
+    second: Hand - Med and Dark_9
+  - first:
+      213: 3807425659343531773
+    second: Hand - Med and Dark_10
+  - first:
+      213: 3051699648108413220
+    second: Hand - Med and Dark_11
+  - first:
+      213: -8951642877493285307
+    second: Hand - Med and Dark_12
+  - first:
+      213: 916598604478008471
+    second: Hand - Med and Dark_13
+  - first:
+      213: 8279340997363761182
+    second: Hand - Med and Dark_14
+  - first:
+      213: 924483732221531642
+    second: Hand - Med and Dark_15
+  - first:
+      213: -151989288620189529
+    second: Hand - Med and Dark_16
+  - first:
+      213: -1098068422203652905
+    second: Hand - Med and Dark_17
+  - first:
+      213: -9105309024897154183
+    second: Hand - Med and Dark_18
+  - first:
+      213: 5494870509592454084
+    second: Hand - Med and Dark_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hand - Med and Dark_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2096
+        width: 285
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5993bb9ca1e8d220800000000000000
+      internalID: 2511004923721914717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand - Med and Dark_1
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 2061
+        width: 290
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea97692979d779fa0800000000000000
+      internalID: -5794024305635984978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand - Med and Dark_2
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 2073
+        width: 326
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a612a490c32ce70800000000000000
+      internalID: 9133929004856863336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand - Med and Dark_3
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 2078
+        width: 328
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10f0dd53adf6e8e40800000000000000
+      internalID: 5660584764648525569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand - Med and Dark_4
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 2042
+        width: 268
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ea3ae0494c406200800000000000000
+      internalID: 171220663345494759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand - Med and Dark_5
+      rect:
+        serializedVersion: 2
+        x: 2146
+        y: 2080
+        width: 291
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f63501a9024283b70800000000000000
+      internalID: 8878886387803247471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand - Med and Dark_6
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 1600
+        width: 301
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a9fa158fad7e5f0800000000000000
+      internalID: -727372054739838332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand - Med and Dark_7
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 1558
+        width: 209
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d1f13dba0c47af70800000000000000
+      internalID: 9198404372935078356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand - Med and Dark_8
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 1571
+        width: 241
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aade7759a2cff16f0800000000000000
+      internalID: -711572956274758230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand - Med and Dark_9
+      rect:
+        serializedVersion: 2
+        x: 2148
+        y: 1570
+        width: 283
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a9be4ccdef25d9e0800000000000000
+      internalID: -1597317794451506783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand - Med and Dark_10
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 900
+        width: 285
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfee0ede671b6d430800000000000000
+      internalID: 3807425659343531773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand - Med and Dark_11
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 865
+        width: 290
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 421cfae49a0d95a20800000000000000
+      internalID: 3051699648108413220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand - Med and Dark_12
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 877
+        width: 326
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54e6bd21b3065c380800000000000000
+      internalID: -8951642877493285307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand - Med and Dark_13
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 882
+        width: 328
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79cc78d039968bc00800000000000000
+      internalID: 916598604478008471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand - Med and Dark_14
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 846
+        width: 268
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e10023275c026e270800000000000000
+      internalID: 8279340997363761182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand - Med and Dark_15
+      rect:
+        serializedVersion: 2
+        x: 2163
+        y: 884
+        width: 291
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af511bb6e0d64dc00800000000000000
+      internalID: 924483732221531642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand - Med and Dark_16
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 404
+        width: 301
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a8112a1c8604edf0800000000000000
+      internalID: -151989288620189529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand - Med and Dark_17
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 362
+        width: 209
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d44a7b7690e2c0f0800000000000000
+      internalID: -1098068422203652905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand - Med and Dark_18
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 375
+        width: 241
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 973c8d01fa173a180800000000000000
+      internalID: -9105309024897154183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand - Med and Dark_19
+      rect:
+        serializedVersion: 2
+        x: 2165
+        y: 374
+        width: 283
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3270b8d93b14c40800000000000000
+      internalID: 5494870509592454084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Hand - Med and Dark_0: 2511004923721914717
+      Hand - Med and Dark_1: -5794024305635984978
+      Hand - Med and Dark_10: 3807425659343531773
+      Hand - Med and Dark_11: 3051699648108413220
+      Hand - Med and Dark_12: -8951642877493285307
+      Hand - Med and Dark_13: 916598604478008471
+      Hand - Med and Dark_14: 8279340997363761182
+      Hand - Med and Dark_15: 924483732221531642
+      Hand - Med and Dark_16: -151989288620189529
+      Hand - Med and Dark_17: -1098068422203652905
+      Hand - Med and Dark_18: -9105309024897154183
+      Hand - Med and Dark_19: 5494870509592454084
+      Hand - Med and Dark_2: 9133929004856863336
+      Hand - Med and Dark_3: 5660584764648525569
+      Hand - Med and Dark_4: 171220663345494759
+      Hand - Med and Dark_5: 8878886387803247471
+      Hand - Med and Dark_6: -727372054739838332
+      Hand - Med and Dark_7: 9198404372935078356
+      Hand - Med and Dark_8: -711572956274758230
+      Hand - Med and Dark_9: -1597317794451506783
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

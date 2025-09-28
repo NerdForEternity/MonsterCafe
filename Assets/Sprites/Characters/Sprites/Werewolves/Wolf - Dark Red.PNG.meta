@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 917130e14fc23654da91fae6329aee0e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -309482888959571841
+    second: Wolf - Dark Red_0
+  - first:
+      213: 8523735284490833953
+    second: Wolf - Dark Red_1
+  - first:
+      213: 2937757744578635931
+    second: Wolf - Dark Red_2
+  - first:
+      213: 2818186434789342186
+    second: Wolf - Dark Red_3
+  - first:
+      213: -8947590483937128673
+    second: Wolf - Dark Red_4
+  - first:
+      213: -1670502240356811675
+    second: Wolf - Dark Red_5
+  - first:
+      213: 7938314316296295865
+    second: Wolf - Dark Red_6
+  - first:
+      213: 7012730324498945621
+    second: Wolf - Dark Red_7
+  - first:
+      213: -4399339880198775280
+    second: Wolf - Dark Red_8
+  - first:
+      213: 7017489532860234098
+    second: Wolf - Dark Red_9
+  - first:
+      213: 7622711327488121876
+    second: Wolf - Dark Red_10
+  - first:
+      213: -5928260893576318187
+    second: Wolf - Dark Red_11
+  - first:
+      213: 2390089360807398723
+    second: Wolf - Dark Red_12
+  - first:
+      213: -2630392918989913476
+    second: Wolf - Dark Red_13
+  - first:
+      213: -412275755161364797
+    second: Wolf - Dark Red_14
+  - first:
+      213: -4310904742046704821
+    second: Wolf - Dark Red_15
+  - first:
+      213: -2064304531505010063
+    second: Wolf - Dark Red_16
+  - first:
+      213: 8929095586955992610
+    second: Wolf - Dark Red_17
+  - first:
+      213: 8153735297645513990
+    second: Wolf - Dark Red_18
+  - first:
+      213: 271249675938516556
+    second: Wolf - Dark Red_19
+  - first:
+      213: -8119447387702054107
+    second: Wolf - Dark Red_20
+  - first:
+      213: 7472774457703131888
+    second: Wolf - Dark Red_21
+  - first:
+      213: 1959399621632578078
+    second: Wolf - Dark Red_22
+  - first:
+      213: 6258776051079287343
+    second: Wolf - Dark Red_23
+  - first:
+      213: -5447551477861736983
+    second: Wolf - Dark Red_24
+  - first:
+      213: -3162835498956837772
+    second: Wolf - Dark Red_25
+  - first:
+      213: 5451397975727684386
+    second: Wolf - Dark Red_26
+  - first:
+      213: -3616482092010175423
+    second: Wolf - Dark Red_27
+  - first:
+      213: 8877223212229834317
+    second: Wolf - Dark Red_28
+  - first:
+      213: -7865374945398050586
+    second: Wolf - Dark Red_29
+  - first:
+      213: -8970813323948862410
+    second: Wolf - Dark Red_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wolf - Dark Red_0
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1208
+        width: 265
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78c083c3fe74bbf0800000000000000
+      internalID: -309482888959571841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Dark Red_1
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 1203
+        width: 253
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1201a8f94146a4670800000000000000
+      internalID: 8523735284490833953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Dark Red_2
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 1363
+        width: 116
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9823c19a1305c820800000000000000
+      internalID: 2937757744578635931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Dark Red_3
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1169
+        width: 237
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb717c81a53c1720800000000000000
+      internalID: 2818186434789342186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Dark Red_4
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1216
+        width: 123
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f03497cd5c3d380800000000000000
+      internalID: -8947590483937128673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Dark Red_5
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1051
+        width: 104
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56cb907201f21d8e0800000000000000
+      internalID: -1670502240356811675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Dark Red_6
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1034
+        width: 104
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b51d3acfce8a2e60800000000000000
+      internalID: 7938314316296295865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Dark Red_7
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 907
+        width: 103
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5569e593319325160800000000000000
+      internalID: 7012730324498945621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Dark Red_8
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 982
+        width: 107
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01eda8a00b762f2c0800000000000000
+      internalID: -4399339880198775280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Dark Red_9
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1062
+        width: 96
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279f725cc81236160800000000000000
+      internalID: 7017489532860234098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Dark Red_10
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 900
+        width: 83
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c9644c09f49c960800000000000000
+      internalID: 7622711327488121876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Dark Red_11
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 883
+        width: 83
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5133b8660269abda0800000000000000
+      internalID: -5928260893576318187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Dark Red_12
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 920
+        width: 82
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d8d544c9d4b2120800000000000000
+      internalID: 2390089360807398723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Dark Red_13
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 730
+        width: 134
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7247eb9397fe7bd0800000000000000
+      internalID: -2630392918989913476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Dark Red_14
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 881
+        width: 72
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c6d910926d474af0800000000000000
+      internalID: -412275755161364797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Dark Red_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 662
+        width: 127
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4b52cd2af69c24c0800000000000000
+      internalID: -4310904742046704821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Dark Red_16
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 655
+        width: 127
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a2a6b37fd1a53e0800000000000000
+      internalID: -2064304531505010063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Dark Red_17
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 680
+        width: 131
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22e1502c0258aeb70800000000000000
+      internalID: 8929095586955992610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Dark Red_18
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 643
+        width: 136
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d89b88d03e72170800000000000000
+      internalID: 8153735297645513990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Dark Red_19
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 667
+        width: 134
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4e41c3a42ca3c300800000000000000
+      internalID: 271249675938516556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Dark Red_20
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 527
+        width: 121
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 523bb8b9e9de15f80800000000000000
+      internalID: -8119447387702054107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Dark Red_21
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 444
+        width: 131
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fae10ed6c0a4b760800000000000000
+      internalID: 7472774457703131888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Dark Red_22
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 426
+        width: 131
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e12d174139f213b10800000000000000
+      internalID: 1959399621632578078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Dark Red_23
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 464
+        width: 139
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f229d4578a3abd650800000000000000
+      internalID: 6258776051079287343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Dark Red_24
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 425
+        width: 134
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ed95621bc86664b0800000000000000
+      internalID: -5447551477861736983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Dark Red_25
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 464
+        width: 121
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47caea10fd95b14d0800000000000000
+      internalID: -3162835498956837772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Dark Red_26
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 55
+        width: 196
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b3880839147ab40800000000000000
+      internalID: 5451397975727684386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Dark Red_27
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 279
+        width: 126
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1440c21c2bcafcdc0800000000000000
+      internalID: -3616482092010175423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Dark Red_28
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 41
+        width: 174
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d46bfcc5a7b323b70800000000000000
+      internalID: 8877223212229834317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Dark Red_29
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 42
+        width: 168
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e0ba42e82398d290800000000000000
+      internalID: -7865374945398050586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Dark Red_30
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 88
+        width: 120
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 634dfafafc4418380800000000000000
+      internalID: -8970813323948862410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Wolf - Dark Red_0: -309482888959571841
+      Wolf - Dark Red_1: 8523735284490833953
+      Wolf - Dark Red_10: 7622711327488121876
+      Wolf - Dark Red_11: -5928260893576318187
+      Wolf - Dark Red_12: 2390089360807398723
+      Wolf - Dark Red_13: -2630392918989913476
+      Wolf - Dark Red_14: -412275755161364797
+      Wolf - Dark Red_15: -4310904742046704821
+      Wolf - Dark Red_16: -2064304531505010063
+      Wolf - Dark Red_17: 8929095586955992610
+      Wolf - Dark Red_18: 8153735297645513990
+      Wolf - Dark Red_19: 271249675938516556
+      Wolf - Dark Red_2: 2937757744578635931
+      Wolf - Dark Red_20: -8119447387702054107
+      Wolf - Dark Red_21: 7472774457703131888
+      Wolf - Dark Red_22: 1959399621632578078
+      Wolf - Dark Red_23: 6258776051079287343
+      Wolf - Dark Red_24: -5447551477861736983
+      Wolf - Dark Red_25: -3162835498956837772
+      Wolf - Dark Red_26: 5451397975727684386
+      Wolf - Dark Red_27: -3616482092010175423
+      Wolf - Dark Red_28: 8877223212229834317
+      Wolf - Dark Red_29: -7865374945398050586
+      Wolf - Dark Red_3: 2818186434789342186
+      Wolf - Dark Red_30: -8970813323948862410
+      Wolf - Dark Red_4: -8947590483937128673
+      Wolf - Dark Red_5: -1670502240356811675
+      Wolf - Dark Red_6: 7938314316296295865
+      Wolf - Dark Red_7: 7012730324498945621
+      Wolf - Dark Red_8: -4399339880198775280
+      Wolf - Dark Red_9: 7017489532860234098
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
