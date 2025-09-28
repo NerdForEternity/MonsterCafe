@@ -10,8 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7826563524094093925}
   - component: {fileID: 5275113232443265296}
+  - component: {fileID: 8063576761631071707}
   m_Layer: 0
-  m_Name: MC_BaseTable_0
+  m_Name: Chair 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79,7 +80,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7322111446821313784, guid: 5c3d2665f755c884dbae1cc2cf035251, type: 3}
+  m_Sprite: {fileID: 400765637401640395, guid: d078a98ac6fac5844b48e283f728cc0c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -90,3 +91,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8063576761631071707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6674216336403381650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4d6184c323d7f24a963e63bffd016fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Chair
+  chairNode: {fileID: 0}
+  isOccupied: 0
