@@ -6,32 +6,48 @@ public class Customer : MonoBehaviour
 {
     private PathNode currentNode;
     public PathNode startNode;
-    public GameObject door;
-    public Vector2 doorPos;
+    public bool isServed;
+    public bool hasOrdered;
     private Chair myChair;
     private List<PathNode> path = new List<PathNode>();
+    public Machine machine;
 
     public List<Chair> chairs;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        machine = GameObject.Find("machine").GetComponent<Machine>();
         currentNode = startNode;
         myChair = chairs.Find(p => p.isOccupied == false);
         myChair.isOccupied = true;
+        isServed = false;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        CreatePath();
+        if (!isServed)
+        {
+            CreatePath(currentNode, myChair.chairNode);
+
+            if (path.Count == 0 && !hasOrdered)
+            {
+                //customer has reached chair, they will now order
+                //note: in later versions customer will randomly choose from unlocked foods but for now will only order coffee
+                machine.serveList.Add(this);
+                //this prevents the if statement from running again
+                hasOrdered = true;
+            }
+        }
+        else
+            CreatePath(myChair.chairNode, startNode);
+        if (isServed && path.Count == 0)
+            Destroy(this.gameObject);
     }
 
-    public void CreatePath()
+    public void CreatePath(PathNode startNode, PathNode endNode)
     {
         if (path.Count > 0)
         {
-Debug.Log("Path Count: " + path.Count);
             int x = 0;
             transform.position = Vector2.MoveTowards(transform.position, new Vector2(path[x].transform.position.x, path[x].transform.position.y), 3 * Time.deltaTime);
 
@@ -44,9 +60,8 @@ Debug.Log("Path Count: " + path.Count);
 
         else
         {
-Debug.Log("Creating path");
             while (path == null || path.Count == 0)
-                path = Pathfinding.instance.GeneratePath(currentNode, myChair.chairNode);
+                path = Pathfinding.instance.GeneratePath(startNode, endNode);
         }
     }
 }

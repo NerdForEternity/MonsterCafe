@@ -14,7 +14,6 @@ public class CustomerManager : MonoBehaviour
     private int numCustomers;
     private PathNode closestNode;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         List<Chair> chairs = new List<Chair>();
@@ -23,12 +22,6 @@ public class CustomerManager : MonoBehaviour
             chairs.Add(n);
 
         StartCoroutine(CreateCustomer());
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 
     IEnumerator CreateCustomer()

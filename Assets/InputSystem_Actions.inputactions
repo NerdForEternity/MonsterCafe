@@ -63,7 +63,7 @@
                 {
                     "name": "Click",
                     "type": "Value",
-                    "id": "a76989bb-f5ec-436a-baed-d33c54d22651",
+                    "id": "d581648a-70fa-4011-b995-fb382cd99b58",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
@@ -171,8 +171,19 @@
                     "isPartOfComposite": false
                 },
                 {
+                    "name": "",
+                    "id": "2f24b4cc-4e8a-44be-8a21-8a2ec3f2400b",
+                    "path": "<Touchscreen>/primaryTouch/position",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": ";Touch",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
                     "name": "One Modifier",
-                    "id": "c9ba3668-b91a-4de4-9c6a-2cfc62832f26",
+                    "id": "c6b8b092-60a3-4c66-9821-cba21131e4e4",
                     "path": "OneModifier",
                     "interactions": "",
                     "processors": "",
@@ -183,22 +194,22 @@
                 },
                 {
                     "name": "modifier",
-                    "id": "6d80f423-b866-4594-bc3f-beeeb478e978",
+                    "id": "7f631c57-f8c3-4638-919a-8608a9bf7f3c",
                     "path": "<Mouse>/leftButton",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": ";Keyboard&Mouse",
                     "action": "Click",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
                     "name": "binding",
-                    "id": "674fd9a1-1723-435c-8c52-5fbab32d678c",
+                    "id": "6a7cb6df-e30e-4c2f-ace1-0eac7b0a9d45",
                     "path": "<Mouse>/position",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": ";Keyboard&Mouse",
                     "action": "Click",
                     "isComposite": false,
                     "isPartOfComposite": true

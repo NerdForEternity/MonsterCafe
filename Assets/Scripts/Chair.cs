@@ -28,16 +28,8 @@ public class Chair : MonoBehaviour
 
         return closestNode;
     }
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        this.chairNode = GetClosestNode();
-Debug.Log("The node of " + this.name + " is " + chairNode.name);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        this.chairNode = GetClosestNode(); 
     }
 }
