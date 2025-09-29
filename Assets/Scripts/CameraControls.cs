@@ -74,7 +74,7 @@ public class CameraControls : MonoBehaviour
 
         //move camera if zoom is not in progress
         if (touchCount < 2)
-        cam.transform.Translate(m_moveAmt * -1);
+            cam.transform.Translate(m_moveAmt * -1);
 
         //zoom in (mouse)
         if (m_zoomAmt.y > 0f && cam.orthographicSize >= 6)
