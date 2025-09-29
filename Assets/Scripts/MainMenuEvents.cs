@@ -13,6 +13,11 @@ public class MainMenuEvents : MonoBehaviour
     private Button _SettingsButton;
     private Button _UpgradesButton;
 
+    public Sprite upgrade;
+    public Sprite settings;
+    public Sprite employee;
+    public Sprite campaign;
+
     private VisualElement _Container;
 
     private void Awake()
@@ -41,22 +46,22 @@ public class MainMenuEvents : MonoBehaviour
     private void OnUpgradesClick(ClickEvent evt)
     {
         Debug.Log("Upgrade");
-        _Container.style.backgroundImage = new StyleBackground(AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Sprites/UI/Grimm_Upgrade.png"));
+        _Container.style.backgroundImage = new StyleBackground(upgrade);
 
     }
     private void OnSettingsClick(ClickEvent evt)
     {
         Debug.Log("Settings");
-        _Container.style.backgroundImage = new StyleBackground(AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Sprites/UI/Grimm_Settings.png"));
+        _Container.style.backgroundImage = new StyleBackground(settings);
     }
     private void OnUnlocksClick(ClickEvent evt)
     {
         Debug.Log("Unlocks");
-        _Container.style.backgroundImage = new StyleBackground(AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Sprites/UI/Grimm_Employee.png"));
+        _Container.style.backgroundImage = new StyleBackground(employee);
     }
     private void OnCampaignClick(ClickEvent evt)
     {
         Debug.Log("Campaign");
-        _Container.style.backgroundImage = new StyleBackground(AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Sprites/UI/Grimm_Campaign.png"));
+        _Container.style.backgroundImage = new StyleBackground(campaign);
     }
 }

@@ -1,4 +1,4 @@
-using System.Collections;
+/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
@@ -12,6 +12,9 @@ public class ScreenMenuEvents1 : MonoBehaviour
     private Button _GrimmButton;
     private Button _PlayButton;
     private Button _DecorButton;
+
+    public Sprite idle;
+    public Sprite active;
     int toggle = 0;
 
     private void Awake()
@@ -58,4 +61,4 @@ public class ScreenMenuEvents1 : MonoBehaviour
     {
         Debug.Log("Decor");
     }
-}
+}*/
