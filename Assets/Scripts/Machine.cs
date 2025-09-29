@@ -34,7 +34,7 @@ Debug.Log("Click position: " + clickPos.x + ", " + clickPos.y);
             if (Vector3.Distance(clickPos, this.transform.position) <= 3)
             {
                 Debug.Log("Hit machine!");
-                if(serveList[0] != null && serveList[0].hasOrdered == true)
+                if(serveList != null && serveList[0].hasOrdered == true)
                     isClicked = true;
             }
 

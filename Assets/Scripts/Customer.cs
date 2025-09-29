@@ -39,9 +39,11 @@ public class Customer : MonoBehaviour
             }
         }
         else
+        {
             CreatePath(myChair.chairNode, startNode);
-        if (isServed && path.Count == 0)
-            Destroy(this.gameObject);
+            if (isServed && path.Count == 0)
+                Destroy(this.gameObject);
+        }
     }
 
     public void CreatePath(PathNode startNode, PathNode endNode)
