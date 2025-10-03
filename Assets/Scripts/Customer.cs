@@ -11,6 +11,7 @@ public class Customer : MonoBehaviour
     private Chair myChair;
     private List<PathNode> path = new List<PathNode>();
     public Machine machine;
+    public CustomerManager manager;
 
     public List<Chair> chairs;
 
@@ -42,7 +43,17 @@ public class Customer : MonoBehaviour
         {
             CreatePath(myChair.chairNode, startNode);
             if (isServed && path.Count == 0)
+            {
+                //makes their chair available
+                myChair.isOccupied = false;
+                //subtracts number of customers in scene to spawn more
+                manager.numCustomers--;
+                //increases number served for spawn timer
+                manager.numServed++;
+                //and removes them from machine queue
+                machine.serveList.Remove(this);
                 Destroy(this.gameObject);
+            }
         }
     }
 

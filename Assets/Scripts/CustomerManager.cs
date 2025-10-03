@@ -9,9 +9,9 @@ public class CustomerManager : MonoBehaviour
     public float spawnTime;
     public int numServed = 0;
 
-    //this number will change, but for now the scene will only have three chairs
+    //this number will change, but for now the scene will only have twos chairs
     public List<Chair> chairs;
-    private int numCustomers;
+    public int numCustomers;
     private PathNode closestNode;
 
     void Start()
@@ -26,32 +26,37 @@ public class CustomerManager : MonoBehaviour
 
     IEnumerator CreateCustomer()
     {
+Debug.Log("Coroutine started, customers = " + numCustomers);
         //total customers cannot exceed seating
-        if (numCustomers < chairs.Count)
-        {
+        //if (numCustomers < chairs.Count)
+        yield return new WaitUntil(() => numCustomers < chairs.Count);
+        //{
+Debug.Log("Customers can spawn");
             //as more customers are served, they spawn more frequently
             spawnTime = Random.Range(1f, 3f) - numServed;
             //time between spawns is 5 seconds at minimum
             if (spawnTime < 5)
                 spawnTime = Random.Range(5f, 7f);
-
+Debug.Log("Waiting...");
             yield return new WaitForSeconds(spawnTime);
             //create customer
             PathNode doorNode = GetClosestNode();
             GameObject newCustomer = Instantiate(customer, doorNode.transform);
-
-            //pass reference to chairs to new customer
+Debug.Log("Customer created!");
+            //pass references to new customer
             Customer scriptRef = newCustomer.GetComponent<Customer>();
             scriptRef.chairs = chairs;
             scriptRef.startNode = doorNode;
+            scriptRef.manager = this.GetComponent<CustomerManager>();
             numCustomers++;
+
             StartCoroutine(CreateCustomer());
-        }
+        //}
     }
     
     public PathNode GetClosestNode()
     {
-        //note: write code to update position if moved by player
+        //function is called before spawning customer, no need to update when moved
         Vector2 doorPos = door.transform.position;
         float minDistance = Mathf.Infinity;
         foreach (PathNode n in FindObjectsByType<PathNode>(FindObjectsSortMode.None))

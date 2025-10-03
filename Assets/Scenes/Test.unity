@@ -691,6 +691,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 6081473184653194611, guid: a2efadd5487c09846b271636450da4a9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6634,6 +6638,7 @@ MonoBehaviour:
   chairs:
   - {fileID: 1762804691}
   - {fileID: 1753229942}
+  numCustomers: 0
 --- !u!4 &1967210230
 Transform:
   m_ObjectHideFlags: 0
