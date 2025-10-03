@@ -10,6 +10,8 @@ public class Machine : MonoBehaviour
     public List<Customer> serveList;
     private InputAction m_hitScreen;
     private bool isClicked;
+    public bool idle;
+    private bool idleInProgress;
 
     private void OnEnable()
     {
@@ -29,13 +31,16 @@ public class Machine : MonoBehaviour
         {
             Vector3 clickPos = m_hitScreen.ReadValue<Vector2>();
             clickPos = Camera.main.ScreenToWorldPoint(clickPos);
-Debug.Log("Click position: " + clickPos.x + ", " + clickPos.y);
+//Debug.Log("Click position: " + clickPos.x + ", " + clickPos.y);
 
             if (Vector3.Distance(clickPos, this.transform.position) <= 3)
             {
-                Debug.Log("Hit machine!");
-                if(serveList != null && serveList[0].hasOrdered == true)
-                    isClicked = true;
+                //Debug.Log("Hit machine!");
+                if (serveList[0] != null)
+                {
+                    if (serveList[0].hasOrdered)
+                        isClicked = true;
+                }
             }
 
         };
@@ -51,9 +56,17 @@ Debug.Log("Click position: " + clickPos.x + ", " + clickPos.y);
         if (serveList.Count > 0)
         {
             serveIndicator.SetActive(true);
-            if (isClicked)
+
+            if (idle && !idleInProgress)
             {
-Debug.Log("Served customer");
+Debug.Log("Invoked idle, waiting...");
+                idleInProgress = true;
+                Invoke("Serve", 2.0f);
+            }
+
+            else if (isClicked)
+            {
+Debug.Log("Served customer (active)");
                 serveList[0].isServed = true;
                 serveList.RemoveAt(0);
                 isClicked = false;
@@ -61,5 +74,16 @@ Debug.Log("Served customer");
         }
         else
             serveIndicator.SetActive(false);
+    }
+
+    public void Serve()
+    {
+        if (!idle)
+            return;
+
+Debug.Log("Served customer (idle)");
+        serveList[0].isServed = true;
+        serveList.RemoveAt(0);
+        idleInProgress = false;
     }
 }

@@ -1,4 +1,4 @@
-/*using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
@@ -15,6 +15,7 @@ public class ScreenMenuEvents1 : MonoBehaviour
 
     public Sprite idle;
     public Sprite active;
+    public CustomerManager customerManager;
     int toggle = 0;
 
     private void Awake()
@@ -47,12 +48,14 @@ public class ScreenMenuEvents1 : MonoBehaviour
         Debug.Log("Play");
         if (toggle == 0)
         {
-            _PlayButton.style.backgroundImage = new StyleBackground(AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Sprites/UI/Idle_Play.png"));
+            _PlayButton.style.backgroundImage = new StyleBackground(idle);
+            customerManager.idle = true;
             toggle = 1;
         }
         else if (toggle == 1)
         {
-            _PlayButton.style.backgroundImage = new StyleBackground(AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Sprites/UI/Active_Play.png"));
+            _PlayButton.style.backgroundImage = new StyleBackground(active);
+            customerManager.idle = false;
             toggle = 0;
         }
 
@@ -61,4 +64,4 @@ public class ScreenMenuEvents1 : MonoBehaviour
     {
         Debug.Log("Decor");
     }
-}*/
+}
