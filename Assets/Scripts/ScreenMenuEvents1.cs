@@ -9,9 +9,9 @@ public class ScreenMenuEvents1 : MonoBehaviour
 {
     private UIDocument _document;
 
-    private Button _GrimmButton;
-    private Button _PlayButton;
-    private Button _DecorButton;
+    public Button _GrimmButton;
+    public Button _PlayButton;
+    public Button _DecorButton;
 
     public Sprite idle;
     public Sprite active;

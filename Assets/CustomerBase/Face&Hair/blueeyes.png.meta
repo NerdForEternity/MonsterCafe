@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: 195b437819a18b24c9e4aca88796870f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5616928303585094665
+    second: blueeyes_0
+  - first:
+      213: 5347310801971593224
+    second: blueeyes_1
+  - first:
+      213: 5893384441318810296
+    second: blueeyes_2
+  - first:
+      213: 3686515487418801451
+    second: blueeyes_3
+  - first:
+      213: 4712602253688968182
+    second: blueeyes_4
+  - first:
+      213: -6737408311236436907
+    second: blueeyes_5
+  - first:
+      213: -6051356809881305091
+    second: blueeyes_6
+  - first:
+      213: -1473606605677619472
+    second: blueeyes_7
+  - first:
+      213: -7132649118708660433
+    second: blueeyes_8
+  - first:
+      213: 2977726232044772672
+    second: blueeyes_9
+  - first:
+      213: 1227859742008600030
+    second: blueeyes_10
+  - first:
+      213: 6769218375614811240
+    second: blueeyes_11
+  - first:
+      213: -8986165086385934824
+    second: blueeyes_12
+  - first:
+      213: -2736407425894171606
+    second: blueeyes_13
+  - first:
+      213: 3552489418898250990
+    second: blueeyes_14
+  - first:
+      213: 3216727666411397158
+    second: blueeyes_15
+  - first:
+      213: -2162956293352345034
+    second: blueeyes_16
+  - first:
+      213: 4603538191001722434
+    second: blueeyes_17
+  - first:
+      213: 5107087215881304912
+    second: blueeyes_18
+  - first:
+      213: -7141379393123970614
+    second: blueeyes_19
+  - first:
+      213: 2941227199726154555
+    second: blueeyes_20
+  - first:
+      213: -4634894959159986658
+    second: blueeyes_21
+  - first:
+      213: 6607410723402787707
+    second: blueeyes_22
+  - first:
+      213: 7273810986476743697
+    second: blueeyes_23
+  - first:
+      213: -1080516151923813787
+    second: blueeyes_24
+  - first:
+      213: -3577251113919630333
+    second: blueeyes_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blueeyes_0
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1241
+        width: 59
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f319f7b779ac02b0800000000000000
+      internalID: -5616928303585094665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueeyes_1
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1216
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8004027d7d6753a40800000000000000
+      internalID: 5347310801971593224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueeyes_2
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1242
+        width: 63
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b22f95cce189c150800000000000000
+      internalID: 5893384441318810296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueeyes_3
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1231
+        width: 34
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2dd296cd42292330800000000000000
+      internalID: 3686515487418801451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueeyes_4
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1178
+        width: 51
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f316d208c6866140800000000000000
+      internalID: 4712602253688968182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueeyes_5
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 1169
+        width: 45
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55cdcf556daef72a0800000000000000
+      internalID: -6737408311236436907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueeyes_6
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 861
+        width: 69
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff32e9fa03450ca0800000000000000
+      internalID: -6051356809881305091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueeyes_7
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 862
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f69ae18992bc8be0800000000000000
+      internalID: -1473606605677619472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueeyes_8
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 892
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f270edbba6db30d90800000000000000
+      internalID: -7132649118708660433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueeyes_9
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 851
+        width: 45
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04d146b3b32035920800000000000000
+      internalID: 2977726232044772672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueeyes_10
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 860
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5ec6c0eeb3a0110800000000000000
+      internalID: 1227859742008600030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueeyes_11
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 836
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c419d6f3811fd50800000000000000
+      internalID: 6769218375614811240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueeyes_12
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 803
+        width: 52
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ee2f4f67aba4380800000000000000
+      internalID: -8986165086385934824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueeyes_13
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 790
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c36dab1f3560ad0800000000000000
+      internalID: -2736407425894171606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueeyes_14
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 472
+        width: 56
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eec93c9fd4afc4130800000000000000
+      internalID: 3552489418898250990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueeyes_15
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 444
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6206f9705cc14ac20800000000000000
+      internalID: 3216727666411397158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueeyes_16
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 474
+        width: 63
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 632b90606b2abf1e0800000000000000
+      internalID: -2162956293352345034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueeyes_17
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 473
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e1a98189d03ef30800000000000000
+      internalID: 4603538191001722434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueeyes_18
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 409
+        width: 66
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b3b8ba3c400e640800000000000000
+      internalID: 5107087215881304912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueeyes_19
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 420
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac11d825749b4ec90800000000000000
+      internalID: -7141379393123970614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueeyes_20
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 101
+        width: 66
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b33f46b0e8651d820800000000000000
+      internalID: 2941227199726154555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueeyes_21
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 77
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e163504679b8dafb0800000000000000
+      internalID: -4634894959159986658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueeyes_22
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 105
+        width: 74
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ba78d9b0d32bb50800000000000000
+      internalID: 6607410723402787707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueeyes_23
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 100
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11ca74ccd84c1f460800000000000000
+      internalID: 7273810986476743697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueeyes_24
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 39
+        width: 66
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 562528ed84c3101f0800000000000000
+      internalID: -1080516151923813787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueeyes_25
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 42
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3043372a01d0b5ec0800000000000000
+      internalID: -3577251113919630333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      blueeyes_0: -5616928303585094665
+      blueeyes_1: 5347310801971593224
+      blueeyes_10: 1227859742008600030
+      blueeyes_11: 6769218375614811240
+      blueeyes_12: -8986165086385934824
+      blueeyes_13: -2736407425894171606
+      blueeyes_14: 3552489418898250990
+      blueeyes_15: 3216727666411397158
+      blueeyes_16: -2162956293352345034
+      blueeyes_17: 4603538191001722434
+      blueeyes_18: 5107087215881304912
+      blueeyes_19: -7141379393123970614
+      blueeyes_2: 5893384441318810296
+      blueeyes_20: 2941227199726154555
+      blueeyes_21: -4634894959159986658
+      blueeyes_22: 6607410723402787707
+      blueeyes_23: 7273810986476743697
+      blueeyes_24: -1080516151923813787
+      blueeyes_25: -3577251113919630333
+      blueeyes_3: 3686515487418801451
+      blueeyes_4: 4712602253688968182
+      blueeyes_5: -6737408311236436907
+      blueeyes_6: -6051356809881305091
+      blueeyes_7: -1473606605677619472
+      blueeyes_8: -7132649118708660433
+      blueeyes_9: 2977726232044772672
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
