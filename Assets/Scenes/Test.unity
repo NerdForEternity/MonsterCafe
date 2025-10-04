@@ -687,6 +687,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5198555515317498984, guid: a2efadd5487c09846b271636450da4a9, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6081473184653194611, guid: a2efadd5487c09846b271636450da4a9, type: 3}
       propertyPath: m_Name
       value: MainMenu
@@ -5418,7 +5422,7 @@ MonoBehaviour:
   m_PanelSettings: {fileID: 11400000, guid: f0572693f76fb7247aa4cb13900ddcf6, type: 2}
   m_ParentUI: {fileID: 0}
   sourceAsset: {fileID: 9197481963319205126, guid: 986db44185081ec4a97190cc909378ea, type: 3}
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Position: 0
   m_WorldSpaceSizeMode: 1
   m_WorldSpaceWidth: 1920
