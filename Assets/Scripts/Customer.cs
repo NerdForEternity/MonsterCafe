@@ -11,6 +11,7 @@ public class Customer : MonoBehaviour
     private Chair myChair;
     private List<PathNode> path = new List<PathNode>();
     public Machine machine;
+    public CustomerManager manager;
 
     public List<Chair> chairs;
 
@@ -25,25 +26,38 @@ public class Customer : MonoBehaviour
 
     void Update()
     {
-        if (!isServed)
-        {
-            CreatePath(currentNode, myChair.chairNode);
+        if (manager.idle)
+            machine.idle = true;
 
-            if (path.Count == 0 && !hasOrdered)
+        if (!isServed)
             {
-                //customer has reached chair, they will now order
-                //note: in later versions customer will randomly choose from unlocked foods but for now will only order coffee
-                machine.serveList.Add(this);
-                //this prevents the if statement from running again
-                hasOrdered = true;
+                CreatePath(currentNode, myChair.chairNode);
+
+                if (path.Count == 0 && !hasOrdered)
+                {
+                    //customer has reached chair, they will now order
+                    //note: in later versions customer will randomly choose from unlocked foods but for now will only order coffee
+                    machine.serveList.Add(this);
+                    //this prevents the if statement from running again
+                    hasOrdered = true;
+                }
             }
-        }
-        else
-        {
-            CreatePath(myChair.chairNode, startNode);
-            if (isServed && path.Count == 0)
-                Destroy(this.gameObject);
-        }
+            else
+            {
+                CreatePath(myChair.chairNode, startNode);
+                if (isServed && path.Count == 0)
+                {
+                    //makes their chair available
+                    myChair.isOccupied = false;
+                    //subtracts number of customers in scene to spawn more
+                    manager.numCustomers--;
+                    //increases number served for spawn timer
+                    manager.numServed++;
+                    //and removes them from machine queue
+                    //machine.serveList.Remove(this);
+                    Destroy(this.gameObject);
+                }
+            }
     }
 
     public void CreatePath(PathNode startNode, PathNode endNode)
