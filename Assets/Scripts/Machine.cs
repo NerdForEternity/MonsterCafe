@@ -68,7 +68,7 @@ Debug.Log("Invoked idle, waiting...");
             {
 Debug.Log("Served customer (active)");
                 serveList[0].isServed = true;
-                serveList.RemoveAt(0);
+                //serveList.RemoveAt(0);
                 isClicked = false;
             }
         }
