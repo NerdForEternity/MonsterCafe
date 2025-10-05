@@ -6689,6 +6689,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::UIManager
   mainMenuDocument: {fileID: 90524654}
   screenDocument: {fileID: 1643207829}
+  idle: {fileID: 6920673473376054886, guid: 448afa51fe8018e4982b3ed918304d88, type: 3}
+  active: {fileID: 1867378711060932093, guid: 52ce416fc53b2304ab2f7cf39606f3d7, type: 3}
 --- !u!1 &1973796889
 GameObject:
   m_ObjectHideFlags: 0

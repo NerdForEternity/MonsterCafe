@@ -54,20 +54,24 @@ Debug.Log("Patience for customer is " + patience.value);
         else
         {
             canvas.SetActive(false);
+            //increases number served
+            if (isServed && myChair.isOccupied)
+            {
+                manager.numServed++;
+                //makes their chair available
+                myChair.isOccupied = false;
+                //and removes them from machine queue
+                machine.serveList.Remove(this);
+            }
+
             CreatePath(myChair.chairNode, startNode);
 
             //the customer has reached the exit
             if (path.Count == 0)
             {
-                //makes their chair available
-                myChair.isOccupied = false;
                 //subtracts number of customers in scene to spawn more
                 manager.numCustomers--;
-                //increases number served for spawn timer
-                if(isServed)
-                    manager.numServed++;
-                //and removes them from machine queue
-                machine.serveList.Remove(this);
+
                 Destroy(this.gameObject);
             }
         }

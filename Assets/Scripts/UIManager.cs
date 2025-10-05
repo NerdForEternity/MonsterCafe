@@ -7,6 +7,8 @@ public class UIManager : MonoBehaviour
     // Assign these in the Inspector
     [SerializeField] private UIDocument mainMenuDocument;
     [SerializeField] private UIDocument screenDocument;
+    public Sprite idle;
+    public Sprite active;
 
     // The visual elements that represent the root of each screen
     private VisualElement mainMenuRoot;
@@ -14,11 +16,12 @@ public class UIManager : MonoBehaviour
 
     //Utility variables
     int IdleToggle = 0;
-
-
+    Label moneyCount;
+    private CustomerManager customerManager;
 
     private void Start()
     {
+        customerManager = this.GetComponent<CustomerManager>();
 
         mainMenuRoot = mainMenuDocument.rootVisualElement;
         screenRoot = screenDocument.rootVisualElement;
@@ -35,10 +38,12 @@ public class UIManager : MonoBehaviour
         Button playButton = screenRoot.Q<Button>("Play");
         playButton?.RegisterCallback<ClickEvent>(evt => ActiveIdleSwap());
 
-        Label moneyCount = screenRoot.Q<Label>("MoneyCount");
+        moneyCount = screenRoot.Q<Label>("MoneyCount");
+    }
 
-
-
+    private void Update()
+    {
+        moneyCount.text = customerManager.numServed.ToString();
     }
 
     public void ShowMainMenu()
@@ -69,13 +74,13 @@ public class UIManager : MonoBehaviour
         if (IdleToggle == 0)
         {
             Debug.Log("Switch to Idle Play");
-            playButton.style.backgroundImage = new StyleBackground(AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Sprites/UI/Idle_Play.png"));
+            playButton.style.backgroundImage = new StyleBackground(idle);
             IdleToggle = 1;
         }
         else if (IdleToggle == 1)
         {
             Debug.Log("Switch to Active Play");
-            playButton.style.backgroundImage = new StyleBackground(AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Sprites/UI/Active_Play.png"));
+            playButton.style.backgroundImage = new StyleBackground(active);
             IdleToggle = 0;
         }
     }
