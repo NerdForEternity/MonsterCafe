@@ -31,38 +31,31 @@ public class Customer : MonoBehaviour
 
     void Update()
     {
-        if (manager.idle)
-            machine.idle = true;
+        machine.idle = manager.idle;
 
         if (canvas.activeSelf)
-        {
-Debug.Log("Patience for customer is " + patience.value);
             patience.value -= Time.deltaTime;
-        }
 
         if (!isServed && patience.value > 0f)
             {
                 CreatePath(currentNode, myChair.chairNode);
 
                 if (path.Count == 0 && !hasOrdered)
-                {
-                    //customer has reached chair, they will now order
                     Order();
-                }
             }
 
+        //runs when the customer leaves
         else
         {
             canvas.SetActive(false);
             //increases number served
             if (isServed && myChair.isOccupied)
-            {
                 manager.numServed++;
-                //makes their chair available
-                myChair.isOccupied = false;
-                //and removes them from machine queue
-                machine.serveList.Remove(this);
-            }
+
+            //makes their chair available
+            myChair.isOccupied = false;
+            //and removes them from machine queue
+            machine.serveList.Remove(this);
 
             CreatePath(myChair.chairNode, startNode);
 
