@@ -6,7 +6,6 @@ using UnityEngine.InputSystem;
 public class Machine : MonoBehaviour
 {
     public InputActionAsset InputActions;
-    public GameObject serveIndicator;
     public List<Customer> serveList;
     private InputAction m_hitScreen;
     private bool isClicked;
@@ -31,11 +30,9 @@ public class Machine : MonoBehaviour
         {
             Vector3 clickPos = m_hitScreen.ReadValue<Vector2>();
             clickPos = Camera.main.ScreenToWorldPoint(clickPos);
-//Debug.Log("Click position: " + clickPos.x + ", " + clickPos.y);
 
             if (Vector3.Distance(clickPos, this.transform.position) <= 3)
             {
-                //Debug.Log("Hit machine!");
                 if (serveList[0] != null)
                 {
                     if (serveList[0].hasOrdered)
@@ -46,17 +43,10 @@ public class Machine : MonoBehaviour
         };
     }
 
-    void Start()
-    {
-        serveIndicator.SetActive(false);
-    }
-
     void Update()
     {
         if (serveList.Count > 0)
         {
-            serveIndicator.SetActive(true);
-
             if (idle && !idleInProgress)
             {
 Debug.Log("Invoked idle, waiting...");
@@ -68,12 +58,9 @@ Debug.Log("Invoked idle, waiting...");
             {
 Debug.Log("Served customer (active)");
                 serveList[0].isServed = true;
-                serveList.RemoveAt(0);
                 isClicked = false;
             }
         }
-        else
-            serveIndicator.SetActive(false);
     }
 
     public void Serve()
@@ -83,7 +70,6 @@ Debug.Log("Served customer (active)");
 
 Debug.Log("Served customer (idle)");
         serveList[0].isServed = true;
-        serveList.RemoveAt(0);
         idleInProgress = false;
     }
 }
