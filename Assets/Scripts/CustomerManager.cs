@@ -28,22 +28,19 @@ public class CustomerManager : MonoBehaviour
 
     IEnumerator CreateCustomer()
     {
-//Debug.Log("Coroutine started, customers = " + numCustomers);
         //total customers cannot exceed seating
         yield return new WaitUntil(() => numCustomers < chairs.Count);
 
-//Debug.Log("Customers can spawn");
-            //as more customers are served, they spawn more frequently
+        //as more customers are served, they spawn more frequently
         spawnTime = Random.Range(1f, 3f) - numServed;
         //time between spawns is 5 seconds at minimum
         if (spawnTime < 5)
             spawnTime = Random.Range(5f, 7f);
-//Debug.Log("Waiting...");
         yield return new WaitForSeconds(spawnTime);
         //create customer
         PathNode doorNode = GetClosestNode();
         GameObject newCustomer = Instantiate(customer, doorNode.transform);
-//Debug.Log("Customer created!");
+
         //pass references to new customer
         Customer scriptRef = newCustomer.GetComponent<Customer>();
         scriptRef.chairs = chairs;
