@@ -13,14 +13,16 @@ public class Customer : MonoBehaviour
     private List<PathNode> path = new List<PathNode>();
     public Machine machine;
     public CustomerManager manager;
+    private Animator animator;
     private GameObject canvas;
     private Slider patience;
     public List<Chair> chairs;
 
     void Start()
     {
-        canvas = this.transform.GetChild(0).gameObject;
-        patience = canvas.transform.GetChild(0).gameObject.GetComponent<Slider>();
+        animator = this.transform.GetChild(0).GetChild(1).GetComponent<Animator>();
+        canvas = this.transform.GetChild(0).GetChild(0).gameObject;
+        patience = canvas.GetComponentInChildren<Slider>(true);
         patience.maxValue = 10f;
         machine = GameObject.Find("machine").GetComponent<Machine>();
         currentNode = startNode;
@@ -31,22 +33,37 @@ public class Customer : MonoBehaviour
 
     void Update()
     {
+Debug.Log("walking = " + animator.GetBool("Walking"));
+Debug.Log("sitting = " + animator.GetBool("Sitting"));
         machine.idle = manager.idle;
 
         if (canvas.activeSelf)
             patience.value -= Time.deltaTime;
 
+        //runs when customer arrives/waits for order
         if (!isServed && patience.value > 0f)
-            {
-                CreatePath(currentNode, myChair.chairNode);
+        {
+            CreatePath(currentNode, myChair.chairNode);
 
-                if (path.Count == 0 && !hasOrdered)
-                    Order();
+            if (!hasOrdered)
+            {
+                animator.SetBool("Walking", true);
             }
+
+            if (path.Count == 0 && !hasOrdered)
+            {
+                animator.SetBool("Walking", false);
+                animator.SetBool("Sitting", true);
+                Order();
+            }
+        }
 
         //runs when the customer leaves
         else
         {
+Debug.Log("Leaving");
+            animator.SetBool("Sitting", false);
+            animator.SetBool("Walking", true);
             canvas.SetActive(false);
             //increases number served
             if (isServed && myChair.isOccupied)
