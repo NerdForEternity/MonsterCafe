@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 
 public class Customer : MonoBehaviour
 {
@@ -11,11 +12,16 @@ public class Customer : MonoBehaviour
     private Chair myChair;
     private List<PathNode> path = new List<PathNode>();
     public Machine machine;
-
+    public CustomerManager manager;
+    private GameObject canvas;
+    private Slider patience;
     public List<Chair> chairs;
 
     void Start()
     {
+        canvas = this.transform.GetChild(0).gameObject;
+        patience = canvas.transform.GetChild(0).gameObject.GetComponent<Slider>();
+        patience.maxValue = 10f;
         machine = GameObject.Find("machine").GetComponent<Machine>();
         currentNode = startNode;
         myChair = chairs.Find(p => p.isOccupied == false);
@@ -25,27 +31,52 @@ public class Customer : MonoBehaviour
 
     void Update()
     {
-        if (!isServed)
-        {
-            CreatePath(currentNode, myChair.chairNode);
+        machine.idle = manager.idle;
 
-            if (path.Count == 0 && !hasOrdered)
+        if (canvas.activeSelf)
+            patience.value -= Time.deltaTime;
+
+        if (!isServed && patience.value > 0f)
             {
-                //customer has reached chair, they will now order
-                //note: in later versions customer will randomly choose from unlocked foods but for now will only order coffee
-                machine.serveList.Add(this);
-                //this prevents the if statement from running again
-                hasOrdered = true;
+                CreatePath(currentNode, myChair.chairNode);
+
+                if (path.Count == 0 && !hasOrdered)
+                    Order();
             }
-        }
+
+        //runs when the customer leaves
         else
         {
+            canvas.SetActive(false);
+            //increases number served
+            if (isServed && myChair.isOccupied)
+                manager.numServed++;
+
+            //makes their chair available
+            myChair.isOccupied = false;
+            //and removes them from machine queue
+            machine.serveList.Remove(this);
+
             CreatePath(myChair.chairNode, startNode);
-            if (isServed && path.Count == 0)
+
+            //the customer has reached the exit
+            if (path.Count == 0)
+            {
+                //subtracts number of customers in scene to spawn more
+                manager.numCustomers--;
+
                 Destroy(this.gameObject);
+            }
         }
     }
 
+    public void Order()
+    {
+        //note: in later versions customer will randomly choose from unlocked foods but for now will only order coffee
+        machine.serveList.Add(this);
+        hasOrdered = true;
+        canvas.SetActive(true);
+    }
     public void CreatePath(PathNode startNode, PathNode endNode)
     {
         if (path.Count > 0)

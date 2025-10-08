@@ -174,7 +174,7 @@
                     "name": "",
                     "id": "2f24b4cc-4e8a-44be-8a21-8a2ec3f2400b",
                     "path": "<Touchscreen>/primaryTouch/position",
-                    "interactions": "Tap",
+                    "interactions": "",
                     "processors": "",
                     "groups": ";Touch",
                     "action": "Click",
