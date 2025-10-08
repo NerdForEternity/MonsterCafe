@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 42130bbc2b08441419f04e9be22bf062
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8630482830259383442
+    second: vampire 345 (1)_0
+  - first:
+      213: -104514594279015951
+    second: vampire 345 (1)_1
+  - first:
+      213: 6479656228349468243
+    second: vampire 345 (1)_2
+  - first:
+      213: -8226363912595770471
+    second: vampire 345 (1)_3
+  - first:
+      213: 6921338929062378173
+    second: vampire 345 (1)_4
+  - first:
+      213: 2565479247028010863
+    second: vampire 345 (1)_5
+  - first:
+      213: 2352510079163660266
+    second: vampire 345 (1)_6
+  - first:
+      213: 999841601882162118
+    second: vampire 345 (1)_7
+  - first:
+      213: -1840458515338837204
+    second: vampire 345 (1)_8
+  - first:
+      213: 3576789252892327903
+    second: vampire 345 (1)_9
+  - first:
+      213: 3325247755673758609
+    second: vampire 345 (1)_10
+  - first:
+      213: -9090143497699737643
+    second: vampire 345 (1)_11
+  - first:
+      213: -8618968207307030168
+    second: vampire 345 (1)_12
+  - first:
+      213: -1898625088301275835
+    second: vampire 345 (1)_13
+  - first:
+      213: -3339923372227597901
+    second: vampire 345 (1)_14
+  - first:
+      213: -466641352450956602
+    second: vampire 345 (1)_15
+  - first:
+      213: -7462284015619171051
+    second: vampire 345 (1)_16
+  - first:
+      213: -7694952437332625618
+    second: vampire 345 (1)_17
+  - first:
+      213: -3727227328748581880
+    second: vampire 345 (1)_18
+  - first:
+      213: 3153510390113348854
+    second: vampire 345 (1)_19
+  - first:
+      213: 2670854497259939502
+    second: vampire 345 (1)_20
+  - first:
+      213: -7783490801460462073
+    second: vampire 345 (1)_21
+  - first:
+      213: 7779046527115221330
+    second: vampire 345 (1)_22
+  - first:
+      213: 6411774209215124653
+    second: vampire 345 (1)_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vampire 345 (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 625
+        width: 267
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e631846979d5a3880800000000000000
+      internalID: -8630482830259383442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampire 345 (1)_1
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 538
+        width: 197
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f9b72eb780bc8ef0800000000000000
+      internalID: -104514594279015951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampire 345 (1)_2
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 433
+        width: 362
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35eda6d420d5ce950800000000000000
+      internalID: 6479656228349468243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampire 345 (1)_3
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 433
+        width: 423
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 993f2ac4b9516dd80800000000000000
+      internalID: -8226363912595770471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampire 345 (1)_4
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 632
+        width: 118
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba78dcc5198d0060800000000000000
+      internalID: 6921338929062378173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampire 345 (1)_5
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 633
+        width: 83
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6fbdbd58c96a9320800000000000000
+      internalID: 2565479247028010863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampire 345 (1)_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 464
+        width: 80
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae7731fe37bc5a020800000000000000
+      internalID: 2352510079163660266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampire 345 (1)_7
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 470
+        width: 80
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c308d7b3a620ed00800000000000000
+      internalID: 999841601882162118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampire 345 (1)_8
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 291
+        width: 115
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c23c2614bb06576e0800000000000000
+      internalID: -1840458515338837204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampire 345 (1)_9
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 290
+        width: 114
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdff417ffde43a130800000000000000
+      internalID: 3576789252892327903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampire 345 (1)_10
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 314
+        width: 371
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19b69134737a52e20800000000000000
+      internalID: 3325247755673758609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampire 345 (1)_11
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 404
+        width: 111
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dfb74686a259d180800000000000000
+      internalID: -9090143497699737643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampire 345 (1)_12
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 417
+        width: 82
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8614419a416436880800000000000000
+      internalID: -8618968207307030168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampire 345 (1)_13
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 318
+        width: 74
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5456822aa8ab6a5e0800000000000000
+      internalID: -1898625088301275835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampire 345 (1)_14
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 322
+        width: 74
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9695d736536a1d0800000000000000
+      internalID: -3339923372227597901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampire 345 (1)_15
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 82
+        width: 100
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c227ad89282689f0800000000000000
+      internalID: -466641352450956602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampire 345 (1)_16
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 87
+        width: 103
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51d91f38934a07890800000000000000
+      internalID: -7462284015619171051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampire 345 (1)_17
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 163
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2733412789063590800000000000000
+      internalID: -7694952437332625618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampire 345 (1)_18
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 172
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c00d00e7a364cc0800000000000000
+      internalID: -3727227328748581880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampire 345 (1)_19
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 141
+        width: 175
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fca536edf483cb20800000000000000
+      internalID: 3153510390113348854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampire 345 (1)_20
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 190
+        width: 100
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea6eee3b308c01520800000000000000
+      internalID: 2670854497259939502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampire 345 (1)_21
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 203
+        width: 99
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ebd62da5c7bf390800000000000000
+      internalID: -7783490801460462073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampire 345 (1)_22
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 0
+        width: 89
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25950fbe999b4fb60800000000000000
+      internalID: 7779046527115221330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampire 345 (1)_23
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 0
+        width: 89
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da457481ca23bf850800000000000000
+      internalID: 6411774209215124653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      vampire 345 (1)_0: -8630482830259383442
+      vampire 345 (1)_1: -104514594279015951
+      vampire 345 (1)_10: 3325247755673758609
+      vampire 345 (1)_11: -9090143497699737643
+      vampire 345 (1)_12: -8618968207307030168
+      vampire 345 (1)_13: -1898625088301275835
+      vampire 345 (1)_14: -3339923372227597901
+      vampire 345 (1)_15: -466641352450956602
+      vampire 345 (1)_16: -7462284015619171051
+      vampire 345 (1)_17: -7694952437332625618
+      vampire 345 (1)_18: -3727227328748581880
+      vampire 345 (1)_19: 3153510390113348854
+      vampire 345 (1)_2: 6479656228349468243
+      vampire 345 (1)_20: 2670854497259939502
+      vampire 345 (1)_21: -7783490801460462073
+      vampire 345 (1)_22: 7779046527115221330
+      vampire 345 (1)_23: 6411774209215124653
+      vampire 345 (1)_3: -8226363912595770471
+      vampire 345 (1)_4: 6921338929062378173
+      vampire 345 (1)_5: 2565479247028010863
+      vampire 345 (1)_6: 2352510079163660266
+      vampire 345 (1)_7: 999841601882162118
+      vampire 345 (1)_8: -1840458515338837204
+      vampire 345 (1)_9: 3576789252892327903
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

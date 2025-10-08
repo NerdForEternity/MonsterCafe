@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 35c69f5c2ab3a814ebe6aef71d1685dd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4956702724495602193
+    second: BS - Tan_0
+  - first:
+      213: 1325983648122147142
+    second: BS - Tan_1
+  - first:
+      213: -753470117612012967
+    second: BS - Tan_2
+  - first:
+      213: 6095351160230933951
+    second: BS - Tan_3
+  - first:
+      213: 7210041670397115654
+    second: BS - Tan_4
+  - first:
+      213: -5556979773994087821
+    second: BS - Tan_5
+  - first:
+      213: 1876375396257004945
+    second: BS - Tan_6
+  - first:
+      213: 7048441923765426606
+    second: BS - Tan_7
+  - first:
+      213: -7009881765250058046
+    second: BS - Tan_8
+  - first:
+      213: 6553095849188518857
+    second: BS - Tan_9
+  - first:
+      213: 192812426270096874
+    second: BS - Tan_10
+  - first:
+      213: 955311517333997139
+    second: BS - Tan_11
+  - first:
+      213: 7957202945785152747
+    second: BS - Tan_12
+  - first:
+      213: 7370229159925461854
+    second: BS - Tan_13
+  - first:
+      213: -7581292773544426270
+    second: BS - Tan_14
+  - first:
+      213: 1606879040541290959
+    second: BS - Tan_15
+  - first:
+      213: 1096231858307388064
+    second: BS - Tan_16
+  - first:
+      213: -4269618718323230110
+    second: BS - Tan_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BS - Tan_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1058
+        width: 85
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed8a314221463bb0800000000000000
+      internalID: -4956702724495602193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Tan_1
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1206
+        width: 276
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6411c444a17d66210800000000000000
+      internalID: 1325983648122147142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Tan_2
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1200
+        width: 258
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95a3dda8be22b85f0800000000000000
+      internalID: -753470117612012967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Tan_3
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1185
+        width: 235
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb574dee599079450800000000000000
+      internalID: 6095351160230933951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Tan_4
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 900
+        width: 79
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60db8c3e2b63f0460800000000000000
+      internalID: 7210041670397115654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Tan_5
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 982
+        width: 84
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a4d037654a1e2b0800000000000000
+      internalID: -5556979773994087821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Tan_6
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 975
+        width: 93
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19d7e2f3b793a0a10800000000000000
+      internalID: 1876375396257004945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Tan_7
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 1013
+        width: 75
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea9520ed59811d160800000000000000
+      internalID: 7048441923765426606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Tan_8
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 674
+        width: 124
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c838c8aca5e7be90800000000000000
+      internalID: -7009881765250058046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Tan_9
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 712
+        width: 114
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cbe7fd74f541fa50800000000000000
+      internalID: 6553095849188518857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Tan_10
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 734
+        width: 119
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed3c1051e10da200800000000000000
+      internalID: 192812426270096874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Tan_11
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 863
+        width: 72
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 356488873c2f14d00800000000000000
+      internalID: 955311517333997139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Tan_12
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 451
+        width: 101
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be4473d8be9ad6e60800000000000000
+      internalID: 7957202945785152747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Tan_13
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 520
+        width: 114
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e53359e2f50584660800000000000000
+      internalID: 7370229159925461854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Tan_14
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 528
+        width: 108
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e406aec366d9c690800000000000000
+      internalID: -7581292773544426270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Tan_15
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 63
+        width: 196
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc1fb7849f7cc4610800000000000000
+      internalID: 1606879040541290959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Tan_16
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 62
+        width: 172
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a2d0e92119963f00800000000000000
+      internalID: 1096231858307388064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS - Tan_17
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 60
+        width: 167
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26a3cf7a5644fb4c0800000000000000
+      internalID: -4269618718323230110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BS - Tan_0: -4956702724495602193
+      BS - Tan_1: 1325983648122147142
+      BS - Tan_10: 192812426270096874
+      BS - Tan_11: 955311517333997139
+      BS - Tan_12: 7957202945785152747
+      BS - Tan_13: 7370229159925461854
+      BS - Tan_14: -7581292773544426270
+      BS - Tan_15: 1606879040541290959
+      BS - Tan_16: 1096231858307388064
+      BS - Tan_17: -4269618718323230110
+      BS - Tan_2: -753470117612012967
+      BS - Tan_3: 6095351160230933951
+      BS - Tan_4: 7210041670397115654
+      BS - Tan_5: -5556979773994087821
+      BS - Tan_6: 1876375396257004945
+      BS - Tan_7: 7048441923765426606
+      BS - Tan_8: -7009881765250058046
+      BS - Tan_9: 6553095849188518857
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

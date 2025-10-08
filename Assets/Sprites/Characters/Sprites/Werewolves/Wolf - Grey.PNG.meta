@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: c2e2b97cbfe403d4c9172977f6d93b1c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5706927591860743316
+    second: Wolf - Grey_0
+  - first:
+      213: 4738853243474570652
+    second: Wolf - Grey_1
+  - first:
+      213: -4339812783403714323
+    second: Wolf - Grey_2
+  - first:
+      213: -5846064653580290950
+    second: Wolf - Grey_3
+  - first:
+      213: 111174627116553709
+    second: Wolf - Grey_4
+  - first:
+      213: 5453526106259298301
+    second: Wolf - Grey_5
+  - first:
+      213: -3631567151438887835
+    second: Wolf - Grey_6
+  - first:
+      213: 3676970480929396293
+    second: Wolf - Grey_7
+  - first:
+      213: -7784556283622729253
+    second: Wolf - Grey_8
+  - first:
+      213: -5898530370092497204
+    second: Wolf - Grey_9
+  - first:
+      213: -5446292674263378733
+    second: Wolf - Grey_10
+  - first:
+      213: -3195576070218177551
+    second: Wolf - Grey_11
+  - first:
+      213: -6124028721557287627
+    second: Wolf - Grey_12
+  - first:
+      213: 2360161710856449451
+    second: Wolf - Grey_13
+  - first:
+      213: 4966096643975903240
+    second: Wolf - Grey_14
+  - first:
+      213: 4744894075697450016
+    second: Wolf - Grey_15
+  - first:
+      213: 7431210905312244931
+    second: Wolf - Grey_16
+  - first:
+      213: -695342851480946316
+    second: Wolf - Grey_17
+  - first:
+      213: -7825792940011476461
+    second: Wolf - Grey_18
+  - first:
+      213: 6945204393668001525
+    second: Wolf - Grey_19
+  - first:
+      213: 5278453763890009491
+    second: Wolf - Grey_20
+  - first:
+      213: -839079029245130386
+    second: Wolf - Grey_21
+  - first:
+      213: -56897942279595891
+    second: Wolf - Grey_22
+  - first:
+      213: 11910102168907015
+    second: Wolf - Grey_23
+  - first:
+      213: -5905573260746409236
+    second: Wolf - Grey_24
+  - first:
+      213: -8764060022589243878
+    second: Wolf - Grey_25
+  - first:
+      213: 5313274310547295597
+    second: Wolf - Grey_26
+  - first:
+      213: -7920607717544167761
+    second: Wolf - Grey_27
+  - first:
+      213: 5406156145042159813
+    second: Wolf - Grey_28
+  - first:
+      213: 787316373270064125
+    second: Wolf - Grey_29
+  - first:
+      213: -1160976758916507690
+    second: Wolf - Grey_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wolf - Grey_0
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1208
+        width: 265
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c63d340879becc0b0800000000000000
+      internalID: -5706927591860743316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Grey_1
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 1203
+        width: 253
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d620cdae9c3c140800000000000000
+      internalID: 4738853243474570652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Grey_2
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 1363
+        width: 116
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de8b58d4443e5c3c0800000000000000
+      internalID: -4339812783403714323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Grey_3
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1169
+        width: 237
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a74316ddb2b9edea0800000000000000
+      internalID: -5846064653580290950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Grey_4
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1216
+        width: 123
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de5915dfbb8fa8100800000000000000
+      internalID: 111174627116553709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Grey_5
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1051
+        width: 104
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df797e08911deab40800000000000000
+      internalID: 5453526106259298301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Grey_6
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1034
+        width: 104
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5640288aae41a9dc0800000000000000
+      internalID: -3631567151438887835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Grey_7
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 907
+        width: 103
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 546d465cb29370330800000000000000
+      internalID: 3676970480929396293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Grey_8
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 982
+        width: 107
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd9d1aced43b7f390800000000000000
+      internalID: -7784556283622729253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Grey_9
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1062
+        width: 96
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc688c151e5342ea0800000000000000
+      internalID: -5898530370092497204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Grey_10
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 900
+        width: 83
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d418bf1ba1ea64b0800000000000000
+      internalID: -5446292674263378733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Grey_11
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 883
+        width: 83
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f328e9be7807a3d0800000000000000
+      internalID: -3195576070218177551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Grey_12
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 920
+        width: 82
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53dc9410354130ba0800000000000000
+      internalID: -6124028721557287627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Grey_13
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 730
+        width: 134
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bada314429af0c020800000000000000
+      internalID: 2360161710856449451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Grey_14
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 881
+        width: 72
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8087170169e1be440800000000000000
+      internalID: 4966096643975903240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Grey_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 662
+        width: 127
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c4dc6b50049d140800000000000000
+      internalID: 4744894075697450016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Grey_16
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 655
+        width: 127
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c4352632f6f02760800000000000000
+      internalID: 7431210905312244931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Grey_17
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 680
+        width: 131
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 479fe545c55a956f0800000000000000
+      internalID: -695342851480946316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Grey_18
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 643
+        width: 136
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a2bdca8c2356390800000000000000
+      internalID: -7825792940011476461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Grey_19
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 667
+        width: 134
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe30194992526060800000000000000
+      internalID: 6945204393668001525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Grey_20
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 527
+        width: 121
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 395dcf75bb5d04940800000000000000
+      internalID: 5278453763890009491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Grey_21
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 444
+        width: 131
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e694d5b811efa54f0800000000000000
+      internalID: -839079029245130386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Grey_22
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 426
+        width: 131
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8859f97f9bd53ff0800000000000000
+      internalID: -56897942279595891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Grey_23
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 464
+        width: 139
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d2401cc205a2000800000000000000
+      internalID: 11910102168907015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Grey_24
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 425
+        width: 134
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea3a2e88603b0ea0800000000000000
+      internalID: -5905573260746409236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Grey_25
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 464
+        width: 121
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ebd5be7ddcf5680800000000000000
+      internalID: -8764060022589243878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Grey_26
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 55
+        width: 196
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d4162a5da8cb940800000000000000
+      internalID: 5313274310547295597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Grey_27
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 279
+        width: 126
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa6ff8efe39541290800000000000000
+      internalID: -7920607717544167761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Grey_28
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 41
+        width: 174
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c87881fe56860b40800000000000000
+      internalID: 5406156145042159813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Grey_29
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 42
+        width: 168
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfb6c92f11c1dea00800000000000000
+      internalID: 787316373270064125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf - Grey_30
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 88
+        width: 120
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d71c44f9c163efe0800000000000000
+      internalID: -1160976758916507690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Wolf - Grey_0: -5706927591860743316
+      Wolf - Grey_1: 4738853243474570652
+      Wolf - Grey_10: -5446292674263378733
+      Wolf - Grey_11: -3195576070218177551
+      Wolf - Grey_12: -6124028721557287627
+      Wolf - Grey_13: 2360161710856449451
+      Wolf - Grey_14: 4966096643975903240
+      Wolf - Grey_15: 4744894075697450016
+      Wolf - Grey_16: 7431210905312244931
+      Wolf - Grey_17: -695342851480946316
+      Wolf - Grey_18: -7825792940011476461
+      Wolf - Grey_19: 6945204393668001525
+      Wolf - Grey_2: -4339812783403714323
+      Wolf - Grey_20: 5278453763890009491
+      Wolf - Grey_21: -839079029245130386
+      Wolf - Grey_22: -56897942279595891
+      Wolf - Grey_23: 11910102168907015
+      Wolf - Grey_24: -5905573260746409236
+      Wolf - Grey_25: -8764060022589243878
+      Wolf - Grey_26: 5313274310547295597
+      Wolf - Grey_27: -7920607717544167761
+      Wolf - Grey_28: 5406156145042159813
+      Wolf - Grey_29: 787316373270064125
+      Wolf - Grey_3: -5846064653580290950
+      Wolf - Grey_30: -1160976758916507690
+      Wolf - Grey_4: 111174627116553709
+      Wolf - Grey_5: 5453526106259298301
+      Wolf - Grey_6: -3631567151438887835
+      Wolf - Grey_7: 3676970480929396293
+      Wolf - Grey_8: -7784556283622729253
+      Wolf - Grey_9: -5898530370092497204
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
