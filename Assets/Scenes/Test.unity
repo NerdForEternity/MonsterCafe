@@ -335,7 +335,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0
+  near clip plane: -27.34
   far clip plane: 1000
   field of view: 60
   orthographic: 1
@@ -978,6 +978,7 @@ PrefabInstance:
       objectReference: {fileID: -6405896087511119621, guid: 1ada1beb93dbaf14f9b83f8a3faa7e59, type: 3}
     - target: {fileID: 5275113232443265296, guid: 1c67f94a6caed3f42aea30e5b8d533e8, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5275113232443265296, guid: 1c67f94a6caed3f42aea30e5b8d533e8, type: 3}
@@ -5392,9 +5393,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a302f6b22dc8e447adeb44445644c8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScreenMenuEvents1
-  idle: {fileID: 6920673473376054886, guid: 448afa51fe8018e4982b3ed918304d88, type: 3}
-  active: {fileID: 1867378711060932093, guid: 52ce416fc53b2304ab2f7cf39606f3d7, type: 3}
-  customerManager: {fileID: 0}
+  idleSprite: {fileID: 6920673473376054886, guid: 448afa51fe8018e4982b3ed918304d88, type: 3}
+  activeSprite: {fileID: 1867378711060932093, guid: 52ce416fc53b2304ab2f7cf39606f3d7, type: 3}
+  customerManager: {fileID: 1967210229}
 --- !u!1 &1673696973
 GameObject:
   m_ObjectHideFlags: 0
@@ -5425,7 +5426,7 @@ PrefabInstance:
       objectReference: {fileID: -5724707233376495064, guid: cc57d65b1db0e27408e52d568d0d5151, type: 3}
     - target: {fileID: 5275113232443265296, guid: 27401718f0e6910448dfd216b431c00e, type: 3}
       propertyPath: m_SortingOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5275113232443265296, guid: 27401718f0e6910448dfd216b431c00e, type: 3}
       propertyPath: m_WasSpriteAssigned
