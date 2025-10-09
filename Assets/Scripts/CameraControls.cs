@@ -1,10 +1,13 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using Unity.Cinemachine;
 
 public class CameraControls : MonoBehaviour
 {
+    public Camera mainCam;
     public InputActionAsset InputActions;
-    private Camera cam;
+    //private Camera cam;
+    private CinemachineCamera cam;
     public float sensitivity;
     private InputAction m_zoom;
     private InputAction m_move;
@@ -19,7 +22,8 @@ public class CameraControls : MonoBehaviour
     private float distance;
     void Start()
     {
-        cam = GetComponent<Camera>();
+        //cam = GetComponent<Camera>();
+        cam = GetComponent<CinemachineCamera>();
     }
     private void OnEnable()
     {
@@ -58,16 +62,24 @@ public class CameraControls : MonoBehaviour
                 float difference = distance - prevDistance;
                 prevDistance = distance;
 
-                if (difference > 0f && cam.orthographicSize >= 6)
-                    cam.orthographicSize--;
-                else if (difference < 0f && cam.orthographicSize <= 20)
-                    cam.orthographicSize++;
+                if (difference > 0f && cam.Lens.OrthographicSize >= 6)
+                {
+                    cam.Lens.OrthographicSize--;
+                    cam.GetComponent<CinemachineConfiner2D>().InvalidateLensCache();
+                }
+                else if (difference < 0f && cam.Lens.OrthographicSize <= 20)
+                {
+                    cam.Lens.OrthographicSize++;
+                    cam.GetComponent<CinemachineConfiner2D>().InvalidateLensCache();
+                }
             }
         };
     }
 
     private void Update()
     {
+        this.transform.position = mainCam.transform.position;
+
         //read inputs
         m_moveAmt = m_move.ReadValue<Vector2>() / sensitivity;
         m_zoomAmt = m_zoom.ReadValue<Vector2>();
@@ -77,10 +89,16 @@ public class CameraControls : MonoBehaviour
             cam.transform.Translate(m_moveAmt * -1);
 
         //zoom in (mouse)
-        if (m_zoomAmt.y > 0f && cam.orthographicSize >= 6)
-            cam.orthographicSize--;
+        if (m_zoomAmt.y > 0f && cam.Lens.OrthographicSize >= 6)
+        {
+            cam.Lens.OrthographicSize--;
+            cam.GetComponent<CinemachineConfiner2D>().InvalidateLensCache();
+        }
         //zoom out (mouse)
-        if (m_zoomAmt.y < 0f && cam.orthographicSize <= 20)
-            cam.orthographicSize++;
+        else if (m_zoomAmt.y < 0f && cam.Lens.OrthographicSize <= 16)
+        {
+            cam.Lens.OrthographicSize++;
+            cam.GetComponent<CinemachineConfiner2D>().InvalidateLensCache();
+        }
     }
 }
