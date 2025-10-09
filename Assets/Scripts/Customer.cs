@@ -17,13 +17,11 @@ public class Customer : MonoBehaviour
     private GameObject canvas;
     private Slider patience;
     public List<Chair> chairs;
-    private ParticleSystem particles;
 
     void Start()
     {
-        particles = this.transform.GetChild(0).GetComponent<ParticleSystem>();
-        animator = this.transform.GetChild(1).GetChild(1).GetComponent<Animator>();
-        canvas = this.transform.GetChild(1).GetChild(0).gameObject;
+        animator = this.transform.GetChild(0).GetChild(1).GetComponent<Animator>();
+        canvas = this.transform.GetChild(0).GetChild(0).gameObject;
         patience = canvas.GetComponentInChildren<Slider>(true);
         patience.maxValue = 10f;
         machine = GameObject.Find("machine").GetComponent<Machine>();
@@ -69,11 +67,7 @@ Debug.Log("Leaving");
             canvas.SetActive(false);
             //increases number served
             if (isServed && myChair.isOccupied)
-            {
-Debug.Log("I was served! :)");
-                particles.Play();
                 manager.numServed++;
-            }
 
             //makes their chair available
             myChair.isOccupied = false;
@@ -83,7 +77,7 @@ Debug.Log("I was served! :)");
             CreatePath(myChair.chairNode, startNode);
 
             //the customer has reached the exit
-            if (currentNode == startNode && path.Count == 0)
+            if (path.Count == 0)
             {
                 //subtracts number of customers in scene to spawn more
                 manager.numCustomers--;
