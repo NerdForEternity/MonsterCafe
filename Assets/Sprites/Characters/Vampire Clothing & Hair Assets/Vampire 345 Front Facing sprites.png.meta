@@ -1,0 +1,1075 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+guid: 9c5c9f606fd043748b8b57d71be703f7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3118588476100919754
+    second: Vampire 3&4 Front Facing sprites_0
+  - first:
+      213: 8686989984459453149
+    second: Vampire 3&4 Front Facing sprites_1
+  - first:
+      213: 7607919015032080212
+    second: Vampire 3&4 Front Facing sprites_2
+  - first:
+      213: -6144792945632938974
+    second: Vampire 3&4 Front Facing sprites_3
+  - first:
+      213: 1037112133912921645
+    second: Vampire 3&4 Front Facing sprites_4
+  - first:
+      213: -2266869569944694710
+    second: Vampire 3&4 Front Facing sprites_5
+  - first:
+      213: -9122978933914943183
+    second: Vampire 3&4 Front Facing sprites_6
+  - first:
+      213: -4553720329033008849
+    second: Vampire 3&4 Front Facing sprites_7
+  - first:
+      213: -1039361688905470694
+    second: Vampire 3&4 Front Facing sprites_8
+  - first:
+      213: 6526394094290505929
+    second: Vampire 3&4 Front Facing sprites_9
+  - first:
+      213: 7341877966246357669
+    second: Vampire 3&4 Front Facing sprites_10
+  - first:
+      213: -1939597685160583809
+    second: Vampire 3&4 Front Facing sprites_11
+  - first:
+      213: 8245358965671103992
+    second: Vampire 3&4 Front Facing sprites_12
+  - first:
+      213: 8663910728516669423
+    second: Vampire 3&4 Front Facing sprites_13
+  - first:
+      213: -5968245989489291914
+    second: Vampire 3&4 Front Facing sprites_14
+  - first:
+      213: -6260684080484085850
+    second: Vampire 3&4 Front Facing sprites_15
+  - first:
+      213: -2687464350367792430
+    second: Vampire 3&4 Front Facing sprites_16
+  - first:
+      213: -8673698770183938439
+    second: Vampire 3&4 Front Facing sprites_17
+  - first:
+      213: 1651382053428766091
+    second: Vampire 3&4 Front Facing sprites_18
+  - first:
+      213: 799904724017621204
+    second: Vampire 3&4 Front Facing sprites_19
+  - first:
+      213: 5018449894983120383
+    second: Vampire 3&4 Front Facing sprites_20
+  - first:
+      213: -2853187687780657228
+    second: Vampire 3&4 Front Facing sprites_21
+  - first:
+      213: 3121627990849481686
+    second: Vampire 3&4 Front Facing sprites_22
+  - first:
+      213: 3328412593654649303
+    second: Vampire 3&4 Front Facing sprites_23
+========
+guid: b749b5d7df2667741aeaa61909ae487a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3873804522961914470
+    second: Vampire 345 Front Facing sprites_0
+  - first:
+      213: -8693013553265166340
+    second: Vampire 345 Front Facing sprites_1
+  - first:
+      213: -5592087335744871299
+    second: Vampire 345 Front Facing sprites_2
+  - first:
+      213: -1235112127483311430
+    second: Vampire 345 Front Facing sprites_3
+  - first:
+      213: 3363484395689401108
+    second: Vampire 345 Front Facing sprites_4
+  - first:
+      213: 920998093405838648
+    second: Vampire 345 Front Facing sprites_5
+  - first:
+      213: 3375223023598484785
+    second: Vampire 345 Front Facing sprites_6
+  - first:
+      213: -6789056902073842590
+    second: Vampire 345 Front Facing sprites_7
+  - first:
+      213: 2505831014349166739
+    second: Vampire 345 Front Facing sprites_8
+  - first:
+      213: 7755389039643417219
+    second: Vampire 345 Front Facing sprites_9
+  - first:
+      213: -5317687751001801440
+    second: Vampire 345 Front Facing sprites_10
+  - first:
+      213: -3374151557451999022
+    second: Vampire 345 Front Facing sprites_11
+  - first:
+      213: -1786513777890992372
+    second: Vampire 345 Front Facing sprites_12
+  - first:
+      213: 3763230803005790719
+    second: Vampire 345 Front Facing sprites_13
+  - first:
+      213: 5859388775871398761
+    second: Vampire 345 Front Facing sprites_14
+  - first:
+      213: 9144363572068640374
+    second: Vampire 345 Front Facing sprites_15
+  - first:
+      213: -9073285939466517972
+    second: Vampire 345 Front Facing sprites_16
+  - first:
+      213: -4676732475013519225
+    second: Vampire 345 Front Facing sprites_17
+  - first:
+      213: -5870040976825953862
+    second: Vampire 345 Front Facing sprites_18
+  - first:
+      213: -1351099051706831715
+    second: Vampire 345 Front Facing sprites_19
+  - first:
+      213: -6805330738657282563
+    second: Vampire 345 Front Facing sprites_20
+  - first:
+      213: 4574019318896281973
+    second: Vampire 345 Front Facing sprites_21
+  - first:
+      213: -4996658247161124784
+    second: Vampire 345 Front Facing sprites_22
+  - first:
+      213: -8714276058312211449
+    second: Vampire 345 Front Facing sprites_23
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      name: Vampire 3&4 Front Facing sprites_0
+========
+      name: Vampire 345 Front Facing sprites_0
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 625
+        width: 267
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      spriteID: 63eb061dd4c88b4d0800000000000000
+      internalID: -3118588476100919754
+========
+      spriteID: a95bd878f4b7d3ac0800000000000000
+      internalID: -3873804522961914470
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      name: Vampire 3&4 Front Facing sprites_1
+========
+      name: Vampire 345 Front Facing sprites_1
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 538
+        width: 197
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      spriteID: dd2f41f7d536e8870800000000000000
+      internalID: 8686989984459453149
+========
+      spriteID: cf739f91b363c5780800000000000000
+      internalID: -8693013553265166340
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      name: Vampire 3&4 Front Facing sprites_2
+========
+      name: Vampire 345 Front Facing sprites_2
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 433
+        width: 362
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      spriteID: 4574de22902c49960800000000000000
+      internalID: 7607919015032080212
+========
+      spriteID: d7467ff323ae462b0800000000000000
+      internalID: -5592087335744871299
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      name: Vampire 3&4 Front Facing sprites_3
+========
+      name: Vampire 345 Front Facing sprites_3
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 433
+        width: 423
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      spriteID: 224f8395f5f49baa0800000000000000
+      internalID: -6144792945632938974
+========
+      spriteID: aba849f50100cdee0800000000000000
+      internalID: -1235112127483311430
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      name: Vampire 3&4 Front Facing sprites_4
+========
+      name: Vampire 345 Front Facing sprites_4
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 632
+        width: 118
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      spriteID: d26802eadff846e00800000000000000
+      internalID: 1037112133912921645
+========
+      spriteID: 41bd2a4cc3f7dae20800000000000000
+      internalID: 3363484395689401108
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      name: Vampire 3&4 Front Facing sprites_5
+========
+      name: Vampire 345 Front Facing sprites_5
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 633
+        width: 83
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      spriteID: a40dd43f2267a80e0800000000000000
+      internalID: -2266869569944694710
+========
+      spriteID: 83d5444e2ea08cc00800000000000000
+      internalID: 920998093405838648
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      name: Vampire 3&4 Front Facing sprites_6
+========
+      name: Vampire 345 Front Facing sprites_6
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 464
+        width: 80
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      spriteID: 131c0a6cefaa46180800000000000000
+      internalID: -9122978933914943183
+========
+      spriteID: 13dbe4f057337de20800000000000000
+      internalID: 3375223023598484785
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      name: Vampire 3&4 Front Facing sprites_7
+========
+      name: Vampire 345 Front Facing sprites_7
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 470
+        width: 80
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      spriteID: f293385cc7fedc0c0800000000000000
+      internalID: -4553720329033008849
+========
+      spriteID: 26489ffa7bc68c1a0800000000000000
+      internalID: -6789056902073842590
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      name: Vampire 3&4 Front Facing sprites_8
+========
+      name: Vampire 345 Front Facing sprites_8
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 291
+        width: 115
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      spriteID: a1da3abfc027391f0800000000000000
+      internalID: -1039361688905470694
+========
+      spriteID: 3985075f70086c220800000000000000
+      internalID: 2505831014349166739
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      name: Vampire 3&4 Front Facing sprites_9
+========
+      name: Vampire 345 Front Facing sprites_9
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 290
+        width: 114
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      spriteID: 9c09466b9d8629a50800000000000000
+      internalID: 6526394094290505929
+========
+      spriteID: 38a57e2ed3da0ab60800000000000000
+      internalID: 7755389039643417219
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      name: Vampire 3&4 Front Facing sprites_10
+========
+      name: Vampire 345 Front Facing sprites_10
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 404
+        width: 111
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      spriteID: 5aaa1628c1793e560800000000000000
+      internalID: 7341877966246357669
+========
+      spriteID: 02d771f2a27c336b0800000000000000
+      internalID: -5317687751001801440
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      name: Vampire 3&4 Front Facing sprites_11
+========
+      name: Vampire 345 Front Facing sprites_11
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 417
+        width: 82
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      spriteID: f7d55d88e2a2515e0800000000000000
+      internalID: -1939597685160583809
+========
+      spriteID: 2d81eb7190b9c21d0800000000000000
+      internalID: -3374151557451999022
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      name: Vampire 3&4 Front Facing sprites_12
+========
+      name: Vampire 345 Front Facing sprites_12
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 318
+        width: 74
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      spriteID: 8fd88622b466d6270800000000000000
+      internalID: 8245358965671103992
+========
+      spriteID: c0f57723f270537e0800000000000000
+      internalID: -1786513777890992372
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      name: Vampire 3&4 Front Facing sprites_13
+========
+      name: Vampire 345 Front Facing sprites_13
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 322
+        width: 74
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      spriteID: fef8eea77e46c3870800000000000000
+      internalID: 8663910728516669423
+========
+      spriteID: ff9d7f41a7ea93430800000000000000
+      internalID: 3763230803005790719
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      name: Vampire 3&4 Front Facing sprites_14
+========
+      name: Vampire 345 Front Facing sprites_14
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 82
+        width: 100
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      spriteID: 67d4758c4e78c2da0800000000000000
+      internalID: -5968245989489291914
+========
+      spriteID: 963c9ba1c0bb05150800000000000000
+      internalID: 5859388775871398761
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      name: Vampire 3&4 Front Facing sprites_15
+========
+      name: Vampire 345 Front Facing sprites_15
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 87
+        width: 103
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      spriteID: 6af8dc3dff49d19a0800000000000000
+      internalID: -6260684080484085850
+========
+      spriteID: 6766c2a483e47ee70800000000000000
+      internalID: 9144363572068640374
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      name: Vampire 3&4 Front Facing sprites_16
+========
+      name: Vampire 345 Front Facing sprites_16
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 163
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      spriteID: 2d24dc1896534bad0800000000000000
+      internalID: -2687464350367792430
+========
+      spriteID: c224d88a286351280800000000000000
+      internalID: -9073285939466517972
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      name: Vampire 3&4 Front Facing sprites_17
+========
+      name: Vampire 345 Front Facing sprites_17
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 172
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      spriteID: 97e917a7ce4d0a780800000000000000
+      internalID: -8673698770183938439
+========
+      spriteID: 7882945a798e81fb0800000000000000
+      internalID: -4676732475013519225
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      name: Vampire 3&4 Front Facing sprites_18
+========
+      name: Vampire 345 Front Facing sprites_18
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 57
+        width: 371
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      spriteID: b85a31b6a33eae610800000000000000
+      internalID: 1651382053428766091
+========
+      spriteID: ab15d4715dc698ea0800000000000000
+      internalID: -5870040976825953862
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      name: Vampire 3&4 Front Facing sprites_19
+========
+      name: Vampire 345 Front Facing sprites_19
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 141
+        width: 175
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      spriteID: 4d82a31cb15d91b00800000000000000
+      internalID: 799904724017621204
+========
+      spriteID: d9ca5a6229eef3de0800000000000000
+      internalID: -1351099051706831715
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      name: Vampire 3&4 Front Facing sprites_20
+========
+      name: Vampire 345 Front Facing sprites_20
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 190
+        width: 100
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      spriteID: ff5b091379d15a540800000000000000
+      internalID: 5018449894983120383
+========
+      spriteID: df53947dfbb9e81a0800000000000000
+      internalID: -6805330738657282563
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      name: Vampire 3&4 Front Facing sprites_21
+========
+      name: Vampire 345 Front Facing sprites_21
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 203
+        width: 99
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      spriteID: 4b7d0503ae07768d0800000000000000
+      internalID: -2853187687780657228
+========
+      spriteID: 579469a165e2a7f30800000000000000
+      internalID: 4574019318896281973
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      name: Vampire 3&4 Front Facing sprites_22
+========
+      name: Vampire 345 Front Facing sprites_22
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 0
+        width: 89
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      spriteID: 6dbef7b5e10425b20800000000000000
+      internalID: 3121627990849481686
+========
+      spriteID: 0586fe13ccd48aab0800000000000000
+      internalID: -4996658247161124784
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      name: Vampire 3&4 Front Facing sprites_23
+========
+      name: Vampire 345 Front Facing sprites_23
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 0
+        width: 89
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      spriteID: 7d1d8b68e95e03e20800000000000000
+      internalID: 3328412593654649303
+========
+      spriteID: 7040c9d581ca01780800000000000000
+      internalID: -8714276058312211449
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+<<<<<<<< HEAD:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 3&4 Front Facing sprites.png.meta
+      Vampire 3&4 Front Facing sprites_0: -3118588476100919754
+      Vampire 3&4 Front Facing sprites_1: 8686989984459453149
+      Vampire 3&4 Front Facing sprites_10: 7341877966246357669
+      Vampire 3&4 Front Facing sprites_11: -1939597685160583809
+      Vampire 3&4 Front Facing sprites_12: 8245358965671103992
+      Vampire 3&4 Front Facing sprites_13: 8663910728516669423
+      Vampire 3&4 Front Facing sprites_14: -5968245989489291914
+      Vampire 3&4 Front Facing sprites_15: -6260684080484085850
+      Vampire 3&4 Front Facing sprites_16: -2687464350367792430
+      Vampire 3&4 Front Facing sprites_17: -8673698770183938439
+      Vampire 3&4 Front Facing sprites_18: 1651382053428766091
+      Vampire 3&4 Front Facing sprites_19: 799904724017621204
+      Vampire 3&4 Front Facing sprites_2: 7607919015032080212
+      Vampire 3&4 Front Facing sprites_20: 5018449894983120383
+      Vampire 3&4 Front Facing sprites_21: -2853187687780657228
+      Vampire 3&4 Front Facing sprites_22: 3121627990849481686
+      Vampire 3&4 Front Facing sprites_23: 3328412593654649303
+      Vampire 3&4 Front Facing sprites_3: -6144792945632938974
+      Vampire 3&4 Front Facing sprites_4: 1037112133912921645
+      Vampire 3&4 Front Facing sprites_5: -2266869569944694710
+      Vampire 3&4 Front Facing sprites_6: -9122978933914943183
+      Vampire 3&4 Front Facing sprites_7: -4553720329033008849
+      Vampire 3&4 Front Facing sprites_8: -1039361688905470694
+      Vampire 3&4 Front Facing sprites_9: 6526394094290505929
+========
+      Vampire 345 Front Facing sprites_0: -3873804522961914470
+      Vampire 345 Front Facing sprites_1: -8693013553265166340
+      Vampire 345 Front Facing sprites_10: -5317687751001801440
+      Vampire 345 Front Facing sprites_11: -3374151557451999022
+      Vampire 345 Front Facing sprites_12: -1786513777890992372
+      Vampire 345 Front Facing sprites_13: 3763230803005790719
+      Vampire 345 Front Facing sprites_14: 5859388775871398761
+      Vampire 345 Front Facing sprites_15: 9144363572068640374
+      Vampire 345 Front Facing sprites_16: -9073285939466517972
+      Vampire 345 Front Facing sprites_17: -4676732475013519225
+      Vampire 345 Front Facing sprites_18: -5870040976825953862
+      Vampire 345 Front Facing sprites_19: -1351099051706831715
+      Vampire 345 Front Facing sprites_2: -5592087335744871299
+      Vampire 345 Front Facing sprites_20: -6805330738657282563
+      Vampire 345 Front Facing sprites_21: 4574019318896281973
+      Vampire 345 Front Facing sprites_22: -4996658247161124784
+      Vampire 345 Front Facing sprites_23: -8714276058312211449
+      Vampire 345 Front Facing sprites_3: -1235112127483311430
+      Vampire 345 Front Facing sprites_4: 3363484395689401108
+      Vampire 345 Front Facing sprites_5: 920998093405838648
+      Vampire 345 Front Facing sprites_6: 3375223023598484785
+      Vampire 345 Front Facing sprites_7: -6789056902073842590
+      Vampire 345 Front Facing sprites_8: 2505831014349166739
+      Vampire 345 Front Facing sprites_9: 7755389039643417219
+>>>>>>>> origin/ArtNew:Assets/Sprites/Characters/Vampire Clothing & Hair Assets/Vampire 345 Front Facing sprites.png.meta
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
