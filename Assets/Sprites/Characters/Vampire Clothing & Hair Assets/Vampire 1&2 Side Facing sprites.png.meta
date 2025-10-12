@@ -1,0 +1,1170 @@
+fileFormatVersion: 2
+guid: 45c74aa6aaec5ac46b0f2b9751143f1a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9197985221031519381
+    second: Vampire 1&2 Side Facing sprites_0
+  - first:
+      213: -6296377450021546887
+    second: Vampire 1&2 Side Facing sprites_1
+  - first:
+      213: 3356623351000494307
+    second: Vampire 1&2 Side Facing sprites_2
+  - first:
+      213: -9134763831041858106
+    second: Vampire 1&2 Side Facing sprites_3
+  - first:
+      213: -5950581496592881827
+    second: Vampire 1&2 Side Facing sprites_4
+  - first:
+      213: 2204428654375022946
+    second: Vampire 1&2 Side Facing sprites_5
+  - first:
+      213: 4365109553198428290
+    second: Vampire 1&2 Side Facing sprites_6
+  - first:
+      213: 5867073131670679772
+    second: Vampire 1&2 Side Facing sprites_7
+  - first:
+      213: 7786372365974146007
+    second: Vampire 1&2 Side Facing sprites_8
+  - first:
+      213: 4945617951097979421
+    second: Vampire 1&2 Side Facing sprites_9
+  - first:
+      213: 2877780515645712686
+    second: Vampire 1&2 Side Facing sprites_10
+  - first:
+      213: 6463198732759352048
+    second: Vampire 1&2 Side Facing sprites_11
+  - first:
+      213: 8731784210735970134
+    second: Vampire 1&2 Side Facing sprites_12
+  - first:
+      213: -6595269190898197482
+    second: Vampire 1&2 Side Facing sprites_13
+  - first:
+      213: 5068597721156429167
+    second: Vampire 1&2 Side Facing sprites_14
+  - first:
+      213: 762711881070279604
+    second: Vampire 1&2 Side Facing sprites_15
+  - first:
+      213: -3396928267596812428
+    second: Vampire 1&2 Side Facing sprites_16
+  - first:
+      213: 1120179520329170260
+    second: Vampire 1&2 Side Facing sprites_17
+  - first:
+      213: -5472819531976725613
+    second: Vampire 1&2 Side Facing sprites_18
+  - first:
+      213: 1822242688169614636
+    second: Vampire 1&2 Side Facing sprites_19
+  - first:
+      213: -5757893451095043778
+    second: Vampire 1&2 Side Facing sprites_20
+  - first:
+      213: 6852336264473270358
+    second: Vampire 1&2 Side Facing sprites_21
+  - first:
+      213: 4306289029482638879
+    second: Vampire 1&2 Side Facing sprites_22
+  - first:
+      213: 5543946258751892278
+    second: Vampire 1&2 Side Facing sprites_23
+  - first:
+      213: 7226159852857237423
+    second: Vampire 1&2 Side Facing sprites_24
+  - first:
+      213: 430527261196342841
+    second: Vampire 1&2 Side Facing sprites_25
+  - first:
+      213: 7520249843493570191
+    second: Vampire 1&2 Side Facing sprites_26
+  - first:
+      213: -3217560915689702353
+    second: Vampire 1&2 Side Facing sprites_27
+  - first:
+      213: -3013521545158258557
+    second: Vampire 1&2 Side Facing sprites_28
+  - first:
+      213: 2972236491287869794
+    second: Vampire 1&2 Side Facing sprites_29
+  - first:
+      213: 5592772141324208473
+    second: Vampire 1&2 Side Facing sprites_30
+  - first:
+      213: -3630508674851068994
+    second: Vampire 1&2 Side Facing sprites_31
+  - first:
+      213: 7121400236618398924
+    second: Vampire 1&2 Side Facing sprites_32
+  - first:
+      213: 4363064675544497837
+    second: Vampire 1&2 Side Facing sprites_33
+  - first:
+      213: -5904947547385850820
+    second: Vampire 1&2 Side Facing sprites_34
+  - first:
+      213: 1416832738208926237
+    second: Vampire 1&2 Side Facing sprites_35
+  - first:
+      213: -7356578232119803362
+    second: Vampire 1&2 Side Facing sprites_36
+  - first:
+      213: -6627025810285056608
+    second: Vampire 1&2 Side Facing sprites_37
+  - first:
+      213: 2095894480006421718
+    second: Vampire 1&2 Side Facing sprites_38
+  - first:
+      213: 6374982743050121786
+    second: Vampire 1&2 Side Facing sprites_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 733
+        width: 284
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6b9f1bac213a5080800000000000000
+      internalID: -9197985221031519381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_1
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 949
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9749faf9116ce98a0800000000000000
+      internalID: -6296377450021546887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_2
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 949
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e07a21572f159e20800000000000000
+      internalID: 3356623351000494307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_3
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 970
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c5e9a791bcca3180800000000000000
+      internalID: -9134763831041858106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_4
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 949
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d57a19808a94b6da0800000000000000
+      internalID: -5950581496592881827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_5
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 949
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26137bc7e24b79e10800000000000000
+      internalID: 2204428654375022946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_6
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 949
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2807e04e20cf39c30800000000000000
+      internalID: 4365109553198428290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_7
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 913
+        width: 76
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd0387c9de70c6150800000000000000
+      internalID: 5867073131670679772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_8
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 726
+        width: 310
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db8ec2b960ce0c60800000000000000
+      internalID: 7786372365974146007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_9
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 949
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d128df1d25d52a440800000000000000
+      internalID: 4945617951097979421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_10
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 949
+        width: 6
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e296a90c12eefe720800000000000000
+      internalID: 2877780515645712686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_11
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 949
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f240e20105e1b950800000000000000
+      internalID: 6463198732759352048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_12
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 949
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65738480a778d2970800000000000000
+      internalID: 8731784210735970134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_13
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 949
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c5f663d95e874a0800000000000000
+      internalID: -6595269190898197482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_14
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 831
+        width: 77
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6522e6d5c6475640800000000000000
+      internalID: 5068597721156429167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_15
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 840
+        width: 100
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bbf9213a62b59a00800000000000000
+      internalID: 762711881070279604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_16
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 630
+        width: 113
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47fa8620dbfabd0d0800000000000000
+      internalID: -3396928267596812428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_17
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 630
+        width: 112
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d33e9b65dab8f00800000000000000
+      internalID: 1120179520329170260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_18
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 491
+        width: 89
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39b25b4c1a3ac04b0800000000000000
+      internalID: -5472819531976725613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_19
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 497
+        width: 83
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2d17eaf118e94910800000000000000
+      internalID: 1822242688169614636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_20
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 374
+        width: 176
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e319ee0b96ad710b0800000000000000
+      internalID: -5757893451095043778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_21
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 364
+        width: 115
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 658d47df683681f50800000000000000
+      internalID: 6852336264473270358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_22
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 364
+        width: 115
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e697e7e0303cb30800000000000000
+      internalID: 4306289029482638879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_23
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 319
+        width: 437
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63b23cecfbd00fc40800000000000000
+      internalID: 5543946258751892278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 222
+        width: 111
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf9ebfa91a784460800000000000000
+      internalID: 7226159852857237423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_25
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 222
+        width: 113
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 936dab5534a89f500800000000000000
+      internalID: 430527261196342841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 117
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f860f9f736b4d5860800000000000000
+      internalID: 7520249843493570191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_27
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 14
+        width: 117
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c7221056de853d0800000000000000
+      internalID: -3217560915689702353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_28
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 122
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3801bd9fe12dd26d0800000000000000
+      internalID: -3013521545158258557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_29
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 122
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 269baab57518f3920800000000000000
+      internalID: 2972236491287869794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_30
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 122
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 959845971a48d9d40800000000000000
+      internalID: 5592772141324208473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_31
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 122
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb327817897dd9dc0800000000000000
+      internalID: -3630508674851068994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_32
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 115
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cccb50fc8cb44d260800000000000000
+      internalID: 7121400236618398924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_33
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 122
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae72e5b438bc8c30800000000000000
+      internalID: 4363064675544497837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_34
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 122
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3490cccd796d0ea0800000000000000
+      internalID: -5904947547385850820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_35
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 122
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a46136ed999a310800000000000000
+      internalID: 1416832738208926237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_36
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 122
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e12c020231f28e990800000000000000
+      internalID: -7356578232119803362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_37
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 122
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad2d9413231804a0800000000000000
+      internalID: -6627025810285056608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_38
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 0
+        width: 93
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dc1c7fccec161d10800000000000000
+      internalID: 2095894480006421718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire 1&2 Side Facing sprites_39
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 53
+        width: 150
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a327fb8570d787850800000000000000
+      internalID: 6374982743050121786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Vampire 1&2 Side Facing sprites_0: -9197985221031519381
+      Vampire 1&2 Side Facing sprites_1: -6296377450021546887
+      Vampire 1&2 Side Facing sprites_10: 2877780515645712686
+      Vampire 1&2 Side Facing sprites_11: 6463198732759352048
+      Vampire 1&2 Side Facing sprites_12: 8731784210735970134
+      Vampire 1&2 Side Facing sprites_13: -6595269190898197482
+      Vampire 1&2 Side Facing sprites_14: 5068597721156429167
+      Vampire 1&2 Side Facing sprites_15: 762711881070279604
+      Vampire 1&2 Side Facing sprites_16: -3396928267596812428
+      Vampire 1&2 Side Facing sprites_17: 1120179520329170260
+      Vampire 1&2 Side Facing sprites_18: -5472819531976725613
+      Vampire 1&2 Side Facing sprites_19: 1822242688169614636
+      Vampire 1&2 Side Facing sprites_2: 3356623351000494307
+      Vampire 1&2 Side Facing sprites_20: -5757893451095043778
+      Vampire 1&2 Side Facing sprites_21: 6852336264473270358
+      Vampire 1&2 Side Facing sprites_22: 4306289029482638879
+      Vampire 1&2 Side Facing sprites_23: 5543946258751892278
+      Vampire 1&2 Side Facing sprites_24: 7226159852857237423
+      Vampire 1&2 Side Facing sprites_25: 430527261196342841
+      Vampire 1&2 Side Facing sprites_26: 7520249843493570191
+      Vampire 1&2 Side Facing sprites_27: -3217560915689702353
+      Vampire 1&2 Side Facing sprites_28: -3013521545158258557
+      Vampire 1&2 Side Facing sprites_29: 2972236491287869794
+      Vampire 1&2 Side Facing sprites_3: -9134763831041858106
+      Vampire 1&2 Side Facing sprites_30: 5592772141324208473
+      Vampire 1&2 Side Facing sprites_31: -3630508674851068994
+      Vampire 1&2 Side Facing sprites_32: 7121400236618398924
+      Vampire 1&2 Side Facing sprites_33: 4363064675544497837
+      Vampire 1&2 Side Facing sprites_34: -5904947547385850820
+      Vampire 1&2 Side Facing sprites_35: 1416832738208926237
+      Vampire 1&2 Side Facing sprites_36: -7356578232119803362
+      Vampire 1&2 Side Facing sprites_37: -6627025810285056608
+      Vampire 1&2 Side Facing sprites_38: 2095894480006421718
+      Vampire 1&2 Side Facing sprites_39: 6374982743050121786
+      Vampire 1&2 Side Facing sprites_4: -5950581496592881827
+      Vampire 1&2 Side Facing sprites_5: 2204428654375022946
+      Vampire 1&2 Side Facing sprites_6: 4365109553198428290
+      Vampire 1&2 Side Facing sprites_7: 5867073131670679772
+      Vampire 1&2 Side Facing sprites_8: 7786372365974146007
+      Vampire 1&2 Side Facing sprites_9: 4945617951097979421
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
