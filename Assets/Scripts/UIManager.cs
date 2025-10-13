@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEditor;
 using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
@@ -43,6 +44,9 @@ public class UIManager : MonoBehaviour
 
         Button playButton = screenRoot.Q<Button>("Play");
         playButton?.RegisterCallback<ClickEvent>(evt => ActiveIdleSwap());
+
+        Button goButton = screenRoot.Q<Button>("GoButton");
+        grimmButton?.RegisterCallback<ClickEvent>(evt => ShowWorldMap());
 
 
         moneyCount = screenRoot.Q<Label>("MoneyCount");
@@ -94,5 +98,11 @@ public class UIManager : MonoBehaviour
             IdleToggle = 0;
 
         }
+    }
+
+    public void ShowWorldMap()
+    {
+        SceneManager.LoadScene("WorldMapScene");
+        Debug.Log("tried to load map");
     }
 }
