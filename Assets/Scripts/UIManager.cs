@@ -46,7 +46,7 @@ public class UIManager : MonoBehaviour
         playButton?.RegisterCallback<ClickEvent>(evt => ActiveIdleSwap());
 
         Button goButton = screenRoot.Q<Button>("GoButton");
-        grimmButton?.RegisterCallback<ClickEvent>(evt => ShowWorldMap());
+        goButton?.RegisterCallback<ClickEvent>(evt => ShowWorldMap());
 
 
         moneyCount = screenRoot.Q<Label>("MoneyCount");
@@ -102,7 +102,7 @@ public class UIManager : MonoBehaviour
 
     public void ShowWorldMap()
     {
-        SceneManager.LoadScene("WorldMapScene");
+        SceneManager.LoadScene("WorldMapScene", LoadSceneMode.Additive);
         Debug.Log("tried to load map");
     }
 }
