@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 2264333c37c2da54cb9475817c513864
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 111336463832890033
+    second: GC_Furniture_VampTemp_0
+  - first:
+      213: 6030945136680713200
+    second: GC_Furniture_VampTemp_1
+  - first:
+      213: 1358139793925244649
+    second: GC_Furniture_VampTemp_2
+  - first:
+      213: 2365360615834039136
+    second: GC_Furniture_VampTemp_3
+  - first:
+      213: 8528903722921478219
+    second: GC_Furniture_VampTemp_4
+  - first:
+      213: -1916054863071078917
+    second: GC_Furniture_VampTemp_5
+  - first:
+      213: -8303076213617786306
+    second: GC_Furniture_VampTemp_6
+  - first:
+      213: 2751329048580333972
+    second: GC_Furniture_VampTemp_7
+  - first:
+      213: 6916976983176733016
+    second: GC_Furniture_VampTemp_8
+  - first:
+      213: -8180278606081662627
+    second: GC_Furniture_VampTemp_9
+  - first:
+      213: -8162058592191670429
+    second: GC_Furniture_VampTemp_10
+  - first:
+      213: -2615081954183569662
+    second: GC_Furniture_VampTemp_11
+  - first:
+      213: 5679965883939162914
+    second: GC_Furniture_VampTemp_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 600
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GC_Furniture_VampTemp_0
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 3485
+        width: 661
+        height: 713
+      alignment: 9
+      pivot: {x: 0.49445957, y: 0.20722643}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1babe498ceb8b8100800000000000000
+      internalID: 111336463832890033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GC_Furniture_VampTemp_1
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 3483
+        width: 655
+        height: 713
+      alignment: 9
+      pivot: {x: 0.5000002, y: 0.13018072}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb39b306a832b350800000000000000
+      internalID: 6030945136680713200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GC_Furniture_VampTemp_2
+      rect:
+        serializedVersion: 2
+        x: 2218
+        y: 3496
+        width: 413
+        height: 623
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17080988}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e68c3462f419d210800000000000000
+      internalID: 1358139793925244649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GC_Furniture_VampTemp_3
+      rect:
+        serializedVersion: 2
+        x: 3151
+        y: 3495
+        width: 563
+        height: 675
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 063bc78a2f273d020800000000000000
+      internalID: 2365360615834039136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GC_Furniture_VampTemp_4
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 2545
+        width: 677
+        height: 622
+      alignment: 9
+      pivot: {x: 0.49405557, y: 0.2541343}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b48cd387fb0cc5670800000000000000
+      internalID: 8528903722921478219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GC_Furniture_VampTemp_5
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 2513
+        width: 649
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf51d74f04ec865e0800000000000000
+      internalID: -1916054863071078917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GC_Furniture_VampTemp_6
+      rect:
+        serializedVersion: 2
+        x: 2215
+        y: 2571
+        width: 413
+        height: 543
+      alignment: 9
+      pivot: {x: 0.5000006, y: 0.15166034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e320150ec2c85cc80800000000000000
+      internalID: -8303076213617786306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GC_Furniture_VampTemp_7
+      rect:
+        serializedVersion: 2
+        x: 3123
+        y: 2552
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49128d8413fae2620800000000000000
+      internalID: 2751329048580333972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GC_Furniture_VampTemp_8
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 633
+        width: 348
+        height: 1695
+      alignment: 9
+      pivot: {x: 0.8006767, y: 0.039385643}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8516dc12be90eff50800000000000000
+      internalID: 6916976983176733016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GC_Furniture_VampTemp_9
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 642
+        width: 348
+        height: 1694
+      alignment: 9
+      pivot: {x: 0.8006767, y: 0.04386522}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5166c0e2ffc97e80800000000000000
+      internalID: -8180278606081662627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GC_Furniture_VampTemp_10
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 736
+        width: 167
+        height: 1600
+      alignment: 9
+      pivot: {x: 0.5000015, y: -0.07348259}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3679d7074fa8abe80800000000000000
+      internalID: -8162058592191670429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GC_Furniture_VampTemp_11
+      rect:
+        serializedVersion: 2
+        x: 2675
+        y: 1740
+        width: 285
+        height: 688
+      alignment: 9
+      pivot: {x: 0.5141225, y: -1.1261538}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f9a5661dc55bbd0800000000000000
+      internalID: -2615081954183569662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GC_Furniture_VampTemp_12
+      rect:
+        serializedVersion: 2
+        x: 2674
+        y: 1003
+        width: 256
+        height: 670
+      alignment: 9
+      pivot: {x: 0.5314417, y: -1.025683}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b0880b0ea43de40800000000000000
+      internalID: 5679965883939162914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a0855b08da4759f4b8d2e10dfa95d2c9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GC_Furniture_VampTemp_0: 111336463832890033
+      GC_Furniture_VampTemp_1: 6030945136680713200
+      GC_Furniture_VampTemp_10: -8162058592191670429
+      GC_Furniture_VampTemp_11: -2615081954183569662
+      GC_Furniture_VampTemp_12: 5679965883939162914
+      GC_Furniture_VampTemp_2: 1358139793925244649
+      GC_Furniture_VampTemp_3: 2365360615834039136
+      GC_Furniture_VampTemp_4: 8528903722921478219
+      GC_Furniture_VampTemp_5: -1916054863071078917
+      GC_Furniture_VampTemp_6: -8303076213617786306
+      GC_Furniture_VampTemp_7: 2751329048580333972
+      GC_Furniture_VampTemp_8: 6916976983176733016
+      GC_Furniture_VampTemp_9: -8180278606081662627
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
