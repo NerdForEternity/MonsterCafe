@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 650
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -160,7 +160,7 @@ TextureImporter:
         width: 659
         height: 712
       alignment: 9
-      pivot: {x: 0.49999994, y: 0.22936791}
+      pivot: {x: 0.5076275, y: 0.22230795}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

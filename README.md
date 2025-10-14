@@ -9,12 +9,13 @@ Install Instructions: Contains .exe and .apk files
 - Customer Orders: Customers come in, sit down, and then order a Coffee
 - Customer Patience: After ordering, Customers must be served before the timer runs out, or they will stand up and leave without paying. 
 - Order Fulfillment: When customers order, the Coffee Machine is able to be clicked on. Upon clicking it, the Order is fulfilled, and the Customer leaves
-- Currency: Upon successfully completing orders, the Customer pays the Player according to the food they ordered. 
+- Currency: Upon successfully completing orders, the Customer pays the Player according to the food they ordered.
+- World Map: When opening the Campaign Menu of the Book, the World Map is displayed with Rival restaurants and their levels displayed on additional Recipe Cards
 ### Assets
 All assets made by our team: Barista Boos
 - Envionment (walls, floors, tables, chairs, counters, windows)
 - Props (Coffee Cup, Coffee Machine)
-- UI (MoneyTracker, Coin, Play/Idle Button, Book Menus, Decor Shop Button)
+- UI (MoneyTracker, Coin, Play/Idle Button, Book Menus, Decor Shop Button, World Map & Recipe Cards)
 
 ### Credits: Barista Boos
 Lee Eimer - Producer
