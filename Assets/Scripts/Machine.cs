@@ -7,10 +7,12 @@ public class Machine : MonoBehaviour
 {
     public InputActionAsset InputActions;
     public List<Customer> serveList;
+    private Customer currentCustomer;
     private InputAction m_hitScreen;
     private bool isClicked;
     public bool idle;
     private bool idleInProgress;
+    private Collider2D collision;
 
     private void OnEnable()
     {
@@ -22,6 +24,10 @@ public class Machine : MonoBehaviour
         InputActions.FindActionMap("Player").Disable();
     }
 
+    void Start()
+    {
+        collision = this.GetComponent<Collider2D>();
+    }
     private void Awake()
     {
         m_hitScreen = InputSystem.actions.FindAction("Click");
@@ -31,7 +37,7 @@ public class Machine : MonoBehaviour
             Vector3 clickPos = m_hitScreen.ReadValue<Vector2>();
             clickPos = Camera.main.ScreenToWorldPoint(clickPos);
 
-            if (Vector3.Distance(clickPos, this.transform.position) <= 3)
+            if(collision.OverlapPoint(clickPos))
             {
                 if (serveList[0] != null)
                 {
@@ -39,7 +45,6 @@ public class Machine : MonoBehaviour
                         isClicked = true;
                 }
             }
-
         };
     }
 
@@ -47,9 +52,9 @@ public class Machine : MonoBehaviour
     {
         if (serveList.Count > 0)
         {
+            currentCustomer = serveList[0];
             if (idle && !idleInProgress)
             {
-Debug.Log("Invoked idle, waiting...");
                 idleInProgress = true;
                 Invoke("Serve", 2.0f);
             }
@@ -57,7 +62,7 @@ Debug.Log("Invoked idle, waiting...");
             else if (isClicked)
             {
 Debug.Log("Served customer (active)");
-                serveList[0].isServed = true;
+                currentCustomer.isServed = true;
                 isClicked = false;
             }
         }
@@ -65,11 +70,11 @@ Debug.Log("Served customer (active)");
 
     public void Serve()
     {
-        if (!idle)
+        if (!idle || currentCustomer == null)
             return;
 
 Debug.Log("Served customer (idle)");
-        serveList[0].isServed = true;
+        currentCustomer.isServed = true;
         idleInProgress = false;
     }
 }

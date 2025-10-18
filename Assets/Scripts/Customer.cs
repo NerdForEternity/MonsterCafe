@@ -9,6 +9,7 @@ public class Customer : MonoBehaviour
     public PathNode startNode;
     public bool isServed;
     public bool hasOrdered;
+    public bool gotMoney;
     private Chair myChair;
     private List<PathNode> path = new List<PathNode>();
     public Machine machine;
@@ -35,8 +36,6 @@ public class Customer : MonoBehaviour
 
     void Update()
     {
-Debug.Log("walking = " + animator.GetBool("Walking"));
-Debug.Log("sitting = " + animator.GetBool("Sitting"));
         machine.idle = manager.idle;
 
         if (canvas.activeSelf)
@@ -63,16 +62,16 @@ Debug.Log("sitting = " + animator.GetBool("Sitting"));
         //runs when the customer leaves
         else
         {
-Debug.Log("Leaving");
             animator.SetBool("Sitting", false);
             animator.SetBool("Walking", true);
             canvas.SetActive(false);
             //increases number served
-            if (isServed && myChair.isOccupied)
+            if (isServed && !gotMoney)
             {
-Debug.Log("I was served! :)");
+Debug.Log("was served, particle effect played");
                 particles.Play();
                 manager.numServed++;
+                gotMoney = true;
             }
 
             //makes their chair available
