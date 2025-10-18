@@ -1,18 +1,24 @@
 using UnityEngine;
 using UnityEditor;
 using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
     // Assign these in the Inspector
     [SerializeField] private UIDocument mainMenuDocument;
     [SerializeField] private UIDocument screenDocument;
+    [SerializeField] private UIDocument bannerDocument;
     public Sprite idle;
     public Sprite active;
+    public Sprite activeBanner;
+    public Sprite idleBanner;
 
     // The visual elements that represent the root of each screen
     private VisualElement mainMenuRoot;
     private VisualElement screenRoot;
+
+    private VisualElement bannerRoot;
 
     //Utility variables
     int IdleToggle = 0;
@@ -25,6 +31,7 @@ public class UIManager : MonoBehaviour
 
         mainMenuRoot = mainMenuDocument.rootVisualElement;
         screenRoot = screenDocument.rootVisualElement;
+        bannerRoot = bannerDocument.rootVisualElement;
 
         ShowScreenMenu();
 
@@ -37,6 +44,10 @@ public class UIManager : MonoBehaviour
 
         Button playButton = screenRoot.Q<Button>("Play");
         playButton?.RegisterCallback<ClickEvent>(evt => ActiveIdleSwap());
+
+        Button goButton = screenRoot.Q<Button>("GoButton");
+        goButton?.RegisterCallback<ClickEvent>(evt => ShowWorldMap());
+
 
         moneyCount = screenRoot.Q<Label>("MoneyCount");
     }
@@ -69,19 +80,29 @@ public class UIManager : MonoBehaviour
     public void ActiveIdleSwap()
     {
         Button playButton = screenRoot.Q<Button>("Play");
+        VisualElement Banner = bannerRoot.Q<VisualElement>("ActiveIdleBanner");
 
-        
+
         if (IdleToggle == 0)
         {
             Debug.Log("Switch to Idle Play");
             playButton.style.backgroundImage = new StyleBackground(idle);
+            Banner.style.backgroundImage = new StyleBackground(idleBanner);
             IdleToggle = 1;
         }
         else if (IdleToggle == 1)
         {
             Debug.Log("Switch to Active Play");
             playButton.style.backgroundImage = new StyleBackground(active);
+            Banner.style.backgroundImage = new StyleBackground(activeBanner);
             IdleToggle = 0;
+
         }
+    }
+
+    public void ShowWorldMap()
+    {
+        SceneManager.LoadScene("WorldMapScene", LoadSceneMode.Additive);
+        Debug.Log("tried to load map");
     }
 }
