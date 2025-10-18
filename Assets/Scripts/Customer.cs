@@ -9,8 +9,8 @@ public class Customer : MonoBehaviour
     public PathNode startNode;
     public bool isServed;
     public bool hasOrdered;
-    public bool gotMoney;
-    private Chair myChair;
+    public bool leaving;
+    public Chair myChair;
     private List<PathNode> path = new List<PathNode>();
     public Machine machine;
     public CustomerManager manager;
@@ -27,10 +27,13 @@ public class Customer : MonoBehaviour
         canvas = this.transform.GetChild(1).GetChild(0).gameObject;
         patience = canvas.GetComponentInChildren<Slider>(true);
         patience.maxValue = 10f;
+        //note: fix when there are multiple machines
         machine = GameObject.Find("machine").GetComponent<Machine>();
+        machine.manager = manager;
         currentNode = startNode;
         myChair = chairs.Find(p => p.isOccupied == false);
         myChair.isOccupied = true;
+Debug.Log("Claimed a chair at " + myChair.GetClosestNode());
         isServed = false;
     }
 
@@ -66,17 +69,17 @@ public class Customer : MonoBehaviour
             animator.SetBool("Walking", true);
             canvas.SetActive(false);
             //increases number served
-            if (isServed && !gotMoney)
+            if (!leaving)
             {
-Debug.Log("was served, particle effect played");
-                particles.Play();
-                manager.numServed++;
-                gotMoney = true;
+                if(isServed)
+                    particles.Play();
+                
+                myChair.isOccupied = false;
+                leaving = true;
             }
 
-            //makes their chair available
-            myChair.isOccupied = false;
-            //and removes them from machine queue
+Debug.Log("Customer at " + myChair.chairNode + " left chair");
+            //removes them from machine queue
             machine.serveList.Remove(this);
 
             CreatePath(myChair.chairNode, startNode);

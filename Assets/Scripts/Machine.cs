@@ -6,6 +6,8 @@ using UnityEngine.InputSystem;
 public class Machine : MonoBehaviour
 {
     public InputActionAsset InputActions;
+    public CustomerManager manager;
+    public UpgradeManager upgrades;
     public List<Customer> serveList;
     private Customer currentCustomer;
     private InputAction m_hitScreen;
@@ -53,16 +55,22 @@ public class Machine : MonoBehaviour
         if (serveList.Count > 0)
         {
             currentCustomer = serveList[0];
+Debug.Log("Current customer is at " + currentCustomer.myChair.chairNode);
             if (idle && !idleInProgress)
             {
                 idleInProgress = true;
                 Invoke("Serve", 2.0f);
             }
 
-            else if (isClicked)
+            else if (isClicked && !idle)
             {
 Debug.Log("Served customer (active)");
                 currentCustomer.isServed = true;
+                manager.numServed++;
+                //note: generalize when more orders added
+                //ie:
+                //upgrades.money += (order.money);
+                upgrades.totalMoney += 2;
                 isClicked = false;
             }
         }
@@ -70,11 +78,20 @@ Debug.Log("Served customer (active)");
 
     public void Serve()
     {
-        if (!idle || currentCustomer == null)
+Debug.Log("Serve called");
+        if (!idle || currentCustomer.isServed)
+        {
+            idleInProgress = false;
             return;
+        }
 
 Debug.Log("Served customer (idle)");
         currentCustomer.isServed = true;
+        manager.numServed++;
+        //note: generalize when more orders added
+        //ie:
+        //upgrades.money += (order.money / 2);
+        upgrades.totalMoney++;
         idleInProgress = false;
     }
 }
