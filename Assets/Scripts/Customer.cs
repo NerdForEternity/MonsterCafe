@@ -35,8 +35,8 @@ public class Customer : MonoBehaviour
 
     void Update()
     {
-Debug.Log("walking = " + animator.GetBool("Walking"));
-Debug.Log("sitting = " + animator.GetBool("Sitting"));
+        Debug.Log("walking = " + animator.GetBool("Walking"));
+        Debug.Log("sitting = " + animator.GetBool("Sitting"));
         machine.idle = manager.idle;
 
         if (canvas.activeSelf)
@@ -63,14 +63,14 @@ Debug.Log("sitting = " + animator.GetBool("Sitting"));
         //runs when the customer leaves
         else
         {
-Debug.Log("Leaving");
+            Debug.Log("Leaving");
             animator.SetBool("Sitting", false);
             animator.SetBool("Walking", true);
             canvas.SetActive(false);
             //increases number served
             if (isServed && myChair.isOccupied)
             {
-Debug.Log("I was served! :)");
+                Debug.Log("I was served! :)");
                 particles.Play();
                 manager.numServed++;
             }
