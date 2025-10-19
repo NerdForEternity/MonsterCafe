@@ -23,7 +23,7 @@ public class MainMenuEvents : MonoBehaviour
 
     private void Awake()
     {
-        audioManager = GameObject.FindGameObjectWithTag("Audio Manager").GetComponent<AudioManager>();
+        audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
         _document = GetComponent<UIDocument>();
         _UpgradesButton = _document.rootVisualElement.Q("Upgrades") as Button;
         _SettingsButton = _document.rootVisualElement.Q("Settings") as Button;

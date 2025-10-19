@@ -22,7 +22,7 @@ public class ScreenMenuEvents1 : MonoBehaviour
 
     private void Awake()
     {
-        audioManager = GameObject.FindGameObjectWithTag("Audio Manager").GetComponent<AudioManager>();
+        audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
         _document = GetComponent<UIDocument>();
 
         _GrimmButton = _document.rootVisualElement.Q("Grimm") as Button;

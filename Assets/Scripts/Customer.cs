@@ -33,7 +33,7 @@ public class Customer : MonoBehaviour
         currentNode = startNode;
         myChair = chairs.Find(p => p.isOccupied == false);
         myChair.isOccupied = true;
-Debug.Log("Claimed a chair at " + myChair.GetClosestNode());
+        Debug.Log("Claimed a chair at " + myChair.GetClosestNode());
         isServed = false;
     }
 
@@ -71,14 +71,14 @@ Debug.Log("Claimed a chair at " + myChair.GetClosestNode());
             //increases number served
             if (!leaving)
             {
-                if(isServed)
+                if (isServed)
                     particles.Play();
-                
+
                 myChair.isOccupied = false;
                 leaving = true;
             }
 
-Debug.Log("Customer at " + myChair.chairNode + " left chair");
+            Debug.Log("Customer at " + myChair.chairNode + " left chair");
             //removes them from machine queue
             machine.serveList.Remove(this);
 

@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class UIManager : MonoBehaviour
 {
     // Assign these in the Inspector
+    [SerializeField] private UIDocument mainMenuDocument;
     [SerializeField] private UIDocument screenDocument;
     [SerializeField] private UIDocument bannerDocument;
     public Sprite idle;
@@ -14,6 +15,7 @@ public class UIManager : MonoBehaviour
     public Sprite idleBanner;
 
     // The visual elements that represent the root of each screen
+    private VisualElement mainMenuRoot;
     private VisualElement screenRoot;
 
     private VisualElement bannerRoot;
@@ -21,13 +23,11 @@ public class UIManager : MonoBehaviour
     //Utility variables
     int IdleToggle = 0;
     Label moneyCount;
-    private CustomerManager customerManager;
-    AudioManager audioManager;
+    public UpgradeManager upgradesManager;
 
     private void Start()
     {
-        customerManager = this.GetComponent<CustomerManager>();
-        audioManager = GameObject.FindGameObjectWithTag("Audio Manager").GetComponent<AudioManager>();
+        mainMenuRoot = mainMenuDocument.rootVisualElement;
         screenRoot = screenDocument.rootVisualElement;
         bannerRoot = bannerDocument.rootVisualElement;
 
@@ -37,6 +37,8 @@ public class UIManager : MonoBehaviour
         grimmButton?.RegisterCallback<ClickEvent>(evt => ShowMainMenu());
 
         //Change from settings to dedicated "leave menu" button
+        Button backButton = mainMenuRoot.Q<Button>("Settings");
+        backButton?.RegisterCallback<ClickEvent>(evt => ShowScreenMenu());
 
         Button playButton = screenRoot.Q<Button>("Play");
         playButton?.RegisterCallback<ClickEvent>(evt => ActiveIdleSwap());
@@ -50,14 +52,13 @@ public class UIManager : MonoBehaviour
 
     private void Update()
     {
-        moneyCount.text = customerManager.numServed.ToString();
+        moneyCount.text = upgradesManager.totalMoney.ToString();
     }
 
     public void ShowMainMenu()
     {
-        audioManager.PlaySFX(audioManager.openingJournal);
         // SHOW the main menu
-        SceneManager.LoadScene("GrimmJournal", LoadSceneMode.Additive);
+        mainMenuRoot.style.display = DisplayStyle.Flex;
 
         // HIDE the settings menu
         screenRoot.style.display = DisplayStyle.None;
@@ -66,12 +67,11 @@ public class UIManager : MonoBehaviour
 
     public void ShowScreenMenu()
     {
-        audioManager.PlaySFX(audioManager.buttonClick);
         // SHOW the settings menu
         screenRoot.style.display = DisplayStyle.Flex;
 
         // HIDE the main menu
-        SceneManager.UnloadSceneAsync("GrimmJournal");
+        mainMenuRoot.style.display = DisplayStyle.None;
 
     }
 
@@ -79,18 +79,18 @@ public class UIManager : MonoBehaviour
     {
         Button playButton = screenRoot.Q<Button>("Play");
         VisualElement Banner = bannerRoot.Q<VisualElement>("ActiveIdleBanner");
-        audioManager.PlaySFX(audioManager.buttonClick);
+
 
         if (IdleToggle == 0)
         {
-            Debug.Log("Switch to Idle Play");
+            //Debug.Log("Switch to Idle Play");
             playButton.style.backgroundImage = new StyleBackground(idle);
             Banner.style.backgroundImage = new StyleBackground(idleBanner);
             IdleToggle = 1;
         }
         else if (IdleToggle == 1)
         {
-            Debug.Log("Switch to Active Play");
+            //Debug.Log("Switch to Active Play");
             playButton.style.backgroundImage = new StyleBackground(active);
             Banner.style.backgroundImage = new StyleBackground(activeBanner);
             IdleToggle = 0;
@@ -100,8 +100,7 @@ public class UIManager : MonoBehaviour
 
     public void ShowWorldMap()
     {
-        audioManager.PlaySFX(audioManager.openingJournal);
         SceneManager.LoadScene("WorldMapScene", LoadSceneMode.Additive);
-        Debug.Log("tried to load map");
+        //Debug.Log("tried to load map");
     }
 }
