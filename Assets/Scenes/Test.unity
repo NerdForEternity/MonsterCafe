@@ -557,17 +557,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d93b7853316f274e9c75db2c3cf6769, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PathNode
---- !u!114 &90524654 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5198555515317498984, guid: a2efadd5487c09846b271636450da4a9, type: 3}
-  m_PrefabInstance: {fileID: 137847156}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.UIElements.UIDocument
 --- !u!1001 &106331646
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20637,7 +20626,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13b933a59cb3070418b83ca3089737ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UIManager
-  mainMenuDocument: {fileID: 90524654}
   screenDocument: {fileID: 1643207829}
   bannerDocument: {fileID: 1969524740}
   idle: {fileID: 6920673473376054886, guid: 448afa51fe8018e4982b3ed918304d88, type: 3}

@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEditor;
 using UnityEngine.UIElements;
 using System.Runtime.CompilerServices;
+using UnityEngine.SceneManagement;
 
 public class ScreenMenuEvents1 : MonoBehaviour
 {
@@ -17,9 +18,11 @@ public class ScreenMenuEvents1 : MonoBehaviour
     public Sprite activeSprite;
     public CustomerManager customerManager;
     int toggle = 0;
+    AudioManager audioManager;
 
     private void Awake()
     {
+        audioManager = GameObject.FindGameObjectWithTag("Audio Manager").GetComponent<AudioManager>();
         _document = GetComponent<UIDocument>();
 
         _GrimmButton = _document.rootVisualElement.Q("Grimm") as Button;
@@ -40,7 +43,8 @@ public class ScreenMenuEvents1 : MonoBehaviour
     private void OnGrimmClick(ClickEvent evt)
     {
         Debug.Log("Grimm");
-
+        SceneManager.LoadScene("GrimmJournal", LoadSceneMode.Additive);
+        audioManager.PlaySFX(audioManager.openingJournal);
     }
     private void OnPlayClick(ClickEvent evt)
     {
