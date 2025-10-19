@@ -9,7 +9,8 @@ public class Customer : MonoBehaviour
     public PathNode startNode;
     public bool isServed;
     public bool hasOrdered;
-    private Chair myChair;
+    public bool leaving;
+    public Chair myChair;
     private List<PathNode> path = new List<PathNode>();
     public Machine machine;
     public CustomerManager manager;
@@ -26,17 +27,18 @@ public class Customer : MonoBehaviour
         canvas = this.transform.GetChild(1).GetChild(0).gameObject;
         patience = canvas.GetComponentInChildren<Slider>(true);
         patience.maxValue = 10f;
+        //note: fix when there are multiple machines
         machine = GameObject.Find("machine").GetComponent<Machine>();
+        machine.manager = manager;
         currentNode = startNode;
         myChair = chairs.Find(p => p.isOccupied == false);
         myChair.isOccupied = true;
+Debug.Log("Claimed a chair at " + myChair.GetClosestNode());
         isServed = false;
     }
 
     void Update()
     {
-Debug.Log("walking = " + animator.GetBool("Walking"));
-Debug.Log("sitting = " + animator.GetBool("Sitting"));
         machine.idle = manager.idle;
 
         if (canvas.activeSelf)
@@ -63,21 +65,21 @@ Debug.Log("sitting = " + animator.GetBool("Sitting"));
         //runs when the customer leaves
         else
         {
-Debug.Log("Leaving");
             animator.SetBool("Sitting", false);
             animator.SetBool("Walking", true);
             canvas.SetActive(false);
             //increases number served
-            if (isServed && myChair.isOccupied)
+            if (!leaving)
             {
-Debug.Log("I was served! :)");
-                particles.Play();
-                manager.numServed++;
+                if(isServed)
+                    particles.Play();
+                
+                myChair.isOccupied = false;
+                leaving = true;
             }
 
-            //makes their chair available
-            myChair.isOccupied = false;
-            //and removes them from machine queue
+Debug.Log("Customer at " + myChair.chairNode + " left chair");
+            //removes them from machine queue
             machine.serveList.Remove(this);
 
             CreatePath(myChair.chairNode, startNode);

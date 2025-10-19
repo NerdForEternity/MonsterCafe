@@ -23,12 +23,10 @@ public class UIManager : MonoBehaviour
     //Utility variables
     int IdleToggle = 0;
     Label moneyCount;
-    private CustomerManager customerManager;
+    public UpgradeManager upgradesManager;
 
     private void Start()
     {
-        customerManager = this.GetComponent<CustomerManager>();
-
         mainMenuRoot = mainMenuDocument.rootVisualElement;
         screenRoot = screenDocument.rootVisualElement;
         bannerRoot = bannerDocument.rootVisualElement;
@@ -54,7 +52,7 @@ public class UIManager : MonoBehaviour
 
     private void Update()
     {
-        moneyCount.text = customerManager.numServed.ToString();
+        moneyCount.text = upgradesManager.totalMoney.ToString();
     }
 
     public void ShowMainMenu()
@@ -85,14 +83,14 @@ public class UIManager : MonoBehaviour
 
         if (IdleToggle == 0)
         {
-            Debug.Log("Switch to Idle Play");
+            //Debug.Log("Switch to Idle Play");
             playButton.style.backgroundImage = new StyleBackground(idle);
             Banner.style.backgroundImage = new StyleBackground(idleBanner);
             IdleToggle = 1;
         }
         else if (IdleToggle == 1)
         {
-            Debug.Log("Switch to Active Play");
+            //Debug.Log("Switch to Active Play");
             playButton.style.backgroundImage = new StyleBackground(active);
             Banner.style.backgroundImage = new StyleBackground(activeBanner);
             IdleToggle = 0;
@@ -103,6 +101,6 @@ public class UIManager : MonoBehaviour
     public void ShowWorldMap()
     {
         SceneManager.LoadScene("WorldMapScene", LoadSceneMode.Additive);
-        Debug.Log("tried to load map");
+        //Debug.Log("tried to load map");
     }
 }

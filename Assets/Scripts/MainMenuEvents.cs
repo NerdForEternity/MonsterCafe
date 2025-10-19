@@ -24,13 +24,13 @@ public class MainMenuEvents : MonoBehaviour
     {
         _document = GetComponent<UIDocument>();
 
-        _UpgradesButton = _document.rootVisualElement.Q("Upgrades") as Button;
+        //_UpgradesButton = _document.rootVisualElement.Q("Upgrades") as Button;
         _SettingsButton = _document.rootVisualElement.Q("Settings") as Button;
         _UnlocksButton = _document.rootVisualElement.Q("Unlocks") as Button;
         _CampaignButton = _document.rootVisualElement.Q("Campaign") as Button;
         _Container = _document.rootVisualElement.Q("Container");
 
-        _UpgradesButton.RegisterCallback<ClickEvent>(OnUpgradesClick);
+        //_UpgradesButton.RegisterCallback<ClickEvent>(OnUpgradesClick);
         _SettingsButton.RegisterCallback<ClickEvent>(OnSettingsClick);
         _UnlocksButton.RegisterCallback<ClickEvent>(OnUnlocksClick);
         _CampaignButton.RegisterCallback<ClickEvent>(OnCampaignClick);
@@ -38,7 +38,7 @@ public class MainMenuEvents : MonoBehaviour
 
     private void OnDisable()
     {
-        _UpgradesButton.UnregisterCallback<ClickEvent>(OnUpgradesClick);
+        //_UpgradesButton.UnregisterCallback<ClickEvent>(OnUpgradesClick);
         _SettingsButton.UnregisterCallback<ClickEvent>(OnSettingsClick);
         _UnlocksButton.UnregisterCallback<ClickEvent>(OnUnlocksClick);
         _CampaignButton.UnregisterCallback<ClickEvent>(OnCampaignClick);

@@ -3162,6 +3162,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8067850950916823145, guid: b67f074befc57084288025dd0ce2351f, type: 3}
+      propertyPath: upgrades
+      value: 
+      objectReference: {fileID: 1531510467}
+    - target: {fileID: 8067850950916823145, guid: b67f074befc57084288025dd0ce2351f, type: 3}
       propertyPath: InputActions
       value: 
       objectReference: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
@@ -3713,6 +3717,51 @@ Transform:
   - {fileID: 793176055}
   - {fileID: 2084271795}
   m_Father: {fileID: 46708310}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1531510466
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1531510468}
+  - component: {fileID: 1531510467}
+  m_Layer: 0
+  m_Name: UpgradesManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1531510467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531510466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1ca65e67f17c4a4ca83ce68ade16acd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UpgradeManager
+  totalMoney: 0
+--- !u!4 &1531510468
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531510466}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.81387, y: -5.88596, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1539515207
 PrefabInstance:
@@ -20579,6 +20628,7 @@ MonoBehaviour:
   active: {fileID: 1867378711060932093, guid: 52ce416fc53b2304ab2f7cf39606f3d7, type: 3}
   activeBanner: {fileID: 656734548496994019, guid: da99165aa0813fb4ab8094e588fe5258, type: 3}
   idleBanner: {fileID: -4179473805016277722, guid: b4567d11aab02484fa84938db59ff24f, type: 3}
+  upgradesManager: {fileID: 1531510467}
 --- !u!1001 &1969524739
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22855,3 +22905,4 @@ SceneRoots:
   - {fileID: 2098284900}
   - {fileID: 706957082}
   - {fileID: 1927696397}
+  - {fileID: 1531510468}
