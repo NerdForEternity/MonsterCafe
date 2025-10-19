@@ -11,6 +11,7 @@ public class Machine : MonoBehaviour
     private bool isClicked;
     public bool idle;
     private bool idleInProgress;
+    AudioManager audioManager;
 
     private void OnEnable()
     {
@@ -24,6 +25,8 @@ public class Machine : MonoBehaviour
 
     private void Awake()
     {
+        audioManager = GameObject.FindGameObjectWithTag("Audio Manager").GetComponent<AudioManager>();
+
         m_hitScreen = InputSystem.actions.FindAction("Click");
 
         m_hitScreen.performed += _ =>
@@ -49,15 +52,16 @@ public class Machine : MonoBehaviour
         {
             if (idle && !idleInProgress)
             {
-Debug.Log("Invoked idle, waiting...");
+                Debug.Log("Invoked idle, waiting...");
                 idleInProgress = true;
                 Invoke("Serve", 2.0f);
             }
 
             else if (isClicked)
             {
-Debug.Log("Served customer (active)");
+                Debug.Log("Served customer (active)");
                 serveList[0].isServed = true;
+                audioManager.PlaySFX(audioManager.cookingComplete);
                 isClicked = false;
             }
         }
@@ -68,8 +72,9 @@ Debug.Log("Served customer (active)");
         if (!idle)
             return;
 
-Debug.Log("Served customer (idle)");
+        Debug.Log("Served customer (idle)");
         serveList[0].isServed = true;
+        audioManager.PlaySFX(audioManager.cookingComplete);
         idleInProgress = false;
     }
 }

@@ -24,11 +24,12 @@ public class UIManager : MonoBehaviour
     int IdleToggle = 0;
     Label moneyCount;
     private CustomerManager customerManager;
+    AudioManager audioManager;
 
     private void Start()
     {
         customerManager = this.GetComponent<CustomerManager>();
-
+        audioManager = GameObject.FindGameObjectWithTag("Audio Manager").GetComponent<AudioManager>();
         mainMenuRoot = mainMenuDocument.rootVisualElement;
         screenRoot = screenDocument.rootVisualElement;
         bannerRoot = bannerDocument.rootVisualElement;
@@ -59,6 +60,7 @@ public class UIManager : MonoBehaviour
 
     public void ShowMainMenu()
     {
+        audioManager.PlaySFX(audioManager.openingJournal);
         // SHOW the main menu
         mainMenuRoot.style.display = DisplayStyle.Flex;
 
@@ -69,6 +71,7 @@ public class UIManager : MonoBehaviour
 
     public void ShowScreenMenu()
     {
+        audioManager.PlaySFX(audioManager.buttonClick);
         // SHOW the settings menu
         screenRoot.style.display = DisplayStyle.Flex;
 
@@ -81,7 +84,7 @@ public class UIManager : MonoBehaviour
     {
         Button playButton = screenRoot.Q<Button>("Play");
         VisualElement Banner = bannerRoot.Q<VisualElement>("ActiveIdleBanner");
-
+        audioManager.PlaySFX(audioManager.buttonClick);
 
         if (IdleToggle == 0)
         {
@@ -102,6 +105,7 @@ public class UIManager : MonoBehaviour
 
     public void ShowWorldMap()
     {
+        audioManager.PlaySFX(audioManager.openingJournal);
         SceneManager.LoadScene("WorldMapScene", LoadSceneMode.Additive);
         Debug.Log("tried to load map");
     }

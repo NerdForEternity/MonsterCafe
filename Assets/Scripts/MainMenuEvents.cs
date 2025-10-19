@@ -19,11 +19,12 @@ public class MainMenuEvents : MonoBehaviour
     public Sprite campaign;
 
     private VisualElement _Container;
+    AudioManager audioManager;
 
     private void Awake()
     {
+        audioManager = GameObject.FindGameObjectWithTag("Audio Manager").GetComponent<AudioManager>();
         _document = GetComponent<UIDocument>();
-
         _UpgradesButton = _document.rootVisualElement.Q("Upgrades") as Button;
         _SettingsButton = _document.rootVisualElement.Q("Settings") as Button;
         _UnlocksButton = _document.rootVisualElement.Q("Unlocks") as Button;
@@ -38,6 +39,7 @@ public class MainMenuEvents : MonoBehaviour
 
     private void OnDisable()
     {
+        audioManager.PlaySFX(audioManager.buttonClick);
         _UpgradesButton.UnregisterCallback<ClickEvent>(OnUpgradesClick);
         _SettingsButton.UnregisterCallback<ClickEvent>(OnSettingsClick);
         _UnlocksButton.UnregisterCallback<ClickEvent>(OnUnlocksClick);
@@ -45,22 +47,26 @@ public class MainMenuEvents : MonoBehaviour
     }
     private void OnUpgradesClick(ClickEvent evt)
     {
+        audioManager.PlaySFX(audioManager.buttonClick);
         Debug.Log("Upgrade");
         _Container.style.backgroundImage = new StyleBackground(upgrade);
 
     }
     private void OnSettingsClick(ClickEvent evt)
     {
+        audioManager.PlaySFX(audioManager.buttonClick);
         Debug.Log("Settings");
         _Container.style.backgroundImage = new StyleBackground(settings);
     }
     private void OnUnlocksClick(ClickEvent evt)
     {
+        audioManager.PlaySFX(audioManager.buttonClick);
         Debug.Log("Unlocks");
         _Container.style.backgroundImage = new StyleBackground(employee);
     }
     private void OnCampaignClick(ClickEvent evt)
     {
+        audioManager.PlaySFX(audioManager.buttonClick);
         Debug.Log("Campaign");
         _Container.style.backgroundImage = new StyleBackground(campaign);
     }
