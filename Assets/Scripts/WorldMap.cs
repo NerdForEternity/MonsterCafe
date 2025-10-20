@@ -40,4 +40,8 @@ public class WorldMap : MonoBehaviour
         SceneManager.LoadScene("Test");
     }
 
+    public void GoBack()
+    {
+        SceneManager.UnloadSceneAsync("WorldMapScene");
+    }
 }
