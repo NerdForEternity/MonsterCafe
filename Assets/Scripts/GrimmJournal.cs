@@ -22,6 +22,8 @@ public class GrimmJournal : MonoBehaviour
 
     //Audio Manager
     AudioManager audioManager;
+    UpgradeManager upgradeManager;
+
     public void ChangeBackground(int targetBackground)
     {
         if (backgroundImage != null && backgroundSprites != null && backgroundSprites.Length > 0)
@@ -38,6 +40,7 @@ public class GrimmJournal : MonoBehaviour
     private void Start()
     {
         audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
+        upgradeManager = GameObject.FindGameObjectWithTag("UpgradesManager").GetComponent<UpgradeManager>();
         CampaignPage();
     }
 
@@ -88,7 +91,6 @@ public class GrimmJournal : MonoBehaviour
 
     public void CookingSpeedPage()
     {
-        ChangeBackground(3);
         audioManager.PlaySFX(audioManager.buttonClick);
         ShowPanel(upgradesPage);
         cookingSpeedPage.SetActive(true);
@@ -96,7 +98,6 @@ public class GrimmJournal : MonoBehaviour
 
     public void CustomerPatiencePage()
     {
-        ChangeBackground(3);
         audioManager.PlaySFX(audioManager.buttonClick);
         ShowPanel(upgradesPage);
         customerPatiencePage.SetActive(true);
@@ -104,9 +105,21 @@ public class GrimmJournal : MonoBehaviour
 
     public void FoodPricePage()
     {
-        ChangeBackground(3);
         audioManager.PlaySFX(audioManager.buttonClick);
         ShowPanel(upgradesPage);
         foodPricePage.SetActive(true);
+    }
+
+    public void upgradeCooking()
+    {
+        ;
+    }
+    public void upgradeCustomer()
+    {
+        ;
+    }
+    public void upgradeFood()
+    {
+        ;
     }
 }
