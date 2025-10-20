@@ -3675,6 +3675,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5238827216623265029, guid: 0a790d269a054544ca26510eea93d0d7, type: 3}
   m_PrefabInstance: {fileID: 1354073106}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1437185086 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7742853315781113475, guid: 715fb201a7380154eaf005f2c26366aa, type: 3}
+  m_PrefabInstance: {fileID: 7790843873380568584}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1467701165
 Transform:
   m_ObjectHideFlags: 0
@@ -3700,7 +3705,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5271445766400633591, guid: 715fb201a7380154eaf005f2c26366aa, type: 3}
   m_PrefabInstance: {fileID: 7790843873380568584}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1437185086}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c1ca65e67f17c4a4ca83ce68ade16acd, type: 3}
@@ -20530,6 +20535,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CustomerManager
   customer: {fileID: 6802067263662514299, guid: 98de2888e9c96764680f7d96fe71e9d2, type: 3}
   door: {fileID: 229352379}
+  upgradeManager: {fileID: 1437185086}
   spawnTime: 0
   numServed: 0
   idle: 0
@@ -20564,7 +20570,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13b933a59cb3070418b83ca3089737ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UIManager
-  mainMenuDocument: {fileID: 0}
   screenDocument: {fileID: 1643207829}
   bannerDocument: {fileID: 1969524740}
   idle: {fileID: 6920673473376054886, guid: 448afa51fe8018e4982b3ed918304d88, type: 3}

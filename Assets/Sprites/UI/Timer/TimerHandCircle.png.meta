@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4a845cb580d2b20429ea9069fe5679ae
+guid: 06497f06e882e0d43aaffc28f569e5f7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7941992666630093898
-    second: Timer_NoHand_Empty_0
+      213: 8210682285565000746
+    second: TimerHandCircle_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Timer_NoHand_Empty_0
+      name: TimerHandCircle_0
       rect:
         serializedVersion: 2
-        x: 894
-        y: 760
-        width: 688
-        height: 973
+        x: 433
+        y: 390
+        width: 30
+        height: 113
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6b381c88fbf58c190800000000000000
-      internalID: -7941992666630093898
+      spriteID: a2cb1b2690432f170800000000000000
+      internalID: 8210682285565000746
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Timer_NoHand_Empty_0: -7941992666630093898
+      TimerHandCircle_0: 8210682285565000746
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

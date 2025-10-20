@@ -6,6 +6,7 @@ public class CustomerManager : MonoBehaviour
 {
     public GameObject customer;
     public GameObject door;
+    public GameObject upgradeManager;
     public float spawnTime;
     public int numServed = 0;
     public bool idle;
@@ -32,10 +33,10 @@ public class CustomerManager : MonoBehaviour
         yield return new WaitUntil(() => numCustomers < chairs.Count);
 
         //as more customers are served, they spawn more frequently
-        spawnTime = Random.Range(1f, 3f) - numServed;
+        spawnTime = Random.Range(10f, 9f) - (numServed * 0.25f);
         //time between spawns is 5 seconds at minimum
-        if (spawnTime < 5)
-            spawnTime = Random.Range(5f, 7f);
+        if (spawnTime < 2)
+            spawnTime = Random.Range(2.0f, 2.5f);
         yield return new WaitForSeconds(spawnTime);
         //create customer
         PathNode doorNode = GetClosestNode();
@@ -46,6 +47,7 @@ public class CustomerManager : MonoBehaviour
         scriptRef.chairs = chairs;
         scriptRef.startNode = doorNode;
         scriptRef.manager = this.GetComponent<CustomerManager>();
+        scriptRef.upgrades = upgradeManager.GetComponent<UpgradeManager>();
         numCustomers++;
 
         StartCoroutine(CreateCustomer());

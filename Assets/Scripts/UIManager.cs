@@ -28,10 +28,9 @@ public class UIManager : MonoBehaviour
         screenRoot = screenDocument.rootVisualElement;
         bannerRoot = bannerDocument.rootVisualElement;
 
-        ShowScreenMenu();
-
-        Button grimmButton = screenRoot.Q<Button>("Grimm");
-        grimmButton?.RegisterCallback<ClickEvent>(evt => ShowMainMenu());
+        //Change from settings to dedicated "leave menu" button
+        //Button backButton = screenRoot.Q<Button>("Settings");
+        //backButton?.RegisterCallback<ClickEvent>(evt => ShowScreenMenu());
 
         Button playButton = screenRoot.Q<Button>("Play");
         playButton?.RegisterCallback<ClickEvent>(evt => ActiveIdleSwap());
@@ -48,25 +47,14 @@ public class UIManager : MonoBehaviour
         moneyCount.text = upgradesManager.totalMoney.ToString();
     }
 
-    public void ShowMainMenu()
-    {
-        // SHOW the main menu
-        SceneManager.LoadScene("GrimmJournal", LoadSceneMode.Additive);
-
-        // HIDE the settings menu
-        screenRoot.style.display = DisplayStyle.None;
-
-    }
-
-    public void ShowScreenMenu()
+    /*public void ShowScreenMenu()
     {
         // SHOW the settings menu
         screenRoot.style.display = DisplayStyle.Flex;
 
         // HIDE the main menu
         SceneManager.UnloadSceneAsync("GrimmJournal");
-
-    }
+    }*/
 
     public void ActiveIdleSwap()
     {

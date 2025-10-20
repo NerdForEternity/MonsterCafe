@@ -14,9 +14,10 @@ public class Customer : MonoBehaviour
     private List<PathNode> path = new List<PathNode>();
     public Machine machine;
     public CustomerManager manager;
+    public UpgradeManager upgrades;
     private Animator animator;
     private GameObject canvas;
-    private Slider patience;
+    public Slider patience;
     public List<Chair> chairs;
     private ParticleSystem particles;
     AudioManager audioManager;
@@ -27,14 +28,14 @@ public class Customer : MonoBehaviour
         animator = this.transform.GetChild(1).GetChild(1).GetComponent<Animator>();
         canvas = this.transform.GetChild(1).GetChild(0).gameObject;
         patience = canvas.GetComponentInChildren<Slider>(true);
-        patience.maxValue = 10f;
+        patience.maxValue = 7f + upgrades.patienceAdd;
         //note: fix when there are multiple machines
         machine = GameObject.Find("machine").GetComponent<Machine>();
         machine.manager = manager;
         currentNode = startNode;
         myChair = chairs.Find(p => p.isOccupied == false);
         myChair.isOccupied = true;
-        Debug.Log("Claimed a chair at " + myChair.GetClosestNode());
+
         isServed = false;
     }
 
@@ -44,6 +45,7 @@ public class Customer : MonoBehaviour
 
         if (canvas.activeSelf)
             patience.value -= Time.deltaTime;
+
 
         //runs when customer arrives/waits for order
         if (!isServed && patience.value > 0f)
@@ -69,7 +71,7 @@ public class Customer : MonoBehaviour
             animator.SetBool("Sitting", false);
             animator.SetBool("Walking", true);
             canvas.SetActive(false);
-            //increases number served
+
             if (!leaving)
             {
                 if (isServed)
@@ -79,10 +81,10 @@ public class Customer : MonoBehaviour
                 }
 
                 myChair.isOccupied = false;
+                machine.isClicked = false;
                 leaving = true;
             }
 
-            Debug.Log("Customer at " + myChair.chairNode + " left chair");
             //removes them from machine queue
             machine.serveList.Remove(this);
 
