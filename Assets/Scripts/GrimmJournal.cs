@@ -1,6 +1,6 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-
 
 public class GrimmJournal : MonoBehaviour
 {
@@ -11,7 +11,6 @@ public class GrimmJournal : MonoBehaviour
     public GameObject campaignPage;
     public GameObject unlocksPage;
     public GameObject settingsPage;
-
     //Upgrades
     public GameObject cookingSpeedPage;
     public GameObject customerPatiencePage;
@@ -55,6 +54,7 @@ public class GrimmJournal : MonoBehaviour
         customerPatiencePage.SetActive(false);
         foodPricePage.SetActive(false);
 
+
         // Activate the selected panel
         panelToShow.SetActive(true);
     }
@@ -66,6 +66,7 @@ public class GrimmJournal : MonoBehaviour
         ChangeBackground(0);
         audioManager.PlaySFX(audioManager.buttonClick);
         ShowPanel(campaignPage);
+
     }
     public void UpgradesPage()
     {
@@ -120,5 +121,11 @@ public class GrimmJournal : MonoBehaviour
     public void upgradeFood()
     {
         ;
+    }
+
+    //Back Button Functionality
+    public void GoBack()
+    {
+        SceneManager.UnloadSceneAsync("GrimmJournal");
     }
 }
