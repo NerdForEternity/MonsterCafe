@@ -75,22 +75,25 @@ public class GrimmJournal : MonoBehaviour
         ChangeBackground(0);
         audioManager.PlaySFX(audioManager.buttonClick);
         ShowPanel(campaignPage);
-
+        SceneManager.LoadScene("WorldMapScene", LoadSceneMode.Additive);
     }
     public void UpgradesPage()
     {
+        SceneManager.UnloadSceneAsync("WorldMapScene");
         ChangeBackground(1);
         audioManager.PlaySFX(audioManager.buttonClick);
         ShowPanel(upgradesPage);
     }
     public void UnlocksPage()
     {
+        SceneManager.UnloadSceneAsync("WorldMapScene");
         ChangeBackground(2);
         audioManager.PlaySFX(audioManager.buttonClick);
         ShowPanel(unlocksPage);
     }
     public void SettingsPage()
     {
+        SceneManager.UnloadSceneAsync("WorldMapScene");
         ChangeBackground(3);
         audioManager.PlaySFX(audioManager.buttonClick);
         ShowPanel(settingsPage);
@@ -206,5 +209,6 @@ public class GrimmJournal : MonoBehaviour
     public void GoBack()
     {
         SceneManager.UnloadSceneAsync("GrimmJournal");
+        SceneManager.UnloadSceneAsync("WorldMapScene");
     }
 }
