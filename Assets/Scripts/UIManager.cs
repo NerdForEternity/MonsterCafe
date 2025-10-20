@@ -33,8 +33,6 @@ public class UIManager : MonoBehaviour
         Button grimmButton = screenRoot.Q<Button>("Grimm");
         grimmButton?.RegisterCallback<ClickEvent>(evt => ShowMainMenu());
 
-        //Change from settings to dedicated "leave menu" button
-
         Button playButton = screenRoot.Q<Button>("Play");
         playButton?.RegisterCallback<ClickEvent>(evt => ActiveIdleSwap());
 
