@@ -43,8 +43,9 @@ public class ScreenMenuEvents1 : MonoBehaviour
     private void OnGrimmClick(ClickEvent evt)
     {
         Debug.Log("Grimm");
-        SceneManager.LoadScene("GrimmJournal", LoadSceneMode.Additive);
         audioManager.PlaySFX(audioManager.openingJournal);
+        SceneManager.LoadScene("GrimmJournal", LoadSceneMode.Additive);
+
     }
     private void OnPlayClick(ClickEvent evt)
     {

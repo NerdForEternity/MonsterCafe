@@ -15,7 +15,7 @@ public class Machine : MonoBehaviour
     public List<Customer> serveList;
     private Customer currentCustomer;
     private InputAction m_hitScreen;
-    private bool isClicked;
+    public bool isClicked;
     public bool idle;
     private bool idleInProgress;
     private Collider2D collision;
@@ -60,16 +60,16 @@ public class Machine : MonoBehaviour
 
     void Update()
     {
+        Debug.Log("Cooking is " + doneCooking);
         if (serveList.Count > 0)
         {
             currentCustomer = serveList[0];
-            Debug.Log("Current customer is at " + currentCustomer.myChair.chairNode);
 
             if(clock.activeSelf)
             {
-                Debug.Log(cookTime);
                 cookTime -= Time.deltaTime;
                 radial.fillAmount = (cookTime / (maxCookTime - upgrades.cookSpeedAdd));
+Debug.Log(cookTime);
             }
 
             if (idle && !idleInProgress)
@@ -78,22 +78,31 @@ public class Machine : MonoBehaviour
                 Invoke("Serve", 2.0f);
             }
 
+            //Customer served with active play
             else if (isClicked && !idle)
             {
-                if(!doneCooking)
+                if (!doneCooking)
                     StartCoroutine("Cook");
                 if (cookTime <= 0f)
                 {
-                    Debug.Log("Served customer (active)");
                     currentCustomer.isServed = true;
                     manager.numServed++;
                     //note: generalize when more orders added
                     //ie:
                     //upgrades.money += (order.money);
 
-                    upgrades.totalMoney += 2;
+                    float orderMoney = 2f;
+                    if (upgrades.priceAdd > 0)
+                    {
+                        for (int i = 0; i < upgrades.priceAdd; i++)
+                            orderMoney = orderMoney * 1.2f;
+                    }
+                    Mathf.Round(orderMoney);
+                    upgrades.totalMoney += (int)orderMoney;
+
                     cookTime = maxCookTime - upgrades.cookSpeedAdd;
                     isClicked = false;
+                    doneCooking = false;
                 }
             }
         }
@@ -101,36 +110,44 @@ public class Machine : MonoBehaviour
 
     public void Serve()
     {
-        Debug.Log("Serve called");
         if (!idle || currentCustomer.isServed)
         {
             idleInProgress = false;
+            //doneCooking = false; 
             return;
         }
-        if(!doneCooking)
-            StartCoroutine("Cook");
-        if (currentCustomer.patience.value > 0f && cookTime <= 0f)
+        //if(!doneCooking)
+            //StartCoroutine("Cook");
+        //if (currentCustomer.patience.value > 0f && cookTime <= 0f)
+        if(currentCustomer.patience.value > 0f)
         {
-            Debug.Log("Served customer (idle)");
             currentCustomer.isServed = true;
             manager.numServed++;
             //note: generalize when more orders added
             //ie:
             //upgrades.money += (order.money / 2);
-            upgrades.totalMoney++;
-            cookTime = maxCookTime - upgrades.cookSpeedAdd;
+            
+            float orderMoney = 1f;
+            if (upgrades.priceAdd > 0)
+            {
+                for (int i = 0; i < upgrades.priceAdd; i++)
+                orderMoney = orderMoney * 1.2f;
+            }
+            Mathf.Round(orderMoney);
+            upgrades.totalMoney += (int)orderMoney;
+            //cookTime = maxCookTime - upgrades.cookSpeedAdd;
         }
         idleInProgress = false;
-        doneCooking = false; 
+        //doneCooking = false; 
     }
     
     IEnumerator Cook()
     {
-        Debug.Log("Cook callled");
         doneCooking = true;
         cookTime = maxCookTime - upgrades.cookSpeedAdd;
         clock.SetActive(true);
         yield return new WaitForSeconds(maxCookTime - upgrades.cookSpeedAdd);
         clock.SetActive(false);
+        doneCooking = false;
     }
 }

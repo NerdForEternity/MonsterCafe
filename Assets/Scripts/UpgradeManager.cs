@@ -9,7 +9,7 @@ public class UpgradeManager : MonoBehaviour
     //customers wait for 1 second longer, max of 3 upgrades
     public float patienceAdd = 0f;
     //increases price of everything by 20%, no cap
-    public int priceAdd = 0; 
+    public int priceAdd = 0;
     void Start()
     {
         DontDestroyOnLoad(this.gameObject);
