@@ -52,7 +52,7 @@ public class CustomerManager : MonoBehaviour
 
         StartCoroutine(CreateCustomer());
     }
-    
+
     public PathNode GetClosestNode()
     {
         //function is called before spawning customer, no need to update when moved

@@ -66,5 +66,8 @@
     "explorer.fileNesting.patterns": {
         "*.sln": "*.csproj",
     },
-    "dotnet.defaultSolution": "MonsterCafe.sln"
+    "dotnet.defaultSolution": "MonsterCafe.sln",
+    "cSpell.words": [
+        "Vampini"
+    ]
 }

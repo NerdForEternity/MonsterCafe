@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 public class UIManager : MonoBehaviour
 {
     // Assign these in the Inspector
-    [SerializeField] private UIDocument mainMenuDocument;
     [SerializeField] private UIDocument screenDocument;
     [SerializeField] private UIDocument bannerDocument;
     public Sprite idle;
@@ -15,7 +14,6 @@ public class UIManager : MonoBehaviour
     public Sprite idleBanner;
 
     // The visual elements that represent the root of each screen
-    private VisualElement mainMenuRoot;
     private VisualElement screenRoot;
 
     private VisualElement bannerRoot;
@@ -27,17 +25,11 @@ public class UIManager : MonoBehaviour
 
     private void Start()
     {
-        mainMenuRoot = mainMenuDocument.rootVisualElement;
         screenRoot = screenDocument.rootVisualElement;
         bannerRoot = bannerDocument.rootVisualElement;
 
-        ShowScreenMenu();
-
-        Button grimmButton = screenRoot.Q<Button>("Grimm");
-        grimmButton?.RegisterCallback<ClickEvent>(evt => ShowMainMenu());
-
         //Change from settings to dedicated "leave menu" button
-        Button backButton = mainMenuRoot.Q<Button>("Settings");
+        Button backButton = screenRoot.Q<Button>("Settings");
         backButton?.RegisterCallback<ClickEvent>(evt => ShowScreenMenu());
 
         Button playButton = screenRoot.Q<Button>("Play");
@@ -45,24 +37,12 @@ public class UIManager : MonoBehaviour
 
         Button goButton = screenRoot.Q<Button>("GoButton");
         goButton?.RegisterCallback<ClickEvent>(evt => ShowWorldMap());
-
-
-        moneyCount = screenRoot.Q<Label>("MoneyCount");
     }
 
     private void Update()
     {
+        moneyCount = screenRoot.Q<Label>("MoneyCount");
         moneyCount.text = upgradesManager.totalMoney.ToString();
-    }
-
-    public void ShowMainMenu()
-    {
-        // SHOW the main menu
-        mainMenuRoot.style.display = DisplayStyle.Flex;
-
-        // HIDE the settings menu
-        screenRoot.style.display = DisplayStyle.None;
-
     }
 
     public void ShowScreenMenu()
@@ -71,8 +51,7 @@ public class UIManager : MonoBehaviour
         screenRoot.style.display = DisplayStyle.Flex;
 
         // HIDE the main menu
-        mainMenuRoot.style.display = DisplayStyle.None;
-
+        SceneManager.UnloadSceneAsync("GrimmJournal");
     }
 
     public void ActiveIdleSwap()
