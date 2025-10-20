@@ -86,7 +86,6 @@ public class GrimmJournal : MonoBehaviour
         ShowPanel(settingsPage);
     }
 
-
     //Upgrade Button Functions
 
     public void CookingSpeedPage()
