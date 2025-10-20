@@ -39,7 +39,7 @@ public class Machine : MonoBehaviour
             Vector3 clickPos = m_hitScreen.ReadValue<Vector2>();
             clickPos = Camera.main.ScreenToWorldPoint(clickPos);
 
-            if(collision.OverlapPoint(clickPos))
+            if (collision.OverlapPoint(clickPos))
             {
                 if (serveList[0] != null)
                 {
@@ -55,7 +55,7 @@ public class Machine : MonoBehaviour
         if (serveList.Count > 0)
         {
             currentCustomer = serveList[0];
-Debug.Log("Current customer is at " + currentCustomer.myChair.chairNode);
+            Debug.Log("Current customer is at " + currentCustomer.myChair.chairNode);
             if (idle && !idleInProgress)
             {
                 idleInProgress = true;
@@ -64,7 +64,7 @@ Debug.Log("Current customer is at " + currentCustomer.myChair.chairNode);
 
             else if (isClicked && !idle)
             {
-Debug.Log("Served customer (active)");
+                Debug.Log("Served customer (active)");
                 currentCustomer.isServed = true;
                 manager.numServed++;
                 //note: generalize when more orders added
@@ -78,14 +78,14 @@ Debug.Log("Served customer (active)");
 
     public void Serve()
     {
-Debug.Log("Serve called");
+        Debug.Log("Serve called");
         if (!idle || currentCustomer.isServed)
         {
             idleInProgress = false;
             return;
         }
 
-Debug.Log("Served customer (idle)");
+        Debug.Log("Served customer (idle)");
         currentCustomer.isServed = true;
         manager.numServed++;
         //note: generalize when more orders added

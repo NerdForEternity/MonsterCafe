@@ -19,9 +19,10 @@ public class Customer : MonoBehaviour
     private Slider patience;
     public List<Chair> chairs;
     private ParticleSystem particles;
-
+    AudioManager audioManager;
     void Start()
     {
+        audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
         particles = this.transform.GetChild(0).GetComponent<ParticleSystem>();
         animator = this.transform.GetChild(1).GetChild(1).GetComponent<Animator>();
         canvas = this.transform.GetChild(1).GetChild(0).gameObject;
@@ -33,7 +34,7 @@ public class Customer : MonoBehaviour
         currentNode = startNode;
         myChair = chairs.Find(p => p.isOccupied == false);
         myChair.isOccupied = true;
-Debug.Log("Claimed a chair at " + myChair.GetClosestNode());
+        Debug.Log("Claimed a chair at " + myChair.GetClosestNode());
         isServed = false;
     }
 
@@ -71,14 +72,17 @@ Debug.Log("Claimed a chair at " + myChair.GetClosestNode());
             //increases number served
             if (!leaving)
             {
-                if(isServed)
+                if (isServed)
+                {
                     particles.Play();
-                
+                    audioManager.PlaySFX(audioManager.cookingComplete);
+                }
+
                 myChair.isOccupied = false;
                 leaving = true;
             }
 
-Debug.Log("Customer at " + myChair.chairNode + " left chair");
+            Debug.Log("Customer at " + myChair.chairNode + " left chair");
             //removes them from machine queue
             machine.serveList.Remove(this);
 
