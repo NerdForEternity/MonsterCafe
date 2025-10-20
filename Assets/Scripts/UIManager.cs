@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 public class UIManager : MonoBehaviour
 {
     // Assign these in the Inspector
-    [SerializeField] private UIDocument mainMenuDocument;
     [SerializeField] private UIDocument screenDocument;
     [SerializeField] private UIDocument bannerDocument;
     public Sprite idle;
@@ -15,7 +14,6 @@ public class UIManager : MonoBehaviour
     public Sprite idleBanner;
 
     // The visual elements that represent the root of each screen
-    private VisualElement mainMenuRoot;
     private VisualElement screenRoot;
 
     private VisualElement bannerRoot;
@@ -27,7 +25,6 @@ public class UIManager : MonoBehaviour
 
     private void Start()
     {
-        mainMenuRoot = mainMenuDocument.rootVisualElement;
         screenRoot = screenDocument.rootVisualElement;
         bannerRoot = bannerDocument.rootVisualElement;
 
@@ -37,8 +34,6 @@ public class UIManager : MonoBehaviour
         grimmButton?.RegisterCallback<ClickEvent>(evt => ShowMainMenu());
 
         //Change from settings to dedicated "leave menu" button
-        Button backButton = mainMenuRoot.Q<Button>("Settings");
-        backButton?.RegisterCallback<ClickEvent>(evt => ShowScreenMenu());
 
         Button playButton = screenRoot.Q<Button>("Play");
         playButton?.RegisterCallback<ClickEvent>(evt => ActiveIdleSwap());
@@ -58,7 +53,7 @@ public class UIManager : MonoBehaviour
     public void ShowMainMenu()
     {
         // SHOW the main menu
-        mainMenuRoot.style.display = DisplayStyle.Flex;
+        SceneManager.LoadScene("GrimmJournal", LoadSceneMode.Additive);
 
         // HIDE the settings menu
         screenRoot.style.display = DisplayStyle.None;
@@ -71,7 +66,7 @@ public class UIManager : MonoBehaviour
         screenRoot.style.display = DisplayStyle.Flex;
 
         // HIDE the main menu
-        mainMenuRoot.style.display = DisplayStyle.None;
+        SceneManager.UnloadSceneAsync("GrimmJournal");
 
     }
 
