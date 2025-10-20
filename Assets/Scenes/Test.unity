@@ -3748,6 +3748,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UpgradeManager
   totalMoney: 0
+  cookSpeedAdd: 0
+  patienceAdd: 0
+  priceAdd: 0
 --- !u!4 &1531510468
 Transform:
   m_ObjectHideFlags: 0
@@ -20587,6 +20590,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CustomerManager
   customer: {fileID: 6802067263662514299, guid: 98de2888e9c96764680f7d96fe71e9d2, type: 3}
   door: {fileID: 229352379}
+  upgradeManager: {fileID: 1531510466}
   spawnTime: 0
   numServed: 0
   idle: 0

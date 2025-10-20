@@ -14,9 +14,10 @@ public class Customer : MonoBehaviour
     private List<PathNode> path = new List<PathNode>();
     public Machine machine;
     public CustomerManager manager;
+    public UpgradeManager upgrades;
     private Animator animator;
     private GameObject canvas;
-    private Slider patience;
+    public Slider patience;
     public List<Chair> chairs;
     private ParticleSystem particles;
 
@@ -26,7 +27,7 @@ public class Customer : MonoBehaviour
         animator = this.transform.GetChild(1).GetChild(1).GetComponent<Animator>();
         canvas = this.transform.GetChild(1).GetChild(0).gameObject;
         patience = canvas.GetComponentInChildren<Slider>(true);
-        patience.maxValue = 10f;
+        patience.maxValue = 7f + upgrades.patienceAdd;
         //note: fix when there are multiple machines
         machine = GameObject.Find("machine").GetComponent<Machine>();
         machine.manager = manager;
