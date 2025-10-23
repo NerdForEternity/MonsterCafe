@@ -72,8 +72,12 @@ MonoBehaviour:
   startNode: {fileID: 0}
   isServed: 0
   hasOrdered: 0
+  leaving: 0
+  myChair: {fileID: 0}
   machine: {fileID: 0}
   manager: {fileID: 0}
+  upgrades: {fileID: 0}
+  patience: {fileID: 0}
   chairs: []
 --- !u!1001 &3354625118047035182
 PrefabInstance:
@@ -157,6 +161,10 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3622019378237916284, guid: c476ebb59516b4f43833a7e317adca73, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 4687309882487268517, guid: 5d6fb2c0adfb3f04ab14a3231ebae48e, type: 3}
     - target: {fileID: 3954121197823005859, guid: c476ebb59516b4f43833a7e317adca73, type: 3}
       propertyPath: m_Name
       value: PreGenCustomer1
