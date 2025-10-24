@@ -8,7 +8,7 @@ public class Machine : MonoBehaviour
 {
     public InputActionAsset InputActions;
     public CustomerManager manager;
-    public UpgradeManager upgrades;
+    //public UpgradeManager upgrades;
     private float maxCookTime = 3f;
     private float cookTime;
     private bool doneCooking;
@@ -60,7 +60,6 @@ public class Machine : MonoBehaviour
 
     void Update()
     {
-        Debug.Log("Cooking is " + doneCooking);
         if (serveList.Count > 0)
         {
             currentCustomer = serveList[0];
@@ -68,8 +67,7 @@ public class Machine : MonoBehaviour
             if(clock.activeSelf)
             {
                 cookTime -= Time.deltaTime;
-                radial.fillAmount = (cookTime / (maxCookTime - upgrades.cookSpeedAdd));
-Debug.Log(cookTime);
+                radial.fillAmount = (cookTime / (maxCookTime - UpgradeManager.cookSpeedAdd));
             }
 
             if (idle && !idleInProgress)
@@ -89,18 +87,18 @@ Debug.Log(cookTime);
                     manager.numServed++;
                     //note: generalize when more orders added
                     //ie:
-                    //upgrades.money += (order.money);
+                    //UpgradeManager.money += (order.money);
 
                     float orderMoney = 2f;
-                    if (upgrades.priceAdd > 0)
+                    if (UpgradeManager.priceAdd > 0)
                     {
-                        for (int i = 0; i < upgrades.priceAdd; i++)
+                        for (int i = 0; i < UpgradeManager.priceAdd; i++)
                             orderMoney = orderMoney * 1.2f;
                     }
                     Mathf.Round(orderMoney);
-                    upgrades.totalMoney += (int)orderMoney;
+                    UpgradeManager.totalMoney += (int)orderMoney;
 
-                    cookTime = maxCookTime - upgrades.cookSpeedAdd;
+                    cookTime = maxCookTime - UpgradeManager.cookSpeedAdd;
                     isClicked = false;
                     doneCooking = false;
                 }
@@ -125,17 +123,17 @@ Debug.Log(cookTime);
             manager.numServed++;
             //note: generalize when more orders added
             //ie:
-            //upgrades.money += (order.money / 2);
+            //UpgradeManager.money += (order.money / 2);
             
             float orderMoney = 1f;
-            if (upgrades.priceAdd > 0)
+            if (UpgradeManager.priceAdd > 0)
             {
-                for (int i = 0; i < upgrades.priceAdd; i++)
+                for (int i = 0; i < UpgradeManager.priceAdd; i++)
                 orderMoney = orderMoney * 1.2f;
             }
             Mathf.Round(orderMoney);
-            upgrades.totalMoney += (int)orderMoney;
-            //cookTime = maxCookTime - upgrades.cookSpeedAdd;
+            UpgradeManager.totalMoney += (int)orderMoney;
+            //cookTime = maxCookTime - UpgradeManager.cookSpeedAdd;
         }
         idleInProgress = false;
         //doneCooking = false; 
@@ -144,9 +142,9 @@ Debug.Log(cookTime);
     IEnumerator Cook()
     {
         doneCooking = true;
-        cookTime = maxCookTime - upgrades.cookSpeedAdd;
+        cookTime = maxCookTime - UpgradeManager.cookSpeedAdd;
         clock.SetActive(true);
-        yield return new WaitForSeconds(maxCookTime - upgrades.cookSpeedAdd);
+        yield return new WaitForSeconds(maxCookTime - UpgradeManager.cookSpeedAdd);
         clock.SetActive(false);
         doneCooking = false;
     }

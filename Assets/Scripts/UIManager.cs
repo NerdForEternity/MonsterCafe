@@ -44,7 +44,7 @@ public class UIManager : MonoBehaviour
 
     private void Update()
     {
-        moneyCount.text = upgradesManager.totalMoney.ToString();
+        moneyCount.text = UpgradeManager.totalMoney.ToString();
     }
 
     /*public void ShowScreenMenu()

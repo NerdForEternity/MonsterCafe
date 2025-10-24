@@ -47,7 +47,7 @@ public class CustomerManager : MonoBehaviour
         scriptRef.chairs = chairs;
         scriptRef.startNode = doorNode;
         scriptRef.manager = this.GetComponent<CustomerManager>();
-        scriptRef.upgrades = upgradeManager.GetComponent<UpgradeManager>();
+        //scriptRef.upgrades = upgradeManager.GetComponent<UpgradeManager>();
         numCustomers++;
 
         StartCoroutine(CreateCustomer());

@@ -25,12 +25,12 @@ public class GrimmJournal : MonoBehaviour
 
     private int currentSpriteIndex = 0;
 
-    UpgradeManager upgrades;
+    //UpgradeManager upgrades;
 
 
     //Audio Manager
     AudioManager audioManager;
-    UpgradeManager upgradeManager;
+    //UpgradeManager upgradeManager;
 
     public void ChangeBackground(int targetBackground)
     {
@@ -48,7 +48,7 @@ public class GrimmJournal : MonoBehaviour
     private void Start()
     {
         audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
-        upgradeManager = GameObject.FindGameObjectWithTag("UpgradesManager").GetComponent<UpgradeManager>();
+        //upgradeManager = GameObject.FindGameObjectWithTag("UpgradesManager").GetComponent<UpgradeManager>();
         CampaignPage();
     }
 
@@ -110,9 +110,9 @@ public class GrimmJournal : MonoBehaviour
         cookingText = cookingSpeedPage.transform.GetChild(2).gameObject;
         cookingPriceText = cookingSpeedPage.transform.GetChild(3).gameObject;
 
-        cookingText.GetComponent<TMP_Text>().text = ("LVL: " + upgradeManager.cookSpeedAdd.ToString());
-        if (upgradeManager.cookSpeedAdd < 3)
-            cookingPriceText.GetComponent<TMP_Text>().text = ("COST: " + (2 * (upgradeManager.cookSpeedAdd + 1)));
+        cookingText.GetComponent<TMP_Text>().text = ("LVL: " + UpgradeManager.cookSpeedAdd.ToString());
+        if (UpgradeManager.cookSpeedAdd < 3)
+            cookingPriceText.GetComponent<TMP_Text>().text = ("COST: " + (2 * (UpgradeManager.cookSpeedAdd + 1)));
         else
             cookingPriceText.GetComponent<TMP_Text>().text = ("COST: SOLD OUT");
         
@@ -127,9 +127,9 @@ public class GrimmJournal : MonoBehaviour
         patienceText = customerPatiencePage.transform.GetChild(2).gameObject;
         patiencePriceText = customerPatiencePage.transform.GetChild(3).gameObject;
 
-        patienceText.GetComponent<TMP_Text>().text = ("LVL: " + upgradeManager.patienceAdd.ToString());
-        if (upgradeManager.patienceAdd < 3)
-            patiencePriceText.GetComponent<TMP_Text>().text = ("COST: " + (2 * (upgradeManager.patienceAdd + 1)));
+        patienceText.GetComponent<TMP_Text>().text = ("LVL: " + UpgradeManager.patienceAdd.ToString());
+        if (UpgradeManager.patienceAdd < 3)
+            patiencePriceText.GetComponent<TMP_Text>().text = ("COST: " + (2 * (UpgradeManager.patienceAdd + 1)));
         else
             patiencePriceText.GetComponent<TMP_Text>().text = ("COST: SOLD OUT");
     }
@@ -144,43 +144,43 @@ public class GrimmJournal : MonoBehaviour
         foodPriceText = foodPricePage.transform.GetChild(3).gameObject;
 
         float upgradePrice = 2;
-        if (upgradeManager.priceAdd > 0)
+        if (UpgradeManager.priceAdd > 0)
         {
-            for (int i = 0; i < upgradeManager.priceAdd; i++)
+            for (int i = 0; i < UpgradeManager.priceAdd; i++)
                 upgradePrice = upgradePrice * 1.2f;
         }
         Mathf.Round(upgradePrice);
 
-        priceText.GetComponent<TMP_Text>().text = ("LVL: " + upgradeManager.priceAdd.ToString());
+        priceText.GetComponent<TMP_Text>().text = ("LVL: " + UpgradeManager.priceAdd.ToString());
         foodPriceText.GetComponent<TMP_Text>().text = ("COST: " + upgradePrice);
     }
 
     public void upgradeCooking()
     {
-        int price = 2 * (upgradeManager.cookSpeedAdd + 1);
-        if (upgradeManager.cookSpeedAdd < 3 && upgradeManager.totalMoney >= price)
+        int price = 2 * (UpgradeManager.cookSpeedAdd + 1);
+        if (UpgradeManager.cookSpeedAdd < 3 && UpgradeManager.totalMoney >= price)
         {
-            upgradeManager.cookSpeedAdd++;
-            upgradeManager.totalMoney -= price;
-            cookingText.GetComponent<TMP_Text>().text = ("LVL: " + upgradeManager.cookSpeedAdd.ToString());
+            UpgradeManager.cookSpeedAdd++;
+            UpgradeManager.totalMoney -= price;
+            cookingText.GetComponent<TMP_Text>().text = ("LVL: " + UpgradeManager.cookSpeedAdd.ToString());
 
-            if (upgradeManager.cookSpeedAdd < 3)
-                cookingPriceText.GetComponent<TMP_Text>().text = ("COST: " + 2 * (upgradeManager.cookSpeedAdd + 1));
+            if (UpgradeManager.cookSpeedAdd < 3)
+                cookingPriceText.GetComponent<TMP_Text>().text = ("COST: " + 2 * (UpgradeManager.cookSpeedAdd + 1));
             else
                 cookingPriceText.GetComponent<TMP_Text>().text = ("COST: SOLD OUT");
         }
     }
     public void upgradeCustomer()
     {
-        int price = 2 * ((int)upgradeManager.patienceAdd + 1);
-        if (upgradeManager.patienceAdd < 3 && upgradeManager.totalMoney >= price)
+        int price = 2 * ((int)UpgradeManager.patienceAdd + 1);
+        if (UpgradeManager.patienceAdd < 3 && UpgradeManager.totalMoney >= price)
         {
-            upgradeManager.patienceAdd++;
-            upgradeManager.totalMoney -= price;
-            patienceText.GetComponent<TMP_Text>().text = ("LVL: " + upgradeManager.patienceAdd.ToString());
+            UpgradeManager.patienceAdd++;
+            UpgradeManager.totalMoney -= price;
+            patienceText.GetComponent<TMP_Text>().text = ("LVL: " + UpgradeManager.patienceAdd.ToString());
 
-        if (upgradeManager.patienceAdd < 3)
-            patiencePriceText.GetComponent<TMP_Text>().text = ("COST: " + (2 * (upgradeManager.patienceAdd + 1)));
+        if (UpgradeManager.patienceAdd < 3)
+            patiencePriceText.GetComponent<TMP_Text>().text = ("COST: " + (2 * (UpgradeManager.patienceAdd + 1)));
         else
             patiencePriceText.GetComponent<TMP_Text>().text = ("COST: SOLD OUT");
         }
@@ -188,18 +188,18 @@ public class GrimmJournal : MonoBehaviour
     public void upgradeFood()
     {
         float upgradePrice = 2f;
-        if (upgradeManager.priceAdd > 0)
+        if (UpgradeManager.priceAdd > 0)
         {
-            for (int i = 0; i < upgradeManager.priceAdd; i++)
+            for (int i = 0; i < UpgradeManager.priceAdd; i++)
                 upgradePrice = upgradePrice * 1.2f;
         }
         Mathf.Round(upgradePrice);
         
-        if (upgradeManager.totalMoney >= (int)upgradePrice)
+        if (UpgradeManager.totalMoney >= (int)upgradePrice)
         {
-            upgradeManager.priceAdd++;
-            upgradeManager.totalMoney -= (int)upgradePrice;
-            priceText.GetComponent<TMP_Text>().text = ("LVL:" + upgradeManager.priceAdd.ToString());
+            UpgradeManager.priceAdd++;
+            UpgradeManager.totalMoney -= (int)upgradePrice;
+            priceText.GetComponent<TMP_Text>().text = ("LVL:" + UpgradeManager.priceAdd.ToString());
 
             foodPriceText.GetComponent<TMP_Text>().text = ("COST: " + Mathf.Round(upgradePrice * 1.2f));
         }
