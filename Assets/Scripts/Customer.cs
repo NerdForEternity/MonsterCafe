@@ -14,7 +14,7 @@ public class Customer : MonoBehaviour
     private List<PathNode> path = new List<PathNode>();
     public Machine machine;
     public CustomerManager manager;
-    public UpgradeManager upgrades;
+    //public UpgradeManager upgrades;
     private Animator animator;
     private GameObject canvas;
     public Slider patience;
@@ -28,10 +28,12 @@ public class Customer : MonoBehaviour
         animator = this.transform.GetChild(1).GetChild(1).GetComponent<Animator>();
         canvas = this.transform.GetChild(1).GetChild(0).gameObject;
         patience = canvas.GetComponentInChildren<Slider>(true);
-        patience.maxValue = 7f + upgrades.patienceAdd;
+        patience.maxValue = 7f + UpgradeManager.patienceAdd;
+        
         //note: fix when there are multiple machines
         machine = GameObject.Find("machine").GetComponent<Machine>();
         machine.manager = manager;
+        
         currentNode = startNode;
         myChair = chairs.Find(p => p.isOccupied == false);
         myChair.isOccupied = true;
@@ -107,6 +109,29 @@ public class Customer : MonoBehaviour
         machine.serveList.Add(this);
         hasOrdered = true;
         canvas.SetActive(true);
+
+        List<FoodItem> myOrders = new List<FoodItem>();
+        int numOrders = Random.Range(1, 3);
+        GameObject orderSprites = canvas.transform.GetChild(1).gameObject;
+
+Debug.Log("I ordered " + numOrders + " order(s)");
+        int randomOrder = Random.Range(0, 5);
+        for (int i = 0; i < numOrders; i++)
+        {
+            randomOrder = Random.Range(0, 5);
+            while (UpgradeManager.orderList[randomOrder].isUnlocked == false)
+                randomOrder = Random.Range(0, 5);
+
+            FoodItem nextOrder = UpgradeManager.orderList[randomOrder];
+            myOrders.Add(nextOrder);
+
+            Debug.Log("I ordered " + myOrders[i].name);
+            SpriteRenderer currentSprite = orderSprites.transform.GetChild(i).GetComponent<SpriteRenderer>();
+            currentSprite.sprite = nextOrder.sprite;
+        }
+
+        if (numOrders == 1)
+            orderSprites.transform.GetChild(1).gameObject.SetActive(false);
     }
     public void CreatePath(PathNode startNode, PathNode endNode)
     {
