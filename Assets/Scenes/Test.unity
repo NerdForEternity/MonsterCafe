@@ -428,7 +428,7 @@ Transform:
   m_GameObject: {fileID: 46708309}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.61, y: 0.27, z: 0}
+  m_LocalPosition: {x: -0.01, y: -0.15, z: 0}
   m_LocalScale: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -591,11 +591,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3745756853356209284, guid: 32197a4972526f14388f87a309fedb1c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.76
+      value: -2.24
       objectReference: {fileID: 0}
     - target: {fileID: 3745756853356209284, guid: 32197a4972526f14388f87a309fedb1c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.12
+      value: -4.04
       objectReference: {fileID: 0}
     - target: {fileID: 3745756853356209284, guid: 32197a4972526f14388f87a309fedb1c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -22901,6 +22901,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5271445766400633591, guid: 715fb201a7380154eaf005f2c26366aa, type: 3}
+      propertyPath: soda
+      value: 
+      objectReference: {fileID: 11400000, guid: c22daa38ed8aa0d49901456672e6a3d7, type: 2}
+    - target: {fileID: 5271445766400633591, guid: 715fb201a7380154eaf005f2c26366aa, type: 3}
+      propertyPath: burger
+      value: 
+      objectReference: {fileID: 11400000, guid: df2e225923bb7924389f85634f9a73fa, type: 2}
+    - target: {fileID: 5271445766400633591, guid: 715fb201a7380154eaf005f2c26366aa, type: 3}
+      propertyPath: coffee
+      value: 
+      objectReference: {fileID: 11400000, guid: 60e64e09e2c06074fadda5d371dad8eb, type: 2}
+    - target: {fileID: 5271445766400633591, guid: 715fb201a7380154eaf005f2c26366aa, type: 3}
+      propertyPath: panini
+      value: 
+      objectReference: {fileID: 11400000, guid: 165936d4ec9495b468678996b3b43265, type: 2}
+    - target: {fileID: 5271445766400633591, guid: 715fb201a7380154eaf005f2c26366aa, type: 3}
+      propertyPath: martini
+      value: 
+      objectReference: {fileID: 11400000, guid: 5ab166b5fe88a7545b1e664073a0c40a, type: 2}
     - target: {fileID: 5271445766400633591, guid: 715fb201a7380154eaf005f2c26366aa, type: 3}
       propertyPath: sodaSprite
       value: 

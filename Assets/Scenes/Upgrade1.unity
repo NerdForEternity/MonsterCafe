@@ -1019,6 +1019,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5271445766400633591, guid: 715fb201a7380154eaf005f2c26366aa, type: 3}
+      propertyPath: sodaSprite
+      value: 
+      objectReference: {fileID: -677975870149598255, guid: f9fba891137ff59438bdb58744a2d0ca, type: 3}
+    - target: {fileID: 5271445766400633591, guid: 715fb201a7380154eaf005f2c26366aa, type: 3}
+      propertyPath: burgerSprite
+      value: 
+      objectReference: {fileID: 6234330970754847308, guid: 2e0334dcb0cc72c48b27549700c3fbb1, type: 3}
+    - target: {fileID: 5271445766400633591, guid: 715fb201a7380154eaf005f2c26366aa, type: 3}
+      propertyPath: coffeeSprite
+      value: 
+      objectReference: {fileID: 4687309882487268517, guid: 5d6fb2c0adfb3f04ab14a3231ebae48e, type: 3}
+    - target: {fileID: 5271445766400633591, guid: 715fb201a7380154eaf005f2c26366aa, type: 3}
+      propertyPath: paniniSprite
+      value: 
+      objectReference: {fileID: -7300833243798568681, guid: e679ae9428c7b66488c430c865daeaf8, type: 3}
+    - target: {fileID: 5271445766400633591, guid: 715fb201a7380154eaf005f2c26366aa, type: 3}
+      propertyPath: martiniSprite
+      value: 
+      objectReference: {fileID: 9050593021232142194, guid: 509f9263ed30e1f4aa0164ede77f9f76, type: 3}
     - target: {fileID: 7742853315781113475, guid: 715fb201a7380154eaf005f2c26366aa, type: 3}
       propertyPath: m_Name
       value: UpgradesManager
@@ -5255,6 +5275,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Machine
       objectReference: {fileID: 0}
+    - target: {fileID: 2854299959045791938, guid: b67f074befc57084288025dd0ce2351f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 6152614717072279772, guid: 750ff1200a902e9449d5155cae800d62, type: 3}
     - target: {fileID: 2854299959045791938, guid: b67f074befc57084288025dd0ce2351f, type: 3}
       propertyPath: m_SortingOrder
       value: 2

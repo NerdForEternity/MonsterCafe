@@ -167,7 +167,6 @@ MonoBehaviour:
   machine: {fileID: 0}
   manager: {fileID: 0}
   patience: {fileID: 0}
-  chairs: []
 --- !u!1001 &3354625118047035182
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -240,15 +239,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3436805563753833278, guid: c476ebb59516b4f43833a7e317adca73, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3436805563753833278, guid: c476ebb59516b4f43833a7e317adca73, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3436805563753833278, guid: c476ebb59516b4f43833a7e317adca73, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3622019378237916284, guid: c476ebb59516b4f43833a7e317adca73, type: 3}
       propertyPath: m_Sprite
@@ -280,7 +279,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8112901783362032658, guid: c476ebb59516b4f43833a7e317adca73, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9099403223355710933, guid: c476ebb59516b4f43833a7e317adca73, type: 3}
       propertyPath: m_LocalPosition.x

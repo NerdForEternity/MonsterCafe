@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 8067850950916823145}
   - component: {fileID: 4378549261930572165}
   m_Layer: 0
-  m_Name: machine
+  m_Name: Soda Machine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -157,7 +157,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2627536669488283446, guid: 193d025b1ce0c984c93ac74e5715bb35, type: 3}
+  m_Sprite: {fileID: 6977385950696281673, guid: 750ff1200a902e9449d5155cae800d62, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -182,8 +182,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Machine
   InputActions: {fileID: 0}
   manager: {fileID: 0}
-  upgrades: {fileID: 0}
   serveList: []
+  isClicked: 0
   idle: 0
 --- !u!61 &4378549261930572165
 BoxCollider2D:
@@ -223,7 +223,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.0534384, y: 1.3083334}
+    oldSize: {x: 0.91854525, y: 0.8583333}
     newSize: {x: 0.7, y: 1.85}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

@@ -8,8 +8,9 @@ public class Machine : MonoBehaviour
 {
     public InputActionAsset InputActions;
     public CustomerManager manager;
-    //public UpgradeManager upgrades;
+    //delete later
     private float maxCookTime = 3f;
+    //
     private float cookTime;
     private bool doneCooking;
     public List<Customer> serveList;

@@ -34,7 +34,7 @@ public class CustomerManager : MonoBehaviour
 
         //as more customers are served, they spawn more frequently
         spawnTime = Random.Range(10f, 9f) - (numServed * 0.25f);
-        //time between spawns is 5 seconds at minimum
+        //time between spawns is 2 seconds at minimum
         if (spawnTime < 2)
             spawnTime = Random.Range(2.0f, 2.5f);
         yield return new WaitForSeconds(spawnTime);
@@ -44,10 +44,9 @@ public class CustomerManager : MonoBehaviour
 
         //pass references to new customer
         Customer scriptRef = newCustomer.GetComponent<Customer>();
-        scriptRef.chairs = chairs;
         scriptRef.startNode = doorNode;
         scriptRef.manager = this.GetComponent<CustomerManager>();
-        //scriptRef.upgrades = upgradeManager.GetComponent<UpgradeManager>();
+
         numCustomers++;
 
         StartCoroutine(CreateCustomer());

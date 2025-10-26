@@ -14,13 +14,12 @@ public class Customer : MonoBehaviour
     private List<PathNode> path = new List<PathNode>();
     public Machine machine;
     public CustomerManager manager;
-    //public UpgradeManager upgrades;
     private Animator animator;
     private GameObject canvas;
     public Slider patience;
-    public List<Chair> chairs;
     private ParticleSystem particles;
     AudioManager audioManager;
+    
     void Start()
     {
         audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
@@ -35,7 +34,7 @@ public class Customer : MonoBehaviour
         machine.manager = manager;
         
         currentNode = startNode;
-        myChair = chairs.Find(p => p.isOccupied == false);
+        myChair = manager.chairs.Find(p => p.isOccupied == false);
         myChair.isOccupied = true;
 
         isServed = false;
@@ -48,21 +47,17 @@ public class Customer : MonoBehaviour
         if (canvas.activeSelf)
             patience.value -= Time.deltaTime;
 
-
         //runs when customer arrives/waits for order
         if (!isServed && patience.value > 0f)
         {
             CreatePath(currentNode, myChair.chairNode);
 
-            if (!hasOrdered)
-            {
-                animator.SetBool("Walking", true);
-            }
-
+            //customer has arrived at chair
             if (path.Count == 0 && !hasOrdered)
             {
                 animator.SetBool("Walking", false);
                 animator.SetBool("Sitting", true);
+
                 Order();
             }
         }
@@ -125,7 +120,7 @@ Debug.Log("I ordered " + numOrders + " order(s)");
             FoodItem nextOrder = UpgradeManager.orderList[randomOrder];
             myOrders.Add(nextOrder);
 
-            Debug.Log("I ordered " + myOrders[i].name);
+Debug.Log("I ordered " + myOrders[i].name);
             SpriteRenderer currentSprite = orderSprites.transform.GetChild(i).GetComponent<SpriteRenderer>();
             currentSprite.sprite = nextOrder.sprite;
         }
