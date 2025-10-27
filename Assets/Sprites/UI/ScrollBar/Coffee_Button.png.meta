@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2dd185f788fa2ce43817c54949d455f3
+guid: 85af882352b61b84f9a75e78cf4cf1c0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6391462694628792474
-    second: MC_Food_IDK_0
+      213: -1312463517166647782
+    second: Coffee_Button_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 1200
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MC_Food_IDK_0
+      name: Coffee_Button_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 523
-        height: 749
+        x: 587
+        y: 971
+        width: 1342
+        height: 434
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a989284157903b850800000000000000
-      internalID: 6391462694628792474
+      spriteID: a164f96826139cde0800000000000000
+      internalID: -1312463517166647782
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      MC_Food_IDK_0: 6391462694628792474
+      Coffee_Button_0: -1312463517166647782
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
