@@ -187,6 +187,8 @@ public class GrimmJournal : MonoBehaviour
                 patiencePriceText.GetComponent<TMP_Text>().text = ("COST: SOLD OUT");
         }
     }
+    
+    //remove
     public void upgradeFood()
     {
         float upgradePrice = 2f;

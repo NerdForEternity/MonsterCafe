@@ -34,8 +34,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.8, y: -17.4}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 30.730011, y: 116.83999}
+  m_SizeDelta: {x: 466.42, y: 466.42}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8885505830810529507
 CanvasRenderer:
@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 8067850950916823145}
   - component: {fileID: 4378549261930572165}
   m_Layer: 0
-  m_Name: machine
+  m_Name: Panini Machine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -104,7 +104,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.20676817, y: 0.20676817, z: 0.20676817}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2240909079019453819}
@@ -156,8 +156,8 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -2627536669488283446, guid: 193d025b1ce0c984c93ac74e5715bb35, type: 3}
+  m_SortingOrder: 3
+  m_Sprite: {fileID: -4570206530734368828, guid: e21277f6f266ada4ba11541d98e7a351, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -180,10 +180,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a004fd1b1b208394a9416159d85cbb5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Machine
-  InputActions: {fileID: 0}
+  InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   manager: {fileID: 0}
-  upgrades: {fileID: 0}
+  itemType: {fileID: 11400000, guid: 165936d4ec9495b468678996b3b43265, type: 2}
   serveList: []
+  isClicked: 0
   idle: 0
 --- !u!61 &4378549261930572165
 BoxCollider2D:
@@ -223,13 +224,13 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.0534384, y: 1.3083334}
+    oldSize: {x: 4.98, y: 3.74}
     newSize: {x: 0.7, y: 1.85}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.5801574, y: 1.9624999}
+  m_Size: {x: 5.13, y: 4.33}
   m_EdgeRadius: 0
 --- !u!1 &2164396485291666542
 GameObject:
@@ -249,7 +250,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2240909079019453819
 RectTransform:
   m_ObjectHideFlags: 0
@@ -268,8 +269,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.01, y: 1.116}
-  m_SizeDelta: {x: 913.99994, y: 503.40002}
+  m_AnchoredPosition: {x: 0.07, y: 5.89}
+  m_SizeDelta: {x: 3040.8914, y: 1674.8196}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &7593985616223427184
 Canvas:
@@ -368,8 +369,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 27, y: 198}
+  m_SizeDelta: {x: 466.42, y: 466.42}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1637928347778721538
 CanvasRenderer:
