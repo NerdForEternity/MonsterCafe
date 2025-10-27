@@ -20,13 +20,15 @@ public class GrimmJournal : MonoBehaviour
     private GameObject patienceText;
     private GameObject patiencePriceText;
     public GameObject foodPricePage;
-    private GameObject priceText;
-    private GameObject foodPriceText;
+    public GameObject priceText;
+    public GameObject foodPriceText;
 
     private int currentSpriteIndex = 0;
 
     //UpgradeManager upgrades;
 
+
+    private int foodIndex;
 
     //Audio Manager
     AudioManager audioManager;
@@ -115,7 +117,7 @@ public class GrimmJournal : MonoBehaviour
             cookingPriceText.GetComponent<TMP_Text>().text = ("COST: " + (2 * (UpgradeManager.cookSpeedAdd + 1)));
         else
             cookingPriceText.GetComponent<TMP_Text>().text = ("COST: SOLD OUT");
-        
+
     }
 
     public void CustomerPatiencePage()
@@ -179,10 +181,10 @@ public class GrimmJournal : MonoBehaviour
             UpgradeManager.totalMoney -= price;
             patienceText.GetComponent<TMP_Text>().text = ("LVL: " + UpgradeManager.patienceAdd.ToString());
 
-        if (UpgradeManager.patienceAdd < 3)
-            patiencePriceText.GetComponent<TMP_Text>().text = ("COST: " + (2 * (UpgradeManager.patienceAdd + 1)));
-        else
-            patiencePriceText.GetComponent<TMP_Text>().text = ("COST: SOLD OUT");
+            if (UpgradeManager.patienceAdd < 3)
+                patiencePriceText.GetComponent<TMP_Text>().text = ("COST: " + (2 * (UpgradeManager.patienceAdd + 1)));
+            else
+                patiencePriceText.GetComponent<TMP_Text>().text = ("COST: SOLD OUT");
         }
     }
     public void upgradeFood()
@@ -194,15 +196,23 @@ public class GrimmJournal : MonoBehaviour
                 upgradePrice = upgradePrice * 1.2f;
         }
         Mathf.Round(upgradePrice);
-        
+
         if (UpgradeManager.totalMoney >= (int)upgradePrice)
         {
             UpgradeManager.priceAdd++;
             UpgradeManager.totalMoney -= (int)upgradePrice;
-            priceText.GetComponent<TMP_Text>().text = ("LVL:" + UpgradeManager.priceAdd.ToString());
 
-            foodPriceText.GetComponent<TMP_Text>().text = ("COST: " + Mathf.Round(upgradePrice * 1.2f));
+            UpgradeManager.orderList[foodIndex].numUpgrades++;
+            Debug.Log("Upgraded " + UpgradeManager.orderList[foodIndex].name + " to level " + UpgradeManager.orderList[foodIndex].numUpgrades);
+
         }
+    }
+
+    public void UpdatePrice()
+    {
+        priceText.GetComponent<TMP_Text>().text = ("LVL:" + UpgradeManager.orderList[foodIndex].numUpgrades.ToString());
+        foodPriceText.GetComponent<TMP_Text>().text = ("COST: " + UpgradeManager.orderList[foodIndex].price);
+        Debug.Log("do you even see this");
     }
 
     //Back Button Functionality
@@ -211,4 +221,33 @@ public class GrimmJournal : MonoBehaviour
         SceneManager.UnloadSceneAsync("GrimmJournal");
         SceneManager.UnloadSceneAsync("WorldMapScene");
     }
+
+    public void SelectCoffee()
+    {
+        foodIndex = 0;
+        UpdatePrice();
+    }
+
+    public void SelectSoda()
+    {
+        foodIndex = 1;
+        UpdatePrice();
+    }
+
+    public void SelectMartini()
+    {
+        foodIndex = 2;
+        UpdatePrice();
+    }
+    public void SelectBurger()
+    {
+        foodIndex = 3;
+        UpdatePrice();
+    }
+    public void SelectPanini()
+    {
+        foodIndex = 4;
+        UpdatePrice();
+    }
+
 }
