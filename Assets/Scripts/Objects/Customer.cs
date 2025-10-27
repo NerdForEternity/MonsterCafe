@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine.UI;
 
 public class Customer : MonoBehaviour
@@ -12,13 +13,15 @@ public class Customer : MonoBehaviour
     public bool leaving;
     public Chair myChair;
     private List<PathNode> path = new List<PathNode>();
-    public Machine machine;
+    //public Machine machine;
     public CustomerManager manager;
     private Animator animator;
     private GameObject canvas;
     public Slider patience;
     private ParticleSystem particles;
     AudioManager audioManager;
+    public List<FoodItem> myOrders;
+    GameObject orderSprites;
     
     void Start()
     {
@@ -27,11 +30,8 @@ public class Customer : MonoBehaviour
         animator = this.transform.GetChild(1).GetChild(1).GetComponent<Animator>();
         canvas = this.transform.GetChild(1).GetChild(0).gameObject;
         patience = canvas.GetComponentInChildren<Slider>(true);
-        patience.maxValue = 7f + UpgradeManager.patienceAdd;
-        
-        //note: fix when there are multiple machines
-        machine = GameObject.Find("machine").GetComponent<Machine>();
-        machine.manager = manager;
+        patience.maxValue = 15f + (UpgradeManager.patienceAdd * 5f);
+        patience.value = patience.maxValue;
         
         currentNode = startNode;
         myChair = manager.chairs.Find(p => p.isOccupied == false);
@@ -42,8 +42,6 @@ public class Customer : MonoBehaviour
 
     void Update()
     {
-        machine.idle = manager.idle;
-
         if (canvas.activeSelf)
             patience.value -= Time.deltaTime;
 
@@ -71,19 +69,9 @@ public class Customer : MonoBehaviour
 
             if (!leaving)
             {
-                if (isServed)
-                {
-                    particles.Play();
-                    audioManager.PlaySFX(audioManager.cookingComplete);
-                }
-
                 myChair.isOccupied = false;
-                machine.isClicked = false;
                 leaving = true;
-            }
-
-            //removes them from machine queue
-            machine.serveList.Remove(this);
+            }     
 
             CreatePath(myChair.chairNode, startNode);
 
@@ -100,16 +88,13 @@ public class Customer : MonoBehaviour
 
     public void Order()
     {
-        //note: in later versions customer will randomly choose from unlocked foods but for now will only order coffee
-        machine.serveList.Add(this);
         hasOrdered = true;
         canvas.SetActive(true);
 
-        List<FoodItem> myOrders = new List<FoodItem>();
+        myOrders = new List<FoodItem>();
         int numOrders = Random.Range(1, 3);
-        GameObject orderSprites = canvas.transform.GetChild(1).gameObject;
+        orderSprites = canvas.transform.GetChild(1).gameObject;
 
-Debug.Log("I ordered " + numOrders + " order(s)");
         int randomOrder = Random.Range(0, 5);
         for (int i = 0; i < numOrders; i++)
         {
@@ -120,7 +105,12 @@ Debug.Log("I ordered " + numOrders + " order(s)");
             FoodItem nextOrder = UpgradeManager.orderList[randomOrder];
             myOrders.Add(nextOrder);
 
-Debug.Log("I ordered " + myOrders[i].name);
+            if (manager.machines.Any(a => a.itemType == nextOrder))
+            {
+                Machine myMachine = manager.machines.First(Machine => Machine.itemType == nextOrder);
+                myMachine.serveList.Add(this);
+            }
+
             SpriteRenderer currentSprite = orderSprites.transform.GetChild(i).GetComponent<SpriteRenderer>();
             currentSprite.sprite = nextOrder.sprite;
         }
@@ -146,6 +136,47 @@ Debug.Log("I ordered " + myOrders[i].name);
         {
             while (path == null || path.Count == 0)
                 path = Pathfinding.instance.GeneratePath(startNode, endNode);
+        }
+    }
+
+    public void Serve(FoodItem foodItem, bool isIdle)
+    {
+        if (myOrders.Contains(foodItem))
+        {
+            for (int i = 0; i < myOrders.Count; i++)
+            {
+                SpriteRenderer currentSprite = orderSprites.transform.GetChild(i).GetComponent<SpriteRenderer>();
+                if (currentSprite.sprite == foodItem.sprite)
+                {
+                    currentSprite.enabled = false;
+                    break;
+                }
+            }
+Debug.Log("Serving " + foodItem + ", idle is " + isIdle);
+            myOrders.Remove(foodItem);
+        }
+
+        int idleModifier = 1;
+        if (isIdle)
+            idleModifier++;
+
+        float orderMoney = foodItem.price;
+        if (foodItem.numUpgrades > 0)
+        {
+            for (int i = 0; i < foodItem.numUpgrades; i++)
+                orderMoney = orderMoney * 1.2f;
+        }
+        Mathf.Round(orderMoney);
+        UpgradeManager.totalMoney += (int)orderMoney / idleModifier;
+
+        particles.Play();
+        audioManager.PlaySFX(audioManager.cookingComplete);
+
+        //all of this customer's items have been served
+        if (myOrders.Count == 0)
+        {
+            isServed = true;
+            manager.numServed++;
         }
     }
 }

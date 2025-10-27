@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 4378549261930572165}
   m_Layer: 0
   m_Name: Coffee Machine
-  m_TagString: Untagged
+  m_TagString: Machine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -156,8 +156,8 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -2627536669488283446, guid: 193d025b1ce0c984c93ac74e5715bb35, type: 3}
+  m_SortingOrder: 3
+  m_Sprite: {fileID: 6152614717072279772, guid: 750ff1200a902e9449d5155cae800d62, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -180,10 +180,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a004fd1b1b208394a9416159d85cbb5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Machine
-  InputActions: {fileID: 0}
+  InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   manager: {fileID: 0}
-  upgrades: {fileID: 0}
+  itemType: {fileID: 11400000, guid: 60e64e09e2c06074fadda5d371dad8eb, type: 2}
   serveList: []
+  isClicked: 0
   idle: 0
 --- !u!61 &4378549261930572165
 BoxCollider2D:
@@ -215,7 +216,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -223,13 +224,13 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.0534384, y: 1.3083334}
+    oldSize: {x: 0.9035418, y: 1.12}
     newSize: {x: 0.7, y: 1.85}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.5801574, y: 1.9624999}
+  m_Size: {x: 1.15, y: 1.31}
   m_EdgeRadius: 0
 --- !u!1 &2164396485291666542
 GameObject:
@@ -249,7 +250,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2240909079019453819
 RectTransform:
   m_ObjectHideFlags: 0

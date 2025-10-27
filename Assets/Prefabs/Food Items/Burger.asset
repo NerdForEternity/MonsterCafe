@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 206fd23c38f719244aba40e36658d7ef, type: 3}
   m_Name: Burger
   m_EditorClassIdentifier: Assembly-CSharp::FoodItem
-  isUnlocked: 1
+  isUnlocked: 0
   price: 8
   cookTime: 6
   sprite: {fileID: 6234330970754847308, guid: 2e0334dcb0cc72c48b27549700c3fbb1, type: 3}

@@ -7,6 +7,7 @@ public class CustomerManager : MonoBehaviour
     public GameObject customer;
     public GameObject door;
     public GameObject upgradeManager;
+    public List<Machine> machines; 
     public float spawnTime;
     public int numServed = 0;
     public bool idle;
@@ -23,6 +24,9 @@ public class CustomerManager : MonoBehaviour
 
         foreach (Chair n in FindObjectsByType<Chair>(FindObjectsSortMode.None))
             chairs.Add(n);
+
+        foreach (Machine n in FindObjectsByType<Machine>(FindObjectsSortMode.None))
+            machines.Add(n);
 
         StartCoroutine(CreateCustomer());
     }

@@ -182,6 +182,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Machine
   InputActions: {fileID: 0}
   manager: {fileID: 0}
+  itemType: {fileID: 11400000, guid: df2e225923bb7924389f85634f9a73fa, type: 2}
   serveList: []
   isClicked: 0
   idle: 0
@@ -249,7 +250,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2240909079019453819
 RectTransform:
   m_ObjectHideFlags: 0

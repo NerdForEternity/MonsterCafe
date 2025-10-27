@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 206fd23c38f719244aba40e36658d7ef, type: 3}
   m_Name: Soda
   m_EditorClassIdentifier: Assembly-CSharp::FoodItem
-  isUnlocked: 1
+  isUnlocked: 0
   price: 4
   cookTime: 4
   sprite: {fileID: -677975870149598255, guid: f9fba891137ff59438bdb58744a2d0ca, type: 3}
