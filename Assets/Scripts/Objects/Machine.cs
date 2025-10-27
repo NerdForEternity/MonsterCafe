@@ -103,9 +103,10 @@ public class Machine : MonoBehaviour
     {
         if (!doneCooking && currentCustomer.myOrders.Contains(itemType))
             StartCoroutine("Cook", isIdle);
-        else if (cookTime <= 0f)
+        else
         {
-            currentCustomer.Serve(itemType, isIdle);
+            if(!currentCustomer.leaving)
+                currentCustomer.Serve(itemType, isIdle);
             serveList.Remove(currentCustomer);
 
             //Resets the clock and bools after customr has been served
