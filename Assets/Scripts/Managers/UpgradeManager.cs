@@ -8,10 +8,6 @@ public class UpgradeManager : MonoBehaviour
     public static int cookSpeedAdd = 0;
     //customers wait for 1 second longer, max of 3 upgrades
     public static float patienceAdd = 0f;
-    //increases price of everything by 20%, no cap
-    //NOTE: replace with priceAdd for individual food items
-    public static int priceAdd = 0;
-    
 
     public FoodItem coffee;
     public FoodItem soda;

@@ -32,7 +32,6 @@ public class Customer : MonoBehaviour
         patience = canvas.GetComponentInChildren<Slider>(true);
         patience.maxValue = 15f + (UpgradeManager.patienceAdd * 5f);
         patience.value = patience.maxValue;
-        
         currentNode = startNode;
         myChair = manager.chairs.Find(p => p.isOccupied == false);
         myChair.isOccupied = true;
@@ -152,7 +151,6 @@ public class Customer : MonoBehaviour
                     break;
                 }
             }
-Debug.Log("Serving " + foodItem + ", idle is " + isIdle);
             myOrders.Remove(foodItem);
         }
 

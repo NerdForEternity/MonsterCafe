@@ -51,11 +51,8 @@ public class Machine : MonoBehaviour
 
             if(collision.OverlapPoint(clickPos))
             {
-                if (serveList[0] != null)
-                {
-                    if (serveList[0].hasOrdered)
-                        IsClicked(false);
-                }
+                if (serveList[0].hasOrdered && !idle)
+                    IsClicked(false);
             }
         };
     }
@@ -89,7 +86,7 @@ public class Machine : MonoBehaviour
 
     public void IdleServe()
     {
-        if (!idle || currentCustomer.leaving)
+        if (!idle || doneCooking || currentCustomer.leaving)
         {
             idleInProgress = false;
             return;
@@ -101,9 +98,9 @@ public class Machine : MonoBehaviour
     
     public void IsClicked(bool isIdle)
     {
-        if (!doneCooking && currentCustomer.myOrders.Contains(itemType))
+        if (!doneCooking && cookTime >= 0f)
             StartCoroutine("Cook", isIdle);
-        else
+        else if (!doneCooking)
         {
             if(!currentCustomer.leaving)
                 currentCustomer.Serve(itemType, isIdle);
@@ -112,7 +109,6 @@ public class Machine : MonoBehaviour
             //Resets the clock and bools after customr has been served
             cookTime = itemType.cookTime - UpgradeManager.cookSpeedAdd;
             idleInProgress = false;
-            doneCooking = false;
         }
     }
     
@@ -123,6 +119,7 @@ public class Machine : MonoBehaviour
         clock.SetActive(true);
         yield return new WaitForSeconds(itemType.cookTime - UpgradeManager.cookSpeedAdd);
         clock.SetActive(false);
+        doneCooking = false;
         IsClicked(isIdle);
     }
 }
