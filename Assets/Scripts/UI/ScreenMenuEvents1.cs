@@ -5,6 +5,7 @@ using UnityEditor;
 using UnityEngine.UIElements;
 using System.Runtime.CompilerServices;
 using UnityEngine.SceneManagement;
+using UnityEngine.InputSystem;
 
 public class ScreenMenuEvents1 : MonoBehaviour
 {
@@ -19,6 +20,7 @@ public class ScreenMenuEvents1 : MonoBehaviour
     public CustomerManager customerManager;
     int toggle = 0;
     AudioManager audioManager;
+    public InputActionAsset InputActions;
 
     private void Awake()
     {
@@ -42,15 +44,15 @@ public class ScreenMenuEvents1 : MonoBehaviour
     }
     private void OnGrimmClick(ClickEvent evt)
     {
-        Debug.Log("Grimm");
         audioManager.PlaySFX(audioManager.openingJournal);
-        SceneManager.LoadScene("GrimmJournal", LoadSceneMode.Additive);
-
+        if (!isSceneLoaded("GrimmJournal"))
+        {
+            InputActions.FindActionMap("Player").Disable();
+            SceneManager.LoadScene("GrimmJournal", LoadSceneMode.Additive);
+        }
     }
     private void OnPlayClick(ClickEvent evt)
     {
-
-        Debug.Log("Play");
         if (toggle == 0)
         {
             _PlayButton.style.backgroundImage = new StyleBackground(idleSprite);
@@ -68,5 +70,17 @@ public class ScreenMenuEvents1 : MonoBehaviour
     private void OnDecorClick(ClickEvent evt)
     {
         Debug.Log("Decor");
+    }
+
+    public bool isSceneLoaded (string sceneName)
+    {
+        for (int i = 0; i < SceneManager.sceneCount; i++)
+        {
+            Scene scene = SceneManager.GetSceneAt(i);
+
+            if (scene.name == sceneName)
+                return true;
+        }
+        return false;
     }
 }

@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.InputSystem;
 using TMPro;
 
 public class GrimmJournal : MonoBehaviour
@@ -24,15 +25,11 @@ public class GrimmJournal : MonoBehaviour
     public GameObject foodPriceText;
 
     private int currentSpriteIndex = 0;
-
-    //UpgradeManager upgrades;
-
-
     private int foodIndex;
 
-    //Audio Manager
     AudioManager audioManager;
-    //UpgradeManager upgradeManager;
+
+    public InputActionAsset InputActions;
 
     public void ChangeBackground(int targetBackground)
     {
@@ -50,7 +47,6 @@ public class GrimmJournal : MonoBehaviour
     private void Start()
     {
         audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
-        //upgradeManager = GameObject.FindGameObjectWithTag("UpgradesManager").GetComponent<UpgradeManager>();
         CampaignPage();
     }
 
@@ -65,11 +61,9 @@ public class GrimmJournal : MonoBehaviour
         customerPatiencePage.SetActive(false);
         foodPricePage.SetActive(false);
 
-
         // Activate the selected panel
         panelToShow.SetActive(true);
     }
-
 
     //Page Changes
     public void CampaignPage()
@@ -77,25 +71,30 @@ public class GrimmJournal : MonoBehaviour
         ChangeBackground(0);
         audioManager.PlaySFX(audioManager.buttonClick);
         ShowPanel(campaignPage);
-        SceneManager.LoadScene("WorldMapScene", LoadSceneMode.Additive);
+        
+        if(!isSceneLoaded("WorldMapScene"))
+            SceneManager.LoadScene("WorldMapScene", LoadSceneMode.Additive);
     }
     public void UpgradesPage()
     {
-        SceneManager.UnloadSceneAsync("WorldMapScene");
+        if(isSceneLoaded("WorldMapScene"))
+            SceneManager.UnloadSceneAsync("WorldMapScene");
         ChangeBackground(1);
         audioManager.PlaySFX(audioManager.buttonClick);
         ShowPanel(upgradesPage);
     }
     public void UnlocksPage()
     {
-        SceneManager.UnloadSceneAsync("WorldMapScene");
+        if(isSceneLoaded("WorldMapScene"))
+            SceneManager.UnloadSceneAsync("WorldMapScene");
         ChangeBackground(2);
         audioManager.PlaySFX(audioManager.buttonClick);
         ShowPanel(unlocksPage);
     }
     public void SettingsPage()
     {
-        SceneManager.UnloadSceneAsync("WorldMapScene");
+        if(isSceneLoaded("WorldMapScene"))
+            SceneManager.UnloadSceneAsync("WorldMapScene");
         ChangeBackground(3);
         audioManager.PlaySFX(audioManager.buttonClick);
         ShowPanel(settingsPage);
@@ -117,7 +116,6 @@ public class GrimmJournal : MonoBehaviour
             cookingPriceText.GetComponent<TMP_Text>().text = ("COST: " + (2 * (UpgradeManager.cookSpeedAdd + 1)));
         else
             cookingPriceText.GetComponent<TMP_Text>().text = ("COST: SOLD OUT");
-
     }
 
     public void CustomerPatiencePage()
@@ -145,16 +143,7 @@ public class GrimmJournal : MonoBehaviour
         priceText = foodPricePage.transform.GetChild(2).gameObject;
         foodPriceText = foodPricePage.transform.GetChild(3).gameObject;
 
-        float upgradePrice = 2;
-        if (UpgradeManager.priceAdd > 0)
-        {
-            for (int i = 0; i < UpgradeManager.priceAdd; i++)
-                upgradePrice = upgradePrice * 1.2f;
-        }
-        Mathf.Round(upgradePrice);
-
-        priceText.GetComponent<TMP_Text>().text = ("LVL: " + UpgradeManager.priceAdd.ToString());
-        foodPriceText.GetComponent<TMP_Text>().text = ("COST: " + upgradePrice);
+        UpdatePrice();
     }
 
     public void upgradeCooking()
@@ -188,40 +177,49 @@ public class GrimmJournal : MonoBehaviour
         }
     }
     
-    //remove
     public void upgradeFood()
     {
         float upgradePrice = 2f;
-        if (UpgradeManager.priceAdd > 0)
+        if (UpgradeManager.orderList[foodIndex].numUpgrades > 0)
         {
-            for (int i = 0; i < UpgradeManager.priceAdd; i++)
+            for (int i = 0; i < UpgradeManager.orderList[foodIndex].numUpgrades; i++)
                 upgradePrice = upgradePrice * 1.2f;
         }
-        Mathf.Round(upgradePrice);
+        upgradePrice = Mathf.Round(upgradePrice);
 
         if (UpgradeManager.totalMoney >= (int)upgradePrice)
         {
-            UpgradeManager.priceAdd++;
             UpgradeManager.totalMoney -= (int)upgradePrice;
 
             UpgradeManager.orderList[foodIndex].numUpgrades++;
-            Debug.Log("Upgraded " + UpgradeManager.orderList[foodIndex].name + " to level " + UpgradeManager.orderList[foodIndex].numUpgrades);
-
         }
+        UpdatePrice();
     }
 
     public void UpdatePrice()
     {
-        priceText.GetComponent<TMP_Text>().text = ("LVL:" + UpgradeManager.orderList[foodIndex].numUpgrades.ToString());
-        foodPriceText.GetComponent<TMP_Text>().text = ("COST: " + UpgradeManager.orderList[foodIndex].price);
-        Debug.Log("do you even see this");
+        priceText.GetComponent<TMP_Text>().text = ("LVL: " + UpgradeManager.orderList[foodIndex].numUpgrades.ToString());
+
+        float upgradePrice = 2f;
+        if (UpgradeManager.orderList[foodIndex].numUpgrades > 0)
+        {
+            for (int i = 0; i < UpgradeManager.orderList[foodIndex].numUpgrades; i++)
+            upgradePrice = upgradePrice * 1.2f;
+        }
+        upgradePrice = Mathf.Round(upgradePrice);
+
+        foodPriceText.GetComponent<TMP_Text>().text = ("COST: " + upgradePrice);
     }
 
     //Back Button Functionality
     public void GoBack()
     {
-        SceneManager.UnloadSceneAsync("GrimmJournal");
-        SceneManager.UnloadSceneAsync("WorldMapScene");
+        if (isSceneLoaded("GrimmJournal"))
+            SceneManager.UnloadSceneAsync("GrimmJournal");
+        if (isSceneLoaded("WorldMapScene"))
+            SceneManager.UnloadSceneAsync("WorldMapScene");
+            
+        InputActions.FindActionMap("Player").Enable();
     }
 
     public void SelectCoffee()
@@ -252,4 +250,15 @@ public class GrimmJournal : MonoBehaviour
         UpdatePrice();
     }
 
+    public bool isSceneLoaded (string sceneName)
+    {
+        for (int i = 0; i < SceneManager.sceneCount; i++)
+        {
+            Scene scene = SceneManager.GetSceneAt(i);
+
+            if (scene.name == sceneName)
+                return true;
+        }
+        return false;
+    }
 }

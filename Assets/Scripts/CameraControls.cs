@@ -6,7 +6,6 @@ public class CameraControls : MonoBehaviour
 {
     public Camera mainCam;
     public InputActionAsset InputActions;
-    //private Camera cam;
     private CinemachineCamera cam;
     public float sensitivity;
     private InputAction m_zoom;

@@ -21,23 +21,14 @@ public class UIManager : MonoBehaviour
     //Utility variables
     int IdleToggle = 0;
     Label moneyCount;
-    public UpgradeManager upgradesManager;
 
     private void Start()
     {
         screenRoot = screenDocument.rootVisualElement;
         bannerRoot = bannerDocument.rootVisualElement;
 
-        //Change from settings to dedicated "leave menu" button
-        //Button backButton = screenRoot.Q<Button>("Settings");
-        //backButton?.RegisterCallback<ClickEvent>(evt => ShowScreenMenu());
-
         Button playButton = screenRoot.Q<Button>("Play");
         playButton?.RegisterCallback<ClickEvent>(evt => ActiveIdleSwap());
-
-        Button goButton = screenRoot.Q<Button>("GoButton");
-        goButton?.RegisterCallback<ClickEvent>(evt => ShowWorldMap());
-
 
         moneyCount = screenRoot.Q<Label>("MoneyCount");
     }
@@ -47,15 +38,6 @@ public class UIManager : MonoBehaviour
         moneyCount.text = UpgradeManager.totalMoney.ToString();
     }
 
-    /*public void ShowScreenMenu()
-    {
-        // SHOW the settings menu
-        screenRoot.style.display = DisplayStyle.Flex;
-
-        // HIDE the main menu
-        SceneManager.UnloadSceneAsync("GrimmJournal");
-    }*/
-
     public void ActiveIdleSwap()
     {
         Button playButton = screenRoot.Q<Button>("Play");
@@ -64,24 +46,16 @@ public class UIManager : MonoBehaviour
 
         if (IdleToggle == 0)
         {
-            //Debug.Log("Switch to Idle Play");
             playButton.style.backgroundImage = new StyleBackground(idle);
             Banner.style.backgroundImage = new StyleBackground(idleBanner);
             IdleToggle = 1;
         }
         else if (IdleToggle == 1)
         {
-            //Debug.Log("Switch to Active Play");
             playButton.style.backgroundImage = new StyleBackground(active);
             Banner.style.backgroundImage = new StyleBackground(activeBanner);
             IdleToggle = 0;
 
         }
-    }
-
-    public void ShowWorldMap()
-    {
-        SceneManager.LoadScene("WorldMapScene", LoadSceneMode.Additive);
-        //Debug.Log("tried to load map");
     }
 }
