@@ -1,0 +1,365 @@
+fileFormatVersion: 2
+guid: ee17af6cafefef240bafd5ce04a862c1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7077840713093904891
+    second: GC_VampireFurniture_0
+  - first:
+      213: 7272697272445016938
+    second: GC_VampireFurniture_1
+  - first:
+      213: -3029334084130679889
+    second: GC_VampireFurniture_2
+  - first:
+      213: -1009508752809760588
+    second: GC_VampireFurniture_3
+  - first:
+      213: -1175096995768665932
+    second: GC_VampireFurniture_4
+  - first:
+      213: -3709838649387451135
+    second: GC_VampireFurniture_5
+  - first:
+      213: 2607609409550875665
+    second: GC_VampireFurniture_6
+  - first:
+      213: 591135983255293473
+    second: GC_VampireFurniture_7
+  - first:
+      213: 4019399611589147994
+    second: GC_VampireFurniture_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vamp_CornerCounter
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 3473
+        width: 655
+        height: 726
+      alignment: 9
+      pivot: {x: 0.49999994, y: 0.21436052}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf972c8e0aa893260800000000000000
+      internalID: 7077840713093904891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vamp_Counter
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 3467
+        width: 667
+        height: 731
+      alignment: 9
+      pivot: {x: 0.4888962, y: 0.22306871}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b990b03afcde460800000000000000
+      internalID: 7272697272445016938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vamp_Table
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 2606
+        width: 412
+        height: 493
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14303471}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa3586953b4a5f5d0800000000000000
+      internalID: -3029334084130679889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vamp_Stool
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 2594
+        width: 337
+        height: 382
+      alignment: 9
+      pivot: {x: 0.48588622, y: 0.28833136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8602f43218df1f0800000000000000
+      internalID: -1009508752809760588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vamp_Pillar
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 334
+        width: 184
+        height: 1585
+      alignment: 9
+      pivot: {x: 0.8581057, y: -0.06231493}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8749e128731bfe0800000000000000
+      internalID: -1175096995768665932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vamp_Wall1
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 365
+        width: 372
+        height: 1694
+      alignment: 9
+      pivot: {x: 0.10845455, y: 0.16221038}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10dfe396761048cc0800000000000000
+      internalID: -3709838649387451135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vamp_Wall2
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 364
+        width: 372
+        height: 1695
+      alignment: 9
+      pivot: {x: 0.12709948, y: 0.14808768}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11cfe3931f6103420800000000000000
+      internalID: 2607609409550875665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vamp_Window
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 1227
+        width: 252
+        height: 553
+      alignment: 9
+      pivot: {x: 1.0642322, y: -1.3061054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e02e77b03243800800000000000000
+      internalID: 591135983255293473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vamp_Floor
+      rect:
+        serializedVersion: 2
+        x: 2254
+        y: 366
+        width: 659
+        height: 386
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d3d1ba6a6c7c730800000000000000
+      internalID: 4019399611589147994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: cdccf39604beb6c4fa6d2ccfba792bab
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GC_VampireFurniture_0: 1040617507
+      Vamp_CornerCounter: 7077840713093904891
+      Vamp_Counter: 7272697272445016938
+      Vamp_Floor: 4019399611589147994
+      Vamp_Pillar: -1175096995768665932
+      Vamp_Stool: -1009508752809760588
+      Vamp_Table: -3029334084130679889
+      Vamp_Wall1: -3709838649387451135
+      Vamp_Wall2: 2607609409550875665
+      Vamp_Window: 591135983255293473
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
