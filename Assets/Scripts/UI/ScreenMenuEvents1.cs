@@ -15,6 +15,7 @@ public class ScreenMenuEvents1 : MonoBehaviour
     public Button _PlayButton;
     public Button _DecorButton;
 
+    public GameObject decorMenu;
     public Sprite idleSprite;
     public Sprite activeSprite;
     public CustomerManager customerManager;
@@ -70,9 +71,10 @@ public class ScreenMenuEvents1 : MonoBehaviour
     private void OnDecorClick(ClickEvent evt)
     {
         Debug.Log("Decor");
+        decorMenu.SetActive(true);
     }
 
-    public bool isSceneLoaded (string sceneName)
+    public bool isSceneLoaded(string sceneName)
     {
         for (int i = 0; i < SceneManager.sceneCount; i++)
         {
