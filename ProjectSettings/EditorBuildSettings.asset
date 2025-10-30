@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GrimmJournal.unity
     guid: cf0df2e61fc88104d97996253579979a
+  - enabled: 1
+    path: Assets/Scenes/Vampire_Decor.unity
+    guid: 5f842256e08f35b4dbd8678dbc1ca820
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -47,7 +47,7 @@ public class GrimmJournal : MonoBehaviour
     private void Start()
     {
         audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
-        CampaignPage();
+        UpgradesPage();
     }
 
     public void ShowPanel(GameObject panelToShow)
@@ -71,13 +71,13 @@ public class GrimmJournal : MonoBehaviour
         ChangeBackground(0);
         audioManager.PlaySFX(audioManager.buttonClick);
         ShowPanel(campaignPage);
-        
-        if(!isSceneLoaded("WorldMapScene"))
+
+        if (!isSceneLoaded("WorldMapScene"))
             SceneManager.LoadScene("WorldMapScene", LoadSceneMode.Additive);
     }
     public void UpgradesPage()
     {
-        if(isSceneLoaded("WorldMapScene"))
+        if (isSceneLoaded("WorldMapScene"))
             SceneManager.UnloadSceneAsync("WorldMapScene");
         ChangeBackground(1);
         audioManager.PlaySFX(audioManager.buttonClick);
@@ -85,7 +85,7 @@ public class GrimmJournal : MonoBehaviour
     }
     public void UnlocksPage()
     {
-        if(isSceneLoaded("WorldMapScene"))
+        if (isSceneLoaded("WorldMapScene"))
             SceneManager.UnloadSceneAsync("WorldMapScene");
         ChangeBackground(2);
         audioManager.PlaySFX(audioManager.buttonClick);
@@ -93,7 +93,7 @@ public class GrimmJournal : MonoBehaviour
     }
     public void SettingsPage()
     {
-        if(isSceneLoaded("WorldMapScene"))
+        if (isSceneLoaded("WorldMapScene"))
             SceneManager.UnloadSceneAsync("WorldMapScene");
         ChangeBackground(3);
         audioManager.PlaySFX(audioManager.buttonClick);
@@ -176,7 +176,7 @@ public class GrimmJournal : MonoBehaviour
                 patiencePriceText.GetComponent<TMP_Text>().text = ("COST: SOLD OUT");
         }
     }
-    
+
     public void upgradeFood()
     {
         float upgradePrice = 2f;
@@ -204,7 +204,7 @@ public class GrimmJournal : MonoBehaviour
         if (UpgradeManager.orderList[foodIndex].numUpgrades > 0)
         {
             for (int i = 0; i < UpgradeManager.orderList[foodIndex].numUpgrades; i++)
-            upgradePrice = upgradePrice * 1.2f;
+                upgradePrice = upgradePrice * 1.2f;
         }
         upgradePrice = Mathf.Round(upgradePrice);
 
@@ -218,7 +218,7 @@ public class GrimmJournal : MonoBehaviour
             SceneManager.UnloadSceneAsync("GrimmJournal");
         if (isSceneLoaded("WorldMapScene"))
             SceneManager.UnloadSceneAsync("WorldMapScene");
-            
+
         InputActions.FindActionMap("Player").Enable();
     }
 
@@ -250,7 +250,7 @@ public class GrimmJournal : MonoBehaviour
         UpdatePrice();
     }
 
-    public bool isSceneLoaded (string sceneName)
+    public bool isSceneLoaded(string sceneName)
     {
         for (int i = 0; i < SceneManager.sceneCount; i++)
         {
