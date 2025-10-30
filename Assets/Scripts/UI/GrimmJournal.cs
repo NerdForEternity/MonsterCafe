@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.InputSystem;
+using UnityEngine.Audio;
 using TMPro;
 
 public class GrimmJournal : MonoBehaviour
@@ -27,8 +28,21 @@ public class GrimmJournal : MonoBehaviour
     private int currentSpriteIndex = 0;
     private int foodIndex;
 
+    // Audio
+    public AudioMixer Mixer;
     AudioManager audioManager;
-
+    AudioSource musicSource;
+    AudioSource sfxSource;
+    public Slider masterSlider;
+    public Slider musicSlider;
+    public Slider sfxSlider;
+    public Button masterButton;
+    public Button musicButton;
+    public Button sfxButton;
+    int masterFlag = 0;
+    int musicFlag = 0;
+    int sfxFlag = 0;
+    public Sprite[] muteSprites;
     public InputActionAsset InputActions;
 
     public void ChangeBackground(int targetBackground)
@@ -47,6 +61,23 @@ public class GrimmJournal : MonoBehaviour
     private void Start()
     {
         audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
+        musicSource = audioManager.transform.GetChild(0).gameObject.GetComponent<AudioSource>();
+        sfxSource = audioManager.transform.GetChild(1).gameObject.GetComponent<AudioSource>();
+
+        masterSlider.value = PlayerPrefs.GetFloat("Volume");
+        musicSlider.value = PlayerPrefs.GetFloat("MusicVolume");
+        sfxSlider.value = PlayerPrefs.GetFloat("SFXVolume");
+
+        masterFlag = PlayerPrefs.GetInt("MasterMute");
+        musicFlag = PlayerPrefs.GetInt("MusicMute");
+        sfxFlag = PlayerPrefs.GetInt("SFXMute");
+
+        masterButton.image.sprite = muteSprites[PlayerPrefs.GetInt("MasterMute")];
+        musicButton.image.sprite = muteSprites[PlayerPrefs.GetInt("MusicMute")];
+        sfxButton.image.sprite = muteSprites[PlayerPrefs.GetInt("SFXMute")];
+
+
+Debug.Log("MasterMute = " + masterFlag + ", MusicMute = " + musicFlag + ", SFXMute = " + sfxFlag);
         UpgradesPage();
     }
 
@@ -249,6 +280,103 @@ public class GrimmJournal : MonoBehaviour
         foodIndex = 4;
         UpdatePrice();
     }
+
+    //Audio Settings
+    public void ChangeMasterAudio(float value)
+    {
+Debug.Log("ChangeMasterAudio called");
+
+        if (PlayerPrefs.GetInt("MasterMute") == 1)
+            Mixer.SetFloat("Volume", -80f);
+        else
+            Mixer.SetFloat("Volume", Mathf.Log10(value) * 20);
+
+        PlayerPrefs.SetFloat("Volume", value);
+        PlayerPrefs.Save();
+    }
+    public void ChangeMusicAudio(float value)
+    {
+Debug.Log("ChangeMusicAudio called");
+        if (PlayerPrefs.GetInt("MusicMute") == 1)
+            musicSource.volume = 0f;
+        else
+            musicSource.volume = value;
+
+        PlayerPrefs.SetFloat("MusicVolume", value);
+        PlayerPrefs.Save();
+    }
+    public void ChangeSFXAudio(float value)
+    {
+Debug.Log("ChangeSFXAudio called");
+
+        if (PlayerPrefs.GetInt("SFXMute") == 1)
+            sfxSource.volume = 0f;
+        else
+            sfxSource.volume = value;
+
+        PlayerPrefs.SetFloat("SFXVolume", value);
+        PlayerPrefs.Save();
+    }
+
+    public void MuteMaster()
+    {
+        //mute
+        if (masterFlag == 0)
+        {
+            masterFlag = 1;
+            PlayerPrefs.SetInt("MasterMute", 1);
+            Mixer.SetFloat("Volume", -80f);
+        }
+        //unmute
+        else
+        {
+            masterFlag = 0;
+            PlayerPrefs.SetInt("MasterMute", 0);
+            Mixer.SetFloat("Volume", Mathf.Log10(PlayerPrefs.GetFloat("Volume")) * 20);
+        }
+        masterButton.image.sprite = muteSprites[PlayerPrefs.GetInt("MasterMute")];
+Debug.Log("Hit Master Button, value is " + PlayerPrefs.GetInt("MasterMute"));
+    }
+
+    public void MuteMusic()
+    {
+        //mute
+        if (musicFlag == 0)
+        {
+            musicFlag = 1;
+            PlayerPrefs.SetInt("MusicMute", 1);
+            musicSource.volume = 0f;
+        }
+        //unmute
+        else
+        {
+            musicFlag = 0;
+            PlayerPrefs.SetInt("MusicMute", 0);
+            musicSource.volume = PlayerPrefs.GetFloat("MusicVolume");
+        }
+        musicButton.image.sprite = muteSprites[PlayerPrefs.GetInt("MusicMute")];
+Debug.Log("Hit Music Button, value is " + PlayerPrefs.GetInt("MusicMute"));
+    }
+    public void MuteSFX()
+    {
+        //mute
+        if (sfxFlag == 0)
+        {
+            sfxFlag = 1;
+            PlayerPrefs.SetInt("SFXMute", 1);
+            sfxSource.volume = 0f;
+        }
+        //unmute
+        else
+        {
+            sfxFlag = 0;
+            PlayerPrefs.SetInt("SFXMute", 0);
+            sfxSource.volume = PlayerPrefs.GetFloat("SFXVolume");
+        }
+        sfxButton.image.sprite = muteSprites[PlayerPrefs.GetInt("SFXMute")];
+Debug.Log("Hit SFX Button, value is " + PlayerPrefs.GetInt("SFXMute"));
+    }
+
 
     public bool isSceneLoaded(string sceneName)
     {

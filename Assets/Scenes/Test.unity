@@ -1942,10 +1942,18 @@ PrefabInstance:
       propertyPath: Loop
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1104684076227641745, guid: 3d759d0d1f7f24b418ae593c125ee92a, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: 2fe7341ae6361904283cbefd2e488034, type: 2}
     - target: {fileID: 1329834508028098596, guid: 3d759d0d1f7f24b418ae593c125ee92a, type: 3}
       propertyPath: m_Name
       value: Audio Manager
       objectReference: {fileID: 0}
+    - target: {fileID: 1830791036290053286, guid: 3d759d0d1f7f24b418ae593c125ee92a, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: 2fe7341ae6361904283cbefd2e488034, type: 2}
     - target: {fileID: 5374895005478556462, guid: 3d759d0d1f7f24b418ae593c125ee92a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.3591
