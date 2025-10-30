@@ -4,7 +4,10 @@ using UnityEngine.SceneManagement;
 
 public class DecorShop : MonoBehaviour
 {
+    public Scene ghostPaletteScene;
+    public Scene vampirePaletteScene;
     public GameObject decorMenu;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     public void Start()
@@ -23,7 +26,7 @@ public class DecorShop : MonoBehaviour
 
     public void VampireScene()
     {
-        SceneManager.LoadScene("TestVampire");
+        SceneManager.LoadScene("Vampire_Decor");
     }
 }
 
