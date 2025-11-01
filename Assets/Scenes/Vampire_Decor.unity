@@ -20646,7 +20646,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CameraControls
   mainCam: {fileID: 21670525}
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  sensitivity: 20
 --- !u!114 &1927696395
 MonoBehaviour:
   m_ObjectHideFlags: 0

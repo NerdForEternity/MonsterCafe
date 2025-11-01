@@ -1,0 +1,364 @@
+fileFormatVersion: 2
+guid: a8d8570848f94bb4c98932cf558e7b62
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7175274605408186683
+    second: GC_WerewolfFurniture_0
+  - first:
+      213: -8470112843692504267
+    second: GC_WerewolfFurniture_1
+  - first:
+      213: 3462346309494699081
+    second: GC_WerewolfFurniture_2
+  - first:
+      213: -313966139781544625
+    second: GC_WerewolfFurniture_3
+  - first:
+      213: -2054665669678714866
+    second: GC_WerewolfFurniture_4
+  - first:
+      213: -8653004712329011028
+    second: GC_WerewolfFurniture_5
+  - first:
+      213: 3120885095441444947
+    second: GC_WerewolfFurniture_6
+  - first:
+      213: -8792380497826917491
+    second: GC_WerewolfFurniture_7
+  - first:
+      213: 4256380039106861723
+    second: GC_WerewolfFurniture_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 600
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wolf_CounterCorner
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3144
+        width: 653
+        height: 725
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14248821}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b317c35cc32b39360800000000000000
+      internalID: 7175274605408186683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Corner
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 3138
+        width: 654
+        height: 731
+      alignment: 9
+      pivot: {x: 0.49999982, y: 0.17030528}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b0c38ce3d147a80800000000000000
+      internalID: -8470112843692504267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Table
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 2278
+        width: 587
+        height: 582
+      alignment: 9
+      pivot: {x: 0.5077467, y: 0.13277853}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 944f0dacf99bc0030800000000000000
+      internalID: 3462346309494699081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Stool
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 2288
+        width: 277
+        height: 388
+      alignment: 9
+      pivot: {x: 0.48358396, y: 0.1718448}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4502d6957194abf0800000000000000
+      internalID: -313966139781544625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Pillar
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 158
+        height: 1590
+      alignment: 9
+      pivot: {x: 0.5197502, y: -0.037306562}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e003c92a57c5c73e0800000000000000
+      internalID: -2054665669678714866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Wall2
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 34
+        width: 345
+        height: 1698
+      alignment: 9
+      pivot: {x: 0.1426282, y: 0.14630967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca029d94f0a5ae780800000000000000
+      internalID: -8653004712329011028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Wall1
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 37
+        width: 345
+        height: 1699
+      alignment: 9
+      pivot: {x: 0.82797074, y: 0.022060841}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 350399a857c9f4b20800000000000000
+      internalID: 3120885095441444947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Window
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 782
+        width: 359
+        height: 768
+      alignment: 9
+      pivot: {x: 0.8708013, y: -1.2766372}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8354f075803bf580800000000000000
+      internalID: -8792380497826917491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Floor
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 38
+        width: 660
+        height: 385
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9a17042813b11b30800000000000000
+      internalID: 4256380039106861723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2744a320d7bc9e24a8a2a00c4ef6bc28
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Wolf_Corner: -8470112843692504267
+      Wolf_CounterCorner: 7175274605408186683
+      Wolf_Floor: 4256380039106861723
+      Wolf_Pillar: -2054665669678714866
+      Wolf_Stool: -313966139781544625
+      Wolf_Table: 3462346309494699081
+      Wolf_Wall1: 3120885095441444947
+      Wolf_Wall2: -8653004712329011028
+      Wolf_Window: -8792380497826917491
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
