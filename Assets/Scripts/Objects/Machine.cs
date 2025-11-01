@@ -108,7 +108,6 @@ public class Machine : MonoBehaviour
 
             //Resets the clock and bools after customr has been served
             cookTime = (itemType.cookTime - UpgradeManager.cookSpeedAdd);
-            clock.SetActive(true);
             idleInProgress = false;
         }
     }
