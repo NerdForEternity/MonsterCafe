@@ -30,7 +30,7 @@ public class Customer : MonoBehaviour
         animator = this.transform.GetChild(1).GetChild(1).GetComponent<Animator>();
         canvas = this.transform.GetChild(1).GetChild(0).gameObject;
         patience = canvas.GetComponentInChildren<Slider>(true);
-        patience.maxValue = 15f + (UpgradeManager.patienceAdd * 5f);
+        patience.maxValue = (15f + (UpgradeManager.patienceAdd * 5f));
         patience.value = patience.maxValue;
         currentNode = startNode;
         myChair = manager.chairs.Find(p => p.isOccupied == false);
