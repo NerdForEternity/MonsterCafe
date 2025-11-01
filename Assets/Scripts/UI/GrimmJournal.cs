@@ -24,6 +24,9 @@ public class GrimmJournal : MonoBehaviour
     public GameObject foodPricePage;
     public GameObject priceText;
     public GameObject foodPriceText;
+    //Settings
+    public GameObject audioSettingsPage;
+    public GameObject gameplaySettingsPage;
 
     private int currentSpriteIndex = 0;
     private int foodIndex;
@@ -43,6 +46,11 @@ public class GrimmJournal : MonoBehaviour
     int musicFlag = 0;
     int sfxFlag = 0;
     public Sprite[] muteSprites;
+
+    //Gameplay
+    public Slider sensitivitySlider;
+    public Toggle xInvertToggle;
+    public Toggle yInvertToggle;
     public InputActionAsset InputActions;
 
     public void ChangeBackground(int targetBackground)
@@ -60,24 +68,35 @@ public class GrimmJournal : MonoBehaviour
 
     private void Start()
     {
+        //Audio Sources
         audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
         musicSource = audioManager.transform.GetChild(0).gameObject.GetComponent<AudioSource>();
         sfxSource = audioManager.transform.GetChild(1).gameObject.GetComponent<AudioSource>();
 
+        //Sliders
         masterSlider.value = PlayerPrefs.GetFloat("Volume");
         musicSlider.value = PlayerPrefs.GetFloat("MusicVolume");
         sfxSlider.value = PlayerPrefs.GetFloat("SFXVolume");
 
-        masterFlag = PlayerPrefs.GetInt("MasterMute");
-        musicFlag = PlayerPrefs.GetInt("MusicMute");
-        sfxFlag = PlayerPrefs.GetInt("SFXMute");
+        sensitivitySlider.value = PlayerPrefs.GetFloat("CamSensitivity", 20.5f);
+        
+        if (PlayerPrefs.GetInt("XInvert") == 1)
+            xInvertToggle.isOn = true;
+        else
+            xInvertToggle.isOn = false;
+        if (PlayerPrefs.GetInt("YInvert") == 1)
+            yInvertToggle.isOn = true;
+        else
+            yInvertToggle.isOn = false;
 
-        masterButton.image.sprite = muteSprites[PlayerPrefs.GetInt("MasterMute")];
-        musicButton.image.sprite = muteSprites[PlayerPrefs.GetInt("MusicMute")];
-        sfxButton.image.sprite = muteSprites[PlayerPrefs.GetInt("SFXMute")];
+        masterFlag = PlayerPrefs.GetInt("MasterMute", 0);
+        musicFlag = PlayerPrefs.GetInt("MusicMute", 0);
+        sfxFlag = PlayerPrefs.GetInt("SFXMute", 0);
 
+        masterButton.image.sprite = muteSprites[masterFlag];
+        musicButton.image.sprite = muteSprites[musicFlag];
+        sfxButton.image.sprite = muteSprites[sfxFlag];
 
-Debug.Log("MasterMute = " + masterFlag + ", MusicMute = " + musicFlag + ", SFXMute = " + sfxFlag);
         UpgradesPage();
     }
 
@@ -88,9 +107,13 @@ Debug.Log("MasterMute = " + masterFlag + ", MusicMute = " + musicFlag + ", SFXMu
         upgradesPage.SetActive(false);
         unlocksPage.SetActive(false);
         settingsPage.SetActive(false);
+
         cookingSpeedPage.SetActive(false);
         customerPatiencePage.SetActive(false);
         foodPricePage.SetActive(false);
+
+        audioSettingsPage.SetActive(false);
+        gameplaySettingsPage.SetActive(false);
 
         // Activate the selected panel
         panelToShow.SetActive(true);
@@ -131,7 +154,7 @@ Debug.Log("MasterMute = " + masterFlag + ", MusicMute = " + musicFlag + ", SFXMu
         ShowPanel(settingsPage);
     }
 
-    //Upgrade Button Functions
+    //Upgrade Pages
 
     public void CookingSpeedPage()
     {
@@ -177,6 +200,7 @@ Debug.Log("MasterMute = " + masterFlag + ", MusicMute = " + musicFlag + ", SFXMu
         UpdatePrice();
     }
 
+    //Upgrade Functions
     public void upgradeCooking()
     {
         int price = 2 * (UpgradeManager.cookSpeedAdd + 1);
@@ -253,6 +277,7 @@ Debug.Log("MasterMute = " + masterFlag + ", MusicMute = " + musicFlag + ", SFXMu
         InputActions.FindActionMap("Player").Enable();
     }
 
+    //Select Food Item
     public void SelectCoffee()
     {
         foodIndex = 0;
@@ -281,11 +306,24 @@ Debug.Log("MasterMute = " + masterFlag + ", MusicMute = " + musicFlag + ", SFXMu
         UpdatePrice();
     }
 
+    //Settings Pages
+    public void AudioSettingsPage()
+    {
+        audioManager.PlaySFX(audioManager.buttonClick);
+        ShowPanel(settingsPage);
+
+        audioSettingsPage.SetActive(true);
+    }
+    public void GameplaySettingsPage()
+    {
+        audioManager.PlaySFX(audioManager.buttonClick);
+        ShowPanel(settingsPage);
+
+        gameplaySettingsPage.SetActive(true);
+    }
     //Audio Settings
     public void ChangeMasterAudio(float value)
     {
-Debug.Log("ChangeMasterAudio called");
-
         if (PlayerPrefs.GetInt("MasterMute") == 1)
             Mixer.SetFloat("Volume", -80f);
         else
@@ -296,7 +334,6 @@ Debug.Log("ChangeMasterAudio called");
     }
     public void ChangeMusicAudio(float value)
     {
-Debug.Log("ChangeMusicAudio called");
         if (PlayerPrefs.GetInt("MusicMute") == 1)
             musicSource.volume = 0f;
         else
@@ -307,8 +344,6 @@ Debug.Log("ChangeMusicAudio called");
     }
     public void ChangeSFXAudio(float value)
     {
-Debug.Log("ChangeSFXAudio called");
-
         if (PlayerPrefs.GetInt("SFXMute") == 1)
             sfxSource.volume = 0f;
         else
@@ -335,7 +370,6 @@ Debug.Log("ChangeSFXAudio called");
             Mixer.SetFloat("Volume", Mathf.Log10(PlayerPrefs.GetFloat("Volume")) * 20);
         }
         masterButton.image.sprite = muteSprites[PlayerPrefs.GetInt("MasterMute")];
-Debug.Log("Hit Master Button, value is " + PlayerPrefs.GetInt("MasterMute"));
     }
 
     public void MuteMusic()
@@ -355,7 +389,6 @@ Debug.Log("Hit Master Button, value is " + PlayerPrefs.GetInt("MasterMute"));
             musicSource.volume = PlayerPrefs.GetFloat("MusicVolume");
         }
         musicButton.image.sprite = muteSprites[PlayerPrefs.GetInt("MusicMute")];
-Debug.Log("Hit Music Button, value is " + PlayerPrefs.GetInt("MusicMute"));
     }
     public void MuteSFX()
     {
@@ -374,9 +407,37 @@ Debug.Log("Hit Music Button, value is " + PlayerPrefs.GetInt("MusicMute"));
             sfxSource.volume = PlayerPrefs.GetFloat("SFXVolume");
         }
         sfxButton.image.sprite = muteSprites[PlayerPrefs.GetInt("SFXMute")];
-Debug.Log("Hit SFX Button, value is " + PlayerPrefs.GetInt("SFXMute"));
     }
 
+    //Gameplay Settings
+    public void ChangeSensitivity(float value)
+    {
+        CameraControls.sensitivity = value;
+        PlayerPrefs.SetFloat("CamSensitivity", value);
+    }
+    public void XInvert()
+    {
+        if (xInvertToggle.isOn)
+            CameraControls.xInvert = 1;
+        else
+            CameraControls.xInvert = -1;
+
+        PlayerPrefs.SetInt("XInvert", CameraControls.xInvert);
+    }
+    public void YInvert()
+    {
+        if (yInvertToggle.isOn)
+            CameraControls.yInvert = 1;
+        else
+            CameraControls.yInvert = -1;
+
+        PlayerPrefs.SetInt("YInvert", CameraControls.yInvert);
+    }
+    public void ChangeSpeed(float value)
+    {
+        Time.timeScale = (float)value;
+        PlayerPrefs.SetFloat("GameSpeed", (float)value);
+    }
 
     public bool isSceneLoaded(string sceneName)
     {

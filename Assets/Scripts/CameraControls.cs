@@ -7,7 +7,9 @@ public class CameraControls : MonoBehaviour
     public Camera mainCam;
     public InputActionAsset InputActions;
     private CinemachineCamera cam;
-    public float sensitivity;
+    public static float sensitivity;
+    public static int xInvert;
+    public static int yInvert;
     private InputAction m_zoom;
     private InputAction m_move;
     private InputAction m_touch0;
@@ -21,8 +23,11 @@ public class CameraControls : MonoBehaviour
     private float distance;
     void Start()
     {
-        //cam = GetComponent<Camera>();
         cam = GetComponent<CinemachineCamera>();
+
+        sensitivity = PlayerPrefs.GetFloat("CamSensivity", 20.5f);
+        xInvert = PlayerPrefs.GetInt("XInvert", -1);
+        yInvert = PlayerPrefs.GetInt("YInvert", -1);
     }
     private void OnEnable()
     {
@@ -80,12 +85,14 @@ public class CameraControls : MonoBehaviour
         this.transform.position = mainCam.transform.position;
 
         //read inputs
-        m_moveAmt = m_move.ReadValue<Vector2>() / sensitivity;
+        m_moveAmt = m_move.ReadValue<Vector2>() / (40.5f - (PlayerPrefs.GetFloat("CamSensitivity", 20.5f)));
         m_zoomAmt = m_zoom.ReadValue<Vector2>();
 
         //move camera if zoom is not in progress
         if (touchCount < 2)
-            cam.transform.Translate(m_moveAmt * -1);
+        {
+            cam.transform.Translate(m_moveAmt.x * xInvert, m_moveAmt.y * yInvert, 0f);
+        }
 
         //zoom in (mouse)
         if (m_zoomAmt.y > 0f && cam.Lens.OrthographicSize >= 6)
