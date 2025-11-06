@@ -72,6 +72,7 @@ public class ScreenMenuEvents1 : MonoBehaviour
     {
         Debug.Log("Decor");
         decorMenu.SetActive(true);
+        Time.timeScale = 0f;
     }
 
     public bool isSceneLoaded(string sceneName)

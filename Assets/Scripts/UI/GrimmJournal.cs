@@ -97,6 +97,8 @@ public class GrimmJournal : MonoBehaviour
         musicButton.image.sprite = muteSprites[musicFlag];
         sfxButton.image.sprite = muteSprites[sfxFlag];
 
+        Time.timeScale = 0f;
+
         UpgradesPage();
     }
 
@@ -435,8 +437,12 @@ public class GrimmJournal : MonoBehaviour
     }
     public void ChangeSpeed(float value)
     {
-        Time.timeScale = (float)value;
-        PlayerPrefs.SetFloat("GameSpeed", (float)value);
+        PlayerPrefs.SetFloat("GameSpeed", value);
+    }
+
+    public void ResetSpeed()
+    {
+        PlayerPrefs.SetFloat("GameSpeed", 1f);
     }
 
     public bool isSceneLoaded(string sceneName)
@@ -449,5 +455,10 @@ public class GrimmJournal : MonoBehaviour
                 return true;
         }
         return false;
+    }
+
+    public void OnDestroy()
+    {
+        Time.timeScale = PlayerPrefs.GetFloat("GameSpeed");
     }
 }

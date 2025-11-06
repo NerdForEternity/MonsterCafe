@@ -17,6 +17,8 @@ public class CustomerManager : MonoBehaviour
     public int numCustomers;
     private PathNode closestNode;
 
+    public DecorShop decorShop;
+
     void Start()
     {
         idle = false;
@@ -28,6 +30,8 @@ public class CustomerManager : MonoBehaviour
         foreach (Machine n in FindObjectsByType<Machine>(FindObjectsSortMode.None))
             machines.Add(n);
 
+        Time.timeScale = PlayerPrefs.GetFloat("GameSpeed");
+        decorShop.SwapTiles(0, PlayerPrefs.GetInt("Decor"));
         StartCoroutine(CreateCustomer());
     }
 
