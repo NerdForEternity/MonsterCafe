@@ -68,6 +68,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a302f6b22dc8e447adeb44445644c8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScreenMenuEvents1
+  decorMenu: {fileID: 4222394761306753067, guid: 44856aaddc04d3846bd48d81eaa1acb2, type: 3}
   idleSprite: {fileID: 6920673473376054886, guid: 448afa51fe8018e4982b3ed918304d88, type: 3}
   activeSprite: {fileID: 1867378711060932093, guid: 52ce416fc53b2304ab2f7cf39606f3d7, type: 3}
   customerManager: {fileID: 0}
+  InputActions: {fileID: 0}
+  idleWarningScreen: {fileID: 1858242249729668454, guid: 9b9f46a77a39cf648a69231424f5d179, type: 3}

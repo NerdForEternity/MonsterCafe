@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9b6baea7cf8bbc744b3dd4ed1c439c29
+guid: e8f7bb71a5f29424f918067f89d74d2a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5473207525878584691
-    second: MC_CounterCorner_0
+      213: -7979995350503526039
+    second: IdleWarningPopUp_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 1200
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MC_CounterCorner_0
+      name: IdleWarningPopUp_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 2281
-        height: 2566
+        x: 97
+        y: 1239
+        width: 2279
+        height: 1101
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d8a2306e0c24b04b0800000000000000
-      internalID: -5473207525878584691
+      spriteID: 961f7ff228c514190800000000000000
+      internalID: -7979995350503526039
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      MC_CounterCorner_0: -5473207525878584691
+      IdleWarningPopUp_0: -7979995350503526039
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

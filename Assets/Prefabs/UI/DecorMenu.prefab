@@ -459,6 +459,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DecorShop
   decorMenu: {fileID: 4222394761306753067}
+  floors: []
+  walls: []
+  walls2: []
+  windows: []
+  pillars: []
+  tables: []
+  chairs: []
+  chairs2: []
+  counters: []
+  corners: []
+  floorsMap: {fileID: 0}
+  wallsMap: {fileID: 0}
+  decorMap: {fileID: 0}
+  furnitureMap: {fileID: 0}
 --- !u!1 &4580732962006724761
 GameObject:
   m_ObjectHideFlags: 0
@@ -525,7 +539,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7322111446821313784, guid: 5c3d2665f755c884dbae1cc2cf035251, type: 3}
+  m_Sprite: {fileID: -7409508018567970229, guid: a793f65cb6239c145a2f38c2cfd48ce3, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -626,8 +640,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -193, y: -198.70053}
-  m_SizeDelta: {x: 46.5775, y: 52.4599}
+  m_AnchoredPosition: {x: -183, y: 165}
+  m_SizeDelta: {x: 85.1377, y: 47.8226}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4405456130622529570
 CanvasRenderer:
@@ -657,7 +671,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 5000927251509650613, guid: 2d15a8e8ca99331499c6389088317581, type: 3}
+  m_Sprite: {fileID: -2970073484504309273, guid: 5d7725bf64295714891c0a523ee25f27, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1

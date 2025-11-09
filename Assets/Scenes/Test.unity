@@ -4265,6 +4265,7 @@ MonoBehaviour:
   activeSprite: {fileID: 1867378711060932093, guid: 52ce416fc53b2304ab2f7cf39606f3d7, type: 3}
   customerManager: {fileID: 1967210229}
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  idleWarningScreen: {fileID: 1858242249729668454, guid: 9b9f46a77a39cf648a69231424f5d179, type: 3}
 --- !u!1 &1673696973
 GameObject:
   m_ObjectHideFlags: 0

@@ -22,7 +22,8 @@ public class ScreenMenuEvents1 : MonoBehaviour
     int toggle = 0;
     AudioManager audioManager;
     public InputActionAsset InputActions;
-
+    public GameObject idleWarningScreen;
+    private bool idleWarningDisplayed = false;
     private void Awake()
     {
         audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
@@ -56,6 +57,11 @@ public class ScreenMenuEvents1 : MonoBehaviour
     {
         if (toggle == 0)
         {
+            if (!idleWarningDisplayed)
+            {
+                Instantiate(idleWarningScreen);
+                idleWarningDisplayed = true;
+            }
             _PlayButton.style.backgroundImage = new StyleBackground(idleSprite);
             customerManager.idle = true;
             toggle = 1;
