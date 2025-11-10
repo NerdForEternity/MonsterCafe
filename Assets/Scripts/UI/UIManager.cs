@@ -13,6 +13,9 @@ public class UIManager : MonoBehaviour
     public Sprite activeBanner;
     public Sprite idleBanner;
 
+    public GameObject decorMenu;
+    public GameObject warningMenu;
+
     // The visual elements that represent the root of each screen
     private VisualElement screenRoot;
 
@@ -40,22 +43,25 @@ public class UIManager : MonoBehaviour
 
     public void ActiveIdleSwap()
     {
-        Button playButton = screenRoot.Q<Button>("Play");
-        VisualElement Banner = bannerRoot.Q<VisualElement>("ActiveIdleBanner");
-
-
-        if (IdleToggle == 0)
+        if (!decorMenu.activeSelf && !warningMenu.activeSelf)
         {
-            playButton.style.backgroundImage = new StyleBackground(idle);
-            Banner.style.backgroundImage = new StyleBackground(idleBanner);
-            IdleToggle = 1;
-        }
-        else if (IdleToggle == 1)
-        {
-            playButton.style.backgroundImage = new StyleBackground(active);
-            Banner.style.backgroundImage = new StyleBackground(activeBanner);
-            IdleToggle = 0;
+            Button playButton = screenRoot.Q<Button>("Play");
+            VisualElement Banner = bannerRoot.Q<VisualElement>("ActiveIdleBanner");
 
+
+            if (IdleToggle == 0)
+            {
+                playButton.style.backgroundImage = new StyleBackground(idle);
+                Banner.style.backgroundImage = new StyleBackground(idleBanner);
+                IdleToggle = 1;
+            }
+            else if (IdleToggle == 1)
+            {
+                playButton.style.backgroundImage = new StyleBackground(active);
+                Banner.style.backgroundImage = new StyleBackground(activeBanner);
+                IdleToggle = 0;
+
+            }
         }
     }
 }

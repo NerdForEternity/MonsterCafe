@@ -30,7 +30,7 @@ public class CustomerManager : MonoBehaviour
         foreach (Machine n in FindObjectsByType<Machine>(FindObjectsSortMode.None))
             machines.Add(n);
 
-        Time.timeScale = PlayerPrefs.GetFloat("GameSpeed");
+        Time.timeScale = PlayerPrefs.GetFloat("GameSpeed", 1f);
         decorShop.SwapTiles(0, PlayerPrefs.GetInt("Decor"));
         StartCoroutine(CreateCustomer());
     }
