@@ -1,11 +1,13 @@
 using Unity.AppUI.UI;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using UnityEngine.InputSystem;
 //using UnityEngine.SceneManagement;
 
 public class DecorShop : MonoBehaviour
 {
     public GameObject decorMenu;
+    public InputActionAsset InputActions;
 
     public TileBase[] floors;
     public TileBase[] walls;
@@ -23,15 +25,10 @@ public class DecorShop : MonoBehaviour
     public Tilemap decorMap;
     public Tilemap furnitureMap;
 
-
-    public void Start()
-    {
-        decorMenu.SetActive(false);
-    }
-
     public void GoBack()
     {
         Time.timeScale = PlayerPrefs.GetFloat("GameSpeed");
+        InputActions.FindActionMap("Player").Enable();
         decorMenu.SetActive(false);
     }
     public void GhostScene()

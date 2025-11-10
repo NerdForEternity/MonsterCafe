@@ -216,7 +216,10 @@ public class GrimmJournal : MonoBehaviour
                 cookingPriceText.GetComponent<TMP_Text>().text = ("COST: " + 2 * (UpgradeManager.cookSpeedAdd + 1));
             else
                 cookingPriceText.GetComponent<TMP_Text>().text = ("COST: SOLD OUT");
+            audioManager.PlaySFX(audioManager.upgrade);
         }
+        else
+            audioManager.PlaySFX(audioManager.noBuzzer);
     }
     public void upgradeCustomer()
     {
@@ -231,7 +234,10 @@ public class GrimmJournal : MonoBehaviour
                 patiencePriceText.GetComponent<TMP_Text>().text = ("COST: " + (2 * (UpgradeManager.patienceAdd + 1)));
             else
                 patiencePriceText.GetComponent<TMP_Text>().text = ("COST: SOLD OUT");
+            audioManager.PlaySFX(audioManager.upgrade);
         }
+        else
+            audioManager.PlaySFX(audioManager.noBuzzer);
     }
 
     public void upgradeFood()
@@ -247,10 +253,13 @@ public class GrimmJournal : MonoBehaviour
         if (UpgradeManager.totalMoney >= (int)upgradePrice)
         {
             UpgradeManager.totalMoney -= (int)upgradePrice;
-
             UpgradeManager.orderList[foodIndex].numUpgrades++;
+
+            audioManager.PlaySFX(audioManager.upgrade);
+            UpdatePrice();
         }
-        UpdatePrice();
+        else
+            audioManager.PlaySFX(audioManager.noBuzzer);
     }
 
     public void UpdatePrice()
@@ -276,6 +285,7 @@ public class GrimmJournal : MonoBehaviour
         if (isSceneLoaded("WorldMapScene"))
             SceneManager.UnloadSceneAsync("WorldMapScene");
 
+        audioManager.PlaySFX(audioManager.buttonClick);
         InputActions.FindActionMap("Player").Enable();
     }
 
@@ -372,6 +382,7 @@ public class GrimmJournal : MonoBehaviour
             Mixer.SetFloat("Volume", Mathf.Log10(PlayerPrefs.GetFloat("Volume")) * 20);
         }
         masterButton.image.sprite = muteSprites[PlayerPrefs.GetInt("MasterMute")];
+        audioManager.PlaySFX(audioManager.buttonClick);
     }
 
     public void MuteMusic()
@@ -391,6 +402,7 @@ public class GrimmJournal : MonoBehaviour
             musicSource.volume = PlayerPrefs.GetFloat("MusicVolume");
         }
         musicButton.image.sprite = muteSprites[PlayerPrefs.GetInt("MusicMute")];
+        audioManager.PlaySFX(audioManager.buttonClick);
     }
     public void MuteSFX()
     {
@@ -409,6 +421,7 @@ public class GrimmJournal : MonoBehaviour
             sfxSource.volume = PlayerPrefs.GetFloat("SFXVolume");
         }
         sfxButton.image.sprite = muteSprites[PlayerPrefs.GetInt("SFXMute")];
+        audioManager.PlaySFX(audioManager.buttonClick);
     }
 
     //Gameplay Settings
@@ -425,6 +438,7 @@ public class GrimmJournal : MonoBehaviour
             CameraControls.xInvert = -1;
 
         PlayerPrefs.SetInt("XInvert", CameraControls.xInvert);
+        audioManager.PlaySFX(audioManager.buttonClick);
     }
     public void YInvert()
     {
@@ -434,15 +448,18 @@ public class GrimmJournal : MonoBehaviour
             CameraControls.yInvert = -1;
 
         PlayerPrefs.SetInt("YInvert", CameraControls.yInvert);
+        audioManager.PlaySFX(audioManager.buttonClick);
     }
     public void ChangeSpeed(float value)
     {
         PlayerPrefs.SetFloat("GameSpeed", value);
+        audioManager.PlaySFX(audioManager.buttonClick);
     }
 
     public void ResetSpeed()
     {
         PlayerPrefs.SetFloat("GameSpeed", 1f);
+        audioManager.PlaySFX(audioManager.buttonClick);
     }
 
     public bool isSceneLoaded(string sceneName)

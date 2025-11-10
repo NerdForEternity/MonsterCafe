@@ -162,7 +162,7 @@ TextureImporter:
       name: Wolf_Corner
       rect:
         serializedVersion: 2
-        x: 967
+        x: 974
         y: 3138
         width: 654
         height: 731
@@ -299,7 +299,7 @@ TextureImporter:
         width: 359
         height: 768
       alignment: 9
-      pivot: {x: 0.8708013, y: -1.2766372}
+      pivot: {x: 0.56798875, y: -0.75669014}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

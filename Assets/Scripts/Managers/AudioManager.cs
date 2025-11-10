@@ -13,6 +13,9 @@ public class AudioManager : MonoBehaviour
     public AudioClip cookingComplete;
     public AudioClip openingJournal;
     public AudioClip buttonClick;
+    public AudioClip notif;
+    public AudioClip upgrade;
+    public AudioClip noBuzzer;
 
     private void Start()
     {
