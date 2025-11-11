@@ -33,7 +33,15 @@ public class Customer : MonoBehaviour
         patience.maxValue = (15f + (UpgradeManager.patienceAdd * 5f));
         patience.value = patience.maxValue;
         currentNode = startNode;
-        myChair = manager.chairs.Find(p => p.isOccupied == false);
+
+        List<Chair> potentialChairs = new List<Chair>();
+        for (int i = 0; i < manager.chairs.Count; i++)
+        {
+            if (manager.chairs[i].isOccupied == false)
+                potentialChairs.Add(manager.chairs[i]);
+        }
+
+        myChair = potentialChairs[Random.Range(0, potentialChairs.Count - 1)];
         myChair.isOccupied = true;
 
         isServed = false;

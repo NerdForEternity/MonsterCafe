@@ -4,6 +4,7 @@ public class Chair : MonoBehaviour
 {
     public PathNode chairNode;
     public bool isOccupied;
+    public bool facingUpwards;
 
     private Vector2 chairPos;
     private PathNode closestNode;

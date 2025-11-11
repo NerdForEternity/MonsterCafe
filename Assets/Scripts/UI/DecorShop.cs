@@ -2,12 +2,12 @@ using Unity.AppUI.UI;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using UnityEngine.InputSystem;
-//using UnityEngine.SceneManagement;
 
 public class DecorShop : MonoBehaviour
 {
     public GameObject decorMenu;
     public InputActionAsset InputActions;
+    public Sprite[] chairSprites;
 
     public TileBase[] floors;
     public TileBase[] walls;
@@ -15,8 +15,6 @@ public class DecorShop : MonoBehaviour
     public TileBase[] windows;
     public TileBase[] pillars;
     public TileBase[] tables;
-    public TileBase[] chairs;
-    public TileBase[] chairs2;
     public TileBase[] counters;
     public TileBase[] corners;
 
@@ -59,10 +57,15 @@ public class DecorShop : MonoBehaviour
             decorMap.SwapTile(windows[oldTile], windows[newTile]);
             decorMap.SwapTile(pillars[oldTile], pillars[newTile]);
             furnitureMap.SwapTile(tables[oldTile], tables[newTile]);
-            //note: chairs are gameobjects, need to change code here
-            furnitureMap.SwapTile(chairs[oldTile], chairs[newTile]);
-            furnitureMap.SwapTile(chairs2[oldTile], chairs2[newTile]);
-            //////
+
+            foreach (Chair n in FindObjectsByType<Chair>(FindObjectsSortMode.None))
+            {
+                if (PlayerPrefs.GetInt("Decor") == 0 && !n.facingUpwards)
+                    n.gameObject.GetComponent<SpriteRenderer>().sprite = chairSprites[3];
+                else
+                    n.gameObject.GetComponent<SpriteRenderer>().sprite = chairSprites[PlayerPrefs.GetInt("Decor")];
+            }
+
             furnitureMap.SwapTile(counters[oldTile], counters[newTile]);
             furnitureMap.SwapTile(corners[oldTile], corners[newTile]);
 

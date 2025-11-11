@@ -4,28 +4,37 @@ using System.Collections.Generic;
 
 public class CustomerManager : MonoBehaviour
 {
+    // objects
     public GameObject customer;
     public GameObject door;
-    public GameObject upgradeManager;
-    public List<Machine> machines; 
+    public List<Machine> machines;
+    public List<Chair> chairs;
+    private PathNode closestNode; 
+    
+    // variables / flags
     public float spawnTime;
     public int numServed = 0;
     public bool idle;
-
-    //this number will change, but for now the scene will only have twos chairs
-    public List<Chair> chairs;
     public int numCustomers;
-    private PathNode closestNode;
 
+    // managers / sprites
     public DecorShop decorShop;
+    public GameObject upgradeManager;
+    //public Sprite[] chairSprites;
 
     void Start()
     {
+Debug.Log(PlayerPrefs.GetInt("Decor"));
         idle = false;
-        List<Chair> chairs = new List<Chair>();
 
         foreach (Chair n in FindObjectsByType<Chair>(FindObjectsSortMode.None))
+        {
+            /*if (PlayerPrefs.GetInt("Decor") == 0 && !n.facingUpwards)
+                n.gameObject.GetComponent<SpriteRenderer>().sprite = chairSprites[3];
+            else
+                n.gameObject.GetComponent<SpriteRenderer>().sprite = chairSprites[PlayerPrefs.GetInt("Decor")];*/
             chairs.Add(n);
+        }
 
         foreach (Machine n in FindObjectsByType<Machine>(FindObjectsSortMode.None))
             machines.Add(n);
