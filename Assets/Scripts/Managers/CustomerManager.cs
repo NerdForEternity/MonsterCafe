@@ -4,25 +4,27 @@ using System.Collections.Generic;
 
 public class CustomerManager : MonoBehaviour
 {
+    // objects
     public GameObject customer;
     public GameObject door;
-    public GameObject upgradeManager;
-    public List<Machine> machines; 
+    public List<Machine> machines;
+    public List<Chair> chairs;
+    private PathNode closestNode; 
+    
+    // variables / flags
     public float spawnTime;
     public int numServed = 0;
     public bool idle;
-
-    //this number will change, but for now the scene will only have twos chairs
-    public List<Chair> chairs;
     public int numCustomers;
-    private PathNode closestNode;
 
+    // managers / sprites
     public DecorShop decorShop;
+    public GameObject upgradeManager;
+    //public Sprite[] chairSprites;
 
     void Start()
     {
         idle = false;
-        List<Chair> chairs = new List<Chair>();
 
         foreach (Chair n in FindObjectsByType<Chair>(FindObjectsSortMode.None))
             chairs.Add(n);
@@ -31,10 +33,14 @@ public class CustomerManager : MonoBehaviour
             machines.Add(n);
 
         Time.timeScale = PlayerPrefs.GetFloat("GameSpeed", 1f);
-        decorShop.SwapTiles(0, PlayerPrefs.GetInt("Decor"));
+        decorShop.SwapTiles(0, PlayerPrefs.GetInt("Decor", 0));
         StartCoroutine(CreateCustomer());
     }
 
+    void Update()
+    {
+        Debug.Log("Player preference speed = " + PlayerPrefs.GetFloat("GameSpeed", 1f) + ", Real time = " + Time.timeScale);
+    }
     IEnumerator CreateCustomer()
     {
         //total customers cannot exceed seating

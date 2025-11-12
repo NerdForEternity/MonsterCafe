@@ -74,16 +74,17 @@ public class GrimmJournal : MonoBehaviour
         sfxSource = audioManager.transform.GetChild(1).gameObject.GetComponent<AudioSource>();
 
         //Sliders
-        masterSlider.value = PlayerPrefs.GetFloat("Volume");
-        musicSlider.value = PlayerPrefs.GetFloat("MusicVolume");
-        sfxSlider.value = PlayerPrefs.GetFloat("SFXVolume");
+        masterSlider.value = PlayerPrefs.GetFloat("Volume", 0.75f);
+        musicSlider.value = PlayerPrefs.GetFloat("MusicVolume", 0.5f);
+        sfxSlider.value = PlayerPrefs.GetFloat("SFXVolume", 0.75f);
 
         sensitivitySlider.value = PlayerPrefs.GetFloat("CamSensitivity", 20.5f);
-        
+
         if (PlayerPrefs.GetInt("XInvert") == 1)
             xInvertToggle.isOn = true;
         else
             xInvertToggle.isOn = false;
+        
         if (PlayerPrefs.GetInt("YInvert") == 1)
             yInvertToggle.isOn = true;
         else
@@ -336,7 +337,7 @@ public class GrimmJournal : MonoBehaviour
     //Audio Settings
     public void ChangeMasterAudio(float value)
     {
-        if (PlayerPrefs.GetInt("MasterMute") == 1)
+        if (PlayerPrefs.GetInt("MasterMute", 0) == 1)
             Mixer.SetFloat("Volume", -80f);
         else
             Mixer.SetFloat("Volume", Mathf.Log10(value) * 20);
@@ -346,7 +347,7 @@ public class GrimmJournal : MonoBehaviour
     }
     public void ChangeMusicAudio(float value)
     {
-        if (PlayerPrefs.GetInt("MusicMute") == 1)
+        if (PlayerPrefs.GetInt("MusicMute", 0) == 1)
             musicSource.volume = 0f;
         else
             musicSource.volume = value;
@@ -356,7 +357,7 @@ public class GrimmJournal : MonoBehaviour
     }
     public void ChangeSFXAudio(float value)
     {
-        if (PlayerPrefs.GetInt("SFXMute") == 1)
+        if (PlayerPrefs.GetInt("SFXMute", 0) == 1)
             sfxSource.volume = 0f;
         else
             sfxSource.volume = value;
@@ -379,9 +380,9 @@ public class GrimmJournal : MonoBehaviour
         {
             masterFlag = 0;
             PlayerPrefs.SetInt("MasterMute", 0);
-            Mixer.SetFloat("Volume", Mathf.Log10(PlayerPrefs.GetFloat("Volume")) * 20);
+            Mixer.SetFloat("Volume", Mathf.Log10(PlayerPrefs.GetFloat("Volume", 0.75f)) * 20);
         }
-        masterButton.image.sprite = muteSprites[PlayerPrefs.GetInt("MasterMute")];
+        masterButton.image.sprite = muteSprites[PlayerPrefs.GetInt("MasterMute", 0)];
         audioManager.PlaySFX(audioManager.buttonClick);
     }
 
@@ -399,9 +400,9 @@ public class GrimmJournal : MonoBehaviour
         {
             musicFlag = 0;
             PlayerPrefs.SetInt("MusicMute", 0);
-            musicSource.volume = PlayerPrefs.GetFloat("MusicVolume");
+            musicSource.volume = PlayerPrefs.GetFloat("MusicVolume", 0.5f);
         }
-        musicButton.image.sprite = muteSprites[PlayerPrefs.GetInt("MusicMute")];
+        musicButton.image.sprite = muteSprites[PlayerPrefs.GetInt("MusicMute", 0)];
         audioManager.PlaySFX(audioManager.buttonClick);
     }
     public void MuteSFX()
@@ -418,9 +419,9 @@ public class GrimmJournal : MonoBehaviour
         {
             sfxFlag = 0;
             PlayerPrefs.SetInt("SFXMute", 0);
-            sfxSource.volume = PlayerPrefs.GetFloat("SFXVolume");
+            sfxSource.volume = PlayerPrefs.GetFloat("SFXVolume", 0.75f);
         }
-        sfxButton.image.sprite = muteSprites[PlayerPrefs.GetInt("SFXMute")];
+        sfxButton.image.sprite = muteSprites[PlayerPrefs.GetInt("SFXMute", 0)];
         audioManager.PlaySFX(audioManager.buttonClick);
     }
 
@@ -476,6 +477,6 @@ public class GrimmJournal : MonoBehaviour
 
     public void OnDestroy()
     {
-        Time.timeScale = PlayerPrefs.GetFloat("GameSpeed");
+        Time.timeScale = PlayerPrefs.GetFloat("GameSpeed", 1f);
     }
 }

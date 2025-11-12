@@ -7,7 +7,6 @@ TagManager:
   - Machine
   - AudioManager
   - UpgradesManager
-  - SpawnTile
   layers:
   - Default
   - TransparentFX

@@ -21,8 +21,7 @@ public class IdleMoneyWarning : MonoBehaviour
     public void CheckboxPress()
     {
         audioManager.PlaySFX(audioManager.buttonClick);
-Debug.Log("Checkbox Clicked");
-        Time.timeScale = PlayerPrefs.GetFloat("GameSpeed");
+        Time.timeScale = PlayerPrefs.GetFloat("GameSpeed", 1f);
         InputActions.FindActionMap("Player").Enable();
         warningMessage.SetActive(false);
     }
