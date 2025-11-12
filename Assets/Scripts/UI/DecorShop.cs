@@ -25,7 +25,7 @@ public class DecorShop : MonoBehaviour
 
     public void GoBack()
     {
-        Time.timeScale = PlayerPrefs.GetFloat("GameSpeed");
+        Time.timeScale = PlayerPrefs.GetFloat("GameSpeed", 1f);
         InputActions.FindActionMap("Player").Enable();
         decorMenu.SetActive(false);
     }
@@ -60,10 +60,10 @@ public class DecorShop : MonoBehaviour
 
             foreach (Chair n in FindObjectsByType<Chair>(FindObjectsSortMode.None))
             {
-                if (PlayerPrefs.GetInt("Decor") == 0 && !n.facingUpwards)
+                if (PlayerPrefs.GetInt("Decor", 0) == 0 && !n.facingUpwards)
                     n.gameObject.GetComponent<SpriteRenderer>().sprite = chairSprites[3];
                 else
-                    n.gameObject.GetComponent<SpriteRenderer>().sprite = chairSprites[PlayerPrefs.GetInt("Decor")];
+                    n.gameObject.GetComponent<SpriteRenderer>().sprite = chairSprites[PlayerPrefs.GetInt("Decor", 0)];
             }
 
             furnitureMap.SwapTile(counters[oldTile], counters[newTile]);

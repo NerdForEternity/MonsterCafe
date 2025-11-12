@@ -24,26 +24,23 @@ public class CustomerManager : MonoBehaviour
 
     void Start()
     {
-Debug.Log(PlayerPrefs.GetInt("Decor"));
         idle = false;
 
         foreach (Chair n in FindObjectsByType<Chair>(FindObjectsSortMode.None))
-        {
-            /*if (PlayerPrefs.GetInt("Decor") == 0 && !n.facingUpwards)
-                n.gameObject.GetComponent<SpriteRenderer>().sprite = chairSprites[3];
-            else
-                n.gameObject.GetComponent<SpriteRenderer>().sprite = chairSprites[PlayerPrefs.GetInt("Decor")];*/
             chairs.Add(n);
-        }
 
         foreach (Machine n in FindObjectsByType<Machine>(FindObjectsSortMode.None))
             machines.Add(n);
 
         Time.timeScale = PlayerPrefs.GetFloat("GameSpeed", 1f);
-        decorShop.SwapTiles(0, PlayerPrefs.GetInt("Decor"));
+        decorShop.SwapTiles(0, PlayerPrefs.GetInt("Decor", 0));
         StartCoroutine(CreateCustomer());
     }
 
+    void Update()
+    {
+        Debug.Log("Player preference speed = " + PlayerPrefs.GetFloat("GameSpeed", 1f) + ", Real time = " + Time.timeScale);
+    }
     IEnumerator CreateCustomer()
     {
         //total customers cannot exceed seating
