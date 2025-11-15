@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2326780597942454437}
   - component: {fileID: 703337978269780677}
   m_Layer: 0
-  m_Name: SpawnTile4
+  m_Name: SpawnTile
   m_TagString: SpawnTile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

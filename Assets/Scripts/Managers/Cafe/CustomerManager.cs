@@ -19,8 +19,6 @@ public class CustomerManager : MonoBehaviour
 
     // managers / sprites
     public DecorShop decorShop;
-    public GameObject upgradeManager;
-    //public Sprite[] chairSprites;
 
     void Start()
     {

@@ -38,7 +38,8 @@ public class UIManager : MonoBehaviour
 
     private void Update()
     {
-        moneyCount.text = UpgradeManager.totalMoney.ToString();
+        //moneyCount.text = UpgradeManager.totalMoney.ToString();
+        moneyCount.text = PlayerPrefs.GetInt("Money", 0).ToString();
     }
 
     public void ActiveIdleSwap()
