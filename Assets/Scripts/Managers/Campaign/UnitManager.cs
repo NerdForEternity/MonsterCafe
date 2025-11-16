@@ -9,6 +9,8 @@ public class UnitManager : MonoBehaviour
     // objects
     public List<GameObject> units; // references to unit types
     public GameObject[] spawnTiles; // references to spawn tiles in scene
+    public GameObject[] targetTiles; // references to enemy spawn tiles
+    private List<GameObject> spawnedUnits = new List<GameObject>(); // all player units in the scene
     private GameObject currentUnit; // current unit reference being used
     private GameObject previewUnit; // transparent preview of current unit 
     private GameObject currentTile; // tile to place current unit on
@@ -22,8 +24,9 @@ public class UnitManager : MonoBehaviour
     public ShopManager shopManager;
 
     // flags
-    private bool clickOnTile;
-    private int currentID;
+    private bool clickOnTile; // checks if initial click was on a tile
+    private int currentID; // determines which unit is selected
+    public bool waveStarted; // checks if wave has started yet
 
     private void Awake()
     {
@@ -125,9 +128,12 @@ Debug.Log("Added health to unit: " + currentID + ", In Inventory: " + units[curr
                     //if there isn't a unit here...
                     else
                     {
-                        //set the unit type of the tile
-                        GameObject tileBaseUnit = Instantiate(currentUnit, currentTile.transform.position, currentUnit.transform.rotation);
-                        spawnTile.unitType = tileBaseUnit.GetComponent<Unit>();
+                        GameObject tileBaseUnit = Instantiate(currentUnit, currentTile.transform.position, currentUnit.transform.rotation); // spawn unit
+                        spawnedUnits.Add(tileBaseUnit); // add to total player units
+                        spawnTile.unitType = tileBaseUnit.GetComponent<Unit>(); // set tile unit type
+                        int targetID = System.Array.IndexOf(spawnTiles, currentTile);
+                        tileBaseUnit.GetComponent<Unit>().targetTile = targetTiles[targetID]; // set tile for unit to move to
+                        tileBaseUnit.GetComponent<Unit>().unitManager = this; // pass manager ref
 
                         units[currentID].GetComponent<Unit>().numInInventory--;
 Debug.Log("Placed unit: " + currentID + ", In Inventory: " + units[currentID].GetComponent<Unit>().numInInventory);
@@ -144,6 +150,18 @@ Debug.Log("Placed unit: " + currentID + ", In Inventory: " + units[currentID].Ge
         currentID = newUnit;
     }
 
+    public void StartWave()
+    {
+        // if player has spawned at least one unit, the wave can start
+        if(spawnedUnits.Count > 0)
+        {
+            waveStarted = true;
+Debug.Log("Wave started");
+        }
+        else
+Debug.Log("Cannot start wave, spawn a unit first!");
+    }
+
     public void CreatePreview(int tileID)
     {
         if (previewUnit != null)
@@ -151,6 +169,7 @@ Debug.Log("Placed unit: " + currentID + ", In Inventory: " + units[currentID].Ge
 
         currentTile = spawnTiles[tileID];
         previewUnit = Instantiate(currentUnit, currentTile.transform.position, currentUnit.transform.rotation);
+        previewUnit.GetComponent<Unit>().isPreview = true;
 
         SpriteRenderer parentSprite = previewUnit.GetComponent<SpriteRenderer>();
         SpriteRenderer[] sprites = previewUnit.GetComponentsInChildren<SpriteRenderer>();

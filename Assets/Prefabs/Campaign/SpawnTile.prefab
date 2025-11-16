@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 703337978269780677}
   m_Layer: 0
   m_Name: SpawnTile
-  m_TagString: SpawnTile
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96,4 +96,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5774266da34cac944bbae4f24e17eac9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnTile
-  InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  tileID: 0
+  unitType: {fileID: 0}

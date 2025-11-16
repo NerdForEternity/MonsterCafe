@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 using TMPro;
 
 public class Unit : MonoBehaviour
@@ -7,12 +9,17 @@ public class Unit : MonoBehaviour
     {
         Ghost, Vampire, Werewolf
     }
+    
+    public UnitManager unitManager;
     public int health;
     public int numInInventory; // number the player can place down; changes as units are bought and placed
     public int numBought; // number of this unit bought; determines price and only resets after each round
     public int basePrice; // base price of this unit; used to calculate final price
     public int price; // actual price of unit
-    public GameObject healthText;
+    public GameObject healthText; // text displaying remaining health
+    public GameObject targetTile; // tile containing the enemies this unit will face
+    private bool isAttacking; // checks if this unit is attacking an enemy
+    public bool isPreview; // checks if this is a preview or comfirmed unit
     public UnitType myType;
     public UnitType weakness;
 
@@ -22,12 +29,26 @@ public class Unit : MonoBehaviour
         ChangeHealth(0);
     }
 
-    /*void Attack(Unit attackingUnit)
+    void Update()
     {
-        possible situations:
-        - this unit is strong against attacker: attacker is defeated, next hit deletes this attacker
-        - this unit is netural against attacker: both are defeated
-        - this unit is weak to attacker
+        if(!isPreview)
+        {
+            //if the wave has started and the unit hasn't reached the other side...
+            //AND the unit isn't currently attacking
+            if(unitManager.waveStarted && transform.position != targetTile.transform.position && !isAttacking)
+                transform.position = Vector2.MoveTowards(transform.position, targetTile.transform.position, 3 * Time.deltaTime);
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D whatIHit)
+    {
+        if(whatIHit.tag == "Enemy")
+            Attack(whatIHit.gameObject.GetComponent<Unit>());
+    }
+
+    IEnumerator Attack(Unit attackingUnit)
+    {
+        isAttacking = true;
         
         // this unit is strong against attacker
         if(attackingUnit.weakness == myType)
@@ -36,7 +57,10 @@ public class Unit : MonoBehaviour
         // this unit is neutral or weak to attacker
         else
             ChangeHealth(-2);
-    }*/
+        
+        yield return new WaitForSeconds(3);
+        isAttacking = false;
+    }
 
     public void ChangeHealth(int healthLoss)
     {
