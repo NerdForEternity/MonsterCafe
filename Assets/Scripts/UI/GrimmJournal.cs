@@ -80,12 +80,12 @@ public class GrimmJournal : MonoBehaviour
 
         sensitivitySlider.value = PlayerPrefs.GetFloat("CamSensitivity", 20.5f);
 
-        if (PlayerPrefs.GetInt("XInvert") == 1)
+        if (PlayerPrefs.GetInt("XInvert", -1) == 1)
             xInvertToggle.isOn = true;
         else
             xInvertToggle.isOn = false;
         
-        if (PlayerPrefs.GetInt("YInvert") == 1)
+        if (PlayerPrefs.GetInt("YInvert", -1) == 1)
             yInvertToggle.isOn = true;
         else
             yInvertToggle.isOn = false;
@@ -207,10 +207,12 @@ public class GrimmJournal : MonoBehaviour
     public void upgradeCooking()
     {
         int price = 2 * (UpgradeManager.cookSpeedAdd + 1);
-        if (UpgradeManager.cookSpeedAdd < 3 && UpgradeManager.totalMoney >= price)
+        //if (UpgradeManager.cookSpeedAdd < 3 && UpgradeManager.totalMoney >= price)
+        if (UpgradeManager.cookSpeedAdd < 3 && PlayerPrefs.GetInt("Money", 0) >= price)
         {
             UpgradeManager.cookSpeedAdd++;
-            UpgradeManager.totalMoney -= price;
+            //UpgradeManager.totalMoney -= price;
+            PlayerPrefs.SetInt("Money", ((PlayerPrefs.GetInt("Money", 0)) - price));
             cookingText.GetComponent<TMP_Text>().text = ("LVL: " + UpgradeManager.cookSpeedAdd.ToString());
 
             if (UpgradeManager.cookSpeedAdd < 3)
@@ -225,10 +227,12 @@ public class GrimmJournal : MonoBehaviour
     public void upgradeCustomer()
     {
         int price = 2 * ((int)UpgradeManager.patienceAdd + 1);
-        if (UpgradeManager.patienceAdd < 3 && UpgradeManager.totalMoney >= price)
+        //if (UpgradeManager.patienceAdd < 3 && UpgradeManager.totalMoney >= price)
+        if(UpgradeManager.patienceAdd < 3 && PlayerPrefs.GetInt("Money", 0) >= price)
         {
             UpgradeManager.patienceAdd++;
-            UpgradeManager.totalMoney -= price;
+            //UpgradeManager.totalMoney -= price;
+            PlayerPrefs.SetInt("Money", ((PlayerPrefs.GetInt("Money", 0)) - price));
             patienceText.GetComponent<TMP_Text>().text = ("LVL: " + UpgradeManager.patienceAdd.ToString());
 
             if (UpgradeManager.patienceAdd < 3)
@@ -251,9 +255,11 @@ public class GrimmJournal : MonoBehaviour
         }
         upgradePrice = Mathf.Round(upgradePrice);
 
-        if (UpgradeManager.totalMoney >= (int)upgradePrice)
+        //if (UpgradeManager.totalMoney >= (int)upgradePrice)
+        if(PlayerPrefs.GetInt("Money", 0) >= (int)upgradePrice)
         {
-            UpgradeManager.totalMoney -= (int)upgradePrice;
+            //UpgradeManager.totalMoney -= (int)upgradePrice;
+            PlayerPrefs.SetInt("Money", ((PlayerPrefs.GetInt("Money", 0)) - (int)upgradePrice));
             UpgradeManager.orderList[foodIndex].numUpgrades++;
 
             audioManager.PlaySFX(audioManager.upgrade);

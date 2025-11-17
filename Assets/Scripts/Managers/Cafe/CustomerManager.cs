@@ -19,8 +19,6 @@ public class CustomerManager : MonoBehaviour
 
     // managers / sprites
     public DecorShop decorShop;
-    public GameObject upgradeManager;
-    //public Sprite[] chairSprites;
 
     void Start()
     {
@@ -30,7 +28,11 @@ public class CustomerManager : MonoBehaviour
             chairs.Add(n);
 
         foreach (Machine n in FindObjectsByType<Machine>(FindObjectsSortMode.None))
+        {
             machines.Add(n);
+            if(!n.itemType.isUnlocked)
+                n.gameObject.SetActive(false);
+        }
 
         Time.timeScale = PlayerPrefs.GetFloat("GameSpeed", 1f);
         decorShop.SwapTiles(0, PlayerPrefs.GetInt("Decor", 0));

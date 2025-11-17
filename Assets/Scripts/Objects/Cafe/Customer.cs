@@ -13,7 +13,6 @@ public class Customer : MonoBehaviour
     public bool leaving;
     public Chair myChair;
     private List<PathNode> path = new List<PathNode>();
-    //public Machine machine;
     public CustomerManager manager;
     private Animator animator;
     private GameObject canvas;
@@ -173,7 +172,7 @@ public class Customer : MonoBehaviour
                 orderMoney = orderMoney * 1.2f;
         }
         Mathf.Round(orderMoney);
-        UpgradeManager.totalMoney += (int)orderMoney / idleModifier;
+        PlayerPrefs.SetInt("Money", PlayerPrefs.GetInt("Money", 0) + (int)orderMoney / idleModifier);
 
         particles.Play();
         audioManager.PlaySFX(audioManager.cookingComplete);
