@@ -68,8 +68,6 @@ public class UnitManager : MonoBehaviour
     {
         // sets the ghost as default unit to spawn
         currentUnit = units[0];
-//for debugging
-PlayerPrefs.SetInt("Money", 999);
 
         // resets all unit counts and updates shop display
         for (int i = 0; i < units.Count; i++)
@@ -262,6 +260,11 @@ Debug.Log("Your winner!!");
             loseScreen.SetActive(true);
         }
         yield return new WaitForSeconds(3);
+        SceneManager.LoadScene("Test");
+    }
+
+    public void Flee()
+    {
         SceneManager.LoadScene("Test");
     }
 }

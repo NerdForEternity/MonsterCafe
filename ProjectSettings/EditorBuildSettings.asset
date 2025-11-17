@@ -8,10 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cafe/Test.unity
     guid: f4de476358387654d8bfda0c0ba97778
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/VampTestScene.unity
     guid: 4567c24c19d9cbb419e62c8a5ac31103
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/WolfTestScene.unity
     guid: dc45e7fb2de97904bbe91d6422fd9ab8
   - enabled: 1
@@ -22,8 +22,8 @@ EditorBuildSettings:
     guid: cf0df2e61fc88104d97996253579979a
   - enabled: 1
     path: Assets/Scenes/Campaign/Vampire_Decor.unity
-    guid: 5f842256e08f35b4dbd8678dbc1ca820
-  - enabled: 1
+    guid: a04e58379a9cf334196456bba272f7b6
+  - enabled: 0
     path: Assets/Scenes/Campaign/Werewolf_Decor.unity
     guid: ce02c1c18b261214387602ef1f4f1d9b
   m_configObjects:

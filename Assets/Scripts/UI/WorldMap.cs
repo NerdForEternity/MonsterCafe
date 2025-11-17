@@ -22,7 +22,7 @@ public class WorldMap : MonoBehaviour
 
     public void VampiniOne()
     {
-        SceneManager.LoadScene("VampTestScene");
+        SceneManager.LoadScene("Vampire_Decor");
     }
 
     public void VampiniTwo()
