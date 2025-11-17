@@ -1,0 +1,1443 @@
+fileFormatVersion: 2
+guid: 730cb46a70de1ed4eba08e7c8839a0b0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7987192307091165446
+    second: jazzercize_0
+  - first:
+      213: 6714470169818676510
+    second: jazzercize_1
+  - first:
+      213: 210563116691192492
+    second: jazzercize_2
+  - first:
+      213: 973968297491064935
+    second: jazzercize_3
+  - first:
+      213: -9044005515087856678
+    second: jazzercize_4
+  - first:
+      213: -6485472020395921131
+    second: jazzercize_5
+  - first:
+      213: -573947707091654388
+    second: jazzercize_6
+  - first:
+      213: 7059873580089014321
+    second: jazzercize_7
+  - first:
+      213: 8964840804559357856
+    second: jazzercize_8
+  - first:
+      213: 1158756630550897187
+    second: jazzercize_9
+  - first:
+      213: -5669391196974338624
+    second: jazzercize_10
+  - first:
+      213: 8914833688730417005
+    second: jazzercize_11
+  - first:
+      213: -7006852630462615345
+    second: jazzercize_12
+  - first:
+      213: 6097130156285377367
+    second: jazzercize_13
+  - first:
+      213: -4815073326553162808
+    second: jazzercize_14
+  - first:
+      213: -7479843605243154310
+    second: jazzercize_15
+  - first:
+      213: 4020850388845619495
+    second: jazzercize_16
+  - first:
+      213: 6678296534562501514
+    second: jazzercize_17
+  - first:
+      213: 4689051325963381578
+    second: jazzercize_18
+  - first:
+      213: -1632019387015268697
+    second: jazzercize_19
+  - first:
+      213: -8351877983374780111
+    second: jazzercize_20
+  - first:
+      213: 5739064614962607769
+    second: jazzercize_21
+  - first:
+      213: 7580009451516211127
+    second: jazzercize_22
+  - first:
+      213: 8200645370446928886
+    second: jazzercize_23
+  - first:
+      213: 973246724031105207
+    second: jazzercize_24
+  - first:
+      213: 9094198699805890062
+    second: jazzercize_25
+  - first:
+      213: -1910956359509172304
+    second: jazzercize_26
+  - first:
+      213: 5696119878081170949
+    second: jazzercize_27
+  - first:
+      213: -5953878984359331634
+    second: jazzercize_28
+  - first:
+      213: 7742302867997516345
+    second: jazzercize_29
+  - first:
+      213: 8580062642806234627
+    second: jazzercize_30
+  - first:
+      213: -6403355637235849905
+    second: jazzercize_31
+  - first:
+      213: 6174103765205147483
+    second: jazzercize_32
+  - first:
+      213: 1927632179308918964
+    second: jazzercize_33
+  - first:
+      213: -8956592806360024069
+    second: jazzercize_34
+  - first:
+      213: 197692063842784583
+    second: jazzercize_35
+  - first:
+      213: -2001464138291098935
+    second: jazzercize_36
+  - first:
+      213: -1514242874199755973
+    second: jazzercize_37
+  - first:
+      213: 351047776615856222
+    second: jazzercize_38
+  - first:
+      213: -139041638565951263
+    second: jazzercize_39
+  - first:
+      213: -6183926404806794021
+    second: jazzercize_40
+  - first:
+      213: -3956977811258633491
+    second: jazzercize_41
+  - first:
+      213: 2488612668541670825
+    second: jazzercize_42
+  - first:
+      213: -2721101988432021985
+    second: jazzercize_43
+  - first:
+      213: 5042930177211620931
+    second: jazzercize_44
+  - first:
+      213: 6790126468685795650
+    second: jazzercize_45
+  - first:
+      213: 4240399557295938185
+    second: jazzercize_46
+  - first:
+      213: 7607620920059005077
+    second: jazzercize_47
+  - first:
+      213: 903997468597649816
+    second: jazzercize_48
+  - first:
+      213: 5506700553833193181
+    second: jazzercize_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jazzercize_0
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 2775
+        width: 757
+        height: 1143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe29172aeac72190800000000000000
+      internalID: -7987192307091165446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_1
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 2736
+        width: 675
+        height: 1220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1dbffe6b079e2d50800000000000000
+      internalID: 6714470169818676510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_2
+      rect:
+        serializedVersion: 2
+        x: 2212
+        y: 2713
+        width: 665
+        height: 1093
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa7d2df9021ce200800000000000000
+      internalID: 210563116691192492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_3
+      rect:
+        serializedVersion: 2
+        x: 3056
+        y: 2962
+        width: 474
+        height: 828
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 768627a910b348d00800000000000000
+      internalID: 973968297491064935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_4
+      rect:
+        serializedVersion: 2
+        x: 3611
+        y: 2975
+        width: 474
+        height: 828
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adbb386b6ec3d7280800000000000000
+      internalID: -9044005515087856678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_5
+      rect:
+        serializedVersion: 2
+        x: 4372
+        y: 3147
+        width: 501
+        height: 649
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511f0971f89fef5a0800000000000000
+      internalID: -6485472020395921131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_6
+      rect:
+        serializedVersion: 2
+        x: 5097
+        y: 3139
+        width: 500
+        height: 649
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09e62fe99de808f0800000000000000
+      internalID: -573947707091654388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_7
+      rect:
+        serializedVersion: 2
+        x: 5911
+        y: 3160
+        width: 516
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 138fe54cd95b9f160800000000000000
+      internalID: 7059873580089014321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_8
+      rect:
+        serializedVersion: 2
+        x: 6543
+        y: 3172
+        width: 515
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a700b7c633896c70800000000000000
+      internalID: 8964840804559357856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_9
+      rect:
+        serializedVersion: 2
+        x: 5057
+        y: 2178
+        width: 461
+        height: 696
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3226d11240bb41010800000000000000
+      internalID: 1158756630550897187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_10
+      rect:
+        serializedVersion: 2
+        x: 5724
+        y: 2868
+        width: 9
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd2e9b7eb64251b0800000000000000
+      internalID: -5669391196974338624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_11
+      rect:
+        serializedVersion: 2
+        x: 5740
+        y: 2867
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d673670d10ad7bb70800000000000000
+      internalID: 8914833688730417005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_12
+      rect:
+        serializedVersion: 2
+        x: 5777
+        y: 2852
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc0b3cf08a8a2ce90800000000000000
+      internalID: -7006852630462615345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_13
+      rect:
+        serializedVersion: 2
+        x: 5833
+        y: 2868
+        width: 55
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b36bab29b5d9450800000000000000
+      internalID: 6097130156285377367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_14
+      rect:
+        serializedVersion: 2
+        x: 5889
+        y: 2867
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cb1753225c6d2db0800000000000000
+      internalID: -4815073326553162808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_15
+      rect:
+        serializedVersion: 2
+        x: 5928
+        y: 2868
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a703106fed1423890800000000000000
+      internalID: -7479843605243154310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_16
+      rect:
+        serializedVersion: 2
+        x: 5953
+        y: 2868
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7296222102eecc730800000000000000
+      internalID: 4020850388845619495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_17
+      rect:
+        serializedVersion: 2
+        x: 6014
+        y: 2867
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a83f157a0531eac50800000000000000
+      internalID: 6678296534562501514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_18
+      rect:
+        serializedVersion: 2
+        x: 6053
+        y: 2868
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b2f99565bd21140800000000000000
+      internalID: 4689051325963381578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_19
+      rect:
+        serializedVersion: 2
+        x: 6076
+        y: 2867
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a6776aa307e959e0800000000000000
+      internalID: -1632019387015268697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1774
+        width: 490
+        height: 876
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1395a89693b281c80800000000000000
+      internalID: -8351877983374780111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_21
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1746
+        width: 491
+        height: 876
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9963cd54cd045af40800000000000000
+      internalID: 5739064614962607769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_22
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 1735
+        width: 453
+        height: 886
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf2abf7f6a913960800000000000000
+      internalID: 7580009451516211127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_23
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 1746
+        width: 453
+        height: 887
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fbd07af38b8ec170800000000000000
+      internalID: 8200645370446928886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_24
+      rect:
+        serializedVersion: 2
+        x: 2903
+        y: 2488
+        width: 86
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b8cfa03dbaa18d00800000000000000
+      internalID: 973246724031105207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_25
+      rect:
+        serializedVersion: 2
+        x: 3057
+        y: 2488
+        width: 85
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e06dfbac885153e70800000000000000
+      internalID: 9094198699805890062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_26
+      rect:
+        serializedVersion: 2
+        x: 3211
+        y: 2488
+        width: 85
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf9e22d05bea75e0800000000000000
+      internalID: -1910956359509172304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_27
+      rect:
+        serializedVersion: 2
+        x: 3365
+        y: 2488
+        width: 85
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50ec11b89deac0f40800000000000000
+      internalID: 5696119878081170949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_28
+      rect:
+        serializedVersion: 2
+        x: 4434
+        y: 2162
+        width: 461
+        height: 696
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec83995db929f5da0800000000000000
+      internalID: -5953878984359331634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_29
+      rect:
+        serializedVersion: 2
+        x: 2924
+        y: 2296
+        width: 114
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 932ea7e107f227b60800000000000000
+      internalID: 7742302867997516345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_30
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 2296
+        width: 114
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e9017b381821770800000000000000
+      internalID: 8580062642806234627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_31
+      rect:
+        serializedVersion: 2
+        x: 3236
+        y: 2296
+        width: 114
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f45ef0079f5b227a0800000000000000
+      internalID: -6403355637235849905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_32
+      rect:
+        serializedVersion: 2
+        x: 3387
+        y: 2296
+        width: 115
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f5473a9a2dea550800000000000000
+      internalID: 6174103765205147483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_33
+      rect:
+        serializedVersion: 2
+        x: 2953
+        y: 2145
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8f159014350ca10800000000000000
+      internalID: 1927632179308918964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_34
+      rect:
+        serializedVersion: 2
+        x: 3058
+        y: 2144
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb7713fb4ac3b380800000000000000
+      internalID: -8956592806360024069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_35
+      rect:
+        serializedVersion: 2
+        x: 3103
+        y: 2145
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745534872e75eb200800000000000000
+      internalID: 197692063842784583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_36
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 2187
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cac97e68fe5934e0800000000000000
+      internalID: -2001464138291098935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_37
+      rect:
+        serializedVersion: 2
+        x: 2918
+        y: 2144
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3338a3f0245cfae0800000000000000
+      internalID: -1514242874199755973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_38
+      rect:
+        serializedVersion: 2
+        x: 2993
+        y: 2144
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e58f068c71c2fd400800000000000000
+      internalID: 351047776615856222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_39
+      rect:
+        serializedVersion: 2
+        x: 3030
+        y: 2144
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e8c94ccd56021ef0800000000000000
+      internalID: -139041638565951263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_40
+      rect:
+        serializedVersion: 2
+        x: 3141
+        y: 2144
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd4255cd2b74e2aa0800000000000000
+      internalID: -6183926404806794021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_41
+      rect:
+        serializedVersion: 2
+        x: 3181
+        y: 2145
+        width: 9
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de293d745adf519c0800000000000000
+      internalID: -3956977811258633491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_42
+      rect:
+        serializedVersion: 2
+        x: 3198
+        y: 2145
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a596fb6904598220800000000000000
+      internalID: 2488612668541670825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_43
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 971
+        width: 1068
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1676e59824bc3ad0800000000000000
+      internalID: -2721101988432021985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_44
+      rect:
+        serializedVersion: 2
+        x: 2593
+        y: 932
+        width: 1068
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34edbcf07461cf540800000000000000
+      internalID: 5042930177211620931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_45
+      rect:
+        serializedVersion: 2
+        x: 4451
+        y: 828
+        width: 1068
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2419ef13c006b3e50800000000000000
+      internalID: 6790126468685795650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_46
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 178
+        width: 328
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a19564eece8da30800000000000000
+      internalID: 4240399557295938185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_47
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 119
+        width: 329
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59882fd7be2b39960800000000000000
+      internalID: 7607620920059005077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_48
+      rect:
+        serializedVersion: 2
+        x: 2355
+        y: 288
+        width: 328
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8918d9978e4ab8c00800000000000000
+      internalID: 903997468597649816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazzercize_49
+      rect:
+        serializedVersion: 2
+        x: 5655
+        y: 0
+        width: 329
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dde9cab5afabb6c40800000000000000
+      internalID: 5506700553833193181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      jazzercize_0: -7987192307091165446
+      jazzercize_1: 6714470169818676510
+      jazzercize_10: -5669391196974338624
+      jazzercize_11: 8914833688730417005
+      jazzercize_12: -7006852630462615345
+      jazzercize_13: 6097130156285377367
+      jazzercize_14: -4815073326553162808
+      jazzercize_15: -7479843605243154310
+      jazzercize_16: 4020850388845619495
+      jazzercize_17: 6678296534562501514
+      jazzercize_18: 4689051325963381578
+      jazzercize_19: -1632019387015268697
+      jazzercize_2: 210563116691192492
+      jazzercize_20: -8351877983374780111
+      jazzercize_21: 5739064614962607769
+      jazzercize_22: 7580009451516211127
+      jazzercize_23: 8200645370446928886
+      jazzercize_24: 973246724031105207
+      jazzercize_25: 9094198699805890062
+      jazzercize_26: -1910956359509172304
+      jazzercize_27: 5696119878081170949
+      jazzercize_28: -5953878984359331634
+      jazzercize_29: 7742302867997516345
+      jazzercize_3: 973968297491064935
+      jazzercize_30: 8580062642806234627
+      jazzercize_31: -6403355637235849905
+      jazzercize_32: 6174103765205147483
+      jazzercize_33: 1927632179308918964
+      jazzercize_34: -8956592806360024069
+      jazzercize_35: 197692063842784583
+      jazzercize_36: -2001464138291098935
+      jazzercize_37: -1514242874199755973
+      jazzercize_38: 351047776615856222
+      jazzercize_39: -139041638565951263
+      jazzercize_4: -9044005515087856678
+      jazzercize_40: -6183926404806794021
+      jazzercize_41: -3956977811258633491
+      jazzercize_42: 2488612668541670825
+      jazzercize_43: -2721101988432021985
+      jazzercize_44: 5042930177211620931
+      jazzercize_45: 6790126468685795650
+      jazzercize_46: 4240399557295938185
+      jazzercize_47: 7607620920059005077
+      jazzercize_48: 903997468597649816
+      jazzercize_49: 5506700553833193181
+      jazzercize_5: -6485472020395921131
+      jazzercize_6: -573947707091654388
+      jazzercize_7: 7059873580089014321
+      jazzercize_8: 8964840804559357856
+      jazzercize_9: 1158756630550897187
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

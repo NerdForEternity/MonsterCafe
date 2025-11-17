@@ -6,15 +6,15 @@ public class ShopManager : MonoBehaviour
     public GameObject[] priceText;
     public GameObject[] numText;
     public GameObject moneyText;
+    public GameObject UIParent;
     public UnitManager UnitManager;
 
+    // update price of unit in shop
     public void UpdatePrice(int unitID)
     {   
-        Unit unitScript = UnitManager.units[unitID].GetComponent<Unit>(); // get reference to generic unit
-Debug.Log("Update price");
+       Unit unitScript = UnitManager.units[unitID].GetComponent<Unit>(); // get reference to generic unit
         if (unitScript.numBought > 0)
         {
-Debug.Log("Running price increase");
             PlayerPrefs.SetInt("Money", ((PlayerPrefs.GetInt("Money", 0) - unitScript.price)));
 
             float upgradePrice = (float)unitScript.basePrice;
@@ -31,9 +31,16 @@ Debug.Log("Running price increase");
         priceText[unitID].GetComponent<TMP_Text>().text = ("PRICE: " + unitScript.price); //update price of shop prices
     }
     
+    // update text displaying number of units in inventory
     public void UpdateAmount(int unitID)
     {
         Unit unitScript = UnitManager.units[unitID].GetComponent<Unit>();
         numText[unitID].GetComponent<TMP_Text>().text = "x" + unitScript.numInInventory.ToString();
+    }
+
+    // called when wave is started/finished
+    public void ChangeUI(bool isUIOn)
+    {
+        UIParent.SetActive(isUIOn);
     }
 }

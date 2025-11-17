@@ -11,17 +11,21 @@ public class Unit : MonoBehaviour
     }
     
     public UnitManager unitManager;
-    public int health;
+    public float health;
+    public GameObject healthText; // text displaying remaining health
+    public GameObject myTile; // tile the unit spawned at
+    public GameObject targetTile; // tile containing the enemies this unit will face
+    private bool isAttacking; // checks if this unit is attacking an enemy
+    public bool isEnemy;
+    public UnitType myType;
+    public UnitType weakness;
+
+    // variables exclusive to player units
     public int numInInventory; // number the player can place down; changes as units are bought and placed
     public int numBought; // number of this unit bought; determines price and only resets after each round
     public int basePrice; // base price of this unit; used to calculate final price
     public int price; // actual price of unit
-    public GameObject healthText; // text displaying remaining health
-    public GameObject targetTile; // tile containing the enemies this unit will face
-    private bool isAttacking; // checks if this unit is attacking an enemy
     public bool isPreview; // checks if this is a preview or comfirmed unit
-    public UnitType myType;
-    public UnitType weakness;
 
     void Start()
     {
@@ -42,8 +46,12 @@ public class Unit : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D whatIHit)
     {
-        if(whatIHit.tag == "Enemy")
-            Attack(whatIHit.gameObject.GetComponent<Unit>());
+        if(!isPreview)
+        {
+            // check if wave has started to prevent preview units damaging existing units
+            if(whatIHit.tag == "Unit" && unitManager.waveStarted)
+                StartCoroutine(Attack(whatIHit.gameObject.GetComponent<Unit>()));
+        }
     }
 
     IEnumerator Attack(Unit attackingUnit)
@@ -58,7 +66,7 @@ public class Unit : MonoBehaviour
         else
             ChangeHealth(-2);
         
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(2);
         isAttacking = false;
     }
 
@@ -67,7 +75,14 @@ public class Unit : MonoBehaviour
         health+= healthLoss;     
         healthText.GetComponent<TMP_Text>().text = Mathf.Ceil(health / 2).ToString();
 
-        if(health == 0)
+        if(health <= 0)
+        {
+            // remove from respective list
+            if(isEnemy)
+                unitManager.enemies.Remove(this.gameObject);
+            else
+                unitManager.spawnedUnits.Remove(this.gameObject);
             Destroy(this.gameObject);
+        }
     }
 }

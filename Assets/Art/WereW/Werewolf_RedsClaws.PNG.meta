@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: bd2b667d521e81f4f8c6d4fca8795fc1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6352252071121698483
+    second: Werewolf_RedsClaws_0
+  - first:
+      213: -3990373476665602270
+    second: Werewolf_RedsClaws_1
+  - first:
+      213: -4543647887734761389
+    second: Werewolf_RedsClaws_2
+  - first:
+      213: -7849562574767419974
+    second: Werewolf_RedsClaws_3
+  - first:
+      213: -3315755978758853533
+    second: Werewolf_RedsClaws_4
+  - first:
+      213: -2318476795058108188
+    second: Werewolf_RedsClaws_5
+  - first:
+      213: 7810122520127125384
+    second: Werewolf_RedsClaws_6
+  - first:
+      213: 2220013682255632487
+    second: Werewolf_RedsClaws_7
+  - first:
+      213: 7017560638393972469
+    second: Werewolf_RedsClaws_8
+  - first:
+      213: 3801742891130984608
+    second: Werewolf_RedsClaws_9
+  - first:
+      213: 6939592829725706471
+    second: Werewolf_RedsClaws_10
+  - first:
+      213: -1294102429818684362
+    second: Werewolf_RedsClaws_11
+  - first:
+      213: 8844695003750865583
+    second: Werewolf_RedsClaws_12
+  - first:
+      213: -8194993158005563626
+    second: Werewolf_RedsClaws_13
+  - first:
+      213: -7038102125714251900
+    second: Werewolf_RedsClaws_14
+  - first:
+      213: -2731415078610552049
+    second: Werewolf_RedsClaws_15
+  - first:
+      213: 3157870090791465331
+    second: Werewolf_RedsClaws_16
+  - first:
+      213: -3620262241030688781
+    second: Werewolf_RedsClaws_17
+  - first:
+      213: -4603444946779083948
+    second: Werewolf_RedsClaws_18
+  - first:
+      213: -3810967680425384257
+    second: Werewolf_RedsClaws_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Werewolf_RedsClaws_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1562
+        width: 216
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d414d01a56448d7a0800000000000000
+      internalID: -6352252071121698483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_RedsClaws_1
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1537
+        width: 219
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22fc43207785f98c0800000000000000
+      internalID: -3990373476665602270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_RedsClaws_2
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 1547
+        width: 247
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3589d13c158b1f0c0800000000000000
+      internalID: -4543647887734761389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_RedsClaws_3
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1552
+        width: 248
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd89c05d60c01390800000000000000
+      internalID: -7849562574767419974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_RedsClaws_4
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1512
+        width: 205
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c633441811cf1d0800000000000000
+      internalID: -3315755978758853533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_RedsClaws_5
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 1553
+        width: 221
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8439283ad13dfd0800000000000000
+      internalID: -2318476795058108188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_RedsClaws_6
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 1186
+        width: 237
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887b4706d01236c60800000000000000
+      internalID: 7810122520127125384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_RedsClaws_7
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 1155
+        width: 163
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7689a5f8ea21fce10800000000000000
+      internalID: 2220013682255632487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_RedsClaws_8
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 1166
+        width: 177
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f67c315832636160800000000000000
+      internalID: 7017560638393972469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_RedsClaws_9
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1161
+        width: 215
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a89a39540182c430800000000000000
+      internalID: 3801742891130984608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_RedsClaws_10
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 628
+        width: 215
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e806ad39e26e4060800000000000000
+      internalID: 6939592829725706471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_RedsClaws_11
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 603
+        width: 220
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63cffaf42bc6a0ee0800000000000000
+      internalID: -1294102429818684362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_RedsClaws_12
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 613
+        width: 247
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa1e35ae3baeba70800000000000000
+      internalID: 8844695003750865583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_RedsClaws_13
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 618
+        width: 249
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61f52584429854e80800000000000000
+      internalID: -8194993158005563626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_RedsClaws_14
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 578
+        width: 205
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f51e7f763a35e90800000000000000
+      internalID: -7038102125714251900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_RedsClaws_15
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 619
+        width: 221
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0bb5492570181ad0800000000000000
+      internalID: -2731415078610552049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_RedsClaws_16
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 252
+        width: 236
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 371b470dd1203db20800000000000000
+      internalID: 3157870090791465331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_RedsClaws_17
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 221
+        width: 163
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ff2b993cae32cdc0800000000000000
+      internalID: -3620262241030688781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_RedsClaws_18
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 232
+        width: 178
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b6a2406374d10c0800000000000000
+      internalID: -4603444946779083948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_RedsClaws_19
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 227
+        width: 215
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb620c50619bc1bc0800000000000000
+      internalID: -3810967680425384257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Werewolf_RedsClaws_0: -6352252071121698483
+      Werewolf_RedsClaws_1: -3990373476665602270
+      Werewolf_RedsClaws_10: 6939592829725706471
+      Werewolf_RedsClaws_11: -1294102429818684362
+      Werewolf_RedsClaws_12: 8844695003750865583
+      Werewolf_RedsClaws_13: -8194993158005563626
+      Werewolf_RedsClaws_14: -7038102125714251900
+      Werewolf_RedsClaws_15: -2731415078610552049
+      Werewolf_RedsClaws_16: 3157870090791465331
+      Werewolf_RedsClaws_17: -3620262241030688781
+      Werewolf_RedsClaws_18: -4603444946779083948
+      Werewolf_RedsClaws_19: -3810967680425384257
+      Werewolf_RedsClaws_2: -4543647887734761389
+      Werewolf_RedsClaws_3: -7849562574767419974
+      Werewolf_RedsClaws_4: -3315755978758853533
+      Werewolf_RedsClaws_5: -2318476795058108188
+      Werewolf_RedsClaws_6: 7810122520127125384
+      Werewolf_RedsClaws_7: 2220013682255632487
+      Werewolf_RedsClaws_8: 7017560638393972469
+      Werewolf_RedsClaws_9: 3801742891130984608
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
