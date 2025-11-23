@@ -1477,8 +1477,16 @@ PrefabInstance:
       value: Soda Machine
       objectReference: {fileID: 0}
     - target: {fileID: 2854299959045791938, guid: ca59320dec8d4b74ca7f618a9f7a3081, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854299959045791938, guid: ca59320dec8d4b74ca7f618a9f7a3081, type: 3}
       propertyPath: m_SortingOrder
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854299959045791938, guid: ca59320dec8d4b74ca7f618a9f7a3081, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 159358649
       objectReference: {fileID: 0}
     - target: {fileID: 3745756853356209284, guid: ca59320dec8d4b74ca7f618a9f7a3081, type: 3}
       propertyPath: m_LocalScale.x
@@ -1573,6 +1581,14 @@ PrefabInstance:
     - target: {fileID: 2164396485291666542, guid: b67f074befc57084288025dd0ce2351f, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854299959045791938, guid: b67f074befc57084288025dd0ce2351f, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854299959045791938, guid: b67f074befc57084288025dd0ce2351f, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 159358649
       objectReference: {fileID: 0}
     - target: {fileID: 3745756853356209284, guid: b67f074befc57084288025dd0ce2351f, type: 3}
       propertyPath: m_LocalScale.x
@@ -18305,8 +18321,8 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1230730395
+  m_SortingLayer: 1
   m_SortingOrder: 1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0.06906241, y: 0.3518719, z: 0}
@@ -20009,8 +20025,16 @@ PrefabInstance:
       value: Wine Machine
       objectReference: {fileID: 0}
     - target: {fileID: 2854299959045791938, guid: af6cf47c3618ce54b9112f4113700dd7, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854299959045791938, guid: af6cf47c3618ce54b9112f4113700dd7, type: 3}
       propertyPath: m_SortingOrder
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854299959045791938, guid: af6cf47c3618ce54b9112f4113700dd7, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 159358649
       objectReference: {fileID: 0}
     - target: {fileID: 3745756853356209284, guid: af6cf47c3618ce54b9112f4113700dd7, type: 3}
       propertyPath: m_LocalScale.x
