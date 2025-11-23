@@ -43,6 +43,9 @@ public class Customer : MonoBehaviour
         myChair = potentialChairs[Random.Range(0, potentialChairs.Count - 1)];
         myChair.isOccupied = true;
 
+        animator.SetBool("Sitting", false);
+        animator.SetBool("Walking", true);
+
         isServed = false;
     }
 
@@ -96,6 +99,12 @@ public class Customer : MonoBehaviour
     {
         hasOrdered = true;
         canvas.SetActive(true);
+        
+        if(transform.rotation.y == 1)
+        {
+            Debug.Log("Rotating canvas");
+            canvas.gameObject.transform.Rotate(new Vector3(0.0f, -180.0f, 0.0f));
+        }
 
         myOrders = new List<FoodItem>();
         int numOrders = Random.Range(1, 3);
@@ -133,8 +142,20 @@ public class Customer : MonoBehaviour
 
             if (Vector2.Distance(transform.position, path[x].transform.position) < 0.1f)
             {
+                PathNode prevNode = path[x];
+
                 currentNode = path[x];
                 path.RemoveAt(x);
+
+                if(prevNode != endNode)
+                {
+                    // if next destination is to right, face right
+                    if(prevNode.transform.position.x < path[x].transform.position.x)
+                        transform.eulerAngles = new Vector3(0.0f, 180.0f, 0.0f);
+                    // if next destination is to left, face left
+                    else if(prevNode.transform.position.x > path[x].transform.position.x)
+                        transform.eulerAngles = new Vector3(0.0f, 0.0f, 0.0f);
+                }
             }
         }
 

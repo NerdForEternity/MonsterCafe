@@ -43,10 +43,6 @@ public class ScreenMenuEvents1 : MonoBehaviour
         _DecorButton.RegisterCallback<ClickEvent>(OnDecorClick);
     }
 
-    void Update()
-    {
-        Debug.Log(InputActions.FindActionMap("Player").enabled);
-    }
     private void OnEnable()
     {
         InputActions.FindActionMap("Player").Enable();

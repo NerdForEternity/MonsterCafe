@@ -7,7 +7,13 @@ public class ShopManager : MonoBehaviour
     public GameObject[] numText;
     public GameObject moneyText;
     public GameObject UIParent;
+    public GameObject roundText;
     public UnitManager UnitManager;
+
+    void Start()
+    {
+        roundText.GetComponent<TMP_Text>().text = "ROUND " + UnitManager.numRounds.ToString() + "/" + UnitManager.maxRounds.ToString();
+    }
 
     // update price of unit in shop
     public void UpdatePrice(int unitID)
@@ -42,5 +48,10 @@ public class ShopManager : MonoBehaviour
     public void ChangeUI(bool isUIOn)
     {
         UIParent.SetActive(isUIOn);
+    }
+
+    public void UpdateRounds()
+    {
+        roundText.GetComponent<TMP_Text>().text = "ROUND " + UnitManager.numRounds.ToString() + "/" + UnitManager.maxRounds.ToString();
     }
 }

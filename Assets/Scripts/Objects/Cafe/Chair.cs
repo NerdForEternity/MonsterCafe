@@ -10,7 +10,7 @@ public class Chair : MonoBehaviour
     private PathNode closestNode;
 
     //note: add to a gamemanager for all moveable objects to reference
-    public PathNode GetClosestNode()
+    /*public PathNode GetClosestNode()
     {
         //note: write code to update position if moved by player
         chairPos = this.transform.position;
@@ -32,5 +32,5 @@ public class Chair : MonoBehaviour
     void Start()
     {
         this.chairNode = GetClosestNode(); 
-    }
+    }*/
 }

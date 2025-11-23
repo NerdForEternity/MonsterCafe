@@ -9,6 +9,8 @@ public class UnitManager : MonoBehaviour
 {
     // objects
     public List<GameObject> units; // references to unit types
+    public List<GameObject> vampireTypes; // vampire variants;
+    public List<GameObject> werewolfTypes; // werewolf variants;
     public GameObject[] spawnTiles; // references to spawn tiles in scene
     public GameObject[] targetTiles; // references to enemy spawn tiles
     public List<GameObject> spawnedUnits = new List<GameObject>(); // all player units in the scene
@@ -27,11 +29,14 @@ public class UnitManager : MonoBehaviour
 
     // managers
     public ShopManager shopManager;
+    public CameraControls camera;
 
     // flags
     private bool clickOnTile; // checks if initial click was on a tile
     private int currentID; // determines which unit is selected
     public bool waveStarted; // checks if wave has started yet
+    public int numRounds; // number of rounds played
+    public int maxRounds; // maximum number of rounds to complete level
 
     private void Awake()
     {
@@ -66,6 +71,8 @@ public class UnitManager : MonoBehaviour
     
     void Start()
     {
+//for debug
+PlayerPrefs.SetInt("Money", 999);
         // sets the ghost as default unit to spawn
         currentUnit = units[0];
 
@@ -77,6 +84,9 @@ public class UnitManager : MonoBehaviour
             shopManager.UpdatePrice(i); // update unit price text
             shopManager.UpdateAmount(i); // update amount in inventory
         }
+
+        numRounds = 1;
+        shopManager.UpdateRounds();
     }
 
     void Update()
@@ -196,10 +206,32 @@ Debug.Log("Your winner!!");
     // creates preivew of unit when player holds down
     public void CreatePreview(int tileID)
     {
-        if (previewUnit != null)
+        currentTile = spawnTiles[tileID];
+
+        // randomize appearance of unit
+        if(previewUnit == null)
+        {
+            switch(currentID)
+            {
+                // vampire
+                case 1:
+                    int vampType = Random.Range(0, vampireTypes.Count - 1);
+                    currentUnit = vampireTypes[vampType];
+                    break;
+                // werewolf
+                case 2:
+                    int wereType = Random.Range(0, werewolfTypes.Count - 1);
+                    currentUnit = werewolfTypes[wereType];
+                    break;
+                // ghost (no variants)
+                default:
+                    break;
+            }
+        }
+
+        else
             Destroy(previewUnit);
 
-        currentTile = spawnTiles[tileID];
         previewUnit = Instantiate(currentUnit, currentTile.transform.position, currentUnit.transform.rotation);
         previewUnit.GetComponent<Unit>().isPreview = true;
 
@@ -231,18 +263,30 @@ Debug.Log("Your winner!!");
         {
             waveStarted = true;
             shopManager.ChangeUI(false);
+            if(previewUnit != null)
+                Destroy(previewUnit);
         }
     }
     
     // called after a wave
     public void ResetWave()
     {
+        // reset player units
         for (int i = 0; i < spawnedUnits.Count; i++)
             spawnedUnits[i].transform.position = spawnedUnits[i].GetComponent<Unit>().myTile.transform.position;
+        // reset enemy units
         for(int i = 0; i < enemies.Count; i++)
             enemies[i].transform.position = enemies[i].GetComponent<Unit>().myTile.transform.position;
         
-        shopManager.ChangeUI(true);
+        // increase round counter: if all rounds used up, lose
+        numRounds++;
+        shopManager.UpdateRounds();
+
+        if(numRounds > maxRounds)
+            StartCoroutine(WinOrLose(false));
+        // reveal UI
+        else
+            shopManager.ChangeUI(true);
     }
 
     IEnumerator WinOrLose(bool didIWin)

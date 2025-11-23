@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class CustomerManager : MonoBehaviour
 {
     // objects
-    public GameObject customer;
+    public List<GameObject> customer;
     public GameObject door;
     public List<Machine> machines;
     public List<Chair> chairs;
@@ -39,10 +39,6 @@ public class CustomerManager : MonoBehaviour
         StartCoroutine(CreateCustomer());
     }
 
-    void Update()
-    {
-        Debug.Log("Player preference speed = " + PlayerPrefs.GetFloat("GameSpeed", 1f) + ", Real time = " + Time.timeScale);
-    }
     IEnumerator CreateCustomer()
     {
         //total customers cannot exceed seating
@@ -54,9 +50,13 @@ public class CustomerManager : MonoBehaviour
         if (spawnTime < 2)
             spawnTime = Random.Range(2.0f, 2.5f);
         yield return new WaitForSeconds(spawnTime);
-        //create customer
+        
+        //get customer spawn point
         PathNode doorNode = GetClosestNode();
-        GameObject newCustomer = Instantiate(customer, doorNode.transform);
+        //randomize customer appearance
+        int customerType = Random.Range(0, customer.Count - 1);
+        //create customer
+        GameObject newCustomer = Instantiate(customer[customerType], doorNode.transform.position, doorNode.transform.rotation);
 
         //pass references to new customer
         Customer scriptRef = newCustomer.GetComponent<Customer>();
