@@ -59,12 +59,7 @@ public class DecorShop : MonoBehaviour
             furnitureMap.SwapTile(tables[oldTile], tables[newTile]);
 
             foreach (Chair n in FindObjectsByType<Chair>(FindObjectsSortMode.None))
-            {
-                if (PlayerPrefs.GetInt("Decor", 0) == 0 && !n.facingUpwards)
-                    n.gameObject.GetComponent<SpriteRenderer>().sprite = chairSprites[3];
-                else
-                    n.gameObject.GetComponent<SpriteRenderer>().sprite = chairSprites[PlayerPrefs.GetInt("Decor", 0)];
-            }
+                n.gameObject.GetComponent<SpriteRenderer>().sprite = chairSprites[newTile];
 
             furnitureMap.SwapTile(counters[oldTile], counters[newTile]);
             furnitureMap.SwapTile(corners[oldTile], corners[newTile]);

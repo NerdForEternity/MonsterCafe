@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 206fd23c38f719244aba40e36658d7ef, type: 3}
   m_Name: Panini
   m_EditorClassIdentifier: Assembly-CSharp::FoodItem
-  isUnlocked: 1
+  isUnlocked: 0
   price: 10
   cookTime: 7
   sprite: {fileID: -7300833243798568681, guid: e679ae9428c7b66488c430c865daeaf8, type: 3}

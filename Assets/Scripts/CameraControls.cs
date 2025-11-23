@@ -16,6 +16,7 @@ public class CameraControls : MonoBehaviour
     private InputAction m_touch1;
     private InputAction m_isTouch0;
     private InputAction m_isTouch1;
+    public bool isHolding;
     private Vector2 m_moveAmt;
     private Vector2 m_zoomAmt;
     private int touchCount;
@@ -103,8 +104,8 @@ public class CameraControls : MonoBehaviour
         //zoom out (mouse)
         else if (m_zoomAmt.y < 0f && cam.Lens.OrthographicSize <= 16)
         {
-            cam.Lens.OrthographicSize++;
-            cam.GetComponent<CinemachineConfiner2D>().InvalidateLensCache();
+                cam.Lens.OrthographicSize++;
+                cam.GetComponent<CinemachineConfiner2D>().InvalidateLensCache();
         }
     }
 }

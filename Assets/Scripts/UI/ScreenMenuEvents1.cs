@@ -43,6 +43,10 @@ public class ScreenMenuEvents1 : MonoBehaviour
         _DecorButton.RegisterCallback<ClickEvent>(OnDecorClick);
     }
 
+    private void OnEnable()
+    {
+        InputActions.FindActionMap("Player").Enable();
+    }
     private void OnDisable()
     {
         _GrimmButton.UnregisterCallback<ClickEvent>(OnGrimmClick);

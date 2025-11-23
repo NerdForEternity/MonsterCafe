@@ -18,7 +18,6 @@ public class UIManager : MonoBehaviour
 
     // The visual elements that represent the root of each screen
     private VisualElement screenRoot;
-
     private VisualElement bannerRoot;
 
     //Utility variables
@@ -38,29 +37,28 @@ public class UIManager : MonoBehaviour
 
     private void Update()
     {
-        moneyCount.text = UpgradeManager.totalMoney.ToString();
+        moneyCount.text = PlayerPrefs.GetInt("Money", 0).ToString();
     }
 
     public void ActiveIdleSwap()
     {
-        if (!decorMenu.activeSelf && !warningMenu.activeSelf)
+        if (!decorMenu.activeSelf)
         {
             Button playButton = screenRoot.Q<Button>("Play");
             VisualElement Banner = bannerRoot.Q<VisualElement>("ActiveIdleBanner");
 
-
-            if (IdleToggle == 0)
+            // if switched to idle OR warning is open (warning will always be open when idletoggle = 0 for first time)
+            if (IdleToggle == 0 || warningMenu.activeSelf)
             {
                 playButton.style.backgroundImage = new StyleBackground(idle);
                 Banner.style.backgroundImage = new StyleBackground(idleBanner);
                 IdleToggle = 1;
             }
-            else if (IdleToggle == 1)
+            else if (IdleToggle == 1 && !warningMenu.activeSelf)
             {
                 playButton.style.backgroundImage = new StyleBackground(active);
                 Banner.style.backgroundImage = new StyleBackground(activeBanner);
                 IdleToggle = 0;
-
             }
         }
     }

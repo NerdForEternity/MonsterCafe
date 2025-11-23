@@ -2,8 +2,6 @@ using UnityEngine;
 
 public class UpgradeManager : MonoBehaviour
 {
-    //total money the player has earned
-    public static int totalMoney = 0;
     //food takes 0.5 seconds less to prepare, max of 3 upgrades
     public static int cookSpeedAdd = 0;
     //customers wait for 1 second longer, max of 3 upgrades

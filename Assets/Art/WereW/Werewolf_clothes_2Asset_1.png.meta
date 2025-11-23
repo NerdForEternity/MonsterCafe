@@ -1,0 +1,1157 @@
+fileFormatVersion: 2
+guid: 32d3dd667017064458a246286ca7583f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8997584324726076022
+    second: Werewolf_clothes_2Asset_1_0
+  - first:
+      213: -5793992652665503655
+    second: Werewolf_clothes_2Asset_1_1
+  - first:
+      213: -4496894374182707997
+    second: Werewolf_clothes_2Asset_1_2
+  - first:
+      213: 631053171577630413
+    second: Werewolf_clothes_2Asset_1_3
+  - first:
+      213: -2652620847759128916
+    second: Werewolf_clothes_2Asset_1_4
+  - first:
+      213: 3580217717372078534
+    second: Werewolf_clothes_2Asset_1_5
+  - first:
+      213: 1137848492147890705
+    second: Werewolf_clothes_2Asset_1_6
+  - first:
+      213: 5452161139617590493
+    second: Werewolf_clothes_2Asset_1_7
+  - first:
+      213: 5442399000437029397
+    second: Werewolf_clothes_2Asset_1_8
+  - first:
+      213: 8826944779552344082
+    second: Werewolf_clothes_2Asset_1_9
+  - first:
+      213: 4793399413473462246
+    second: Werewolf_clothes_2Asset_1_10
+  - first:
+      213: -7334078179442929637
+    second: Werewolf_clothes_2Asset_1_11
+  - first:
+      213: -4730707301873145364
+    second: Werewolf_clothes_2Asset_1_12
+  - first:
+      213: -7064847761659800534
+    second: Werewolf_clothes_2Asset_1_13
+  - first:
+      213: -8336310944782310889
+    second: Werewolf_clothes_2Asset_1_14
+  - first:
+      213: 4153119629800376179
+    second: Werewolf_clothes_2Asset_1_15
+  - first:
+      213: -3604511999201969844
+    second: Werewolf_clothes_2Asset_1_16
+  - first:
+      213: 3336089500311618174
+    second: Werewolf_clothes_2Asset_1_17
+  - first:
+      213: -6813110689692781189
+    second: Werewolf_clothes_2Asset_1_18
+  - first:
+      213: 3812993612657381971
+    second: Werewolf_clothes_2Asset_1_19
+  - first:
+      213: -1271348650955440786
+    second: Werewolf_clothes_2Asset_1_20
+  - first:
+      213: 1564584252053694222
+    second: Werewolf_clothes_2Asset_1_21
+  - first:
+      213: -1722078788114106006
+    second: Werewolf_clothes_2Asset_1_22
+  - first:
+      213: -5461784325257757807
+    second: Werewolf_clothes_2Asset_1_23
+  - first:
+      213: -4625586453006782173
+    second: Werewolf_clothes_2Asset_1_24
+  - first:
+      213: 929913011484782325
+    second: Werewolf_clothes_2Asset_1_25
+  - first:
+      213: 6698459783367744726
+    second: Werewolf_clothes_2Asset_1_26
+  - first:
+      213: 6647614949618772179
+    second: Werewolf_clothes_2Asset_1_27
+  - first:
+      213: -5127572662011954585
+    second: Werewolf_clothes_2Asset_1_28
+  - first:
+      213: -7070950180122675265
+    second: Werewolf_clothes_2Asset_1_29
+  - first:
+      213: 2541468458730431285
+    second: Werewolf_clothes_2Asset_1_30
+  - first:
+      213: -7397097992824704234
+    second: Werewolf_clothes_2Asset_1_31
+  - first:
+      213: 2622704263227789663
+    second: Werewolf_clothes_2Asset_1_32
+  - first:
+      213: 6379631418018270413
+    second: Werewolf_clothes_2Asset_1_33
+  - first:
+      213: -2916548412769583843
+    second: Werewolf_clothes_2Asset_1_34
+  - first:
+      213: -4399595655241491699
+    second: Werewolf_clothes_2Asset_1_35
+  - first:
+      213: 3988030535393331024
+    second: Werewolf_clothes_2Asset_1_36
+  - first:
+      213: 6059529130289451324
+    second: Werewolf_clothes_2Asset_1_37
+  - first:
+      213: 746341934775497367
+    second: Werewolf_clothes_2Asset_1_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Werewolf_clothes_2Asset_1_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 689
+        width: 196
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d44185ab8222380800000000000000
+      internalID: -8997584324726076022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_clothes_2Asset_1_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 804
+        width: 194
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95046aa516a979fa0800000000000000
+      internalID: -5793992652665503655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_clothes_2Asset_1_2
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 787
+        width: 169
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec136a6462d791c0800000000000000
+      internalID: -4496894374182707997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_clothes_2Asset_1_3
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 795
+        width: 186
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcea44e1483f1c800800000000000000
+      internalID: 631053171577630413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_clothes_2Asset_1_4
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 774
+        width: 116
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca68585a46fff2bd0800000000000000
+      internalID: -2652620847759128916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_clothes_2Asset_1_5
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 777
+        width: 116
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c9c58e8b0d7fa130800000000000000
+      internalID: 3580217717372078534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_clothes_2Asset_1_6
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 746
+        width: 186
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11a50becc237acf00800000000000000
+      internalID: 1137848492147890705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_clothes_2Asset_1_7
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 777
+        width: 112
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddc68117ba7f9ab40800000000000000
+      internalID: 5452161139617590493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_clothes_2Asset_1_8
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 778
+        width: 111
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a7dfa4e09478b40800000000000000
+      internalID: 5442399000437029397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_clothes_2Asset_1_9
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 762
+        width: 122
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 218c435828b9f7a70800000000000000
+      internalID: 8826944779552344082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_clothes_2Asset_1_10
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 760
+        width: 122
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e7c6aabe53958240800000000000000
+      internalID: 4793399413473462246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_clothes_2Asset_1_11
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 673
+        width: 163
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b105c5fd0ce183a90800000000000000
+      internalID: -7334078179442929637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_clothes_2Asset_1_12
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 682
+        width: 159
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce92187f5c6295eb0800000000000000
+      internalID: -4730707301873145364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_clothes_2Asset_1_13
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 508
+        width: 169
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a24dd06546e94fd90800000000000000
+      internalID: -7064847761659800534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_clothes_2Asset_1_14
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 508
+        width: 187
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 712ac070d597f4c80800000000000000
+      internalID: -8336310944782310889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_clothes_2Asset_1_15
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 516
+        width: 111
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37704f39c48d2a930800000000000000
+      internalID: 4153119629800376179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_clothes_2Asset_1_16
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 523
+        width: 111
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c49feea2f633afdc0800000000000000
+      internalID: -3604511999201969844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_clothes_2Asset_1_17
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 511
+        width: 122
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e720cf4a9bb2c4e20800000000000000
+      internalID: 3336089500311618174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_clothes_2Asset_1_18
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 509
+        width: 122
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75f175dce7f271a0800000000000000
+      internalID: -6813110689692781189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_clothes_2Asset_1_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 529
+        width: 98
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 352d6451d797ae430800000000000000
+      internalID: 3812993612657381971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_clothes_2Asset_1_20
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 529
+        width: 99
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6df02a43234b5ee0800000000000000
+      internalID: -1271348650955440786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_clothes_2Asset_1_21
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 504
+        width: 103
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e07a4d4761586b510800000000000000
+      internalID: 1564584252053694222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_clothes_2Asset_1_22
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 507
+        width: 103
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6939375772f918e0800000000000000
+      internalID: -1722078788114106006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_clothes_2Asset_1_23
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 511
+        width: 111
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19bf63d0818d334b0800000000000000
+      internalID: -5461784325257757807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_clothes_2Asset_1_24
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 512
+        width: 112
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 321fbaed0ad9ecfb0800000000000000
+      internalID: -4625586453006782173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_clothes_2Asset_1_25
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 257
+        width: 193
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe609105f6b7ec00800000000000000
+      internalID: 929913011484782325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_clothes_2Asset_1_26
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 260
+        width: 193
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dcdfd9dea5b5fc50800000000000000
+      internalID: 6698459783367744726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_clothes_2Asset_1_27
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 254
+        width: 169
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d86a9b7392114c50800000000000000
+      internalID: 6647614949618772179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_clothes_2Asset_1_28
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 259
+        width: 186
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76af5c8b4d337d8b0800000000000000
+      internalID: -5127572662011954585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_clothes_2Asset_1_29
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 263
+        width: 111
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7bd415640fedd90800000000000000
+      internalID: -7070950180122675265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_clothes_2Asset_1_30
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 267
+        width: 111
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 533ac72191c154320800000000000000
+      internalID: 2541468458730431285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_clothes_2Asset_1_31
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 255
+        width: 122
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 613bde8219a385990800000000000000
+      internalID: -7397097992824704234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_clothes_2Asset_1_32
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 254
+        width: 122
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f515898b1a7b56420800000000000000
+      internalID: 2622704263227789663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_clothes_2Asset_1_33
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 22
+        width: 193
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcc86e459f0098850800000000000000
+      internalID: 6379631418018270413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_clothes_2Asset_1_34
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 0
+        width: 170
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1db3aecba65687d0800000000000000
+      internalID: -2916548412769583843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_clothes_2Asset_1_35
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 8
+        width: 111
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b9af5cf0f71f2c0800000000000000
+      internalID: -4399595655241491699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_clothes_2Asset_1_36
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 12
+        width: 111
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 057c78774a4585730800000000000000
+      internalID: 3988030535393331024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_clothes_2Asset_1_37
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 2
+        width: 122
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c31d805a3a5c71450800000000000000
+      internalID: 6059529130289451324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf_clothes_2Asset_1_38
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 0
+        width: 122
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 792754f090a8b5a00800000000000000
+      internalID: 746341934775497367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Werewolf_clothes_2Asset_1_0: -8997584324726076022
+      Werewolf_clothes_2Asset_1_1: -5793992652665503655
+      Werewolf_clothes_2Asset_1_10: 4793399413473462246
+      Werewolf_clothes_2Asset_1_11: -7334078179442929637
+      Werewolf_clothes_2Asset_1_12: -4730707301873145364
+      Werewolf_clothes_2Asset_1_13: -7064847761659800534
+      Werewolf_clothes_2Asset_1_14: -8336310944782310889
+      Werewolf_clothes_2Asset_1_15: 4153119629800376179
+      Werewolf_clothes_2Asset_1_16: -3604511999201969844
+      Werewolf_clothes_2Asset_1_17: 3336089500311618174
+      Werewolf_clothes_2Asset_1_18: -6813110689692781189
+      Werewolf_clothes_2Asset_1_19: 3812993612657381971
+      Werewolf_clothes_2Asset_1_2: -4496894374182707997
+      Werewolf_clothes_2Asset_1_20: -1271348650955440786
+      Werewolf_clothes_2Asset_1_21: 1564584252053694222
+      Werewolf_clothes_2Asset_1_22: -1722078788114106006
+      Werewolf_clothes_2Asset_1_23: -5461784325257757807
+      Werewolf_clothes_2Asset_1_24: -4625586453006782173
+      Werewolf_clothes_2Asset_1_25: 929913011484782325
+      Werewolf_clothes_2Asset_1_26: 6698459783367744726
+      Werewolf_clothes_2Asset_1_27: 6647614949618772179
+      Werewolf_clothes_2Asset_1_28: -5127572662011954585
+      Werewolf_clothes_2Asset_1_29: -7070950180122675265
+      Werewolf_clothes_2Asset_1_3: 631053171577630413
+      Werewolf_clothes_2Asset_1_30: 2541468458730431285
+      Werewolf_clothes_2Asset_1_31: -7397097992824704234
+      Werewolf_clothes_2Asset_1_32: 2622704263227789663
+      Werewolf_clothes_2Asset_1_33: 6379631418018270413
+      Werewolf_clothes_2Asset_1_34: -2916548412769583843
+      Werewolf_clothes_2Asset_1_35: -4399595655241491699
+      Werewolf_clothes_2Asset_1_36: 3988030535393331024
+      Werewolf_clothes_2Asset_1_37: 6059529130289451324
+      Werewolf_clothes_2Asset_1_38: 746341934775497367
+      Werewolf_clothes_2Asset_1_4: -2652620847759128916
+      Werewolf_clothes_2Asset_1_5: 3580217717372078534
+      Werewolf_clothes_2Asset_1_6: 1137848492147890705
+      Werewolf_clothes_2Asset_1_7: 5452161139617590493
+      Werewolf_clothes_2Asset_1_8: 5442399000437029397
+      Werewolf_clothes_2Asset_1_9: 8826944779552344082
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

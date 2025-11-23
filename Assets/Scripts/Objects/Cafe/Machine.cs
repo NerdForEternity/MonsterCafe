@@ -24,16 +24,6 @@ public class Machine : MonoBehaviour
     private Image radial;
     private float cookTime;
 
-    private void OnEnable()
-    {
-        InputActions.FindActionMap("Player").Enable();
-    }
-
-    private void OnDisable()
-    {
-        InputActions.FindActionMap("Player").Disable();
-    }
-
     void Start()
     {
         collision = this.GetComponent<Collider2D>();
