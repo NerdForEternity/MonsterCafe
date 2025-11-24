@@ -62,7 +62,7 @@ public class Machine : MonoBehaviour
             if (clock.activeSelf)
             {
                 cookTime -= Time.deltaTime;
-                radial.fillAmount = (cookTime / (itemType.cookTime - UpgradeManager.cookSpeedAdd));
+                radial.fillAmount = cookTime / (itemType.cookTime - (PlayerPrefs.GetInt("CookSpeed", 0)));
             }
 
             //Customer is served with idle play
@@ -97,7 +97,7 @@ public class Machine : MonoBehaviour
             serveList.Remove(currentCustomer);
 
             //Resets the clock and bools after customr has been served
-            cookTime = (itemType.cookTime - UpgradeManager.cookSpeedAdd);
+            cookTime = itemType.cookTime - PlayerPrefs.GetInt("CookSpeed", 0);
             idleInProgress = false;
         }
     }
@@ -105,9 +105,9 @@ public class Machine : MonoBehaviour
     IEnumerator Cook(bool isIdle)
     {
         doneCooking = true;
-        cookTime = (itemType.cookTime - UpgradeManager.cookSpeedAdd);
+        cookTime = itemType.cookTime - PlayerPrefs.GetInt("CookSpeed", 0);
         clock.SetActive(true);
-        yield return new WaitForSeconds((itemType.cookTime - UpgradeManager.cookSpeedAdd));
+        yield return new WaitForSeconds(itemType.cookTime - PlayerPrefs.GetInt("CookSpeed", 0));
         clock.SetActive(false);
         doneCooking = false;
         IsClicked(isIdle);

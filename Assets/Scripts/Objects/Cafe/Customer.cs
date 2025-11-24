@@ -29,7 +29,7 @@ public class Customer : MonoBehaviour
         animator = this.transform.GetChild(1).GetChild(1).GetComponent<Animator>();
         canvas = this.transform.GetChild(1).GetChild(0).gameObject;
         patience = canvas.GetComponentInChildren<Slider>(true);
-        patience.maxValue = (15f + (UpgradeManager.patienceAdd * 5f));
+        patience.maxValue = 15f + (PlayerPrefs.GetFloat("Patience", 0f) * 5f);
         patience.value = patience.maxValue;
         currentNode = startNode;
 
@@ -101,10 +101,7 @@ public class Customer : MonoBehaviour
         canvas.SetActive(true);
         
         if(transform.rotation.y == 1)
-        {
-            Debug.Log("Rotating canvas");
             canvas.gameObject.transform.Rotate(new Vector3(0.0f, -180.0f, 0.0f));
-        }
 
         myOrders = new List<FoodItem>();
         int numOrders = Random.Range(1, 3);
