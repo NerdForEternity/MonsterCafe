@@ -1004,8 +1004,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -62134287
+  m_SortingLayer: 3
   m_SortingOrder: 56
   m_Sprite: {fileID: 7152376712995288227, guid: 7fd7ba57d41168546a2d336e4f3cfa7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1094,8 +1094,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -62134287
+  m_SortingLayer: 3
   m_SortingOrder: 58
   m_Sprite: {fileID: 6234330970754847308, guid: 2e0334dcb0cc72c48b27549700c3fbb1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1485,8 +1485,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -62134287
+  m_SortingLayer: 3
   m_SortingOrder: 58
   m_Sprite: {fileID: 6234330970754847308, guid: 2e0334dcb0cc72c48b27549700c3fbb1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6942,7 +6942,7 @@ Canvas:
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 0
+  m_SortingLayerID: -62134287
   m_SortingOrder: 83
   m_TargetDisplay: 0
 --- !u!114 &7521920054749467706
@@ -8122,6 +8122,7 @@ GameObject:
   - component: {fileID: 6393708024115223411}
   - component: {fileID: 1836675693912001079}
   - component: {fileID: 8828607986795744035}
+  - component: {fileID: 7096812285999931044}
   m_Layer: 0
   m_Name: Customer2
   m_TagString: Untagged
@@ -8188,3 +8189,15 @@ MonoBehaviour:
   manager: {fileID: 0}
   patience: {fileID: 0}
   myOrders: []
+--- !u!210 &7096812285999931044
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8812224611570547826}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_SortAtRoot: 0

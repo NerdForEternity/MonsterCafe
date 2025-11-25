@@ -1111,8 +1111,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -62134287
+  m_SortingLayer: 3
   m_SortingOrder: 56
   m_Sprite: {fileID: 7152376712995288227, guid: 7fd7ba57d41168546a2d336e4f3cfa7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1662,6 +1662,7 @@ GameObject:
   - component: {fileID: 4259199336708578716}
   - component: {fileID: 7196876638317045133}
   - component: {fileID: 7582385038776736855}
+  - component: {fileID: 2060832876057133562}
   m_Layer: 0
   m_Name: Customer3
   m_TagString: Untagged
@@ -1728,6 +1729,18 @@ MonoBehaviour:
   manager: {fileID: 0}
   patience: {fileID: 0}
   myOrders: []
+--- !u!210 &2060832876057133562
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3403613590693961085}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_SortAtRoot: 0
 --- !u!1 &3516715231066079948
 GameObject:
   m_ObjectHideFlags: 0
@@ -1788,7 +1801,7 @@ Canvas:
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 0
+  m_SortingLayerID: -62134287
   m_SortingOrder: 83
   m_TargetDisplay: 0
 --- !u!114 &5776674899806909132
@@ -2116,8 +2129,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -62134287
+  m_SortingLayer: 3
   m_SortingOrder: 58
   m_Sprite: {fileID: 6234330970754847308, guid: 2e0334dcb0cc72c48b27549700c3fbb1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2641,8 +2654,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -62134287
+  m_SortingLayer: 3
   m_SortingOrder: 58
   m_Sprite: {fileID: 6234330970754847308, guid: 2e0334dcb0cc72c48b27549700c3fbb1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

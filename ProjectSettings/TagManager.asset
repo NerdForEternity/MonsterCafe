@@ -7,6 +7,7 @@ TagManager:
   - Machine
   - AudioManager
   - UpgradesManager
+  - Unit
   layers:
   - Default
   - TransparentFX
@@ -44,11 +45,14 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Furniture Front
-    uniqueID: 3064236901
-    locked: 0
   - name: Machines
     uniqueID: 159358649
+    locked: 0
+  - name: Landscape
+    uniqueID: 3064236901
+    locked: 0
+  - name: WorldSpaceUI
+    uniqueID: 4232833009
     locked: 0
   m_RenderingLayers:
   - Default

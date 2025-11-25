@@ -2,11 +2,6 @@ using UnityEngine;
 
 public class UpgradeManager : MonoBehaviour
 {
-    //food takes 0.5 seconds less to prepare, max of 3 upgrades
-    public static int cookSpeedAdd = 0;
-    //customers wait for 1 second longer, max of 3 upgrades
-    public static float patienceAdd = 0f;
-
     public FoodItem coffee;
     public FoodItem soda;
     public FoodItem martini;

@@ -71,8 +71,6 @@ public class UnitManager : MonoBehaviour
     
     void Start()
     {
-//for debug
-PlayerPrefs.SetInt("Money", 999);
         // sets the ghost as default unit to spawn
         currentUnit = units[0];
 

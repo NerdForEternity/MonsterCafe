@@ -86,8 +86,14 @@ public class CameraControls : MonoBehaviour
         this.transform.position = mainCam.transform.position;
 
         //read inputs
-        m_moveAmt = m_move.ReadValue<Vector2>() / (40.5f - (PlayerPrefs.GetFloat("CamSensitivity", 20.5f)));
+        m_moveAmt = m_move.ReadValue<Vector2>() / (40.5f - PlayerPrefs.GetFloat("CamSensitivity", 20.5f));
         m_zoomAmt = m_zoom.ReadValue<Vector2>();
+
+if(m_moveAmt == null)
+Debug.Log("m_moveAmt is null");
+
+if(m_zoomAmt == null)
+Debug.Log("m_zoomAmt is null");
 
         //move camera if zoom is not in progress
         if (touchCount < 2)

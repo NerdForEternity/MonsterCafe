@@ -10,9 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7826563524094093925}
   - component: {fileID: 5275113232443265296}
-  - component: {fileID: -1699478628414783037}
   m_Layer: 0
-  m_Name: Chair
+  m_Name: Table
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -80,9 +79,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -6405896087511119621, guid: 1ada1beb93dbaf14f9b83f8a3faa7e59, type: 3}
+  m_Sprite: {fileID: -7409508018567970229, guid: a793f65cb6239c145a2f38c2cfd48ce3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.68333334, y: 0.9}
@@ -90,19 +89,4 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 1
---- !u!114 &-1699478628414783037
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6674216336403381650}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b4d6184c323d7f24a963e63bffd016fd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Chair
-  chairNode: {fileID: 0}
-  isOccupied: 0
-  facingUpwards: 0
+  m_SpriteSortPoint: 0
