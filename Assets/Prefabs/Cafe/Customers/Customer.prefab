@@ -331,7 +331,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: -837556665
+  m_SortingLayerID: -62134287
   m_SortingLayer: 3
   m_SortingOrder: 58
   m_Sprite: {fileID: 6234330970754847308, guid: 2e0334dcb0cc72c48b27549700c3fbb1, type: 3}
@@ -456,7 +456,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: -837556665
+  m_SortingLayerID: -62134287
   m_SortingLayer: 3
   m_SortingOrder: 58
   m_Sprite: {fileID: 6234330970754847308, guid: 2e0334dcb0cc72c48b27549700c3fbb1, type: 3}
@@ -908,7 +908,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: -837556665
+  m_SortingLayerID: -62134287
   m_SortingLayer: 3
   m_SortingOrder: 56
   m_Sprite: {fileID: 7152376712995288227, guid: 7fd7ba57d41168546a2d336e4f3cfa7b, type: 3}
@@ -6980,7 +6980,7 @@ Canvas:
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: -837556665
+  m_SortingLayerID: -62134287
   m_SortingOrder: 83
   m_TargetDisplay: 0
 --- !u!114 &6784564983638207758
@@ -7614,6 +7614,7 @@ GameObject:
   - component: {fileID: 4040951399486640504}
   - component: {fileID: 3072725400634671070}
   - component: {fileID: 6275698830695421533}
+  - component: {fileID: 5093035081445127807}
   m_Layer: 0
   m_Name: Customer
   m_TagString: Untagged
@@ -7680,6 +7681,18 @@ MonoBehaviour:
   manager: {fileID: 0}
   patience: {fileID: 0}
   myOrders: []
+--- !u!210 &5093035081445127807
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7746784147812695230}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_SortAtRoot: 0
 --- !u!1 &7840871965079086463
 GameObject:
   m_ObjectHideFlags: 0

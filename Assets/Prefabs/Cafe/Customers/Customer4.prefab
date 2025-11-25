@@ -5588,7 +5588,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: -837556665
+  m_SortingLayerID: -62134287
   m_SortingLayer: 3
   m_SortingOrder: 58
   m_Sprite: {fileID: 6234330970754847308, guid: 2e0334dcb0cc72c48b27549700c3fbb1, type: 3}
@@ -5770,7 +5770,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: -837556665
+  m_SortingLayerID: -62134287
   m_SortingLayer: 3
   m_SortingOrder: 58
   m_Sprite: {fileID: 6234330970754847308, guid: 2e0334dcb0cc72c48b27549700c3fbb1, type: 3}
@@ -5952,7 +5952,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: -837556665
+  m_SortingLayerID: -62134287
   m_SortingLayer: 3
   m_SortingOrder: 56
   m_Sprite: {fileID: 7152376712995288227, guid: 7fd7ba57d41168546a2d336e4f3cfa7b, type: 3}
@@ -6067,6 +6067,7 @@ GameObject:
   - component: {fileID: 5791952991920245397}
   - component: {fileID: 5780067258086073080}
   - component: {fileID: 7722159768028724645}
+  - component: {fileID: 6356265346098926357}
   m_Layer: 0
   m_Name: Customer4
   m_TagString: Untagged
@@ -6133,6 +6134,18 @@ MonoBehaviour:
   manager: {fileID: 0}
   patience: {fileID: 0}
   myOrders: []
+--- !u!210 &6356265346098926357
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667617028872829821}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_SortAtRoot: 0
 --- !u!1 &3721781340589288543
 GameObject:
   m_ObjectHideFlags: 0
@@ -7600,7 +7613,7 @@ Canvas:
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: -837556665
+  m_SortingLayerID: -62134287
   m_SortingOrder: 83
   m_TargetDisplay: 0
 --- !u!114 &2425373356859070150
