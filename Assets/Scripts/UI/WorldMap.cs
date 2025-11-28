@@ -1,10 +1,26 @@
 
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 
 public class WorldMap : MonoBehaviour
 {
+    public UnityEngine.UI.Button vamp2Button;
+    public UnityEngine.UI.Button vamp3Button;
+    public UnityEngine.UI.Button werewolf2Button;
+    public UnityEngine.UI.Button werewolf3Button;
+    public void Start()
+    {
+        if(PlayerPrefs.GetInt("Vampire1", 0) == 0)
+            vamp2Button.interactable = false;
+        if(PlayerPrefs.GetInt("Vampire2", 0) == 0)
+            vamp3Button.interactable = false;
+        if(PlayerPrefs.GetInt("Werewolf1", 0) == 0)
+            werewolf2Button.interactable = false;
+        if(PlayerPrefs.GetInt("Werewolf2", 0) == 0)
+            werewolf3Button.interactable = false;
+    }
     public void WolfDinerOne()
     {
         SceneManager.LoadScene("Werewolf_1");
@@ -35,13 +51,15 @@ public class WorldMap : MonoBehaviour
         SceneManager.LoadScene("Vampire_3");
     }
 
-    public void Grimm()
+    /*public void Grimm()
     {
-        SceneManager.LoadScene("Test");
-    }
+        int numLevels = PlayerPrefs.GetInt("LevelsWon", 0);
 
-    public void GoBack()
-    {
-        SceneManager.UnloadSceneAsync("WorldMapScene");
-    }
+        if(numLevels < 3)
+            SceneManager.LoadScene("Test");
+        else if(numLevels < 6)
+            SceneManager.LoadScene("Upgrade1");
+        else
+            SceneManager.LoadScene("Upgrade2");
+    }*/
 }

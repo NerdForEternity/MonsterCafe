@@ -138,7 +138,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &93037275
 RectTransform:
   m_ObjectHideFlags: 0
@@ -170,6 +170,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e63a53dfa5126409029985150dcee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WorldMap
+  vamp2Button: {fileID: 93037277}
+  vamp3Button: {fileID: 1924250295}
+  werewolf2Button: {fileID: 168186874}
+  werewolf3Button: {fileID: 1791675833}
 --- !u!114 &93037277
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -202,7 +206,7 @@ MonoBehaviour:
     m_HighlightedSprite: {fileID: 4342764143647504600, guid: 84c427e195dfae74fb49baf0762d2dc0, type: 3}
     m_PressedSprite: {fileID: -4176911890668063943, guid: 958d028841598664183a64413953a999, type: 3}
     m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 3520730798212492230, guid: 63f15732ec106414abb10e2ad78daf7a, type: 3}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
@@ -283,7 +287,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &168186872
 RectTransform:
   m_ObjectHideFlags: 0
@@ -315,6 +319,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e63a53dfa5126409029985150dcee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WorldMap
+  vamp2Button: {fileID: 93037277}
+  vamp3Button: {fileID: 1924250295}
+  werewolf2Button: {fileID: 168186874}
+  werewolf3Button: {fileID: 1791675833}
 --- !u!114 &168186874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -347,7 +355,7 @@ MonoBehaviour:
     m_HighlightedSprite: {fileID: 33241249551541195, guid: bc62ec8ed8e19df43940d78bc6d33209, type: 3}
     m_PressedSprite: {fileID: 914726905797708361, guid: e01a2acca170a534bab287542f1eb405, type: 3}
     m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 5222110212306515234, guid: 4e76e60a820bb7541aaf0bd531ae1450, type: 3}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
@@ -555,7 +563,7 @@ MonoBehaviour:
     m_HighlightedSprite: {fileID: 4342764143647504600, guid: 84c427e195dfae74fb49baf0762d2dc0, type: 3}
     m_PressedSprite: {fileID: -4176911890668063943, guid: 958d028841598664183a64413953a999, type: 3}
     m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 3520730798212492230, guid: 63f15732ec106414abb10e2ad78daf7a, type: 3}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
@@ -629,6 +637,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e63a53dfa5126409029985150dcee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WorldMap
+  vamp2Button: {fileID: 93037277}
+  vamp3Button: {fileID: 1924250295}
+  werewolf2Button: {fileID: 168186874}
+  werewolf3Button: {fileID: 1791675833}
 --- !u!1 &611817298
 GameObject:
   m_ObjectHideFlags: 0
@@ -744,6 +756,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e63a53dfa5126409029985150dcee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  vamp2Button: {fileID: 93037277}
+  vamp3Button: {fileID: 1924250295}
+  werewolf2Button: {fileID: 168186874}
+  werewolf3Button: {fileID: 1791675833}
 --- !u!1 &1266143861
 GameObject:
   m_ObjectHideFlags: 0
@@ -806,7 +822,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1641202660
 RectTransform:
   m_ObjectHideFlags: 0
@@ -838,6 +854,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e63a53dfa5126409029985150dcee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WorldMap
+  vamp2Button: {fileID: 93037277}
+  vamp3Button: {fileID: 1924250295}
+  werewolf2Button: {fileID: 168186874}
+  werewolf3Button: {fileID: 1791675833}
 --- !u!114 &1641202662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -951,7 +971,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1791675831
 RectTransform:
   m_ObjectHideFlags: 0
@@ -983,6 +1003,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e63a53dfa5126409029985150dcee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WorldMap
+  vamp2Button: {fileID: 93037277}
+  vamp3Button: {fileID: 1924250295}
+  werewolf2Button: {fileID: 168186874}
+  werewolf3Button: {fileID: 1791675833}
 --- !u!114 &1791675833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1015,7 +1039,7 @@ MonoBehaviour:
     m_HighlightedSprite: {fileID: 33241249551541195, guid: bc62ec8ed8e19df43940d78bc6d33209, type: 3}
     m_PressedSprite: {fileID: 914726905797708361, guid: e01a2acca170a534bab287542f1eb405, type: 3}
     m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 5222110212306515234, guid: 4e76e60a820bb7541aaf0bd531ae1450, type: 3}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
@@ -1096,7 +1120,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1797481348
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1148,7 +1172,7 @@ MonoBehaviour:
     m_HighlightedSprite: {fileID: 33241249551541195, guid: bc62ec8ed8e19df43940d78bc6d33209, type: 3}
     m_PressedSprite: {fileID: 914726905797708361, guid: e01a2acca170a534bab287542f1eb405, type: 3}
     m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 5222110212306515234, guid: 4e76e60a820bb7541aaf0bd531ae1450, type: 3}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
@@ -1222,6 +1246,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e63a53dfa5126409029985150dcee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WorldMap
+  vamp2Button: {fileID: 93037277}
+  vamp3Button: {fileID: 1924250295}
+  werewolf2Button: {fileID: 168186874}
+  werewolf3Button: {fileID: 1791675833}
 --- !u!1 &1924250292
 GameObject:
   m_ObjectHideFlags: 0
@@ -1241,7 +1269,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1924250293
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1273,6 +1301,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e63a53dfa5126409029985150dcee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WorldMap
+  vamp2Button: {fileID: 93037277}
+  vamp3Button: {fileID: 1924250295}
+  werewolf2Button: {fileID: 168186874}
+  werewolf3Button: {fileID: 1791675833}
 --- !u!114 &1924250295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1305,7 +1337,7 @@ MonoBehaviour:
     m_HighlightedSprite: {fileID: 4342764143647504600, guid: 84c427e195dfae74fb49baf0762d2dc0, type: 3}
     m_PressedSprite: {fileID: -4176911890668063943, guid: 958d028841598664183a64413953a999, type: 3}
     m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 3520730798212492230, guid: 63f15732ec106414abb10e2ad78daf7a, type: 3}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted

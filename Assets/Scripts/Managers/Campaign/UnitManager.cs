@@ -410,14 +410,13 @@ public class UnitManager : MonoBehaviour
 
     public void Flee()
     {
-        //NOTE: put different cafes here
-        //int numLevels = PlayerPrefs.GetInt("LevelsWon", 0);
+        int numLevels = PlayerPrefs.GetInt("LevelsWon", 0);
 
-        //if(numLevels < 3)
+        if(numLevels < 3)
             SceneManager.LoadScene("Test");
-        //else if(numLevels < 6)
-            //load second cafe
-        //else
-            //load final cafe
+        else if(numLevels < 6)
+            SceneManager.LoadScene("Upgrade1");
+        else
+            SceneManager.LoadScene("Upgrade2");
     }
 }
