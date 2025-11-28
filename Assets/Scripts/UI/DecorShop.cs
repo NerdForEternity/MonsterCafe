@@ -1,4 +1,5 @@
 using Unity.AppUI.UI;
+using UnityEngine.UI;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using UnityEngine.InputSystem;
@@ -25,6 +26,20 @@ public class DecorShop : MonoBehaviour
     public Tilemap wallsMap;
     public Tilemap decorMap;
 
+    public UnityEngine.UI.Button vampButton;
+    public UnityEngine.UI.Button werewolfButton;
+    public void Start()
+    {
+        if(PlayerPrefs.GetInt("Vampire3", 0) == 0)
+            vampButton.interactable = false;
+        else
+            vampButton.interactable = true;
+        
+        if(PlayerPrefs.GetInt("Werewolf3", 0) == 0)
+            werewolfButton.interactable = false;
+        else
+            werewolfButton.interactable = true;
+    }
     public void GoBack()
     {
         Time.timeScale = PlayerPrefs.GetFloat("GameSpeed", 1f);
