@@ -6,7 +6,7 @@ public class CustomerManager : MonoBehaviour
 {
     // objects
     public List<GameObject> customer;
-    public GameObject door;
+    public PathNode doorNode;
     public List<Machine> machines;
     public List<Chair> chairs;
     private PathNode closestNode; 
@@ -51,8 +51,6 @@ public class CustomerManager : MonoBehaviour
             spawnTime = Random.Range(2.0f, 2.5f);
         yield return new WaitForSeconds(spawnTime);
         
-        //get customer spawn point
-        PathNode doorNode = GetClosestNode();
         //randomize customer appearance
         int customerType = Random.Range(0, customer.Count - 1);
         //create customer
@@ -66,25 +64,5 @@ public class CustomerManager : MonoBehaviour
         numCustomers++;
 
         StartCoroutine(CreateCustomer());
-    }
-
-    public PathNode GetClosestNode()
-    {
-        //function is called before spawning customer, no need to update when moved
-        Vector2 doorPos = door.transform.position;
-        float minDistance = Mathf.Infinity;
-        foreach (PathNode n in FindObjectsByType<PathNode>(FindObjectsSortMode.None))
-        {
-            Vector2 currentNodePos = n.transform.position;
-
-            float dist = Vector2.Distance(n.transform.position, doorPos);
-            if (dist < minDistance)
-            {
-                minDistance = dist;
-                closestNode = n;
-            }
-        }
-
-        return closestNode;
     }
 }

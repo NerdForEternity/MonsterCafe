@@ -45,9 +45,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Machines
-    uniqueID: 159358649
-    locked: 0
   - name: Landscape
     uniqueID: 3064236901
     locked: 0

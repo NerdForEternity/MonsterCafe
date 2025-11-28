@@ -258,6 +258,30 @@ public class GrimmJournal : MonoBehaviour
             PlayerPrefs.SetInt("Money", PlayerPrefs.GetInt("Money", 0) - (int)upgradePrice);
             UpgradeManager.orderList[foodIndex].numUpgrades++;
 
+            switch(foodIndex)
+            {
+                // coffee
+                case 0:
+                    PlayerPrefs.SetInt("CoffeeUpgrade", PlayerPrefs.GetInt("CoffeeUpgrade", 0) + 1);
+                    break;
+                // soda
+                case 1:
+                    PlayerPrefs.SetInt("SodaUpgrade", PlayerPrefs.GetInt("SodaUpgrade", 0) + 1);
+                    break;
+                // martini
+                case 2:
+                    PlayerPrefs.SetInt("MartiniUpgrade", PlayerPrefs.GetInt("MartiniUpgrade", 0) + 1);
+                    break;
+                // burger
+                case 3:
+                    PlayerPrefs.SetInt("BurgerUpgrade", PlayerPrefs.GetInt("BurgerUpgrade", 0) + 1);
+                    break;
+                // panini
+                case 4:
+                    PlayerPrefs.SetInt("PaniniUpgrade", PlayerPrefs.GetInt("PaniniUpgrade", 0) + 1);
+                    break;
+            }
+
             audioManager.PlaySFX(audioManager.upgrade);
             UpdatePrice();
         }

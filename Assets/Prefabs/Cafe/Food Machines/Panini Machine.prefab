@@ -156,7 +156,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 1
   m_Sprite: {fileID: -4570206530734368828, guid: e21277f6f266ada4ba11541d98e7a351, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -184,7 +184,6 @@ MonoBehaviour:
   manager: {fileID: 0}
   itemType: {fileID: 11400000, guid: 165936d4ec9495b468678996b3b43265, type: 2}
   serveList: []
-  isClicked: 0
   idle: 0
 --- !u!61 &4378549261930572165
 BoxCollider2D:

@@ -7,32 +7,32 @@ public class WorldMap : MonoBehaviour
 {
     public void WolfDinerOne()
     {
-        SceneManager.LoadScene("WolfTestScene");
+        SceneManager.LoadScene("Werewolf_1");
     }
 
     public void WolfDinerTwo()
     {
-        SceneManager.LoadScene("WolfTestScene");
+        SceneManager.LoadScene("Werewolf_2");
     }
 
     public void WolfDinerThree()
     {
-        SceneManager.LoadScene("WolfTestScene");
+        SceneManager.LoadScene("Werewolf_3");
     }
 
     public void VampiniOne()
     {
-        SceneManager.LoadScene("Vampire_Decor");
+        SceneManager.LoadScene("Vampire_1");
     }
 
     public void VampiniTwo()
     {
-        SceneManager.LoadScene("VampTestScene");
+        SceneManager.LoadScene("Vampire_2");
     }
 
     public void VampiniThree()
     {
-        SceneManager.LoadScene("VampTestScene");
+        SceneManager.LoadScene("Vampire_3");
     }
 
     public void Grimm()
