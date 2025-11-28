@@ -156,7 +156,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 4788264361516205776, guid: 750ff1200a902e9449d5155cae800d62, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -182,10 +182,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Machine
   InputActions: {fileID: 0}
   manager: {fileID: 0}
-  orderList: []
   itemType: {fileID: 11400000, guid: 5ab166b5fe88a7545b1e664073a0c40a, type: 2}
   serveList: []
-  isClicked: 0
   idle: 0
 --- !u!61 &4378549261930572165
 BoxCollider2D:

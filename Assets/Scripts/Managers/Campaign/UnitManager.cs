@@ -5,6 +5,7 @@ using System.Linq;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Interactions;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 public class UnitManager : MonoBehaviour
 {
     // objects
@@ -20,16 +21,25 @@ public class UnitManager : MonoBehaviour
     private GameObject currentTile; // tile to place current unit on
     public GameObject winScreen;
     public GameObject loseScreen;
-    public FoodItem foodItem;
 
     // input
     public InputActionAsset InputActions;
     private InputAction m_hitScreen;
     private Vector3 clickPos;
+    public Button vampButton;
+    public Button vampBuy;
+    public Button werewolfButton;
+    public Button werewolfBuy;
 
     // managers
     public ShopManager shopManager;
-    public CameraControls camera;
+    public CameraControls cameraControls;
+
+    // food unlocks
+    public FoodItem martini;
+    public FoodItem panini;
+    public FoodItem soda;
+    public FoodItem burger;
 
     // flags
     private bool clickOnTile; // checks if initial click was on a tile
@@ -37,6 +47,8 @@ public class UnitManager : MonoBehaviour
     public bool waveStarted; // checks if wave has started yet
     public int numRounds; // number of rounds played
     public int maxRounds; // maximum number of rounds to complete level
+    public int levelNumber; // determines which level this is to configure unlocks
+    public int levelType; // determines if level is vampire (0) or werewolf (1)
 
     private void Awake()
     {
@@ -74,6 +86,29 @@ public class UnitManager : MonoBehaviour
         // sets the ghost as default unit to spawn
         currentUnit = units[0];
 
+        // check if vamp/werewolf units are unlocked
+        if(PlayerPrefs.GetInt("Vampire2", 0) == 0)
+        {
+            vampButton.interactable = false;
+            vampBuy.interactable = false;
+        }
+        else
+        {
+            vampButton.interactable = true;
+            vampBuy.interactable = true;
+        }
+        
+        if(PlayerPrefs.GetInt("Werewolf2", 0) == 0)
+        {
+            werewolfButton.interactable = false;
+            werewolfBuy.interactable = false;
+        }
+        else
+        {
+            werewolfButton.interactable = true;
+            werewolfBuy.interactable = true;
+        }
+
         // resets all unit counts and updates shop display
         for (int i = 0; i < units.Count; i++)
         {
@@ -82,6 +117,10 @@ public class UnitManager : MonoBehaviour
             shopManager.UpdatePrice(i); // update unit price text
             shopManager.UpdateAmount(i); // update amount in inventory
         }
+
+        // player has two ghosts by default
+        units[0].GetComponent<Unit>().numInInventory=+ 2;
+        shopManager.UpdateAmount(0);
 
         numRounds = 1;
         shopManager.UpdateRounds();
@@ -95,6 +134,9 @@ public class UnitManager : MonoBehaviour
             // mouse/finger is currently held down and initial click was on a tile, track position
             if ((int)m_hitScreen.phase == 2 && clickOnTile)
             {
+                // disable camera movement
+                cameraControls.enabled = false;
+
                 clickPos = m_hitScreen.ReadValue<Vector2>();
                 clickPos = Camera.main.ScreenToWorldPoint(clickPos);
 
@@ -116,6 +158,8 @@ public class UnitManager : MonoBehaviour
             // player has released hold, destroy preview
             else if ((int)m_hitScreen.phase == 1 && previewUnit != null)
             {
+                // enable camera movement
+                cameraControls.enabled = true;
                 Destroy(previewUnit);
 
                 // player has mouse/finger on a tile, spawn unit at that tile
@@ -169,15 +213,9 @@ public class UnitManager : MonoBehaviour
             {
                 //if this wave either eliminated all units or enemies, it will exit the above loop
                 if(spawnedUnits.Count == 0)
-                {
-Debug.Log("You lost lmaoooo");
                     StartCoroutine(WinOrLose(false));
-                }
                 else if(enemies.Count == 0)
-                {
-Debug.Log("Your winner!!");
                     StartCoroutine(WinOrLose(true));
-                }
             }
         }
     }
@@ -293,20 +331,93 @@ Debug.Log("Your winner!!");
         if(didIWin)
         {
             winScreen.SetActive(true);
-            if(!foodItem.isUnlocked)
-                foodItem.isUnlocked = true;
+            Unlocks();
         }
         // player lost
         else
-        {
             loseScreen.SetActive(true);
-        }
+        
         yield return new WaitForSeconds(3);
-        SceneManager.LoadScene("Test");
+        Flee();
+    }
+
+    private void Unlocks()
+    {
+        switch(levelType)
+        {
+            // vampire level
+            case 0:
+            {
+                switch(levelNumber)
+                {
+                    // vamp level 1
+                    case 1:
+                        if(PlayerPrefs.GetInt("Vampire1", 0) == 0)
+                            PlayerPrefs.SetInt("LevelsWon", PlayerPrefs.GetInt("LevelsWon", 0) + 1);
+                        PlayerPrefs.SetInt("Vampire1", 1);
+                        martini.isUnlocked = true;
+                        break;
+
+                    // vamp level 2
+                    case 2:
+                        if(PlayerPrefs.GetInt("Vampire2", 0) == 0)
+                            PlayerPrefs.SetInt("LevelsWon", PlayerPrefs.GetInt("LevelsWon", 0) + 1);
+                        PlayerPrefs.SetInt("Vampire2", 1);
+                        break;
+
+                    // vamp level 3
+                    case 3:
+                        if(PlayerPrefs.GetInt("Vampire3", 0) == 0)
+                            PlayerPrefs.SetInt("LevelsWon", PlayerPrefs.GetInt("LevelsWon", 0) + 1);
+                        PlayerPrefs.SetInt("Vampire3", 1);
+                        panini.isUnlocked = true;
+                        break;
+                }
+                break;
+            }
+            // werewolf level
+            case 1:
+            {
+                switch(levelNumber)
+                {
+                    // wolf level 1
+                    case 1:
+                        if(PlayerPrefs.GetInt("Werewolf1", 0) == 0)
+                            PlayerPrefs.SetInt("LevelsWon", PlayerPrefs.GetInt("LevelsWon", 0) + 1);
+                        PlayerPrefs.SetInt("Werewolf1", 1);
+                        soda.isUnlocked = true;
+                        break;
+                    
+                    // wolf level 2
+                    case 2:
+                        if(PlayerPrefs.GetInt("Werewolf2", 0) == 0)
+                            PlayerPrefs.SetInt("LevelsWon", PlayerPrefs.GetInt("LevelsWon", 0) + 1);
+                        PlayerPrefs.SetInt("Werewolf2", 1);
+                        break;
+                    
+                    // wolf level 3
+                    case 3:
+                        if(PlayerPrefs.GetInt("Werewolf3", 0) == 0)
+                            PlayerPrefs.SetInt("LevelsWon", PlayerPrefs.GetInt("LevelsWon", 0) + 1);
+                        PlayerPrefs.SetInt("Werewolf3", 1);
+                        burger.isUnlocked = true;
+                        break;
+                }
+                break;
+            }
+        }
     }
 
     public void Flee()
     {
-        SceneManager.LoadScene("Test");
+        //NOTE: put different cafes here
+        //int numLevels = PlayerPrefs.GetInt("LevelsWon", 0);
+
+        //if(numLevels < 3)
+            SceneManager.LoadScene("Test");
+        //else if(numLevels < 6)
+            //load second cafe
+        //else
+            //load final cafe
     }
 }
