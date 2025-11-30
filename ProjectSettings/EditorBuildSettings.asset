@@ -23,7 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Campaign/Vampire/Vampire_1.unity
     guid: a04e58379a9cf334196456bba272f7b6
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Campaign/Werewolf_Decor.unity
     guid: ce02c1c18b261214387602ef1f4f1d9b
   m_configObjects:
