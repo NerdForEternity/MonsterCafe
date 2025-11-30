@@ -15,6 +15,8 @@ public class Machine : MonoBehaviour
     public FoodItem itemType;
     public List<Customer> serveList;
     private Customer currentCustomer;
+    public Employee myEmployee; // gameobject for employee
+    private int employeeMod; // used in price calculation
     //bools
     public bool idle; //checks if idle mode is on
     private bool idleInProgress;  //checks if idle mode is currently handling an order
@@ -29,6 +31,11 @@ public class Machine : MonoBehaviour
         collision = this.GetComponent<Collider2D>();
         clock = this.transform.GetChild(0).gameObject;
         radial = clock.transform.GetChild(1).GetComponent<Image>();
+
+        if(myEmployee != null && myEmployee.isUnlocked)
+            employeeMod = 2;
+        else
+            employeeMod = 1;
     }
     private void Awake()
     {
@@ -41,7 +48,9 @@ public class Machine : MonoBehaviour
 
             if(collision.OverlapPoint(clickPos))
             {
-                if (serveList[0].hasOrdered && !idle)
+                // can only click on machine manually if in active mode
+                // ...OR there isnt an employee on the machine who is unlocked
+                if (serveList[0].hasOrdered && !idle && (myEmployee == null || !myEmployee.isUnlocked))
                     IsClicked(false);
             }
         };
@@ -65,9 +74,11 @@ public class Machine : MonoBehaviour
                 radial.fillAmount = cookTime / (itemType.cookTime - (PlayerPrefs.GetInt("CookSpeed", 0)));
             }
 
-            //Customer is served with idle play
-            if (idle && !idleInProgress)
+            //Customer is served with idle play if idle turned on...
+            //OR if this machine has an employee, it is turned on by default
+            if ((idle || myEmployee.isUnlocked) && !idleInProgress)
             {
+Debug.Log("Invoked idle serve");
                 idleInProgress = true;
                 Invoke("IdleServe", 2.0f);
             }
@@ -76,8 +87,9 @@ public class Machine : MonoBehaviour
 
     public void IdleServe()
     {
-        if (!idle || doneCooking || currentCustomer.leaving)
+        if ((!idle && !myEmployee.isUnlocked) || doneCooking || currentCustomer.leaving)
         {
+Debug.Log("Exited idle serve");
             idleInProgress = false;
             return;
         }
@@ -93,7 +105,7 @@ public class Machine : MonoBehaviour
         else if (!doneCooking)
         {
             if(!currentCustomer.leaving)
-                currentCustomer.Serve(itemType, isIdle);
+                currentCustomer.Serve(itemType, isIdle, employeeMod);
             serveList.Remove(currentCustomer);
 
             //Resets the clock and bools after customr has been served
@@ -107,8 +119,14 @@ public class Machine : MonoBehaviour
         doneCooking = true;
         cookTime = itemType.cookTime - PlayerPrefs.GetInt("CookSpeed", 0);
         clock.SetActive(true);
+        //turn on employee animator
+        if(myEmployee != null)
+            myEmployee.animator.SetBool("Cooking", true);
         yield return new WaitForSeconds(itemType.cookTime - PlayerPrefs.GetInt("CookSpeed", 0));
         clock.SetActive(false);
+        //turn off employee animator
+        if(myEmployee != null)
+            myEmployee.animator.SetBool("Cooking", false);
         doneCooking = false;
         IsClicked(isIdle);
     }

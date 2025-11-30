@@ -163,7 +163,7 @@ public class Customer : MonoBehaviour
         }
     }
 
-    public void Serve(FoodItem foodItem, bool isIdle)
+    public void Serve(FoodItem foodItem, bool isIdle, int employeeMod)
     {
         if (myOrders.Contains(foodItem))
         {
@@ -190,7 +190,9 @@ public class Customer : MonoBehaviour
                 orderMoney = orderMoney * 1.2f;
         }
         Mathf.Round(orderMoney);
-        PlayerPrefs.SetInt("Money", PlayerPrefs.GetInt("Money", 0) + (int)orderMoney / idleModifier);
+        //money earned is base order amount with upgrades multipled...
+        //divided by idle modifier if idle is used without employee
+        PlayerPrefs.SetInt("Money", PlayerPrefs.GetInt("Money", 0) + ((int)orderMoney / idleModifier) * employeeMod);
 
         particles.Play();
         audioManager.PlaySFX(audioManager.cookingComplete);

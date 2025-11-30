@@ -1684,6 +1684,7 @@ GameObject:
   - component: {fileID: 3322899202835027926}
   - component: {fileID: 3064706200810065777}
   - component: {fileID: 2060519708086897699}
+  - component: {fileID: 6754932681237400857}
   m_Layer: 0
   m_Name: VampireUnit4
   m_TagString: Unit
@@ -1807,6 +1808,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!210 &6754932681237400857
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3510789941231349275}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_SortAtRoot: 0
 --- !u!1 &3699467175282510417
 GameObject:
   m_ObjectHideFlags: 0
@@ -2471,7 +2484,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -62134287
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -7075350445419776946, guid: 1c695c95072ca8e47bea31c5e790cf62, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

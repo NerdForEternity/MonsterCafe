@@ -505,6 +505,7 @@ GameObject:
   - component: {fileID: 6879107360950182652}
   - component: {fileID: 7104949598172355871}
   - component: {fileID: 8534455441875289137}
+  - component: {fileID: 5678091511779212375}
   m_Layer: 0
   m_Name: WerewolfUnit2
   m_TagString: Unit
@@ -628,6 +629,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!210 &5678091511779212375
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2171501746943534774}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_SortAtRoot: 0
 --- !u!1 &2401274368776799589
 GameObject:
   m_ObjectHideFlags: 0
@@ -1432,7 +1445,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -62134287
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -7075350445419776946, guid: 1c695c95072ca8e47bea31c5e790cf62, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

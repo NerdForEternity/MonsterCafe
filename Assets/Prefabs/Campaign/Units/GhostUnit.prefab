@@ -433,6 +433,7 @@ GameObject:
   - component: {fileID: 5532611006693362070}
   - component: {fileID: 7574217903424484812}
   - component: {fileID: 8269936463352718074}
+  - component: {fileID: -4924054765609729286}
   m_Layer: 0
   m_Name: GhostUnit
   m_TagString: Unit
@@ -591,6 +592,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectAnimations
   parentUnit: {fileID: -185005257252691518}
+--- !u!210 &-4924054765609729286
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3718809232520433406}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_SortAtRoot: 0
 --- !u!1 &5900039472596760415
 GameObject:
   m_ObjectHideFlags: 0
