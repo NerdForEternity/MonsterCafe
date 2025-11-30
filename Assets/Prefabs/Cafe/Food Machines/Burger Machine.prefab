@@ -104,7 +104,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3.0298042, y: 3.0298042, z: 3.0298042}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2240909079019453819}
@@ -229,7 +229,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.5801574, y: 1.9624999}
+  m_Size: {x: 1.29, y: 1.48}
   m_EdgeRadius: 0
 --- !u!1 &2164396485291666542
 GameObject:
@@ -249,7 +249,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2240909079019453819
 RectTransform:
   m_ObjectHideFlags: 0
@@ -291,7 +291,7 @@ Canvas:
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 0
+  m_SortingLayerID: -62134287
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!114 &4131805425606664272
