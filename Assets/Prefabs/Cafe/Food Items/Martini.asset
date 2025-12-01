@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 206fd23c38f719244aba40e36658d7ef, type: 3}
   m_Name: Martini
   m_EditorClassIdentifier: Assembly-CSharp::FoodItem
-  isUnlocked: 1
+  isUnlocked: 0
   price: 6
   cookTime: 5
   sprite: {fileID: 9050593021232142194, guid: 509f9263ed30e1f4aa0164ede77f9f76, type: 3}
