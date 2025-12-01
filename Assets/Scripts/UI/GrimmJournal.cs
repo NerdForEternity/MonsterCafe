@@ -19,6 +19,9 @@ public class GrimmJournal : MonoBehaviour
     private GameObject cookingText;
     private GameObject cookingPriceText;
     public GameObject customerPatiencePage;
+    public GameObject ghostPage;
+    public GameObject vampirePage;
+    public GameObject werewolfPage;
     private GameObject patienceText;
     private GameObject patiencePriceText;
     public GameObject foodPricePage;
@@ -84,7 +87,7 @@ public class GrimmJournal : MonoBehaviour
             xInvertToggle.isOn = true;
         else
             xInvertToggle.isOn = false;
-        
+
         if (PlayerPrefs.GetInt("YInvert", -1) == 1)
             yInvertToggle.isOn = true;
         else
@@ -110,6 +113,9 @@ public class GrimmJournal : MonoBehaviour
         upgradesPage.SetActive(false);
         unlocksPage.SetActive(false);
         settingsPage.SetActive(false);
+        ghostPage.SetActive(false);
+        vampirePage.SetActive(false);
+        werewolfPage.SetActive(false);
 
         cookingSpeedPage.SetActive(false);
         customerPatiencePage.SetActive(false);
@@ -147,6 +153,7 @@ public class GrimmJournal : MonoBehaviour
         ChangeBackground(2);
         audioManager.PlaySFX(audioManager.buttonClick);
         ShowPanel(unlocksPage);
+        ghostPage.SetActive(true);
     }
     public void SettingsPage()
     {
@@ -155,6 +162,28 @@ public class GrimmJournal : MonoBehaviour
         ChangeBackground(3);
         audioManager.PlaySFX(audioManager.buttonClick);
         ShowPanel(settingsPage);
+    }
+
+    //Unlock Pages
+    public void GhostUnlockPage()
+    {
+        audioManager.PlaySFX(audioManager.buttonClick);
+        ShowPanel(unlocksPage);
+        ghostPage.SetActive(true);
+    }
+
+    public void VampireUnlockPage()
+    {
+        audioManager.PlaySFX(audioManager.buttonClick);
+        ShowPanel(unlocksPage);
+        vampirePage.SetActive(true);
+    }
+
+    public void WerewolfUnlockPage()
+    {
+        audioManager.PlaySFX(audioManager.buttonClick);
+        ShowPanel(unlocksPage);
+        werewolfPage.SetActive(true);
     }
 
     //Upgrade Pages
@@ -169,7 +198,7 @@ public class GrimmJournal : MonoBehaviour
         cookingPriceText = cookingSpeedPage.transform.GetChild(3).gameObject;
 
         cookingText.GetComponent<TMP_Text>().text = "LVL: " + PlayerPrefs.GetInt("CookSpeed", 0).ToString();
-        if(PlayerPrefs.GetInt("CookSpeed", 0) < 3)
+        if (PlayerPrefs.GetInt("CookSpeed", 0) < 3)
             cookingPriceText.GetComponent<TMP_Text>().text = "COST: " + (2 * (PlayerPrefs.GetInt("CookSpeed", 0) + 1));
         else
             cookingPriceText.GetComponent<TMP_Text>().text = "COST: SOLD OUT";
@@ -185,9 +214,9 @@ public class GrimmJournal : MonoBehaviour
         patiencePriceText = customerPatiencePage.transform.GetChild(3).gameObject;
 
         patienceText.GetComponent<TMP_Text>().text = "LVL: " + PlayerPrefs.GetFloat("Patience", 0f).ToString();
-        if(PlayerPrefs.GetFloat("Patience", 0f) < 3)
+        if (PlayerPrefs.GetFloat("Patience", 0f) < 3)
             patiencePriceText.GetComponent<TMP_Text>().text = "COST: " + (2 * (PlayerPrefs.GetFloat("Patience", 0f) + 1));
-        
+
         else
             patiencePriceText.GetComponent<TMP_Text>().text = "COST: SOLD OUT";
     }
@@ -214,7 +243,7 @@ public class GrimmJournal : MonoBehaviour
             PlayerPrefs.SetInt("Money", PlayerPrefs.GetInt("Money", 0) - price);
             cookingText.GetComponent<TMP_Text>().text = "LVL: " + PlayerPrefs.GetInt("CookSpeed", 0).ToString();
 
-            if(PlayerPrefs.GetInt("CookSpeed", 0) < 3)     
+            if (PlayerPrefs.GetInt("CookSpeed", 0) < 3)
                 cookingPriceText.GetComponent<TMP_Text>().text = "COST: " + 2 * (PlayerPrefs.GetInt("CookSpeed", 0) + 1);
             else
                 cookingPriceText.GetComponent<TMP_Text>().text = "COST: SOLD OUT";
@@ -226,15 +255,15 @@ public class GrimmJournal : MonoBehaviour
     public void upgradeCustomer()
     {
         int price = 2 * ((int)PlayerPrefs.GetFloat("Patience", 0f) + 1);
-        if(PlayerPrefs.GetFloat("Patience", 0f) < 3 && PlayerPrefs.GetInt("Money", 0) >= price)
+        if (PlayerPrefs.GetFloat("Patience", 0f) < 3 && PlayerPrefs.GetInt("Money", 0) >= price)
         {
             PlayerPrefs.SetFloat("Patience", PlayerPrefs.GetFloat("Patience", 0f) + 1f);
             PlayerPrefs.SetInt("Money", PlayerPrefs.GetInt("Money", 0) - price);
             patienceText.GetComponent<TMP_Text>().text = "LVL: " + PlayerPrefs.GetFloat("Patience", 0f).ToString();
 
-            if(PlayerPrefs.GetFloat("Patience", 0f) < 3)
+            if (PlayerPrefs.GetFloat("Patience", 0f) < 3)
                 patiencePriceText.GetComponent<TMP_Text>().text = "COST: " + (2 * (PlayerPrefs.GetFloat("Patience", 0f) + 1));
-            
+
             else
                 patiencePriceText.GetComponent<TMP_Text>().text = "COST: SOLD OUT";
             audioManager.PlaySFX(audioManager.upgrade);
@@ -253,12 +282,12 @@ public class GrimmJournal : MonoBehaviour
         }
         upgradePrice = Mathf.Round(upgradePrice);
 
-        if(PlayerPrefs.GetInt("Money", 0) >= (int)upgradePrice)
+        if (PlayerPrefs.GetInt("Money", 0) >= (int)upgradePrice)
         {
             PlayerPrefs.SetInt("Money", PlayerPrefs.GetInt("Money", 0) - (int)upgradePrice);
             UpgradeManager.orderList[foodIndex].numUpgrades++;
 
-            switch(foodIndex)
+            switch (foodIndex)
             {
                 // coffee
                 case 0:
