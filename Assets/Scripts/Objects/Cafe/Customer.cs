@@ -11,6 +11,7 @@ public class Customer : MonoBehaviour
     public bool isServed;
     public bool hasOrdered;
     public bool leaving;
+    public bool animationDone;
     public Chair myChair;
     private List<PathNode> path = new List<PathNode>();
     public CustomerManager manager;
@@ -72,6 +73,7 @@ public class Customer : MonoBehaviour
         //runs when the customer leaves
         else
         {
+            animator.SetBool("Ordering", false);
             animator.SetBool("Sitting", false);
             animator.SetBool("Walking", true);
             canvas.SetActive(false);
@@ -81,8 +83,10 @@ public class Customer : MonoBehaviour
                 myChair.isOccupied = false;
                 leaving = true;
             }     
-
-            CreatePath(myChair.chairNode, startNode);
+            
+            StartCoroutine(WaitASec());
+            if(animationDone)
+                CreatePath(myChair.chairNode, startNode);
 
             //the customer has reached the exit
             if (currentNode == startNode && path.Count == 0)
@@ -95,8 +99,15 @@ public class Customer : MonoBehaviour
         }
     }
 
+    IEnumerator WaitASec()
+    {
+        yield return new WaitForSeconds(1);
+        animationDone = true;
+    }
     public void Order()
     {
+        animator.SetBool("Ordering", true);
+
         hasOrdered = true;
         canvas.SetActive(true);
         

@@ -184,10 +184,10 @@
                 {
                     "name": "modifier",
                     "id": "082f9413-e4e8-472d-a05a-4b25923d4060",
-                    "path": "<Touchscreen>/primaryTouch/press",
+                    "path": "<Touchscreen>/touch0/press",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": ";Touch",
                     "action": "Click",
                     "isComposite": false,
                     "isPartOfComposite": true
@@ -195,10 +195,10 @@
                 {
                     "name": "binding",
                     "id": "d5c3898f-83ff-4be8-9a20-bd6b821ff737",
-                    "path": "<Touchscreen>/primaryTouch/position",
+                    "path": "<Touchscreen>/touch0/position",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": ";Touch",
                     "action": "Click",
                     "isComposite": false,
                     "isPartOfComposite": true

@@ -59,6 +59,10 @@ public class UnitManager : MonoBehaviour
             Vector3 clickPos = m_hitScreen.ReadValue<Vector2>();
             clickPos = Camera.main.ScreenToWorldPoint(clickPos);
 
+            if(clickPos == null)
+                Debug.Log("clickPos null");
+            if(m_hitScreen == null)
+                Debug.Log("hitScreen null");
             if (spawnTiles.Any(a => a.GetComponent<Collider2D>().OverlapPoint(clickPos)))
             {
                 GameObject newTile = spawnTiles.First(a => a.GetComponent<Collider2D>().OverlapPoint(clickPos));
