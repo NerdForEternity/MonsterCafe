@@ -12,6 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Cafe/Test.unity
     guid: f4de476358387654d8bfda0c0ba97778
   - enabled: 1
+    path: Assets/Scenes/Cafe/Upgrade1.unity
+    guid: 5ce7769f07cb7fd41bf411fc8c34e9f0
+  - enabled: 1
+    path: Assets/Scenes/Cafe/Upgrade2.unity
+    guid: 888759a9605529846baff56ca68ca0a1
+  - enabled: 1
     path: Assets/Scenes/GrimmJournal.unity
     guid: cf0df2e61fc88104d97996253579979a
   - enabled: 1
