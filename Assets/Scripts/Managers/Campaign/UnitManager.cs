@@ -56,8 +56,11 @@ public class UnitManager : MonoBehaviour
 
         m_hitScreen.started += context =>
         {
-            Vector3 clickPos = m_hitScreen.ReadValue<Vector2>();
+            clickPos = m_hitScreen.ReadValue<Vector2>();
+            //screenPos.z = 5f;
             clickPos = Camera.main.ScreenToWorldPoint(clickPos);
+            //lickPos.z = 500f;
+//Debug.DrawRay(screenPos, clickPos, Color.blue, 5f, false);
 
             if(clickPos == null)
                 Debug.Log("clickPos null");
@@ -142,7 +145,10 @@ public class UnitManager : MonoBehaviour
                 cameraControls.enabled = false;
 
                 clickPos = m_hitScreen.ReadValue<Vector2>();
+                //screenPos.z = 5f;
                 clickPos = Camera.main.ScreenToWorldPoint(clickPos);
+                //clickPos.z = 500f;
+//Debug.DrawRay(screenPos, clickPos, Color.blue, 5f, false);
 
                 // mouse/finger is over a tile
                 if (spawnTiles.Any(a => a.GetComponent<Collider2D>().OverlapPoint(clickPos)))
