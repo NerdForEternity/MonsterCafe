@@ -1995,10 +1995,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 183396843}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 6043.4004, y: -217}
-  m_SizeDelta: {x: 1342.0001, y: 434}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &213327667
 MonoBehaviour:
@@ -5693,7 +5693,6 @@ GameObject:
   m_Component:
   - component: {fileID: 705769711}
   - component: {fileID: 705769710}
-  - component: {fileID: 705769709}
   - component: {fileID: 705769708}
   m_Layer: 9
   m_Name: GhostCamera
@@ -5746,14 +5745,6 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
---- !u!81 &705769709
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 705769707}
-  m_Enabled: 1
 --- !u!20 &705769710
 Camera:
   m_ObjectHideFlags: 0
@@ -6038,7 +6029,6 @@ GameObject:
   m_Component:
   - component: {fileID: 743266261}
   - component: {fileID: 743266260}
-  - component: {fileID: 743266259}
   - component: {fileID: 743266258}
   m_Layer: 8
   m_Name: WereCamera
@@ -6091,14 +6081,6 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
---- !u!81 &743266259
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 743266257}
-  m_Enabled: 1
 --- !u!20 &743266260
 Camera:
   m_ObjectHideFlags: 0
@@ -7623,10 +7605,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 183396843}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 4700.3003, y: -217}
-  m_SizeDelta: {x: 1342.0001, y: 434}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1162880857
 MonoBehaviour:
@@ -8632,10 +8614,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 183396843}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 3357.2002, y: -217}
-  m_SizeDelta: {x: 1342.0001, y: 434}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1295004973
 MonoBehaviour:
@@ -10783,10 +10765,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 183396843}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 2014.1001, y: -217}
-  m_SizeDelta: {x: 1342.0001, y: 434}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1724487888
 MonoBehaviour:
@@ -10990,7 +10972,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1735771055}
   - component: {fileID: 1735771054}
-  - component: {fileID: 1735771053}
   - component: {fileID: 1735771052}
   m_Layer: 7
   m_Name: VampCamera
@@ -11043,14 +11024,6 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
---- !u!81 &1735771053
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1735771051}
-  m_Enabled: 1
 --- !u!20 &1735771054
 Camera:
   m_ObjectHideFlags: 0
@@ -11809,8 +11782,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1911672236}
   m_HandleRect: {fileID: 1911672235}
   m_Direction: 0
-  m_Value: -0.00000007766948
-  m_Size: 0.5820114
+  m_Value: 0.00000015533901
+  m_Size: 0.58201146
   m_NumberOfSteps: 11
   m_OnValueChanged:
     m_PersistentCalls:
@@ -13499,10 +13472,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 183396843}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 671.00006, y: -217}
-  m_SizeDelta: {x: 1342.0001, y: 434}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1996607465
 MonoBehaviour:

@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
+using UnityEngine.InputSystem;
 
 public class WorldMap : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class WorldMap : MonoBehaviour
     public UnityEngine.UI.Button vamp3Button;
     public UnityEngine.UI.Button werewolf2Button;
     public UnityEngine.UI.Button werewolf3Button;
+    public InputActionAsset InputActions;
     public void Start()
     {
         if(PlayerPrefs.GetInt("Vampire1", 0) == 0)
@@ -23,31 +25,37 @@ public class WorldMap : MonoBehaviour
     }
     public void WolfDinerOne()
     {
+        InputActions.FindActionMap("Player").Enable();
         SceneManager.LoadScene("Werewolf_1");
     }
 
     public void WolfDinerTwo()
     {
+        InputActions.FindActionMap("Player").Enable();
         SceneManager.LoadScene("Werewolf_2");
     }
 
     public void WolfDinerThree()
     {
+        InputActions.FindActionMap("Player").Enable();
         SceneManager.LoadScene("Werewolf_3");
     }
 
     public void VampiniOne()
     {
+        InputActions.FindActionMap("Player").Enable();
         SceneManager.LoadScene("Vampire_1");
     }
 
     public void VampiniTwo()
     {
+        InputActions.FindActionMap("Player").Enable();
         SceneManager.LoadScene("Vampire_2");
     }
 
     public void VampiniThree()
     {
+        InputActions.FindActionMap("Player").Enable();
         SceneManager.LoadScene("Vampire_3");
     }
 
